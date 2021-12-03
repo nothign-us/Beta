@@ -3,6 +3,7 @@
 class Ticket {
 private:
     Flight _flight;
+    Seat _seat;
 
 public:
     int _price;
