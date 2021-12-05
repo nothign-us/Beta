@@ -1,21 +1,17 @@
 #include <string>
 
-class Address {
+class Address
+{
 private:
     std::string _nation;
     std::string _province;
     std::string _district;
     std::string _town;
-    std::string _Street ;
+    std::string _street;
+
 public:
-    Address(/* args */);
+    Address();
+    Address(const Address& srcAdd);
     ~Address();
 };
 
-Address::Address(/* args */)
-{
-}
-
-Address::~Address()
-{
-}

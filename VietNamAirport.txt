@@ -1,0 +1,22 @@
+San bay Tan Son Nhat| Ho Chi Minh
+San bay Noi Bai| Ha Noi
+San bay Da Nang| Da Nang
+San bay Vinh| Nghe An
+San bay Con Dao| Ba Ria - Vung Tau
+San bay Phu Cat| Binh Dinh
+San bay Ca Mau| Ca Mau
+San bay Can Tho| Can Tho
+San bay Buon Ma Thuot| Daklak
+San bay Dien Bien Phu| Dien Bien
+San bay Pleiku| Gia Lai
+San bay Cat Bi| Hai Phong
+San bay Cam Ranh| Khanh Hoa
+San bay Rach Gia| Kien Giang
+San bay Phu Quoc| Kien Giang
+San bay Lien Khuong| Lam Dong
+San bay Tuy Hoa| Phu Yen
+San bay Dong Hoi| Quang Binh
+San bay Chu Lai| Quang Nam
+San bay Phu Bai| Thua Thien Hue
+San bay Tho Xuan| Thanh Hoa
+San bay Van Don| Quang Ninh

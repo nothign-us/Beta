@@ -14,4 +14,5 @@ private:
     Date _arrival;
     vector<Seat> _listOfSeat;
 public:
+    
 };
