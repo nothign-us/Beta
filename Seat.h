@@ -4,6 +4,6 @@ private:
     char _column;
     bool _isBooked;
 public:
-    Seat(/* args */);
-    ~Seat();
+    //Seat(/* args */);
+    ~Seat(){;};
 };  

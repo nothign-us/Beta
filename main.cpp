@@ -1,9 +1,16 @@
-#include"Airport.h"
-#include<iostream>
+#include "Airport.h"
+#include <iostream>
+#include <fstream>
+#include "Time.h"
+#include "makeMenu.h"
 
-
-int main(){
-    // map<string, string> res = Airport::loadAirportList("VietNamAirport.txt");
-    // for(auto t = res.begin();t!=res.end();t++)
-    //     cout << t->first <<" "<< t->second << endl;
+int main()
+{
+    int option = -1;
+    while (option != 5)
+    {
+        option = selectOption(mainMenu());
+        runMainMenu(option);
+        system("clear");
+    }
 }

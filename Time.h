@@ -1,8 +1,9 @@
+#pragma once
 #include <chrono>
 #include <ctime>
 #include <string>
 #include <sstream>
-
+#include <vector>
 using namespace std;
 
 class Time{
@@ -23,6 +24,9 @@ public:
     void setSecond(int);
 
 public:
+    //Hàm lấy danh sách giờ bay
+    static vector<Time> getListArriveTime();
+    
     static bool IsValidTime(int, int, int);
     string ToString() const;
     friend istream& operator>> (istream& inp, Time *t);

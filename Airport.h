@@ -1,3 +1,4 @@
+#pragma once
 #include "Address.h"
 #include <map>
 #include <string>
@@ -14,7 +15,9 @@ public:
     Airport(/* args */);
     Airport(const Address srcAdd, string srcName);
     //~Airport();
-    
+    void setNameAirport(const string src);
+    string getNameAirport() const;
+
     //khởi tạo danh sách các sân bay theo định dạng map[<Tỉnh>] = <Tên sân bay>;
     static map<string, string> loadAirportList(string dataFileName);
 };

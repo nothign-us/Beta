@@ -1,0 +1,11 @@
+Time		Start		Destination
+7:30:00	San bay Cam Bi	San bay Buon Ma Thuot
+8:30:00	San bay Cam Bi	San bay Pleiku
+9:30:00	San bay Cam Bi	San bay Cam Bi
+10:30:00	San bay Cam Bi	San bay Dien Bien
+11:30:00	San bay Cam Bi	San bay Noi Bai
+12:30:00	San bay Cam Bi	San bay Phu Lai
+13:30:00	San bay Cam Bi	San bay Da Nang
+14:30:00	San bay Cam Bi	San bay Vinh
+15:30:00	San bay Cam Bi	San bay Ca Mau
+16:30:00	San bay Cam Bi	San bay Con Dao
