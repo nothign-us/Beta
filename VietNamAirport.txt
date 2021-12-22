@@ -1,22 +1,22 @@
-1.  San bay Tan Son Nhat| Ho Chi Minh
-2.  San bay Noi Bai| Ha Noi
-3.  San bay Da Nang| Da Nang
-4.  San bay Vinh| Nghe An
-5.  San bay Con Dao| Ba Ria - Vung Tau
-6.  San bay Phu Cat| Binh Dinh
-7.  San bay Ca Mau| Ca Mau
-8.  San bay Can Tho| Can Tho
-9.  San bay Buon Ma Thuot| Daklak
-10. San bay Dien Bien Phu| Dien Bien
-11. San bay Pleiku| Gia Lai
-12. San bay Cat Bi| Hai Phong
-13. San bay Cam Ranh| Khanh Hoa
-14. San bay Rach Gia| Kien Giang
-15. San bay Phu Quoc| Kien Giang
-16. San bay Lien Khuong| Lam Dong
-17. San bay Tuy Hoa| Phu Yen
-18. San bay Dong Hoi| Quang Binh
-19. San bay Chu Lai| Quang Nam
-20. San bay Phu Bai| Thua Thien Hue
-21. San bay Tho Xuan| Thanh Hoa
-22. San bay Van Don| Quang Ninh
+San bay Tan Son Nhat
+San bay Noi Bai
+San bay Da Nang
+San bay Vinh
+San bay Con Dao
+San bay Phu Cat
+San bay Ca Mau
+San bay Can Tho
+San bay Buon Ma Thuot
+San bay Dien Bien Phu
+San bay Pleiku
+San bay Cat Bi
+San bay Cam Ranh
+San bay Rach Gia
+San bay Phu Quoc
+San bay Lien Khuong
+San bay Tuy Hoa
+San bay Dong Hoi
+San bay Chu Lai
+San bay Phu Bai
+San bay Tho Xuan
+San bay Van Don

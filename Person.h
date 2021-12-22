@@ -1,3 +1,4 @@
+#pragma once
 #include "Account.h"
 #include <string>
 #include "Date.h"
@@ -14,10 +15,10 @@ private:
 public:
 };
 
-class Client: public Person {
-private:
-    ClientAccount _account;
-};
+// class Client: public Person {
+// private:
+//     ClientAccount _account;
+// };
 
 class Employee: public Person {
 private:    
