@@ -2,7 +2,23 @@
 #include <iostream>
 
 using namespace std;
-
+Time Time::TryParse(string input)
+{
+    // chac chan raang input la hop le
+    Time res;
+    string tmp = "";
+    for (int i = 0; i < input.length(); i++)
+    {
+        if(input[i]!=':')
+            tmp+=input[i];
+        else   {
+            res.setHour(stoi(tmp));
+            tmp="";
+        }
+    }
+    res.setMinute(stoi(tmp));
+    return res;
+}
 // Source: https://stackoverflow.com/questions/43493794/how-to-get-local-time-c
 Time::Time()
 {
@@ -26,7 +42,6 @@ Time::Time(int hour, int min, int sec)
 
 Time::~Time()
 {
-    
 }
 
 vector<Time> Time::getListArriveTime()
@@ -34,9 +49,9 @@ vector<Time> Time::getListArriveTime()
     vector<Time> listTime;
     for (int i = 7; i <= 16; i++)
     {
-        for (int j = 0; j <= 30 ; j += 30)
+        for (int j = 0; j <= 30; j += 30)
         {
-            Time newTime(i,j,0);
+            Time newTime(i, j, 0);
             listTime.push_back(newTime);
         }
     }
@@ -86,7 +101,7 @@ bool Time::IsValidTime(int hour, int min, int sec)
 string Time::ToString() const
 {
     stringstream writer;
-    writer << to_string(_hour) << ":" << to_string(_minute) << ":" << to_string(_second);
+    writer << to_string(_hour) << ":" << ((_minute!=0)?to_string(_minute):"00");
     return writer.str();
 }
 
@@ -101,8 +116,8 @@ istream &operator>>(istream &inp, Time *t)
     return inp;
 }
 
-ostream &operator<<(ostream &out, const Time *t)
+ostream &operator<<(ostream &out, const Time &t)
 {
-    out << t->ToString();
+    out << t.ToString();
     return out;
 }

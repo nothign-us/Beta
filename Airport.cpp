@@ -14,8 +14,11 @@ Airport::Airport(const Address srcAdd, string srcName)
 // {
 //     ;
 // }
-
-void Airport::setNameAirport(const string src) 
+Airport::Airport(string srcName)
+{
+    _nameAirport = srcName;
+}
+void Airport::setNameAirport(const string src)
 {
     _nameAirport = src;
 }

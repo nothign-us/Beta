@@ -14,6 +14,7 @@ private:
 public:
     Airport(/* args */);
     Airport(const Address srcAdd, string srcName);
+    Airport(string srcName);
     //~Airport();
     void setNameAirport(const string src);
     string getNameAirport() const;

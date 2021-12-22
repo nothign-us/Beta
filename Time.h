@@ -22,13 +22,13 @@ public:
     void setHour(int);
     void setMinute(int);
     void setSecond(int);
-
+    
 public:
     //Hàm lấy danh sách giờ bay
     static vector<Time> getListArriveTime();
-    
+    static Time TryParse(string input);
     static bool IsValidTime(int, int, int);
     string ToString() const;
     friend istream& operator>> (istream& inp, Time *t);
-    friend ostream& operator<< (ostream& out, const Time *t);
+    friend ostream& operator<< (ostream& out, const Time &t);
 };

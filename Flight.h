@@ -3,45 +3,30 @@
 #include "Date.h"
 #include <vector>
 #include "Seat.h"
+#include <iomanip>
 
 class Flight
 {
-private:
+    // private:
+public:
     Airport _start;
     Airport _destination;
     Time _departingAt;
     Time _arrivingAt;
     Date _departure;
     Date _arrival;
-    //vector<Seat> _listOfSeat;
+    // vector<Seat> _listOfSeat;
 
-public: 
-    // Mấy hàm nhập xuất này viết tạm để nhập chuyến bay thôi, khi cập nhật đủ lịch trình của các sân  
+public:
+    // Mấy hàm nhập xuất này viết tạm để nhập chuyến bay thôi, khi cập nhật đủ lịch trình của các sân
     // bay tui viết lại sau.
-    friend istream &operator>>(istream &is, Flight &src)
-    {
-        fstream file;
-        file.open("VietNamAirport.txt");
-        vector<string> line;
-        int i=0;
-        while (!file.eof())
-        {
-            string tmp ="";
-            getline(file, tmp);
-            line.push_back(tmp);
-            cout << line[i++] << endl;
-        }
-        int str,end;
-        cout << "Choose the star Airport: "; cin >> str;
-        cout << "Choose the destination Airport: "; cin >> end;
-        src._start.setNameAirport(line[str]);
-        src._destination.setNameAirport(line[end]);
-        file.close();
-        return is;
-    }
-    friend ostream &operator<<(ostream &os,Flight src)
-    {
-        os << src._start.getNameAirport() << " --- " << src._destination.getNameAirport() <<endl;
-        return os;
-    }
+    Flight();
+    string GetStartAiport() const;
+    string GetDestinateAiport() const;
+    Date GetDate() const;
+    Time GetDepartTime() const;
+    Time GetArrivalTime() const;
+    Flight(Airport strA, Airport des, Time str, Time end, Date departure, Date arrival);
+    friend istream &operator>>(istream &is, Flight &src);
+    friend ostream &operator<<(ostream &os, Flight src);
 };

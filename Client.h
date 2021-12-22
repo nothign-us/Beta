@@ -4,6 +4,10 @@
 class Client
 {
 public:
+    Client()
+    {
+        ;
+    }
     string getName();
     string getPhoneNumber();
     string getEmail();
