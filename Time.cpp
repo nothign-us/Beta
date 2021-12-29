@@ -9,11 +9,12 @@ Time Time::TryParse(string input)
     string tmp = "";
     for (int i = 0; i < input.length(); i++)
     {
-        if(input[i]!=':')
-            tmp+=input[i];
+        if(input[i] != ':')
+            tmp += input[i];
         else   {
+            cout << tmp << ' ';
             res.setHour(stoi(tmp));
-            tmp="";
+            tmp = "";
         }
     }
     res.setMinute(stoi(tmp));
@@ -42,6 +43,20 @@ Time::Time(int hour, int min, int sec)
 
 Time::~Time()
 {
+}
+
+bool Time::operator==(const Time &t) {
+    return _hour == t._hour && _minute == t._minute && _second == t._second;
+}
+
+bool Time::operator!=(const Time &t) {
+    return _hour != t._hour || _minute != t._minute || _second != t._second;
+}
+
+bool Time::operator<(const Time &t) {
+    return _hour < t._hour 
+        || (_hour == t._hour && _minute < t._minute) 
+        || (_minute == t._minute && _second < t._second);
 }
 
 vector<Time> Time::getListArriveTime()

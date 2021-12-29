@@ -1,35 +1,50 @@
+#pragma once
+#ifndef ACCOUNT_H
+#define ACCOUNT_H
+
 #include <string>
 #include <map>
 #include "Ticket.h"
 #include <vector>
 
 class Account {
-private:
-    int _priority;
+protected:
     std::string _username;
     std::string _password;
-    static std::map<std::string, std::string> _storeAccount;
+    static std::map<std::string, std::string> _checkAccount;
 
 public:
-    Account(int _priority);
-    bool SignUpAccount(std::string username, std::string password);
-    bool SignIn(std::string username, std::string password);
+    Client _owner;
+    Account(std::string user, std::string pass);
+    static bool SignUpAccount(std::string username, std::string password);
+    static bool SignIn(std::string username, std::string password);
+    bool operator==(const Account &src_acc);
+    bool operator<(const Account &src_acc);
+    // HAVE TO DELETE --- BUG
+    Client getClient() {
+        return _owner;
+    }
+    void SetClient();
+    virtual void printBookedTicket() {}
 };
 
 class ClientAccount: public Account {
-private:     
-    std::vector<Ticket> _listBookedTickets;
-public:
-    void Book(Ticket);
-};
-
-class EmployeeAccount: public Account {
 private:
-    int _totalProfit = 0;
+    std::vector<Ticket*> _listBookedTickets;
 public:
-    bool Sell(Ticket);
+    ClientAccount(std::string user, std::string pass);
+    bool Purchase(Ticket*&);
+    void addTicket(Ticket* t);
+    void printBookedTicket();
 };
 
 class AdminAccount: public Account {
-
+private:
+    static std::vector<Ticket*> bookedTickets;
+public:    
+    static void addTicket(Ticket*);
+    AdminAccount(std::string user, std::string pass);
+    void printAllBookedTickets();
 };
+
+#endif

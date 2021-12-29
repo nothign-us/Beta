@@ -26,6 +26,20 @@ Date::~Date()
 {
 }
 
+bool Date::operator==(const Date& d) {
+    return _day == d._day && _month == d._month && _year == d._year;
+}
+
+bool Date::operator!=(const Date& d) {
+    return _day != d._day || _month != d._month || _year != d._year;
+}
+
+bool Date::operator<(const Date& d) {
+    return _day < d._day 
+        || (_day == d._day && _month < d._month) 
+        || (_month == d._month && _year < d._year);
+}
+
 int Date::getDay()
 {
     return _day;

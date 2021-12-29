@@ -1,3 +1,5 @@
+#pragma once
+
 #include "Airport.h"
 #include "Time.h"
 #include "Date.h"
@@ -18,15 +20,20 @@ public:
     // vector<Seat> _listOfSeat;
 
 public:
-    // Mấy hàm nhập xuất này viết tạm để nhập chuyến bay thôi, khi cập nhật đủ lịch trình của các sân
-    // bay tui viết lại sau.
+    // Mấy hàm nhập xuất này viết tạm để nhập chuyến bay thôi,
+    // khi cập nhật đủ lịch trình của các sân bay
+    // tui viết lại sau.
     Flight();
-    string GetStartAiport() const;
-    string GetDestinateAiport() const;
-    Date GetDate() const;
+    Flight(string strA, string des);
+    Flight(Airport strA, Airport des, Date departure, Date arrival, Time strT, Time endT);
+    bool operator==(const Flight&);
+    bool operator<(const Flight&);
+    Airport GetStartAiport() const;
+    Airport GetDestinateAiport() const;
+    Date GetArrivalDate() const;
+    Date GetDepartureDate() const;
     Time GetDepartTime() const;
     Time GetArrivalTime() const;
-    Flight(Airport strA, Airport des, Time str, Time end, Date departure, Date arrival);
     friend istream &operator>>(istream &is, Flight &src);
     friend ostream &operator<<(ostream &os, Flight src);
 };

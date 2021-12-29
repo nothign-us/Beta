@@ -16,6 +16,9 @@ public:
     Time();
     Time(int, int, int);
     ~Time();
+    bool operator==(const Time &t);
+    bool operator!=(const Time &t);
+    bool operator<(const Time &t);
     int getHour();
     int getMinute();
     int getSecond();

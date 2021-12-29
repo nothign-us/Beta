@@ -1,34 +1,58 @@
 #include "Flight.h"
+#include "Manager.h"
 
 Flight::Flight()
 {
     ;
 }
-Flight::Flight(Airport strA, Airport des, Time str, Time end, Date departure, Date arrival)
+
+Flight::Flight(Airport strA, Airport des, Date departure, Date arrival, Time strT, Time endT)
 {
     _start = strA;
     _destination = des;
-    _departingAt = str;
-    _arrivingAt = end;
+    _departingAt = strT;
+    _arrivingAt = endT;
     _departure = departure;
     _arrival = arrival;
 }
-string Flight::GetStartAiport() const
-{
-    return _start.getNameAirport();
+
+Flight::Flight(string strA, string des) {
+    _start = Airport(strA);
+    _destination = Airport(des);
 }
-string Flight::GetDestinateAiport() const
-{
-    return _destination.getNameAirport();
+
+bool Flight::operator==(const Flight& f) {
+    return _start == f._start
+        && _destination == f._destination;
 }
-Date Flight::GetDate() const
-{
+
+bool Flight::operator<(const Flight& f) {
+    return _start < f._start
+        || (_start == f._start && _destination < f._destination)
+        || (_destination == f._destination && _departure < f._departure)
+        || (_departure == f._departure && _departingAt < f._departingAt);
+}
+Airport Flight::GetStartAiport() const {
+    return _start;
+}
+
+Airport Flight::GetDestinateAiport() const {
+    return _destination;
+}
+
+Date Flight::GetArrivalDate() const {
     return _arrival;
 }
+
+Date Flight::GetDepartureDate() const {
+    return _departure;
+}
+
 Time Flight::GetDepartTime() const
 {
     return _departingAt;
 }
+
 Time Flight::GetArrivalTime() const
 {
     return _arrivingAt;
@@ -36,17 +60,7 @@ Time Flight::GetArrivalTime() const
 
 istream &operator>>(istream &is, Flight &src)
 {
-    fstream file;
-    file.open("VietNamAirport.txt");
-    vector<string> line;
-    int i = 0;
-    while (!file.eof())
-    {
-        string tmp = "";
-        getline(file, tmp);
-        line.push_back(tmp);
-        cout << line[i++] << endl;
-    }
+    vector<string> line = Manager::listAirport;
     int str, end;
     cout << "Choose the star Airport: ";
     cin >> str;
@@ -54,12 +68,11 @@ istream &operator>>(istream &is, Flight &src)
     cin >> end;
     src._start.setNameAirport(line[str]);
     src._destination.setNameAirport(line[end]);
-    file.close();
     return is;
 }
+
 ostream &operator<<(ostream &os, Flight src)
 {
-
     os << src._start.getNameAirport()
        << setw(20) << right << src._destination.getNameAirport()
        << setw(20) << right << src._departure

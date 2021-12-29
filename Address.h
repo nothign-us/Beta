@@ -1,7 +1,12 @@
 #pragma once
+#ifndef MYHEADEFILE_H
+#define MYHEADEFILE_H
+
+
 #include <string>
 #include <iostream>
 using namespace std;
+
 class Address
 {
 private:
@@ -14,9 +19,11 @@ private:
 public:
     Address();
     Address(const Address& srcAdd);
+    ~Address();
     
     friend istream& operator>>(istream& is, Address& src);
     friend ostream& operator<<(ostream& os,const Address src);
-    ~Address();
 };
 
+
+#endif
