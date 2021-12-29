@@ -1,0 +1,17 @@
+debug/Account.o
+debug/Address.o
+debug/Airport.o
+debug/Client.o
+debug/Date.o
+debug/Flight.o
+debug/Manager.o
+debug/MyTime.o
+debug/Seat.o
+debug/Ticket.o
+debug/clientmenu.o
+debug/main.o
+debug/mainwindow.o
+debug/signupwindow.o
+debug/moc_clientmenu.o
+debug/moc_mainwindow.o
+debug/moc_signupwindow.o

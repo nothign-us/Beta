@@ -18,9 +18,9 @@ SOURCES += \
     Date.cpp \
     Flight.cpp \
     Manager.cpp \
+    MyTime.cpp \
     Seat.cpp \
     Ticket.cpp \
-    Time.cpp \
     clientmenu.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -34,9 +34,9 @@ HEADERS += \
     Date.h \
     Flight.h \
     Manager.h \
+    MyTime.h \
     Seat.h \
     Ticket.h \
-    Time.h \
     clientmenu.h \
     mainwindow.h \
     signupwindow.h

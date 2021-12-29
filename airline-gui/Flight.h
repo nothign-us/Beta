@@ -1,7 +1,7 @@
 #pragma once
 
 #include "Airport.h"
-#include "Time.h"
+#include "MyTime.h"
 #include "Date.h"
 #include <vector>
 #include "Seat.h"
