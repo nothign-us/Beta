@@ -37,9 +37,9 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = airline-gui1.0.0
-DISTDIR = /home/tranbaoanh/Coding/C++\ Projects/airline-booking/Beta/airline-gui/.tmp/airline-gui1.0.0
+DISTDIR = /home/minhtri/Desktop/Seminar_OOP/BETA/Nhom3/Beta/airline-gui/.tmp/airline-gui1.0.0
 LINK          = g++
-LFLAGS        = 
+LFLAGS        = -no-pie
 LIBS          = $(SUBLIBS) /usr/lib/x86_64-linux-gnu/libQt5Widgets.so /usr/lib/x86_64-linux-gnu/libQt5Gui.so /usr/lib/x86_64-linux-gnu/libQt5Core.so /usr/lib/x86_64-linux-gnu/libGL.so -lpthread   
 AR            = ar cqs
 RANLIB        = 
@@ -55,33 +55,43 @@ OBJECTS_DIR   = ./
 SOURCES       = Account.cpp \
 		Address.cpp \
 		Airport.cpp \
+		BookTicketBox.cpp \
+		ChooseFlight.cpp \
 		Client.cpp \
 		Date.cpp \
 		Flight.cpp \
 		Manager.cpp \
+		MyTime.cpp \
 		Seat.cpp \
 		Ticket.cpp \
-		Time.cpp \
 		clientmenu.cpp \
 		main.cpp \
 		mainwindow.cpp \
-		signupwindow.cpp moc_clientmenu.cpp \
+		makeMenu.cpp \
+		signupwindow.cpp moc_BookTicketBox.cpp \
+		moc_ChooseFlight.cpp \
+		moc_clientmenu.cpp \
 		moc_mainwindow.cpp \
 		moc_signupwindow.cpp
 OBJECTS       = Account.o \
 		Address.o \
 		Airport.o \
+		BookTicketBox.o \
+		ChooseFlight.o \
 		Client.o \
 		Date.o \
 		Flight.o \
 		Manager.o \
+		MyTime.o \
 		Seat.o \
 		Ticket.o \
-		Time.o \
 		clientmenu.o \
 		main.o \
 		mainwindow.o \
+		makeMenu.o \
 		signupwindow.o \
+		moc_BookTicketBox.o \
+		moc_ChooseFlight.o \
 		moc_clientmenu.o \
 		moc_mainwindow.o \
 		moc_signupwindow.o
@@ -119,6 +129,30 @@ DIST          = FlightSchedule/San \
 		Ma \
 		Thuot_San \
 		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
+		Cam \
+		Ranh.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
 		Cam \
 		Ranh.txt \
 		FlightSchedule/San \
@@ -167,6 +201,30 @@ DIST          = FlightSchedule/San \
 		Ma \
 		Thuot_San \
 		bay \
+		Can \
+		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
 		Cat \
 		Bi.txt \
 		FlightSchedule/San \
@@ -215,6 +273,30 @@ DIST          = FlightSchedule/San \
 		Ma \
 		Thuot_San \
 		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
 		Con \
 		Dao.txt \
 		FlightSchedule/San \
@@ -263,6 +345,31 @@ DIST          = FlightSchedule/San \
 		Ma \
 		Thuot_San \
 		bay \
+		Da \
+		Nang.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
 		Dien \
 		Bien \
 		Phu.txt \
@@ -313,6 +420,30 @@ DIST          = FlightSchedule/San \
 		Ma \
 		Thuot_San \
 		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
+		Lien \
+		Khuong.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
 		Lien \
 		Khuong.txt \
 		FlightSchedule/San \
@@ -361,6 +492,30 @@ DIST          = FlightSchedule/San \
 		Ma \
 		Thuot_San \
 		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
+		Phu \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
 		Phu \
 		Bai.txt \
 		FlightSchedule/San \
@@ -410,6 +565,30 @@ DIST          = FlightSchedule/San \
 		Thuot_San \
 		bay \
 		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
+		Phu \
 		Quoc.txt \
 		FlightSchedule/San \
 		bay \
@@ -455,6 +634,29 @@ DIST          = FlightSchedule/San \
 		Ma \
 		Thuot_San \
 		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
+		Rach \
+		Gia.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
 		Rach \
 		Gia.txt \
 		FlightSchedule/San \
@@ -505,6 +707,31 @@ DIST          = FlightSchedule/San \
 		Ma \
 		Thuot_San \
 		bay \
+		Tan \
+		Son \
+		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
 		Tho \
 		Xuan.txt \
 		FlightSchedule/San \
@@ -553,6 +780,30 @@ DIST          = FlightSchedule/San \
 		Ma \
 		Thuot_San \
 		bay \
+		Tuy \
+		Hoa.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
 		Van \
 		Don.txt \
 		FlightSchedule/San \
@@ -591,6 +842,28 @@ DIST          = FlightSchedule/San \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
+		Buon \
+		Ma \
+		Thuot/San \
+		bay \
+		Buon \
+		Ma \
+		Thuot_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
 		Ca \
 		Mau/San \
 		bay \
@@ -639,6 +912,16 @@ DIST          = FlightSchedule/San \
 		Ca \
 		Mau_San \
 		bay \
+		Cam \
+		Ranh.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
 		Can \
 		Tho.txt \
 		FlightSchedule/San \
@@ -651,6 +934,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Can \
 		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
+		Can \
+		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
+		Cat \
+		Bi.txt \
 		FlightSchedule/San \
 		bay \
 		Ca \
@@ -699,6 +1002,16 @@ DIST          = FlightSchedule/San \
 		Ca \
 		Mau_San \
 		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
 		Con \
 		Dao.txt \
 		FlightSchedule/San \
@@ -711,6 +1024,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Con \
 		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
+		Da \
+		Nang.txt \
 		FlightSchedule/San \
 		bay \
 		Ca \
@@ -761,6 +1094,17 @@ DIST          = FlightSchedule/San \
 		Ca \
 		Mau_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
 		Dong \
 		Hoi.txt \
 		FlightSchedule/San \
@@ -773,6 +1117,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Dong \
 		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
+		Lien \
+		Khuong.txt \
 		FlightSchedule/San \
 		bay \
 		Ca \
@@ -812,6 +1176,26 @@ DIST          = FlightSchedule/San \
 		Mau_San \
 		bay \
 		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
+		Phu \
 		Bai.txt \
 		FlightSchedule/San \
 		bay \
@@ -862,6 +1246,26 @@ DIST          = FlightSchedule/San \
 		Mau_San \
 		bay \
 		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
+		Phu \
 		Quoc.txt \
 		FlightSchedule/San \
 		bay \
@@ -899,6 +1303,25 @@ DIST          = FlightSchedule/San \
 		Ca \
 		Mau_San \
 		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
+		Rach \
+		Gia.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
 		Rach \
 		Gia.txt \
 		FlightSchedule/San \
@@ -941,6 +1364,17 @@ DIST          = FlightSchedule/San \
 		Ca \
 		Mau_San \
 		bay \
+		Tan \
+		Son \
+		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
 		Tho \
 		Xuan.txt \
 		FlightSchedule/San \
@@ -953,6 +1387,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Tho \
 		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
+		Tuy \
+		Hoa.txt \
 		FlightSchedule/San \
 		bay \
 		Ca \
@@ -1001,6 +1455,25 @@ DIST          = FlightSchedule/San \
 		Ca \
 		Mau_San \
 		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Ca \
+		Mau/San \
+		bay \
+		Ca \
+		Mau_San \
+		bay \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
@@ -1041,6 +1514,17 @@ DIST          = FlightSchedule/San \
 		Cam \
 		Ranh_San \
 		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
 		Ca \
 		Mau.txt \
 		FlightSchedule/San \
@@ -1053,6 +1537,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Ca \
 		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
+		Can \
+		Tho.txt \
 		FlightSchedule/San \
 		bay \
 		Cam \
@@ -1101,6 +1605,26 @@ DIST          = FlightSchedule/San \
 		Cam \
 		Ranh_San \
 		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
 		Chu \
 		Lai.txt \
 		FlightSchedule/San \
@@ -1133,6 +1657,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Con \
 		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
+		Da \
+		Nang.txt \
 		FlightSchedule/San \
 		bay \
 		Cam \
@@ -1183,6 +1727,17 @@ DIST          = FlightSchedule/San \
 		Cam \
 		Ranh_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
 		Dong \
 		Hoi.txt \
 		FlightSchedule/San \
@@ -1195,6 +1750,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Dong \
 		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
+		Lien \
+		Khuong.txt \
 		FlightSchedule/San \
 		bay \
 		Cam \
@@ -1234,6 +1809,26 @@ DIST          = FlightSchedule/San \
 		Ranh_San \
 		bay \
 		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
+		Phu \
 		Bai.txt \
 		FlightSchedule/San \
 		bay \
@@ -1284,6 +1879,26 @@ DIST          = FlightSchedule/San \
 		Ranh_San \
 		bay \
 		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
+		Phu \
 		Quoc.txt \
 		FlightSchedule/San \
 		bay \
@@ -1321,6 +1936,25 @@ DIST          = FlightSchedule/San \
 		Cam \
 		Ranh_San \
 		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
+		Rach \
+		Gia.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
 		Rach \
 		Gia.txt \
 		FlightSchedule/San \
@@ -1363,6 +1997,17 @@ DIST          = FlightSchedule/San \
 		Cam \
 		Ranh_San \
 		bay \
+		Tan \
+		Son \
+		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
 		Tho \
 		Xuan.txt \
 		FlightSchedule/San \
@@ -1375,6 +2020,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Tho \
 		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
+		Tuy \
+		Hoa.txt \
 		FlightSchedule/San \
 		bay \
 		Cam \
@@ -1423,6 +2088,25 @@ DIST          = FlightSchedule/San \
 		Cam \
 		Ranh_San \
 		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Cam \
+		Ranh/San \
+		bay \
+		Cam \
+		Ranh_San \
+		bay \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
@@ -1463,6 +2147,17 @@ DIST          = FlightSchedule/San \
 		Can \
 		Tho_San \
 		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
 		Ca \
 		Mau.txt \
 		FlightSchedule/San \
@@ -1475,6 +2170,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Ca \
 		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
+		Cam \
+		Ranh.txt \
 		FlightSchedule/San \
 		bay \
 		Can \
@@ -1523,6 +2238,26 @@ DIST          = FlightSchedule/San \
 		Can \
 		Tho_San \
 		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
 		Chu \
 		Lai.txt \
 		FlightSchedule/San \
@@ -1555,6 +2290,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Con \
 		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
+		Da \
+		Nang.txt \
 		FlightSchedule/San \
 		bay \
 		Can \
@@ -1605,6 +2360,17 @@ DIST          = FlightSchedule/San \
 		Can \
 		Tho_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
 		Dong \
 		Hoi.txt \
 		FlightSchedule/San \
@@ -1617,6 +2383,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Dong \
 		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
+		Lien \
+		Khuong.txt \
 		FlightSchedule/San \
 		bay \
 		Can \
@@ -1656,6 +2442,26 @@ DIST          = FlightSchedule/San \
 		Tho_San \
 		bay \
 		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
+		Phu \
 		Bai.txt \
 		FlightSchedule/San \
 		bay \
@@ -1706,6 +2512,26 @@ DIST          = FlightSchedule/San \
 		Tho_San \
 		bay \
 		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
+		Phu \
 		Quoc.txt \
 		FlightSchedule/San \
 		bay \
@@ -1743,6 +2569,25 @@ DIST          = FlightSchedule/San \
 		Can \
 		Tho_San \
 		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
+		Rach \
+		Gia.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
 		Rach \
 		Gia.txt \
 		FlightSchedule/San \
@@ -1785,6 +2630,17 @@ DIST          = FlightSchedule/San \
 		Can \
 		Tho_San \
 		bay \
+		Tan \
+		Son \
+		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
 		Tho \
 		Xuan.txt \
 		FlightSchedule/San \
@@ -1797,6 +2653,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Tho \
 		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
+		Tuy \
+		Hoa.txt \
 		FlightSchedule/San \
 		bay \
 		Can \
@@ -1845,6 +2721,25 @@ DIST          = FlightSchedule/San \
 		Can \
 		Tho_San \
 		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Can \
+		Tho/San \
+		bay \
+		Can \
+		Tho_San \
+		bay \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
@@ -1885,6 +2780,17 @@ DIST          = FlightSchedule/San \
 		Cat \
 		Bi_San \
 		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
 		Ca \
 		Mau.txt \
 		FlightSchedule/San \
@@ -1897,6 +2803,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Ca \
 		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
+		Cam \
+		Ranh.txt \
 		FlightSchedule/San \
 		bay \
 		Cat \
@@ -1945,6 +2871,26 @@ DIST          = FlightSchedule/San \
 		Cat \
 		Bi_San \
 		bay \
+		Can \
+		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
 		Chu \
 		Lai.txt \
 		FlightSchedule/San \
@@ -1977,6 +2923,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Con \
 		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
+		Da \
+		Nang.txt \
 		FlightSchedule/San \
 		bay \
 		Cat \
@@ -2027,6 +2993,17 @@ DIST          = FlightSchedule/San \
 		Cat \
 		Bi_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
 		Dong \
 		Hoi.txt \
 		FlightSchedule/San \
@@ -2039,6 +3016,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Dong \
 		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
+		Lien \
+		Khuong.txt \
 		FlightSchedule/San \
 		bay \
 		Cat \
@@ -2078,6 +3075,26 @@ DIST          = FlightSchedule/San \
 		Bi_San \
 		bay \
 		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
+		Phu \
 		Bai.txt \
 		FlightSchedule/San \
 		bay \
@@ -2128,6 +3145,26 @@ DIST          = FlightSchedule/San \
 		Bi_San \
 		bay \
 		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
+		Phu \
 		Quoc.txt \
 		FlightSchedule/San \
 		bay \
@@ -2165,6 +3202,25 @@ DIST          = FlightSchedule/San \
 		Cat \
 		Bi_San \
 		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
+		Rach \
+		Gia.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
 		Rach \
 		Gia.txt \
 		FlightSchedule/San \
@@ -2207,6 +3263,17 @@ DIST          = FlightSchedule/San \
 		Cat \
 		Bi_San \
 		bay \
+		Tan \
+		Son \
+		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
 		Tho \
 		Xuan.txt \
 		FlightSchedule/San \
@@ -2219,6 +3286,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Tho \
 		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
+		Tuy \
+		Hoa.txt \
 		FlightSchedule/San \
 		bay \
 		Cat \
@@ -2267,6 +3354,25 @@ DIST          = FlightSchedule/San \
 		Cat \
 		Bi_San \
 		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Cat \
+		Bi/San \
+		bay \
+		Cat \
+		Bi_San \
+		bay \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
@@ -2307,6 +3413,17 @@ DIST          = FlightSchedule/San \
 		Chu \
 		Lai_San \
 		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
 		Ca \
 		Mau.txt \
 		FlightSchedule/San \
@@ -2319,6 +3436,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Ca \
 		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
+		Cam \
+		Ranh.txt \
 		FlightSchedule/San \
 		bay \
 		Chu \
@@ -2367,6 +3504,26 @@ DIST          = FlightSchedule/San \
 		Chu \
 		Lai_San \
 		bay \
+		Can \
+		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
 		Cat \
 		Bi.txt \
 		FlightSchedule/San \
@@ -2399,6 +3556,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Con \
 		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
+		Da \
+		Nang.txt \
 		FlightSchedule/San \
 		bay \
 		Chu \
@@ -2449,6 +3626,17 @@ DIST          = FlightSchedule/San \
 		Chu \
 		Lai_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
 		Dong \
 		Hoi.txt \
 		FlightSchedule/San \
@@ -2461,6 +3649,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Dong \
 		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
+		Lien \
+		Khuong.txt \
 		FlightSchedule/San \
 		bay \
 		Chu \
@@ -2500,6 +3708,26 @@ DIST          = FlightSchedule/San \
 		Lai_San \
 		bay \
 		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
+		Phu \
 		Bai.txt \
 		FlightSchedule/San \
 		bay \
@@ -2550,6 +3778,26 @@ DIST          = FlightSchedule/San \
 		Lai_San \
 		bay \
 		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
+		Phu \
 		Quoc.txt \
 		FlightSchedule/San \
 		bay \
@@ -2587,6 +3835,25 @@ DIST          = FlightSchedule/San \
 		Chu \
 		Lai_San \
 		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
+		Rach \
+		Gia.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
 		Rach \
 		Gia.txt \
 		FlightSchedule/San \
@@ -2629,6 +3896,17 @@ DIST          = FlightSchedule/San \
 		Chu \
 		Lai_San \
 		bay \
+		Tan \
+		Son \
+		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
 		Tho \
 		Xuan.txt \
 		FlightSchedule/San \
@@ -2641,6 +3919,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Tho \
 		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
+		Tuy \
+		Hoa.txt \
 		FlightSchedule/San \
 		bay \
 		Chu \
@@ -2689,6 +3987,25 @@ DIST          = FlightSchedule/San \
 		Chu \
 		Lai_San \
 		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Chu \
+		Lai/San \
+		bay \
+		Chu \
+		Lai_San \
+		bay \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
@@ -2729,6 +4046,17 @@ DIST          = FlightSchedule/San \
 		Con \
 		Dao_San \
 		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
 		Ca \
 		Mau.txt \
 		FlightSchedule/San \
@@ -2741,6 +4069,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Ca \
 		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
+		Cam \
+		Ranh.txt \
 		FlightSchedule/San \
 		bay \
 		Con \
@@ -2789,6 +4137,26 @@ DIST          = FlightSchedule/San \
 		Con \
 		Dao_San \
 		bay \
+		Can \
+		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
 		Cat \
 		Bi.txt \
 		FlightSchedule/San \
@@ -2821,6 +4189,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Chu \
 		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
+		Da \
+		Nang.txt \
 		FlightSchedule/San \
 		bay \
 		Con \
@@ -2871,6 +4259,17 @@ DIST          = FlightSchedule/San \
 		Con \
 		Dao_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
 		Dong \
 		Hoi.txt \
 		FlightSchedule/San \
@@ -2883,6 +4282,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Dong \
 		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
+		Lien \
+		Khuong.txt \
 		FlightSchedule/San \
 		bay \
 		Con \
@@ -2922,6 +4341,26 @@ DIST          = FlightSchedule/San \
 		Dao_San \
 		bay \
 		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
+		Phu \
 		Bai.txt \
 		FlightSchedule/San \
 		bay \
@@ -2972,6 +4411,26 @@ DIST          = FlightSchedule/San \
 		Dao_San \
 		bay \
 		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
+		Phu \
 		Quoc.txt \
 		FlightSchedule/San \
 		bay \
@@ -3009,6 +4468,25 @@ DIST          = FlightSchedule/San \
 		Con \
 		Dao_San \
 		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
+		Rach \
+		Gia.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
 		Rach \
 		Gia.txt \
 		FlightSchedule/San \
@@ -3051,6 +4529,17 @@ DIST          = FlightSchedule/San \
 		Con \
 		Dao_San \
 		bay \
+		Tan \
+		Son \
+		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
 		Tho \
 		Xuan.txt \
 		FlightSchedule/San \
@@ -3063,6 +4552,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Tho \
 		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
+		Tuy \
+		Hoa.txt \
 		FlightSchedule/San \
 		bay \
 		Con \
@@ -3111,6 +4620,25 @@ DIST          = FlightSchedule/San \
 		Con \
 		Dao_San \
 		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Con \
+		Dao/San \
+		bay \
+		Con \
+		Dao_San \
+		bay \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
@@ -3151,6 +4679,17 @@ DIST          = FlightSchedule/San \
 		Da \
 		Nang_San \
 		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
 		Ca \
 		Mau.txt \
 		FlightSchedule/San \
@@ -3163,6 +4702,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Ca \
 		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
+		Cam \
+		Ranh.txt \
 		FlightSchedule/San \
 		bay \
 		Da \
@@ -3211,6 +4770,26 @@ DIST          = FlightSchedule/San \
 		Da \
 		Nang_San \
 		bay \
+		Can \
+		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
 		Cat \
 		Bi.txt \
 		FlightSchedule/San \
@@ -3243,6 +4822,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Chu \
 		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
+		Con \
+		Dao.txt \
 		FlightSchedule/San \
 		bay \
 		Da \
@@ -3293,6 +4892,17 @@ DIST          = FlightSchedule/San \
 		Da \
 		Nang_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
 		Dong \
 		Hoi.txt \
 		FlightSchedule/San \
@@ -3305,6 +4915,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Dong \
 		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
+		Lien \
+		Khuong.txt \
 		FlightSchedule/San \
 		bay \
 		Da \
@@ -3344,6 +4974,26 @@ DIST          = FlightSchedule/San \
 		Nang_San \
 		bay \
 		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
+		Phu \
 		Bai.txt \
 		FlightSchedule/San \
 		bay \
@@ -3394,6 +5044,26 @@ DIST          = FlightSchedule/San \
 		Nang_San \
 		bay \
 		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
+		Phu \
 		Quoc.txt \
 		FlightSchedule/San \
 		bay \
@@ -3431,6 +5101,25 @@ DIST          = FlightSchedule/San \
 		Da \
 		Nang_San \
 		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
+		Rach \
+		Gia.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
 		Rach \
 		Gia.txt \
 		FlightSchedule/San \
@@ -3473,6 +5162,17 @@ DIST          = FlightSchedule/San \
 		Da \
 		Nang_San \
 		bay \
+		Tan \
+		Son \
+		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
 		Tho \
 		Xuan.txt \
 		FlightSchedule/San \
@@ -3485,6 +5185,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Tho \
 		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
+		Tuy \
+		Hoa.txt \
 		FlightSchedule/San \
 		bay \
 		Da \
@@ -3533,6 +5253,25 @@ DIST          = FlightSchedule/San \
 		Da \
 		Nang_San \
 		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Da \
+		Nang/San \
+		bay \
+		Da \
+		Nang_San \
+		bay \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
@@ -3579,6 +5318,19 @@ DIST          = FlightSchedule/San \
 		Bien \
 		Phu_San \
 		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
 		Ca \
 		Mau.txt \
 		FlightSchedule/San \
@@ -3593,6 +5345,30 @@ DIST          = FlightSchedule/San \
 		bay \
 		Ca \
 		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
+		Cam \
+		Ranh.txt \
 		FlightSchedule/San \
 		bay \
 		Dien \
@@ -3651,6 +5427,18 @@ DIST          = FlightSchedule/San \
 		Bien \
 		Phu_San \
 		bay \
+		Can \
+		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
 		Cat \
 		Bi.txt \
 		FlightSchedule/San \
@@ -3665,6 +5453,30 @@ DIST          = FlightSchedule/San \
 		bay \
 		Cat \
 		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
+		Chu \
+		Lai.txt \
 		FlightSchedule/San \
 		bay \
 		Dien \
@@ -3723,6 +5535,30 @@ DIST          = FlightSchedule/San \
 		Bien \
 		Phu_San \
 		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
+		Da \
+		Nang.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
 		Da \
 		Nang.txt \
 		FlightSchedule/San \
@@ -3761,6 +5597,30 @@ DIST          = FlightSchedule/San \
 		bay \
 		Dong \
 		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
+		Lien \
+		Khuong.txt \
 		FlightSchedule/San \
 		bay \
 		Dien \
@@ -3808,6 +5668,30 @@ DIST          = FlightSchedule/San \
 		Phu_San \
 		bay \
 		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
+		Phu \
 		Bai.txt \
 		FlightSchedule/San \
 		bay \
@@ -3868,6 +5752,30 @@ DIST          = FlightSchedule/San \
 		Phu_San \
 		bay \
 		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
+		Phu \
 		Quoc.txt \
 		FlightSchedule/San \
 		bay \
@@ -3913,6 +5821,29 @@ DIST          = FlightSchedule/San \
 		Bien \
 		Phu_San \
 		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
+		Rach \
+		Gia.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
 		Rach \
 		Gia.txt \
 		FlightSchedule/San \
@@ -3963,6 +5894,19 @@ DIST          = FlightSchedule/San \
 		Bien \
 		Phu_San \
 		bay \
+		Tan \
+		Son \
+		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
 		Tho \
 		Xuan.txt \
 		FlightSchedule/San \
@@ -3977,6 +5921,30 @@ DIST          = FlightSchedule/San \
 		bay \
 		Tho \
 		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
+		Tuy \
+		Hoa.txt \
 		FlightSchedule/San \
 		bay \
 		Dien \
@@ -4035,6 +6003,29 @@ DIST          = FlightSchedule/San \
 		Bien \
 		Phu_San \
 		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Dien \
+		Bien \
+		Phu/San \
+		bay \
+		Dien \
+		Bien \
+		Phu_San \
+		bay \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
@@ -4077,6 +6068,17 @@ DIST          = FlightSchedule/San \
 		Dong \
 		Hoi_San \
 		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
 		Ca \
 		Mau.txt \
 		FlightSchedule/San \
@@ -4089,6 +6091,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Ca \
 		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
+		Cam \
+		Ranh.txt \
 		FlightSchedule/San \
 		bay \
 		Dong \
@@ -4137,6 +6159,26 @@ DIST          = FlightSchedule/San \
 		Dong \
 		Hoi_San \
 		bay \
+		Can \
+		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
 		Cat \
 		Bi.txt \
 		FlightSchedule/San \
@@ -4177,6 +6219,16 @@ DIST          = FlightSchedule/San \
 		Dong \
 		Hoi_San \
 		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
 		Con \
 		Dao.txt \
 		FlightSchedule/San \
@@ -4189,6 +6241,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Con \
 		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
+		Da \
+		Nang.txt \
 		FlightSchedule/San \
 		bay \
 		Dong \
@@ -4239,6 +6311,27 @@ DIST          = FlightSchedule/San \
 		Dong \
 		Hoi_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
+		Lien \
+		Khuong.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
 		Lien \
 		Khuong.txt \
 		FlightSchedule/San \
@@ -4270,6 +6363,26 @@ DIST          = FlightSchedule/San \
 		Hoi_San \
 		bay \
 		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
+		Phu \
 		Bai.txt \
 		FlightSchedule/San \
 		bay \
@@ -4320,6 +6433,26 @@ DIST          = FlightSchedule/San \
 		Hoi_San \
 		bay \
 		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
+		Phu \
 		Quoc.txt \
 		FlightSchedule/San \
 		bay \
@@ -4357,6 +6490,25 @@ DIST          = FlightSchedule/San \
 		Dong \
 		Hoi_San \
 		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
+		Rach \
+		Gia.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
 		Rach \
 		Gia.txt \
 		FlightSchedule/San \
@@ -4399,6 +6551,17 @@ DIST          = FlightSchedule/San \
 		Dong \
 		Hoi_San \
 		bay \
+		Tan \
+		Son \
+		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
 		Tho \
 		Xuan.txt \
 		FlightSchedule/San \
@@ -4411,6 +6574,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Tho \
 		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
+		Tuy \
+		Hoa.txt \
 		FlightSchedule/San \
 		bay \
 		Dong \
@@ -4459,6 +6642,25 @@ DIST          = FlightSchedule/San \
 		Dong \
 		Hoi_San \
 		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Dong \
+		Hoi/San \
+		bay \
+		Dong \
+		Hoi_San \
+		bay \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
@@ -4499,6 +6701,17 @@ DIST          = FlightSchedule/San \
 		Lien \
 		Khuong_San \
 		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
 		Ca \
 		Mau.txt \
 		FlightSchedule/San \
@@ -4511,6 +6724,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Ca \
 		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
+		Cam \
+		Ranh.txt \
 		FlightSchedule/San \
 		bay \
 		Lien \
@@ -4559,6 +6792,26 @@ DIST          = FlightSchedule/San \
 		Lien \
 		Khuong_San \
 		bay \
+		Can \
+		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
 		Cat \
 		Bi.txt \
 		FlightSchedule/San \
@@ -4599,6 +6852,16 @@ DIST          = FlightSchedule/San \
 		Lien \
 		Khuong_San \
 		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
 		Con \
 		Dao.txt \
 		FlightSchedule/San \
@@ -4611,6 +6874,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Con \
 		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
+		Da \
+		Nang.txt \
 		FlightSchedule/San \
 		bay \
 		Lien \
@@ -4661,6 +6944,27 @@ DIST          = FlightSchedule/San \
 		Lien \
 		Khuong_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
 		Dong \
 		Hoi.txt \
 		FlightSchedule/San \
@@ -4692,6 +6996,26 @@ DIST          = FlightSchedule/San \
 		Khuong_San \
 		bay \
 		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
+		Phu \
 		Bai.txt \
 		FlightSchedule/San \
 		bay \
@@ -4742,6 +7066,26 @@ DIST          = FlightSchedule/San \
 		Khuong_San \
 		bay \
 		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
+		Phu \
 		Quoc.txt \
 		FlightSchedule/San \
 		bay \
@@ -4779,6 +7123,25 @@ DIST          = FlightSchedule/San \
 		Lien \
 		Khuong_San \
 		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
+		Rach \
+		Gia.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
 		Rach \
 		Gia.txt \
 		FlightSchedule/San \
@@ -4821,6 +7184,17 @@ DIST          = FlightSchedule/San \
 		Lien \
 		Khuong_San \
 		bay \
+		Tan \
+		Son \
+		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
 		Tho \
 		Xuan.txt \
 		FlightSchedule/San \
@@ -4833,6 +7207,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Tho \
 		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
+		Tuy \
+		Hoa.txt \
 		FlightSchedule/San \
 		bay \
 		Lien \
@@ -4881,6 +7275,25 @@ DIST          = FlightSchedule/San \
 		Lien \
 		Khuong_San \
 		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Lien \
+		Khuong/San \
+		bay \
+		Lien \
+		Khuong_San \
+		bay \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
@@ -4921,6 +7334,17 @@ DIST          = FlightSchedule/San \
 		Noi \
 		Bai_San \
 		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
 		Ca \
 		Mau.txt \
 		FlightSchedule/San \
@@ -4933,6 +7357,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Ca \
 		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
+		Cam \
+		Ranh.txt \
 		FlightSchedule/San \
 		bay \
 		Noi \
@@ -4981,6 +7425,26 @@ DIST          = FlightSchedule/San \
 		Noi \
 		Bai_San \
 		bay \
+		Can \
+		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
 		Cat \
 		Bi.txt \
 		FlightSchedule/San \
@@ -5021,6 +7485,16 @@ DIST          = FlightSchedule/San \
 		Noi \
 		Bai_San \
 		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
 		Con \
 		Dao.txt \
 		FlightSchedule/San \
@@ -5033,6 +7507,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Con \
 		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
+		Da \
+		Nang.txt \
 		FlightSchedule/San \
 		bay \
 		Noi \
@@ -5083,6 +7577,17 @@ DIST          = FlightSchedule/San \
 		Noi \
 		Bai_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
 		Dong \
 		Hoi.txt \
 		FlightSchedule/San \
@@ -5095,6 +7600,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Dong \
 		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
+		Lien \
+		Khuong.txt \
 		FlightSchedule/San \
 		bay \
 		Noi \
@@ -5144,6 +7669,26 @@ DIST          = FlightSchedule/San \
 		Bai_San \
 		bay \
 		Phu \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
+		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
+		Phu \
 		Cat.txt \
 		FlightSchedule/San \
 		bay \
@@ -5183,6 +7728,16 @@ DIST          = FlightSchedule/San \
 		Noi \
 		Bai_San \
 		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
 		Pleiku.txt \
 		FlightSchedule/San \
 		bay \
@@ -5193,6 +7748,25 @@ DIST          = FlightSchedule/San \
 		Bai_San \
 		bay \
 		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
+		Rach \
+		Gia.txt \
 		FlightSchedule/San \
 		bay \
 		Noi \
@@ -5243,6 +7817,17 @@ DIST          = FlightSchedule/San \
 		Noi \
 		Bai_San \
 		bay \
+		Tan \
+		Son \
+		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
 		Tho \
 		Xuan.txt \
 		FlightSchedule/San \
@@ -5255,6 +7840,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Tho \
 		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
+		Tuy \
+		Hoa.txt \
 		FlightSchedule/San \
 		bay \
 		Noi \
@@ -5303,6 +7908,16 @@ DIST          = FlightSchedule/San \
 		Noi \
 		Bai_San \
 		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
@@ -5313,6 +7928,26 @@ DIST          = FlightSchedule/San \
 		Bai_San \
 		bay \
 		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Noi \
+		Bai/San \
+		bay \
+		Noi \
+		Bai_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
 		FlightSchedule/San \
 		bay \
 		Phu \
@@ -5363,6 +7998,16 @@ DIST          = FlightSchedule/San \
 		Phu \
 		Bai_San \
 		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
 		Cam \
 		Ranh.txt \
 		FlightSchedule/San \
@@ -5375,6 +8020,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Cam \
 		Ranh.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
+		Cam \
+		Ranh.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
+		Can \
+		Tho.txt \
 		FlightSchedule/San \
 		bay \
 		Phu \
@@ -5423,6 +8088,26 @@ DIST          = FlightSchedule/San \
 		Phu \
 		Bai_San \
 		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
 		Chu \
 		Lai.txt \
 		FlightSchedule/San \
@@ -5455,6 +8140,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Con \
 		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
+		Da \
+		Nang.txt \
 		FlightSchedule/San \
 		bay \
 		Phu \
@@ -5505,6 +8210,27 @@ DIST          = FlightSchedule/San \
 		Phu \
 		Bai_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
 		Dong \
 		Hoi.txt \
 		FlightSchedule/San \
@@ -5537,6 +8263,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Lien \
 		Khuong.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
+		Lien \
+		Khuong.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
+		Noi \
+		Bai.txt \
 		FlightSchedule/San \
 		bay \
 		Phu \
@@ -5586,6 +8332,26 @@ DIST          = FlightSchedule/San \
 		Bai_San \
 		bay \
 		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
+		Phu \
 		Quoc.txt \
 		FlightSchedule/San \
 		bay \
@@ -5615,6 +8381,25 @@ DIST          = FlightSchedule/San \
 		Bai_San \
 		bay \
 		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
+		Rach \
+		Gia.txt \
 		FlightSchedule/San \
 		bay \
 		Phu \
@@ -5665,6 +8450,17 @@ DIST          = FlightSchedule/San \
 		Phu \
 		Bai_San \
 		bay \
+		Tan \
+		Son \
+		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
 		Tho \
 		Xuan.txt \
 		FlightSchedule/San \
@@ -5677,6 +8473,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Tho \
 		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
+		Tuy \
+		Hoa.txt \
 		FlightSchedule/San \
 		bay \
 		Phu \
@@ -5725,6 +8541,25 @@ DIST          = FlightSchedule/San \
 		Phu \
 		Bai_San \
 		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Bai/San \
+		bay \
+		Phu \
+		Bai_San \
+		bay \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
@@ -5765,6 +8600,17 @@ DIST          = FlightSchedule/San \
 		Phu \
 		Cat_San \
 		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
 		Ca \
 		Mau.txt \
 		FlightSchedule/San \
@@ -5777,6 +8623,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Ca \
 		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
+		Cam \
+		Ranh.txt \
 		FlightSchedule/San \
 		bay \
 		Phu \
@@ -5825,6 +8691,26 @@ DIST          = FlightSchedule/San \
 		Phu \
 		Cat_San \
 		bay \
+		Can \
+		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
 		Cat \
 		Bi.txt \
 		FlightSchedule/San \
@@ -5865,6 +8751,16 @@ DIST          = FlightSchedule/San \
 		Phu \
 		Cat_San \
 		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
 		Con \
 		Dao.txt \
 		FlightSchedule/San \
@@ -5877,6 +8773,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Con \
 		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
+		Da \
+		Nang.txt \
 		FlightSchedule/San \
 		bay \
 		Phu \
@@ -5927,6 +8843,17 @@ DIST          = FlightSchedule/San \
 		Phu \
 		Cat_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
 		Dong \
 		Hoi.txt \
 		FlightSchedule/San \
@@ -5939,6 +8866,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Dong \
 		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
+		Lien \
+		Khuong.txt \
 		FlightSchedule/San \
 		bay \
 		Phu \
@@ -5978,6 +8925,26 @@ DIST          = FlightSchedule/San \
 		Cat_San \
 		bay \
 		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
+		Phu \
 		Bai.txt \
 		FlightSchedule/San \
 		bay \
@@ -6027,6 +8994,16 @@ DIST          = FlightSchedule/San \
 		Phu \
 		Cat_San \
 		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
 		Pleiku.txt \
 		FlightSchedule/San \
 		bay \
@@ -6037,6 +9014,25 @@ DIST          = FlightSchedule/San \
 		Cat_San \
 		bay \
 		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
+		Rach \
+		Gia.txt \
 		FlightSchedule/San \
 		bay \
 		Phu \
@@ -6087,6 +9083,17 @@ DIST          = FlightSchedule/San \
 		Phu \
 		Cat_San \
 		bay \
+		Tan \
+		Son \
+		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
 		Tho \
 		Xuan.txt \
 		FlightSchedule/San \
@@ -6099,6 +9106,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Tho \
 		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
+		Tuy \
+		Hoa.txt \
 		FlightSchedule/San \
 		bay \
 		Phu \
@@ -6147,6 +9174,25 @@ DIST          = FlightSchedule/San \
 		Phu \
 		Cat_San \
 		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Cat/San \
+		bay \
+		Phu \
+		Cat_San \
+		bay \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
@@ -6187,6 +9233,17 @@ DIST          = FlightSchedule/San \
 		Phu \
 		Quoc_San \
 		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
 		Ca \
 		Mau.txt \
 		FlightSchedule/San \
@@ -6199,6 +9256,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Ca \
 		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
+		Cam \
+		Ranh.txt \
 		FlightSchedule/San \
 		bay \
 		Phu \
@@ -6247,6 +9324,26 @@ DIST          = FlightSchedule/San \
 		Phu \
 		Quoc_San \
 		bay \
+		Can \
+		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
 		Cat \
 		Bi.txt \
 		FlightSchedule/San \
@@ -6287,6 +9384,16 @@ DIST          = FlightSchedule/San \
 		Phu \
 		Quoc_San \
 		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
 		Con \
 		Dao.txt \
 		FlightSchedule/San \
@@ -6299,6 +9406,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Con \
 		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
+		Da \
+		Nang.txt \
 		FlightSchedule/San \
 		bay \
 		Phu \
@@ -6349,6 +9476,17 @@ DIST          = FlightSchedule/San \
 		Phu \
 		Quoc_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
 		Dong \
 		Hoi.txt \
 		FlightSchedule/San \
@@ -6361,6 +9499,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Dong \
 		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
+		Lien \
+		Khuong.txt \
 		FlightSchedule/San \
 		bay \
 		Phu \
@@ -6400,6 +9558,26 @@ DIST          = FlightSchedule/San \
 		Quoc_San \
 		bay \
 		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
+		Phu \
 		Bai.txt \
 		FlightSchedule/San \
 		bay \
@@ -6449,6 +9627,16 @@ DIST          = FlightSchedule/San \
 		Phu \
 		Quoc_San \
 		bay \
+		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
 		Pleiku.txt \
 		FlightSchedule/San \
 		bay \
@@ -6459,6 +9647,25 @@ DIST          = FlightSchedule/San \
 		Quoc_San \
 		bay \
 		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
+		Rach \
+		Gia.txt \
 		FlightSchedule/San \
 		bay \
 		Phu \
@@ -6509,6 +9716,17 @@ DIST          = FlightSchedule/San \
 		Phu \
 		Quoc_San \
 		bay \
+		Tan \
+		Son \
+		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
 		Tho \
 		Xuan.txt \
 		FlightSchedule/San \
@@ -6521,6 +9739,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Tho \
 		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
+		Tuy \
+		Hoa.txt \
 		FlightSchedule/San \
 		bay \
 		Phu \
@@ -6569,6 +9807,25 @@ DIST          = FlightSchedule/San \
 		Phu \
 		Quoc_San \
 		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Phu \
+		Quoc/San \
+		bay \
+		Phu \
+		Quoc_San \
+		bay \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
@@ -6603,6 +9860,15 @@ DIST          = FlightSchedule/San \
 		bay \
 		Pleiku_San \
 		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
 		Ca \
 		Mau.txt \
 		FlightSchedule/San \
@@ -6613,6 +9879,22 @@ DIST          = FlightSchedule/San \
 		bay \
 		Ca \
 		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
+		Cam \
+		Ranh.txt \
 		FlightSchedule/San \
 		bay \
 		Pleiku/San \
@@ -6651,6 +9933,22 @@ DIST          = FlightSchedule/San \
 		bay \
 		Pleiku_San \
 		bay \
+		Can \
+		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
 		Cat \
 		Bi.txt \
 		FlightSchedule/San \
@@ -6683,6 +9981,14 @@ DIST          = FlightSchedule/San \
 		bay \
 		Pleiku_San \
 		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
 		Con \
 		Dao.txt \
 		FlightSchedule/San \
@@ -6693,6 +9999,22 @@ DIST          = FlightSchedule/San \
 		bay \
 		Con \
 		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
+		Da \
+		Nang.txt \
 		FlightSchedule/San \
 		bay \
 		Pleiku/San \
@@ -6733,6 +10055,15 @@ DIST          = FlightSchedule/San \
 		bay \
 		Pleiku_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
 		Dong \
 		Hoi.txt \
 		FlightSchedule/San \
@@ -6743,6 +10074,22 @@ DIST          = FlightSchedule/San \
 		bay \
 		Dong \
 		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
+		Lien \
+		Khuong.txt \
 		FlightSchedule/San \
 		bay \
 		Pleiku/San \
@@ -6774,6 +10121,22 @@ DIST          = FlightSchedule/San \
 		Pleiku_San \
 		bay \
 		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
+		Phu \
 		Bai.txt \
 		FlightSchedule/San \
 		bay \
@@ -6814,6 +10177,22 @@ DIST          = FlightSchedule/San \
 		Pleiku_San \
 		bay \
 		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
+		Phu \
 		Quoc.txt \
 		FlightSchedule/San \
 		bay \
@@ -6845,6 +10224,23 @@ DIST          = FlightSchedule/San \
 		bay \
 		Pleiku_San \
 		bay \
+		Rach \
+		Gia.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
+		Tan \
+		Son \
+		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
 		Tan \
 		Son \
 		Nhat.txt \
@@ -6873,6 +10269,22 @@ DIST          = FlightSchedule/San \
 		bay \
 		Tho \
 		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
+		Tuy \
+		Hoa.txt \
 		FlightSchedule/San \
 		bay \
 		Pleiku/San \
@@ -6911,6 +10323,21 @@ DIST          = FlightSchedule/San \
 		bay \
 		Pleiku_San \
 		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Pleiku/San \
+		bay \
+		Pleiku_San \
+		bay \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
@@ -6949,6 +10376,17 @@ DIST          = FlightSchedule/San \
 		Rach \
 		Gia_San \
 		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
 		Ca \
 		Mau.txt \
 		FlightSchedule/San \
@@ -6961,6 +10399,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Ca \
 		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
+		Cam \
+		Ranh.txt \
 		FlightSchedule/San \
 		bay \
 		Rach \
@@ -7009,6 +10467,26 @@ DIST          = FlightSchedule/San \
 		Rach \
 		Gia_San \
 		bay \
+		Can \
+		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
 		Cat \
 		Bi.txt \
 		FlightSchedule/San \
@@ -7049,6 +10527,16 @@ DIST          = FlightSchedule/San \
 		Rach \
 		Gia_San \
 		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
 		Con \
 		Dao.txt \
 		FlightSchedule/San \
@@ -7061,6 +10549,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Con \
 		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
+		Da \
+		Nang.txt \
 		FlightSchedule/San \
 		bay \
 		Rach \
@@ -7111,6 +10619,17 @@ DIST          = FlightSchedule/San \
 		Rach \
 		Gia_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
 		Dong \
 		Hoi.txt \
 		FlightSchedule/San \
@@ -7123,6 +10642,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Dong \
 		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
+		Lien \
+		Khuong.txt \
 		FlightSchedule/San \
 		bay \
 		Rach \
@@ -7162,6 +10701,26 @@ DIST          = FlightSchedule/San \
 		Gia_San \
 		bay \
 		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
+		Phu \
 		Bai.txt \
 		FlightSchedule/San \
 		bay \
@@ -7212,6 +10771,26 @@ DIST          = FlightSchedule/San \
 		Gia_San \
 		bay \
 		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
+		Phu \
 		Quoc.txt \
 		FlightSchedule/San \
 		bay \
@@ -7249,6 +10828,26 @@ DIST          = FlightSchedule/San \
 		Rach \
 		Gia_San \
 		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
+		Tan \
+		Son \
+		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
 		Tan \
 		Son \
 		Nhat.txt \
@@ -7283,6 +10882,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Tho \
 		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
+		Tuy \
+		Hoa.txt \
 		FlightSchedule/San \
 		bay \
 		Rach \
@@ -7331,6 +10950,25 @@ DIST          = FlightSchedule/San \
 		Rach \
 		Gia_San \
 		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Rach \
+		Gia/San \
+		bay \
+		Rach \
+		Gia_San \
+		bay \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
@@ -7377,6 +11015,19 @@ DIST          = FlightSchedule/San \
 		Son \
 		Nhat_San \
 		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
 		Ca \
 		Mau.txt \
 		FlightSchedule/San \
@@ -7391,6 +11042,30 @@ DIST          = FlightSchedule/San \
 		bay \
 		Ca \
 		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
+		Cam \
+		Ranh.txt \
 		FlightSchedule/San \
 		bay \
 		Tan \
@@ -7449,6 +11124,30 @@ DIST          = FlightSchedule/San \
 		Son \
 		Nhat_San \
 		bay \
+		Can \
+		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
 		Cat \
 		Bi.txt \
 		FlightSchedule/San \
@@ -7497,6 +11196,18 @@ DIST          = FlightSchedule/San \
 		Son \
 		Nhat_San \
 		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
 		Con \
 		Dao.txt \
 		FlightSchedule/San \
@@ -7511,6 +11222,30 @@ DIST          = FlightSchedule/San \
 		bay \
 		Con \
 		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
+		Da \
+		Nang.txt \
 		FlightSchedule/San \
 		bay \
 		Tan \
@@ -7571,6 +11306,19 @@ DIST          = FlightSchedule/San \
 		Son \
 		Nhat_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
 		Dong \
 		Hoi.txt \
 		FlightSchedule/San \
@@ -7585,6 +11333,30 @@ DIST          = FlightSchedule/San \
 		bay \
 		Dong \
 		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
+		Lien \
+		Khuong.txt \
 		FlightSchedule/San \
 		bay \
 		Tan \
@@ -7632,6 +11404,30 @@ DIST          = FlightSchedule/San \
 		Nhat_San \
 		bay \
 		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
+		Phu \
 		Bai.txt \
 		FlightSchedule/San \
 		bay \
@@ -7692,6 +11488,30 @@ DIST          = FlightSchedule/San \
 		Nhat_San \
 		bay \
 		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
+		Phu \
 		Quoc.txt \
 		FlightSchedule/San \
 		bay \
@@ -7737,6 +11557,29 @@ DIST          = FlightSchedule/San \
 		Son \
 		Nhat_San \
 		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
+		Rach \
+		Gia.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
 		Rach \
 		Gia.txt \
 		FlightSchedule/San \
@@ -7775,6 +11618,30 @@ DIST          = FlightSchedule/San \
 		bay \
 		Tho \
 		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
+		Tuy \
+		Hoa.txt \
 		FlightSchedule/San \
 		bay \
 		Tan \
@@ -7833,6 +11700,29 @@ DIST          = FlightSchedule/San \
 		Son \
 		Nhat_San \
 		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Tan \
+		Son \
+		Nhat/San \
+		bay \
+		Tan \
+		Son \
+		Nhat_San \
+		bay \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
@@ -7875,6 +11765,17 @@ DIST          = FlightSchedule/San \
 		Tho \
 		Xuan_San \
 		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
 		Ca \
 		Mau.txt \
 		FlightSchedule/San \
@@ -7887,6 +11788,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Ca \
 		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
+		Cam \
+		Ranh.txt \
 		FlightSchedule/San \
 		bay \
 		Tho \
@@ -7935,6 +11856,26 @@ DIST          = FlightSchedule/San \
 		Tho \
 		Xuan_San \
 		bay \
+		Can \
+		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
 		Cat \
 		Bi.txt \
 		FlightSchedule/San \
@@ -7975,6 +11916,16 @@ DIST          = FlightSchedule/San \
 		Tho \
 		Xuan_San \
 		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
 		Con \
 		Dao.txt \
 		FlightSchedule/San \
@@ -7987,6 +11938,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Con \
 		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
+		Da \
+		Nang.txt \
 		FlightSchedule/San \
 		bay \
 		Tho \
@@ -8037,6 +12008,17 @@ DIST          = FlightSchedule/San \
 		Tho \
 		Xuan_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
 		Dong \
 		Hoi.txt \
 		FlightSchedule/San \
@@ -8049,6 +12031,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Dong \
 		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
+		Lien \
+		Khuong.txt \
 		FlightSchedule/San \
 		bay \
 		Tho \
@@ -8088,6 +12090,26 @@ DIST          = FlightSchedule/San \
 		Xuan_San \
 		bay \
 		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
+		Phu \
 		Bai.txt \
 		FlightSchedule/San \
 		bay \
@@ -8138,6 +12160,26 @@ DIST          = FlightSchedule/San \
 		Xuan_San \
 		bay \
 		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
+		Phu \
 		Quoc.txt \
 		FlightSchedule/San \
 		bay \
@@ -8175,6 +12217,25 @@ DIST          = FlightSchedule/San \
 		Tho \
 		Xuan_San \
 		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
+		Rach \
+		Gia.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
 		Rach \
 		Gia.txt \
 		FlightSchedule/San \
@@ -8209,6 +12270,27 @@ DIST          = FlightSchedule/San \
 		Tan \
 		Son \
 		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
+		Tan \
+		Son \
+		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
+		Tuy \
+		Hoa.txt \
 		FlightSchedule/San \
 		bay \
 		Tho \
@@ -8257,6 +12339,25 @@ DIST          = FlightSchedule/San \
 		Tho \
 		Xuan_San \
 		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Tho \
+		Xuan/San \
+		bay \
+		Tho \
+		Xuan_San \
+		bay \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
@@ -8297,6 +12398,17 @@ DIST          = FlightSchedule/San \
 		Tuy \
 		Hoa_San \
 		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
 		Ca \
 		Mau.txt \
 		FlightSchedule/San \
@@ -8309,6 +12421,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Ca \
 		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
+		Cam \
+		Ranh.txt \
 		FlightSchedule/San \
 		bay \
 		Tuy \
@@ -8357,6 +12489,26 @@ DIST          = FlightSchedule/San \
 		Tuy \
 		Hoa_San \
 		bay \
+		Can \
+		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
 		Cat \
 		Bi.txt \
 		FlightSchedule/San \
@@ -8397,6 +12549,16 @@ DIST          = FlightSchedule/San \
 		Tuy \
 		Hoa_San \
 		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
 		Con \
 		Dao.txt \
 		FlightSchedule/San \
@@ -8409,6 +12571,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Con \
 		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
+		Da \
+		Nang.txt \
 		FlightSchedule/San \
 		bay \
 		Tuy \
@@ -8459,6 +12641,17 @@ DIST          = FlightSchedule/San \
 		Tuy \
 		Hoa_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
 		Dong \
 		Hoi.txt \
 		FlightSchedule/San \
@@ -8471,6 +12664,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Dong \
 		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
+		Lien \
+		Khuong.txt \
 		FlightSchedule/San \
 		bay \
 		Tuy \
@@ -8510,6 +12723,26 @@ DIST          = FlightSchedule/San \
 		Hoa_San \
 		bay \
 		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
+		Phu \
 		Bai.txt \
 		FlightSchedule/San \
 		bay \
@@ -8560,6 +12793,26 @@ DIST          = FlightSchedule/San \
 		Hoa_San \
 		bay \
 		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
+		Phu \
 		Quoc.txt \
 		FlightSchedule/San \
 		bay \
@@ -8597,6 +12850,25 @@ DIST          = FlightSchedule/San \
 		Tuy \
 		Hoa_San \
 		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
+		Rach \
+		Gia.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
 		Rach \
 		Gia.txt \
 		FlightSchedule/San \
@@ -8631,6 +12903,27 @@ DIST          = FlightSchedule/San \
 		Tan \
 		Son \
 		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
+		Tan \
+		Son \
+		Nhat.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
+		Tho \
+		Xuan.txt \
 		FlightSchedule/San \
 		bay \
 		Tuy \
@@ -8679,6 +12972,25 @@ DIST          = FlightSchedule/San \
 		Tuy \
 		Hoa_San \
 		bay \
+		Van \
+		Don.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
+		Vinh.txt \
+		FlightSchedule/San \
+		bay \
+		Tuy \
+		Hoa/San \
+		bay \
+		Tuy \
+		Hoa_San \
+		bay \
 		Vinh.txt \
 		FlightSchedule/San \
 		bay \
@@ -8719,6 +13031,17 @@ DIST          = FlightSchedule/San \
 		Van \
 		Don_San \
 		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
 		Ca \
 		Mau.txt \
 		FlightSchedule/San \
@@ -8731,6 +13054,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Ca \
 		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
+		Cam \
+		Ranh.txt \
 		FlightSchedule/San \
 		bay \
 		Van \
@@ -8779,6 +13122,26 @@ DIST          = FlightSchedule/San \
 		Van \
 		Don_San \
 		bay \
+		Can \
+		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
 		Cat \
 		Bi.txt \
 		FlightSchedule/San \
@@ -8819,6 +13182,16 @@ DIST          = FlightSchedule/San \
 		Van \
 		Don_San \
 		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
 		Con \
 		Dao.txt \
 		FlightSchedule/San \
@@ -8831,6 +13204,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Con \
 		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
+		Da \
+		Nang.txt \
 		FlightSchedule/San \
 		bay \
 		Van \
@@ -8881,6 +13274,17 @@ DIST          = FlightSchedule/San \
 		Van \
 		Don_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
 		Dong \
 		Hoi.txt \
 		FlightSchedule/San \
@@ -8893,6 +13297,26 @@ DIST          = FlightSchedule/San \
 		bay \
 		Dong \
 		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
+		Lien \
+		Khuong.txt \
 		FlightSchedule/San \
 		bay \
 		Van \
@@ -8932,6 +13356,26 @@ DIST          = FlightSchedule/San \
 		Don_San \
 		bay \
 		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
+		Phu \
 		Bai.txt \
 		FlightSchedule/San \
 		bay \
@@ -8982,6 +13426,26 @@ DIST          = FlightSchedule/San \
 		Don_San \
 		bay \
 		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
+		Phu \
 		Quoc.txt \
 		FlightSchedule/San \
 		bay \
@@ -9019,6 +13483,15 @@ DIST          = FlightSchedule/San \
 		Van \
 		Don_San \
 		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
 		Rach \
 		Gia.txt \
 		FlightSchedule/San \
@@ -9031,6 +13504,27 @@ DIST          = FlightSchedule/San \
 		bay \
 		Rach \
 		Gia.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
+		Rach \
+		Gia.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
+		Tan \
+		Son \
+		Nhat.txt \
 		FlightSchedule/San \
 		bay \
 		Van \
@@ -9081,6 +13575,16 @@ DIST          = FlightSchedule/San \
 		Van \
 		Don_San \
 		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
 		Tuy \
 		Hoa.txt \
 		FlightSchedule/San \
@@ -9093,6 +13597,25 @@ DIST          = FlightSchedule/San \
 		bay \
 		Tuy \
 		Hoa.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
+		Tuy \
+		Hoa.txt \
+		FlightSchedule/San \
+		bay \
+		Van \
+		Don/San \
+		bay \
+		Van \
+		Don_San \
+		bay \
+		Vinh.txt \
 		FlightSchedule/San \
 		bay \
 		Van \
@@ -9135,6 +13658,15 @@ DIST          = FlightSchedule/San \
 		bay \
 		Vinh_San \
 		bay \
+		Buon \
+		Ma \
+		Thuot.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
 		Ca \
 		Mau.txt \
 		FlightSchedule/San \
@@ -9145,6 +13677,22 @@ DIST          = FlightSchedule/San \
 		bay \
 		Ca \
 		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
+		Ca \
+		Mau.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
+		Cam \
+		Ranh.txt \
 		FlightSchedule/San \
 		bay \
 		Vinh/San \
@@ -9183,6 +13731,22 @@ DIST          = FlightSchedule/San \
 		bay \
 		Vinh_San \
 		bay \
+		Can \
+		Tho.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
+		Cat \
+		Bi.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
 		Cat \
 		Bi.txt \
 		FlightSchedule/San \
@@ -9215,6 +13779,14 @@ DIST          = FlightSchedule/San \
 		bay \
 		Vinh_San \
 		bay \
+		Chu \
+		Lai.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
 		Con \
 		Dao.txt \
 		FlightSchedule/San \
@@ -9225,6 +13797,22 @@ DIST          = FlightSchedule/San \
 		bay \
 		Con \
 		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
+		Con \
+		Dao.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
+		Da \
+		Nang.txt \
 		FlightSchedule/San \
 		bay \
 		Vinh/San \
@@ -9265,6 +13853,15 @@ DIST          = FlightSchedule/San \
 		bay \
 		Vinh_San \
 		bay \
+		Dien \
+		Bien \
+		Phu.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
 		Dong \
 		Hoi.txt \
 		FlightSchedule/San \
@@ -9275,6 +13872,22 @@ DIST          = FlightSchedule/San \
 		bay \
 		Dong \
 		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
+		Dong \
+		Hoi.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
+		Lien \
+		Khuong.txt \
 		FlightSchedule/San \
 		bay \
 		Vinh/San \
@@ -9306,6 +13919,22 @@ DIST          = FlightSchedule/San \
 		Vinh_San \
 		bay \
 		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
+		Noi \
+		Bai.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
+		Phu \
 		Bai.txt \
 		FlightSchedule/San \
 		bay \
@@ -9346,6 +13975,22 @@ DIST          = FlightSchedule/San \
 		Vinh_San \
 		bay \
 		Phu \
+		Cat.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
+		Phu \
+		Quoc.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
+		Phu \
 		Quoc.txt \
 		FlightSchedule/San \
 		bay \
@@ -9375,6 +14020,13 @@ DIST          = FlightSchedule/San \
 		bay \
 		Vinh_San \
 		bay \
+		Pleiku.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
 		Rach \
 		Gia.txt \
 		FlightSchedule/San \
@@ -9385,6 +14037,23 @@ DIST          = FlightSchedule/San \
 		bay \
 		Rach \
 		Gia.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
+		Rach \
+		Gia.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
+		Tan \
+		Son \
+		Nhat.txt \
 		FlightSchedule/San \
 		bay \
 		Vinh/San \
@@ -9425,6 +14094,14 @@ DIST          = FlightSchedule/San \
 		bay \
 		Vinh_San \
 		bay \
+		Tho \
+		Xuan.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
 		Tuy \
 		Hoa.txt \
 		FlightSchedule/San \
@@ -9435,6 +14112,22 @@ DIST          = FlightSchedule/San \
 		bay \
 		Tuy \
 		Hoa.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
+		Tuy \
+		Hoa.txt \
+		FlightSchedule/San \
+		bay \
+		Vinh/San \
+		bay \
+		Vinh_San \
+		bay \
+		Van \
+		Don.txt \
 		FlightSchedule/San \
 		bay \
 		Vinh/San \
@@ -9509,6 +14202,7 @@ DIST          = FlightSchedule/San \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/qt_config.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.conf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exclusive_builds.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/toolchain.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/default_pre.prf \
@@ -9531,28 +14225,34 @@ DIST          = FlightSchedule/San \
 		airline-gui.pro Account.h \
 		Address.h \
 		Airport.h \
+		BookTicketBox.h \
+		ChooseFlight.h \
 		Client.h \
 		Date.h \
 		Flight.h \
 		Manager.h \
+		MyTime.h \
 		Seat.h \
 		Ticket.h \
-		Time.h \
 		clientmenu.h \
 		mainwindow.h \
+		makeMenu.h \
 		signupwindow.h Account.cpp \
 		Address.cpp \
 		Airport.cpp \
+		BookTicketBox.cpp \
+		ChooseFlight.cpp \
 		Client.cpp \
 		Date.cpp \
 		Flight.cpp \
 		Manager.cpp \
+		MyTime.cpp \
 		Seat.cpp \
 		Ticket.cpp \
-		Time.cpp \
 		clientmenu.cpp \
 		main.cpp \
 		mainwindow.cpp \
+		makeMenu.cpp \
 		signupwindow.cpp
 QMAKE_TARGET  = airline-gui
 DESTDIR       = 
@@ -9562,7 +14262,7 @@ TARGET        = airline-gui
 first: all
 ####### Build rules
 
-airline-gui: ui_clientmenu.h ui_mainwindow.h ui_signupwindow.h $(OBJECTS)  
+airline-gui: ui_BookTicketBox.h ui_ChooseFlight.h ui_clientmenu.h ui_mainwindow.h ui_signupwindow.h $(OBJECTS)  
 	$(LINK) $(LFLAGS) -o $(TARGET) $(OBJECTS) $(OBJCOMP) $(LIBS)
 
 Makefile: airline-gui.pro /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.conf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
@@ -9621,6 +14321,7 @@ Makefile: airline-gui.pro /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/qt_config.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.conf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exclusive_builds.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/toolchain.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/default_pre.prf \
@@ -9698,6 +14399,7 @@ Makefile: airline-gui.pro /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/qt_config.prf:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.conf:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_post.prf:
+.qmake.stash:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exclusive_builds.prf:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/toolchain.prf:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/default_pre.prf:
@@ -9733,9 +14435,9 @@ distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents Account.h Address.h Airport.h Client.h Date.h Flight.h Manager.h Seat.h Ticket.h Time.h clientmenu.h mainwindow.h signupwindow.h $(DISTDIR)/
-	$(COPY_FILE) --parents Account.cpp Address.cpp Airport.cpp Client.cpp Date.cpp Flight.cpp Manager.cpp Seat.cpp Ticket.cpp Time.cpp clientmenu.cpp main.cpp mainwindow.cpp signupwindow.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents clientmenu.ui mainwindow.ui signupwindow.ui $(DISTDIR)/
+	$(COPY_FILE) --parents Account.h Address.h Airport.h BookTicketBox.h ChooseFlight.h Client.h Date.h Flight.h Manager.h MyTime.h Seat.h Ticket.h clientmenu.h mainwindow.h makeMenu.h signupwindow.h $(DISTDIR)/
+	$(COPY_FILE) --parents Account.cpp Address.cpp Airport.cpp BookTicketBox.cpp ChooseFlight.cpp Client.cpp Date.cpp Flight.cpp Manager.cpp MyTime.cpp Seat.cpp Ticket.cpp clientmenu.cpp main.cpp mainwindow.cpp makeMenu.cpp signupwindow.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents BookTicketBox.ui ChooseFlight.ui clientmenu.ui mainwindow.ui signupwindow.ui $(DISTDIR)/
 
 
 clean: compiler_clean 
@@ -9767,31 +14469,76 @@ compiler_moc_predefs_clean:
 moc_predefs.h: /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp
 	g++ -pipe -g -std=gnu++11 -Wall -W -dM -E -o moc_predefs.h /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp
 
-compiler_moc_header_make_all: moc_clientmenu.cpp moc_mainwindow.cpp moc_signupwindow.cpp
+compiler_moc_header_make_all: moc_BookTicketBox.cpp moc_ChooseFlight.cpp moc_clientmenu.cpp moc_mainwindow.cpp moc_signupwindow.cpp
 compiler_moc_header_clean:
-	-$(DEL_FILE) moc_clientmenu.cpp moc_mainwindow.cpp moc_signupwindow.cpp
-moc_clientmenu.cpp: clientmenu.h \
+	-$(DEL_FILE) moc_BookTicketBox.cpp moc_ChooseFlight.cpp moc_clientmenu.cpp moc_mainwindow.cpp moc_signupwindow.cpp
+moc_BookTicketBox.cpp: BookTicketBox.h \
+		Manager.h \
+		Ticket.h \
+		Flight.h \
+		Airport.h \
+		Address.h \
+		MyTime.h \
+		Date.h \
+		Seat.h \
+		Client.h \
+		Account.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include '/home/tranbaoanh/Coding/C++ Projects/airline-booking/Beta/airline-gui/moc_predefs.h' -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I'/home/tranbaoanh/Coding/C++ Projects/airline-booking/Beta/airline-gui' -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include clientmenu.h -o moc_clientmenu.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Desktop/Seminar_OOP/BETA/Nhom3/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Desktop/Seminar_OOP/BETA/Nhom3/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include BookTicketBox.h -o moc_BookTicketBox.cpp
+
+moc_ChooseFlight.cpp: ChooseFlight.h \
+		Flight.h \
+		Airport.h \
+		Address.h \
+		MyTime.h \
+		Date.h \
+		Seat.h \
+		moc_predefs.h \
+		/usr/lib/qt5/bin/moc
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Desktop/Seminar_OOP/BETA/Nhom3/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Desktop/Seminar_OOP/BETA/Nhom3/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ChooseFlight.h -o moc_ChooseFlight.cpp
+
+moc_clientmenu.cpp: clientmenu.h \
+		BookTicketBox.h \
+		Manager.h \
+		Ticket.h \
+		Flight.h \
+		Airport.h \
+		Address.h \
+		MyTime.h \
+		Date.h \
+		Seat.h \
+		Client.h \
+		Account.h \
+		moc_predefs.h \
+		/usr/lib/qt5/bin/moc
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Desktop/Seminar_OOP/BETA/Nhom3/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Desktop/Seminar_OOP/BETA/Nhom3/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include clientmenu.h -o moc_clientmenu.cpp
 
 moc_mainwindow.cpp: mainwindow.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include '/home/tranbaoanh/Coding/C++ Projects/airline-booking/Beta/airline-gui/moc_predefs.h' -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I'/home/tranbaoanh/Coding/C++ Projects/airline-booking/Beta/airline-gui' -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include mainwindow.h -o moc_mainwindow.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Desktop/Seminar_OOP/BETA/Nhom3/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Desktop/Seminar_OOP/BETA/Nhom3/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include mainwindow.h -o moc_mainwindow.cpp
 
 moc_signupwindow.cpp: signupwindow.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include '/home/tranbaoanh/Coding/C++ Projects/airline-booking/Beta/airline-gui/moc_predefs.h' -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I'/home/tranbaoanh/Coding/C++ Projects/airline-booking/Beta/airline-gui' -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include signupwindow.h -o moc_signupwindow.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Desktop/Seminar_OOP/BETA/Nhom3/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Desktop/Seminar_OOP/BETA/Nhom3/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include signupwindow.h -o moc_signupwindow.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
 compiler_moc_source_make_all:
 compiler_moc_source_clean:
-compiler_uic_make_all: ui_clientmenu.h ui_mainwindow.h ui_signupwindow.h
+compiler_uic_make_all: ui_BookTicketBox.h ui_ChooseFlight.h ui_clientmenu.h ui_mainwindow.h ui_signupwindow.h
 compiler_uic_clean:
-	-$(DEL_FILE) ui_clientmenu.h ui_mainwindow.h ui_signupwindow.h
+	-$(DEL_FILE) ui_BookTicketBox.h ui_ChooseFlight.h ui_clientmenu.h ui_mainwindow.h ui_signupwindow.h
+ui_BookTicketBox.h: BookTicketBox.ui \
+		/usr/lib/qt5/bin/uic
+	/usr/lib/qt5/bin/uic BookTicketBox.ui -o ui_BookTicketBox.h
+
+ui_ChooseFlight.h: ChooseFlight.ui \
+		/usr/lib/qt5/bin/uic
+	/usr/lib/qt5/bin/uic ChooseFlight.ui -o ui_ChooseFlight.h
+
 ui_clientmenu.h: clientmenu.ui \
 		/usr/lib/qt5/bin/uic
 	/usr/lib/qt5/bin/uic clientmenu.ui -o ui_clientmenu.h
@@ -9819,7 +14566,7 @@ Account.o: Account.cpp Account.h \
 		Flight.h \
 		Airport.h \
 		Address.h \
-		Time.h \
+		MyTime.h \
 		Date.h \
 		Seat.h \
 		Client.h \
@@ -9833,6 +14580,30 @@ Airport.o: Airport.cpp Airport.h \
 		Address.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Airport.o Airport.cpp
 
+BookTicketBox.o: BookTicketBox.cpp BookTicketBox.h \
+		Manager.h \
+		Ticket.h \
+		Flight.h \
+		Airport.h \
+		Address.h \
+		MyTime.h \
+		Date.h \
+		Seat.h \
+		Client.h \
+		Account.h \
+		ui_BookTicketBox.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o BookTicketBox.o BookTicketBox.cpp
+
+ChooseFlight.o: ChooseFlight.cpp ChooseFlight.h \
+		Flight.h \
+		Airport.h \
+		Address.h \
+		MyTime.h \
+		Date.h \
+		Seat.h \
+		ui_ChooseFlight.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o ChooseFlight.o ChooseFlight.cpp
+
 Client.o: Client.cpp Client.h \
 		Date.h \
 		Address.h
@@ -9844,7 +14615,7 @@ Date.o: Date.cpp Date.h
 Flight.o: Flight.cpp Flight.h \
 		Airport.h \
 		Address.h \
-		Time.h \
+		MyTime.h \
 		Date.h \
 		Seat.h \
 		Manager.h \
@@ -9858,12 +14629,15 @@ Manager.o: Manager.cpp Manager.h \
 		Flight.h \
 		Airport.h \
 		Address.h \
-		Time.h \
+		MyTime.h \
 		Date.h \
 		Seat.h \
 		Client.h \
 		Account.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Manager.o Manager.cpp
+
+MyTime.o: MyTime.cpp MyTime.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o MyTime.o MyTime.cpp
 
 Seat.o: Seat.cpp Seat.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Seat.o Seat.cpp
@@ -9872,16 +14646,24 @@ Ticket.o: Ticket.cpp Ticket.h \
 		Flight.h \
 		Airport.h \
 		Address.h \
-		Time.h \
+		MyTime.h \
 		Date.h \
 		Seat.h \
 		Client.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Ticket.o Ticket.cpp
 
-Time.o: Time.cpp Time.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Time.o Time.cpp
-
 clientmenu.o: clientmenu.cpp clientmenu.h \
+		BookTicketBox.h \
+		Manager.h \
+		Ticket.h \
+		Flight.h \
+		Airport.h \
+		Address.h \
+		MyTime.h \
+		Date.h \
+		Seat.h \
+		Client.h \
+		Account.h \
 		ui_clientmenu.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o clientmenu.o clientmenu.cpp
 
@@ -9891,7 +14673,7 @@ main.o: main.cpp mainwindow.h \
 		Flight.h \
 		Airport.h \
 		Address.h \
-		Time.h \
+		MyTime.h \
 		Date.h \
 		Seat.h \
 		Client.h \
@@ -9900,22 +14682,43 @@ main.o: main.cpp mainwindow.h \
 
 mainwindow.o: mainwindow.cpp mainwindow.h \
 		clientmenu.h \
+		BookTicketBox.h \
+		Manager.h \
+		Ticket.h \
+		Flight.h \
+		Airport.h \
+		Address.h \
+		MyTime.h \
+		Date.h \
+		Seat.h \
+		Client.h \
+		Account.h \
 		signupwindow.h \
-		ui_mainwindow.h \
+		ui_mainwindow.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o mainwindow.cpp
+
+makeMenu.o: makeMenu.cpp makeMenu.h \
 		Account.h \
 		Ticket.h \
 		Flight.h \
 		Airport.h \
 		Address.h \
-		Time.h \
+		MyTime.h \
 		Date.h \
 		Seat.h \
-		Client.h
-	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o mainwindow.cpp
+		Client.h \
+		Manager.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o makeMenu.o makeMenu.cpp
 
 signupwindow.o: signupwindow.cpp signupwindow.h \
 		ui_signupwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o signupwindow.o signupwindow.cpp
+
+moc_BookTicketBox.o: moc_BookTicketBox.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_BookTicketBox.o moc_BookTicketBox.cpp
+
+moc_ChooseFlight.o: moc_ChooseFlight.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_ChooseFlight.o moc_ChooseFlight.cpp
 
 moc_clientmenu.o: moc_clientmenu.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_clientmenu.o moc_clientmenu.cpp

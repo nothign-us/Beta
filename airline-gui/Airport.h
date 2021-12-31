@@ -8,18 +8,23 @@
 #include <map>
 #include <string>
 #include <fstream>
-
+#include <QString>
 using namespace std;
 class Airport
 {
 private:
     Address _address;
-    string _nameAirport;
-
+     string _nameAirport;
 public:
     Airport(/* args */);
     Airport(const Address srcAdd, string srcName);
     Airport(string srcName);
+    Airport(QString srcName)
+    {
+        QByteArray ba = srcName.toLatin1();
+         char* str = ba.data();
+        _nameAirport = ((str));
+    }
     bool operator==(const Airport&);
     bool operator<(const Airport&);
     //~Airport();

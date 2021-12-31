@@ -22,5 +22,7 @@ string SelectAirport(vector<string> listAirportName, string except = "");    //C
 vector<Ticket*> GetListFlight(string str, string des, Date departureDay);
 int SelectFlight(vector<Flight> listFlight);                            //Chọn một chuyến bay từ danh sách các chuyến bay
 Seat SelectSeat(int isBoss, vector<Ticket*> list, Flight _flight);              //Chọn ghế ngồi từ danh sách các ghế ngồi
+vector<Flight> GetFlight(vector<Ticket*> listTicket);
+vector<Ticket*> GetListTicket(vector<string> list);
 
 #endif

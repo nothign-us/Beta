@@ -96,6 +96,7 @@ vector<Ticket*> GetListTicket(vector<string> list) {
     selectTypeSearch(type);
     cout << "Select the start airport: " << endl;
     string startAiport = SelectAirport(list);
+
     if (type == 0) {
         system("clear");
         cout << "Select the destinate airport: " << endl;
@@ -144,13 +145,7 @@ void runMainMenu(int &option, Account* acc)
         //Đưa ticket vào tempBookedTicket.
         if (selectFlight != listFlight.size()) 
         {
-            Flight selectedFlight = listFlight[selectFlight];
-            //Chọn loại vé. Thương gia hay phổ thông
-            cout << "Press 0 to book eco ticket. 1 to book skyboss ticket: ";
-            int isBoss = selectOption(1);
-            // chọn ghế ngồi (Thương gia được chọn ghế miễn phí. Phổ thông nếu chọn vé sẽ tốn thêm phí)
-            // nếu không chọn thì random ghế ngồi (dựa trên danh sách các ghế đã đặt)
-            Seat selectedSeat = SelectSeat(isBoss, listTicket, selectedFlight);
+            /*
             Ticket* tick;
             if (isBoss)
                 tick = new SkybossTicket(listFlight[selectFlight], acc->getClient(), selectedSeat);
@@ -159,6 +154,7 @@ void runMainMenu(int &option, Account* acc)
             Manager::_tempBookedTicket.push_back(tick);
             cout << "DONE~" << endl;
             PAUSE
+                    */
         }
     }
     // In danh sách các vé đã đặt

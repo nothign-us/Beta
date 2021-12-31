@@ -14,3 +14,17 @@ ClientMenu::~ClientMenu()
 {
     delete ui;
 }
+
+
+void ClientMenu::on_bookTicketButton_clicked()
+{
+
+    BookTicketBox box;
+    box.exec();
+
+}
+
+void ClientMenu::on_signoutButton_clicked()
+{
+    close();
+}

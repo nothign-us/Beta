@@ -18,13 +18,14 @@ MainWindow::~MainWindow() {
 
 void MainWindow::on_signinButton_clicked()
 {
-    std::string username = ui->lineEdit_username->text().toStdString();
-    std::string password = ui->lineEdit_password->text().toStdString();
-    if (Account::SignIn(username, password) == false) {
+    string username = ui->lineEdit_username->text().toStdString();
+    string password = ui->lineEdit_password->text().toStdString();
+    if (Account::SignIn(username, password) == 1) {
         QMessageBox::critical(this, "Đăng nhập thất bại", "Vui lòng kiểm tra lại tên đăng nhập và mật khẩu");
     } else {
         // Process if sign in successfully
         ClientMenu clientMenu(username);
+        close();
         clientMenu.exec();
     }
 }
@@ -32,8 +33,8 @@ void MainWindow::on_signinButton_clicked()
 
 void MainWindow::on_signupButton_clicked()
 {
-    std::string username = ui->lineEdit_username->text().toStdString();
-    std::string password = ui->lineEdit_password->text().toStdString();
+    //string username = ui->lineEdit_username->text().toStdString();
+    string password = ui->lineEdit_password->text().toStdString();
     SignUpWindow signupWindow;
     signupWindow.exec();
 }

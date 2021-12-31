@@ -82,3 +82,16 @@ ostream &operator<<(ostream &os, Flight src)
        << setw(20) << right << 1299000 << endl;
     return os;
 }
+
+string Flight::toString()
+{
+    stringstream os;
+    os << this->_start.getNameAirport()
+       << setw(20) << right << this->_destination.getNameAirport()
+       << setw(20) << right << this->_departure
+       << setw(20) << right << this->_departingAt
+       << setw(20) << right << this->_arrivingAt
+       << setw(20) << right << 399000
+       << setw(20) << right << 1299000 << endl;
+    return os.str();
+}

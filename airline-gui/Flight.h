@@ -6,7 +6,7 @@
 #include <vector>
 #include "Seat.h"
 #include <iomanip>
-
+#include <sstream>
 class Flight
 {
     // private:
@@ -36,4 +36,5 @@ public:
     Time GetArrivalTime() const;
     friend istream &operator>>(istream &is, Flight &src);
     friend ostream &operator<<(ostream &os, Flight src);
+    string toString();
 };

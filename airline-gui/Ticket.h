@@ -16,7 +16,7 @@ public:
     Ticket(Flight);
     Ticket(Flight, Client, Seat);
     Ticket(Flight, Seat);
-    ~Ticket() {}
+    ~Ticket() {;}
     virtual int getPrice() const = 0;
     void SetClient(Client);
     void SetExtraFee(int fee);
@@ -37,8 +37,8 @@ class EcoTicket: public Ticket {
 private:
     const int PRICE = 399000;
 public:
-    EcoTicket(Flight f, Seat s): Ticket(f, s) {}
-    EcoTicket(Flight f, Client c, Seat s): Ticket(f, c, s) {}
+    EcoTicket(Flight f, Seat s): Ticket(f, s) {;}
+    EcoTicket(Flight f, Client c, Seat s): Ticket(f, c, s) {;}
     int getPrice() const;
 };
 
