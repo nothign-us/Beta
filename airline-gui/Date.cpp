@@ -111,6 +111,15 @@ string Date::ToString() const
     return writer.str();
 }
 
+Date Date::Parse(const string dateStr) {
+    vector<string> tokens = Tokenizer::Parse(dateStr, "/");
+    int day = stoi(tokens[0]);
+    int month = stoi(tokens[1]);
+    int year = stoi(tokens[2]);
+    Date result(day, month, year);
+    return result;
+}
+
 istream &operator>>(istream &inp, Date &d)
 {
     cout << "Day: ";

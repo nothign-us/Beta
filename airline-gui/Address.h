@@ -18,6 +18,7 @@ private:
 
 public:
     Address();
+    Address(string nation, string city, string district, string town, string street);
     Address(const Address& srcAdd);
     ~Address();
     

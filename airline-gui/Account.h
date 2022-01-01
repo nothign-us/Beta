@@ -25,7 +25,7 @@ public:
     Client getClient() {
         return _owner;
     }
-    void SetClient();
+    void SetClient(const Client& client);
     virtual void printBookedTicket() {}
 };
 
@@ -33,7 +33,7 @@ class ClientAccount: public Account {
 private:
     std::vector<Ticket*> _listBookedTickets;
 public:
-    ClientAccount(std::string user, std::string pass);
+    ClientAccount(std::string user, std::string pass, Client clientInfo);
     bool Purchase(Ticket*&);
     void addTicket(Ticket* t);
     void printBookedTicket();

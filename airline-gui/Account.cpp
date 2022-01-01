@@ -8,6 +8,16 @@ Account::Account(string user, string pass) {
     _password = pass;
 }
 
+// Kiểm tra và thêm tài khoản vào map tài khoản đã đăng kí Account::_checkAccount
+//
+// Tham số:
+// __username: kiểu std::string, là tên đăng nhập muốn kiểm tra và đăng kí
+// __password: kiểu std::string, là mật khẩu muốn kiểm tra và đăng kí
+//
+// Giá trị trả về:
+// __trả về false nếu tên đăng nhập đã được sử dụng
+// __trả về true nếu đăng kí tài khoản mới thành công, đồng thời
+// thêm tài khoản vào Account::_checkAccount
 bool Account::SignUpAccount(string username, string password) {
     if (_checkAccount.empty()) {
         _checkAccount.insert({username, password});
@@ -35,12 +45,12 @@ bool Account::operator<(const Account &src_acc) {
     return _username < src_acc._username || (_username == src_acc._username && _password < src_acc._password);
 }
 
-void Account::SetClient() {
-    cin >> this->_owner;
+void Account::SetClient(const Client &client) {
+    this->_owner = client;
 }
 
-ClientAccount::ClientAccount(std::string user, std::string pass): Account(user, pass) {
-    Account::SetClient();
+ClientAccount::ClientAccount(std::string user, std::string pass, Client clientInfo): Account(user, pass) {
+    Account::SetClient(clientInfo);
 }
 
 bool ClientAccount::Purchase(Ticket* &scr) {
@@ -65,7 +75,7 @@ void ClientAccount::printBookedTicket() {
 }
 
 AdminAccount::AdminAccount(std::string user, std::string pass): Account(user, pass) {
-    Account::SetClient();
+    //Account::SetClient();
 }
 
 void AdminAccount::addTicket(Ticket* scr) {

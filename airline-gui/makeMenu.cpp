@@ -72,7 +72,7 @@ Account* runSignMenu(int &option)
             cout << "Password: ";   cin >> pass;
             bool flag = Account::SignUpAccount(user, pass);
             if (flag == 1) {
-                cur = new ClientAccount(user, pass);
+                //cur = new ClientAccount(user, pass);
                 Manager::addNewAccount(cur);
                 break;
             }

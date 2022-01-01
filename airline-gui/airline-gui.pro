@@ -23,6 +23,7 @@ SOURCES += \
     MyTime.cpp \
     Seat.cpp \
     Ticket.cpp \
+    Tokenizer.cpp \
     clientmenu.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -42,6 +43,7 @@ HEADERS += \
     MyTime.h \
     Seat.h \
     Ticket.h \
+    Tokenizer.h \
     clientmenu.h \
     mainwindow.h \
     makeMenu.h \

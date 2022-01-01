@@ -191,6 +191,7 @@ public:
 
         birthDayEditor = new QDateEdit(verticalWidget);
         birthDayEditor->setObjectName(QString::fromUtf8("birthDayEditor"));
+        birthDayEditor->setEnabled(true);
         birthDayEditor->setAlignment(Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter);
         birthDayEditor->setDateTime(QDateTime(QDate(2000, 1, 1), QTime(0, 0, 0)));
         birthDayEditor->setMinimumTime(QTime(0, 0, 0));
@@ -393,6 +394,7 @@ public:
     {
         SignUpWindow->setWindowTitle(QApplication::translate("SignUpWindow", "Dialog", nullptr));
         label->setText(QApplication::translate("SignUpWindow", "T\303\252n \304\221\304\203ng nh\341\272\255p", nullptr));
+        usernameInput->setText(QString());
         label_2->setText(QApplication::translate("SignUpWindow", "M\341\272\255t kh\341\272\251u", nullptr));
         label_3->setText(QApplication::translate("SignUpWindow", "H\341\273\215 v\303\240 t\303\252n", nullptr));
         label_4->setText(QApplication::translate("SignUpWindow", "Ng\303\240y sinh", nullptr));

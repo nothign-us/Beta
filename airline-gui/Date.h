@@ -5,6 +5,8 @@
 #include <string>
 #include <sstream>
 
+#include "Tokenizer.h"
+
 using namespace std;
 
 class Date {
@@ -31,6 +33,7 @@ public:
     string ToString() const;
     static bool IsLeapYear(int year);
     static bool IsValidDate(int, int, int);
+    static Date Parse(const string dateStr);
 
 public:
     friend istream& operator>>(istream& inp, Date &d);

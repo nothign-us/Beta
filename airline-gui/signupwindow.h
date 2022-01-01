@@ -2,7 +2,14 @@
 #define SIGNUPWINDOW_H
 
 #include <QDialog>
+#include <QDebug>
+#include <QMessageBox>
 #include <string>
+#include "Date.h"
+#include "Account.h"
+#include "Manager.h"
+#include "Client.h"
+#include "Address.h"
 using namespace std;
 namespace Ui {
 class SignUpWindow;

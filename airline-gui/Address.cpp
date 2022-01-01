@@ -9,6 +9,14 @@ Address::Address()
     _street = "";
 }
 
+Address::Address(string nation, string city, string district, string town, string street) {
+    _nation = nation;
+    _province = city;
+    _district = district;
+    _town = town;
+    _street = street;
+}
+
 Address::Address(const Address &srcAdd)
 {
     _nation = srcAdd._nation;
