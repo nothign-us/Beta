@@ -21,6 +21,15 @@ public:
     Client() {
         _name = "_";
     }
+    Client(string name, Date birthDay, string id, Address address, int sex, string phone, string email) {
+        _name = name;
+        _birth = birthDay;
+        _ID = id;
+        _address = address;
+        _sex = sex;
+        _phoneNumber = phone;
+        _email = email;
+    }
     string getName();
     string getPhoneNumber();
     string getEmail();

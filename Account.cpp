@@ -8,6 +8,15 @@ Account::Account(string user, string pass) {
     _password = pass;
 }
 
+// Kiểm tra và thêm tài khoản vào map tài khoản đã đăng kí
+//
+// Tham số:
+// __username: kiểu std::string, là tên đăng nhập muốn kiểm tra
+// __password: kiểu std::string, là mật khẩu muốn kiểm tra
+//
+// Giá trị trả về:
+// trả về false nếu tên đăng nhập đã được sử dụng
+// trả về true nếu đăng kí tài khoản mới thành công
 bool Account::SignUpAccount(string username, string password) {
     if (_checkAccount.empty()) {
         _checkAccount.insert({username, password});
