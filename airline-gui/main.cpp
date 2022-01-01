@@ -1,8 +1,10 @@
 #include "mainwindow.h"
 #include "Account.h"
 #include "Manager.h"
-
 #include <QApplication>
+
+#include "makeMenu.h"
+#include <SelectFlight.h>
 
 std::map<std::string, std::string> Account::_checkAccount;
 std::vector<Ticket*> AdminAccount::bookedTickets;
@@ -15,7 +17,6 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     MainWindow mainProgram;
-
-        mainProgram.show();
-        a.exec();
+    mainProgram.show();
+    a.exec();
 }

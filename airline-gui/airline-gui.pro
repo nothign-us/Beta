@@ -14,14 +14,16 @@ SOURCES += \
     Account.cpp \
     Address.cpp \
     Airport.cpp \
-    BookTicketBox.cpp \
-    ChooseFlight.cpp \
     Client.cpp \
     Date.cpp \
     Flight.cpp \
     Manager.cpp \
     MyTime.cpp \
+    SearchForOption.cpp \
+    SearchForStrAndDepartureDate.cpp \
+    SearchForStrAndDesAirport.cpp \
     Seat.cpp \
+    SelectFlight.cpp \
     Ticket.cpp \
     Tokenizer.cpp \
     clientmenu.cpp \
@@ -34,14 +36,16 @@ HEADERS += \
     Account.h \
     Address.h \
     Airport.h \
-    BookTicketBox.h \
-    ChooseFlight.h \
     Client.h \
     Date.h \
     Flight.h \
     Manager.h \
     MyTime.h \
+    SearchForOption.h \
+    SearchForStrAndDepartureDate.h \
+    SearchForStrAndDesAirport.h \
     Seat.h \
+    SelectFlight.h \
     Ticket.h \
     Tokenizer.h \
     clientmenu.h \
@@ -50,8 +54,10 @@ HEADERS += \
     signupwindow.h
 
 FORMS += \
-    BookTicketBox.ui \
-    ChooseFlight.ui \
+    SearchForOption.ui \
+    SearchForStrAndDepartureDate.ui \
+    SearchForStrAndDesAirport.ui \
+    SelectFlight.ui \
     clientmenu.ui \
     mainwindow.ui \
     signupwindow.ui

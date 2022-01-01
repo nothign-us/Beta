@@ -20,7 +20,7 @@ void MainWindow::on_signinButton_clicked()
 {
     string username = ui->lineEdit_username->text().toStdString();
     string password = ui->lineEdit_password->text().toStdString();
-    if (Account::SignIn(username, password) == false) {
+    if (Account::SignIn(username, password) == 1) {
         QMessageBox::critical(this, "Đăng nhập thất bại", "Vui lòng kiểm tra lại tên đăng nhập và mật khẩu");
     } else {
         // Process if sign in successfully

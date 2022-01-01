@@ -35,11 +35,13 @@ public:
     QHBoxLayout *horizontalLayout;
     QLabel *label;
     QComboBox *StartAirport;
-    QRadioButton *isEco;
     QWidget *layoutWidget_3;
     QHBoxLayout *horizontalLayout_2;
     QLabel *label_2;
     QComboBox *DesAirport;
+    QWidget *widget;
+    QHBoxLayout *horizontalLayout_4;
+    QRadioButton *isEco;
 
     void setupUi(QDialog *BookTicketBox)
     {
@@ -73,7 +75,7 @@ public:
         GetList->setGeometry(QRect(60, 240, 281, 41));
         isSkyBoss = new QRadioButton(BookTicketBox);
         isSkyBoss->setObjectName(QString::fromUtf8("isSkyBoss"));
-        isSkyBoss->setGeometry(QRect(200, 190, 112, 23));
+        isSkyBoss->setGeometry(QRect(210, 190, 84, 23));
         layoutWidget_2 = new QWidget(BookTicketBox);
         layoutWidget_2->setObjectName(QString::fromUtf8("layoutWidget_2"));
         layoutWidget_2->setGeometry(QRect(80, 30, 284, 27));
@@ -112,9 +114,6 @@ public:
 
         horizontalLayout->addWidget(StartAirport);
 
-        isEco = new QRadioButton(BookTicketBox);
-        isEco->setObjectName(QString::fromUtf8("isEco"));
-        isEco->setGeometry(QRect(90, 190, 112, 23));
         layoutWidget_3 = new QWidget(BookTicketBox);
         layoutWidget_3->setObjectName(QString::fromUtf8("layoutWidget_3"));
         layoutWidget_3->setGeometry(QRect(30, 90, 330, 27));
@@ -153,6 +152,17 @@ public:
 
         horizontalLayout_2->addWidget(DesAirport);
 
+        widget = new QWidget(BookTicketBox);
+        widget->setObjectName(QString::fromUtf8("widget"));
+        widget->setGeometry(QRect(100, 190, 141, 25));
+        horizontalLayout_4 = new QHBoxLayout(widget);
+        horizontalLayout_4->setObjectName(QString::fromUtf8("horizontalLayout_4"));
+        horizontalLayout_4->setContentsMargins(0, 0, 0, 0);
+        isEco = new QRadioButton(widget);
+        isEco->setObjectName(QString::fromUtf8("isEco"));
+
+        horizontalLayout_4->addWidget(isEco);
+
 
         retranslateUi(BookTicketBox);
 
@@ -190,7 +200,6 @@ public:
         StartAirport->setItemText(20, QApplication::translate("BookTicketBox", "San bay Van Don", nullptr));
         StartAirport->setItemText(21, QApplication::translate("BookTicketBox", "San bay Vinh", nullptr));
 
-        isEco->setText(QApplication::translate("BookTicketBox", "Eco", nullptr));
         label_2->setText(QApplication::translate("BookTicketBox", "Destination Airport", nullptr));
         DesAirport->setItemText(0, QApplication::translate("BookTicketBox", "San bay Buon Ma Thuot", nullptr));
         DesAirport->setItemText(1, QApplication::translate("BookTicketBox", "San bay Ca Mau", nullptr));
@@ -215,6 +224,7 @@ public:
         DesAirport->setItemText(20, QApplication::translate("BookTicketBox", "San bay Van Don", nullptr));
         DesAirport->setItemText(21, QApplication::translate("BookTicketBox", "San bay Vinh", nullptr));
 
+        isEco->setText(QApplication::translate("BookTicketBox", "Eco", nullptr));
     } // retranslateUi
 
 };

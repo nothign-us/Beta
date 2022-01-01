@@ -9,6 +9,11 @@ BookTicketBox::BookTicketBox(QWidget *parent) :
     this->setWindowTitle("Booking Ticket");
 }
 
+Ticket* BookTicketBox::getTicket()
+{
+    return ticket;
+}
+
 BookTicketBox::~BookTicketBox()
 {
     delete ui;
@@ -21,8 +26,8 @@ void BookTicketBox::on_GetList_clicked()
     Manager::loadTicket();
     bool isEco = ui->isEco->isChecked();
     bool isSkyBoss = !isEco;
-    vector<string> listAirport = Manager::listAirport;
-    /*
+    vector<string>listAirport = Manager::listAirport;
+
     vector<Ticket*> listTicket =  GetListTicket(listAirport);
     vector<Flight> listFlight = GetFlight(listTicket);
 
@@ -34,5 +39,5 @@ void BookTicketBox::on_GetList_clicked()
        ChooseFlight select(listFlight);
        select.exec();
     }
-    */
+
 }

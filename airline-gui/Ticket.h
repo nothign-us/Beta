@@ -2,7 +2,8 @@
 #include "Flight.h"
 #include "Client.h"
 #include <typeinfo>
-
+#include <sstream>
+using namespace std;
 class Ticket  {
 private:
     Flight _flight; // hai chiều
@@ -27,7 +28,7 @@ public:
     bool operator< (const Ticket&);
     friend istream &operator>>(istream &is, Ticket &src);
     friend ostream &operator<<(ostream &os, const Ticket &src);
-
+    string toString();
 public:
     void Book(Client);
     int calculatePrice() const;

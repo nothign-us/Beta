@@ -90,23 +90,16 @@ void selectTypeSearch(int &type) {
 
 // Chọn kiểu tìm kiếm và tìm các vé phù hợp bằng Manager::searchFor
 // Manager::searchFor = đa hình
-vector<Ticket*> GetListTicket(vector<string> list) {
-    int type;
+vector<Ticket*> GetListTicket(vector<string> list,int type,string startAirport, string desAirport, Date date) {
     vector<Ticket*> res;
-    selectTypeSearch(type);
-    cout << "Select the start airport: " << endl;
-    string startAiport = SelectAirport(list);
+    //selectTypeSearch(type);
+    //cout << "Select the start airport: " << endl;
 
     if (type == 0) {
-        system("clear");
-        cout << "Select the destinate airport: " << endl;
-        string destinateAiport = SelectAirport(list, startAiport);
-        res = Manager::searchFor(Airport(startAiport), Airport(destinateAiport));
+        res = Manager::searchFor(Airport(startAirport), Airport(desAirport));
     }
     else {
-        cout << "Enter your date: ";
-        Date date; cin >> date;
-        res =  Manager::searchFor(Airport(startAiport), date);
+        res =  Manager::searchFor(Airport(startAirport), date);
     }
     return res;
 }
@@ -127,6 +120,7 @@ vector<Flight> GetFlight(vector<Ticket*> listTicket) {
 
 void runMainMenu(int &option, Account* acc)
 {
+    /*
     // tempBookedTicket để lưu danh sách các vé đã đặt (Chưa được trả tiền)
     // Khi trả tiền thì tempBookedTicket sẽ được push vào globalTicket.
     
@@ -137,7 +131,7 @@ void runMainMenu(int &option, Account* acc)
     {
         // Liệt ké vé còn trong kho
         // Chọn kiểu tìm kiếm
-        vector<Ticket*> listTicket = GetListTicket(listAirport); 
+        //vector<Ticket*> listTicket = GetListTicket(listAirport);
         system("clear");
         vector<Flight> listFlight = GetFlight(listTicket);
         int selectFlight = SelectFlight(listFlight); //Chọn chuyến bay
@@ -145,7 +139,7 @@ void runMainMenu(int &option, Account* acc)
         //Đưa ticket vào tempBookedTicket.
         if (selectFlight != listFlight.size()) 
         {
-            /*
+
             Ticket* tick;
             if (isBoss)
                 tick = new SkybossTicket(listFlight[selectFlight], acc->getClient(), selectedSeat);
@@ -154,7 +148,7 @@ void runMainMenu(int &option, Account* acc)
             Manager::_tempBookedTicket.push_back(tick);
             cout << "DONE~" << endl;
             PAUSE
-                    */
+
         }
     }
     // In danh sách các vé đã đặt
@@ -208,6 +202,8 @@ void runMainMenu(int &option, Account* acc)
         }
         else option = -1; //tiếp tục quá trình đặt vé
     }
+*/
+    ;
 }
 
 string SelectAirport(vector<string> listAirportName, string except)
@@ -223,7 +219,7 @@ string SelectAirport(vector<string> listAirportName, string except)
     int sl = selectOption(listAirportName.size());
     return listAirportName[sl];
 }
-
+/*
 int SelectFlight(vector<Flight> listFlight)
 {
     system("clear");
@@ -245,7 +241,7 @@ int SelectFlight(vector<Flight> listFlight)
     int select = selectOption(listFlight.size());
     return select;
 }
-
+*/
 void printAvailableSeat(vector<Seat> availableSeats) {
     int preRow = 1;
     int n = availableSeats.size();
