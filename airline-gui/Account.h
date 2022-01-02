@@ -18,9 +18,10 @@ protected:
 
 public:
     Client _owner;  // Thông tin chủ sở hữu tài khoản
+    bool _isAdmin;          // Là admin hay client
 
 public:
-    Account(std::string user, std::string pass);
+    Account(std::string user, std::string pass, bool isAdmin);
     // HAVE TO DELETE --- BUG
     Client getClient() {
         return _owner;
@@ -55,6 +56,8 @@ private:
     static std::vector<Ticket*> bookedTickets;
 public:    
     static void addTicket(Ticket*);
+    static int GetNumberOfBookedTicket();
+    static vector<string> GetBookedTicketInfo();
     AdminAccount(std::string user, std::string pass);
     void printAllBookedTickets();
 };

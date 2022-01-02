@@ -8,9 +8,10 @@ using namespace std;
 // Tham số:
 // __user: kiểu string, là tên đăng nhập khởi tạo
 // __pass: kiểu tring, là mật khẩu khởi tạo
-Account::Account(string user, string pass) {
+Account::Account(string user, string pass, bool isAdmin) {
     _username = user;
     _password = pass;
+    _isAdmin = isAdmin;
 }
 
 //------------------------------------------------------------------------------
@@ -91,7 +92,7 @@ void Account::SetClient(const Client &client) {
 // __user: kiểu string, là tên đăng nhập khởi tạo
 // __pass: kiểu string, là mật khẩu khởi tạo
 // __clientInfo, kiểu Client, chứa thông tin chủ sở hữu tài khoản
-ClientAccount::ClientAccount(std::string user, std::string pass, Client clientInfo): Account(user, pass) {
+ClientAccount::ClientAccount(std::string user, std::string pass, Client clientInfo): Account(user, pass, false) {
     Account::SetClient(clientInfo);
 }
 
@@ -119,7 +120,7 @@ void ClientAccount::printBookedTicket() {
         cout << *cur << endl;
 }
 
-AdminAccount::AdminAccount(std::string user, std::string pass): Account(user, pass) {
+AdminAccount::AdminAccount(std::string user, std::string pass): Account(user, pass, true) {
     //Account::SetClient();
 }
 
@@ -131,4 +132,26 @@ void AdminAccount::printAllBookedTickets() {
     cout << "List " << bookedTickets.size() << " tickets was booked:\n";
     for (Ticket* t: bookedTickets)
         cout << t << endl;
+}
+
+//-------------------------------------------------------------------------------------------------------------
+
+// Trả về số vé đã được đặt
+int AdminAccount::GetNumberOfBookedTicket() {
+    return bookedTickets.size();
+}
+
+//-------------------------------------------------------------------------------------------------------------
+
+// Lấy một số thông tin cần thiết của các vé đã được đặt (phục vụ việc show các vé đã đặt cho admin)
+//
+// Trả về:
+// một vector<string>, mỗi phần tử của vector chứa các thông tin của một vé đã đặt
+// mỗi phần tử của vector có format sau: "sân bay đi,sân bay đến,ngày khởi hành,giờ khởi hành,tên chủ vé,số điện thoại"
+vector<string> AdminAccount::GetBookedTicketInfo() {
+    vector<string> bookedTicketInfo;
+    for (Ticket* ticket : bookedTickets) {
+        bookedTicketInfo.push_back(ticket->GetBasicInfo());
+    }
+    return bookedTicketInfo;
 }
