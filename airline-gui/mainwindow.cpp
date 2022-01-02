@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "clientmenu.h"
 #include "signupwindow.h"
+#include "adminmenu.h"
 #include "ui_mainwindow.h"
 #include "Account.h"
 
@@ -20,13 +21,21 @@ void MainWindow::on_signinButton_clicked()
 {
     string username = ui->lineEdit_username->text().toStdString();
     string password = ui->lineEdit_password->text().toStdString();
-    if (Account::SignIn(username, password) == 1) {
+    if (Account::SignIn(username, password) == false) {
         QMessageBox::critical(this, "Đăng nhập thất bại", "Vui lòng kiểm tra lại tên đăng nhập và mật khẩu");
     } else {
         // Process if sign in successfully
-        ClientMenu clientMenu(username);
-        close();
-        clientMenu.exec();
+        Account* signedInAccount = Manager::findAccount(username, password);
+        if (signedInAccount->_isAdmin) {
+            AdminMenu adminMenu(username);
+            this->close();
+            adminMenu.exec();
+        }
+        else {
+            ClientMenu clientMenu(username);
+            close();
+            clientMenu.exec();
+        }
     }
 }
 
