@@ -26,6 +26,7 @@ SOURCES += \
     SelectFlight.cpp \
     Ticket.cpp \
     Tokenizer.cpp \
+    adminmenu.cpp \
     clientmenu.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -48,6 +49,7 @@ HEADERS += \
     SelectFlight.h \
     Ticket.h \
     Tokenizer.h \
+    adminmenu.h \
     clientmenu.h \
     mainwindow.h \
     makeMenu.h \
@@ -58,6 +60,7 @@ FORMS += \
     SearchForStrAndDepartureDate.ui \
     SearchForStrAndDesAirport.ui \
     SelectFlight.ui \
+    adminmenu.ui \
     clientmenu.ui \
     mainwindow.ui \
     signupwindow.ui
