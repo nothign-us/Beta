@@ -47,7 +47,7 @@ void Ticket::SetClient(Client c) {
     _client = c;
 }
 
-Flight Ticket::getFlight() {
+Flight Ticket::getFlight() const {
     return _flight;
 }
 
@@ -100,4 +100,25 @@ string Ticket::toString()
    os << "Cost: " << calculatePrice() << endl;
    os << "----------------------------------------" << endl;
    return os.str();
+}
+
+//--------------------------------------------------------------------------------------------------------------
+
+// Lấy một vài thông tin cơ bản của vé
+//
+// Trả về:
+// một std::string, chứa 6 thông tin cơ bản của vé theo format sau:
+// tên sân bay đi,tên sân bay đến,ngày khởi hành,giờ khởi hành,tên chủ vé,số điện thoại
+string Ticket::GetBasicInfo() const {
+    stringstream ss;
+
+    // Format: "DepartureAirportName,ArrivalAirportName,DepartureDate,DepartureTime,ClientName,ClientPhoneNumber"
+    ss << this->_flight.GetStartAiport().getNameAirport() << ",";
+    ss << this->_flight.GetDestinateAiport().getNameAirport() << ",";
+    ss << this->_flight.GetDepartureDate().ToString() << ",";
+    ss << this->_flight.GetDepartTime().ToString() << ",";
+    ss << this->_client.getName() << ",";
+    ss << this->_client.getPhoneNumber();
+
+    return ss.str();
 }

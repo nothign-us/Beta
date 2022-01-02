@@ -22,13 +22,14 @@ public:
     void SetClient(Client);
     void SetExtraFee(int fee);
     bool _isBooked;
-    Flight getFlight();
+    Flight getFlight() const;
     Seat getSeat();
     bool operator== (const Ticket&);
     bool operator< (const Ticket&);
     friend istream &operator>>(istream &is, Ticket &src);
     friend ostream &operator<<(ostream &os, const Ticket &src);
     string toString();
+    string GetBasicInfo() const;
 public:
     void Book(Client);
     int calculatePrice() const;
