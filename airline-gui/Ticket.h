@@ -7,7 +7,7 @@ class Ticket  {
 private:
     Flight _flight; // hai chiều
     Client _client;
-    bool _isSkyBoss;
+    bool _isSkyBoss;    // có phải hạng thương gia
     Seat _seat;
     int _price;
     int _extraFee;

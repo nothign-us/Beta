@@ -6,8 +6,7 @@
 #include "Date.h"
 #include "Address.h"
 
-class Client
-{
+class Client {
 protected:
     string _name;
     Date _birth;
@@ -39,8 +38,7 @@ public:
     friend ostream& operator<<(ostream &os, const Client &src);
 };
 
-class VipClient : public Client
-{
+class VipClient : public Client {
 private:
     long long _rewardPoint;
     const int _extraDiscount = 299000;

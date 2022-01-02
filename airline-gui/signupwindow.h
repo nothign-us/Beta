@@ -10,13 +10,17 @@
 #include "Manager.h"
 #include "Client.h"
 #include "Address.h"
+
 using namespace std;
+
 namespace Ui {
-class SignUpWindow;
+    class SignUpWindow;
 }
 
-class SignUpWindow : public QDialog
-{
+//====================================================================
+
+// LỚP MÀN HÌNH ĐĂNG KÍ TÀI KHOẢN
+class SignUpWindow : public QDialog {
     Q_OBJECT
 
 public:

@@ -11,11 +11,10 @@ vector<Account*> Manager::_allAccount;
 vector<Ticket*> Manager::_tempBookedTicket; // Kho lưu vé chưa thanh toán
 vector<string> Manager::listAirport, Manager::listProvince;
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
     MainWindow mainProgram;
 
-        mainProgram.show();
-        a.exec();
+    mainProgram.show();
+    a.exec();
 }
