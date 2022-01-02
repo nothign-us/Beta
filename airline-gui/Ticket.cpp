@@ -89,3 +89,15 @@ ostream &operator<<(ostream &os, const Ticket &src)
     os << "----------------------------------------" << endl;
     return os;
 }
+
+string Ticket::toString()
+{
+   stringstream os;
+   os << "----------------------------------------" << endl;
+   os << _client << endl;
+   cout  << (_flight).GetStartAiport().getNameAirport() << " ====> " << _flight.GetDestinateAiport().getNameAirport() << "\t" << _flight.GetArrivalDate() << "\t" << _flight.GetDepartTime() << endl;
+   os << _seat <<endl;
+   os << "Cost: " << calculatePrice() << endl;
+   os << "----------------------------------------" << endl;
+   return os.str();
+}

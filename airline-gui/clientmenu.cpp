@@ -18,13 +18,27 @@ ClientMenu::~ClientMenu()
 
 void ClientMenu::on_bookTicketButton_clicked()
 {
-
-    BookTicketBox box;
-    box.exec();
-
+    close();
+    SearchForOption optionSearch;
+    optionSearch.exec();
+    this->exec();
 }
 
 void ClientMenu::on_signoutButton_clicked()
 {
     close();
 }
+
+void ClientMenu::on_printTicketButton_clicked()
+{
+    if(ListTicket.empty())
+        QMessageBox::critical(this, "Tài khoản chưa đặt vé", "Vui lòng đặt vé");
+    else
+    {
+        for(int i = 0; i < ListTicket.size(); i++)
+        {
+            string tmp = ListTicket[i]->toString();
+        }
+    }
+}
+

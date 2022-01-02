@@ -19,6 +19,7 @@ class BookTicketBox : public QDialog
 
 public:
     explicit BookTicketBox(QWidget *parent = nullptr);
+    Ticket* getTicket();
     ~BookTicketBox();
 
 private slots:
@@ -26,6 +27,7 @@ private slots:
 
 private:
     Ui::BookTicketBox *ui;
+    Ticket* ticket;
 };
 
 #endif // BOOKTICKETBOX_H

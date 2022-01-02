@@ -87,11 +87,12 @@ string Flight::toString()
 {
     stringstream os;
     os << this->_start.getNameAirport()
-       << setw(20) << right << this->_destination.getNameAirport()
-       << setw(20) << right << this->_departure
-       << setw(20) << right << this->_departingAt
-       << setw(20) << right << this->_arrivingAt
-       << setw(20) << right << 399000
-       << setw(20) << right << 1299000 << endl;
+       << "\t" << right << this->_destination.getNameAirport()
+       << "\t" << right << this->_departure
+       << "\t"  << right << this->_departingAt
+       << "\t"  << right << this->_arrivingAt
+       << "\t"  << right << 399000
+       << "\t"  << right << 1299000 << endl;
     return os.str();
 }
+

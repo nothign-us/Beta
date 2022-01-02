@@ -2,8 +2,12 @@
 #define CLIENTMENU_H
 
 #include <QDialog>
-#include"BookTicketBox.h"
+#include <QMessageBox>
+#include"SearchForOption.h"
 #include"Manager.h"
+#include<vector>
+using namespace std;
+
 namespace Ui {
 class ClientMenu;
 }
@@ -21,8 +25,11 @@ private slots:
 
     void on_signoutButton_clicked();
 
+    void on_printTicketButton_clicked();
+
 private:
     Ui::ClientMenu *ui;
+    vector<Ticket*> ListTicket;
 };
 
 #endif // CLIENTMENU_H
