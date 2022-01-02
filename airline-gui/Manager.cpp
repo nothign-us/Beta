@@ -222,7 +222,7 @@ void Manager::addNewAccount(Account* src_acc) {
 }
 
 Account* Manager::findAccount(string user, string pass) {
-    Account* temp = new Account(user, pass);
+    Account* temp = new Account(user, pass, false);
     for (int i = 0; i < _allAccount.size(); i++)
         if (*temp == *_allAccount[i]) {
             delete temp;
