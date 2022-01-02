@@ -22,7 +22,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_SelectFlight_t {
     QByteArrayData data[3];
-    char stringdata0[32];
+    char stringdata0[36];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -32,11 +32,11 @@ struct qt_meta_stringdata_SelectFlight_t {
 static const qt_meta_stringdata_SelectFlight_t qt_meta_stringdata_SelectFlight = {
     {
 QT_MOC_LITERAL(0, 0, 12), // "SelectFlight"
-QT_MOC_LITERAL(1, 13, 17), // "pushButtonHandler"
-QT_MOC_LITERAL(2, 31, 0) // ""
+QT_MOC_LITERAL(1, 13, 21), // "on_pushButton_clicked"
+QT_MOC_LITERAL(2, 35, 0) // ""
 
     },
-    "SelectFlight\0pushButtonHandler\0"
+    "SelectFlight\0on_pushButton_clicked\0"
 };
 #undef QT_MOC_LITERAL
 
@@ -68,7 +68,7 @@ void SelectFlight::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
         auto *_t = static_cast<SelectFlight *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->pushButtonHandler(); break;
+        case 0: _t->on_pushButton_clicked(); break;
         default: ;
         }
     }
@@ -76,7 +76,7 @@ void SelectFlight::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id
 }
 
 QT_INIT_METAOBJECT const QMetaObject SelectFlight::staticMetaObject = { {
-    &QWidget::staticMetaObject,
+    &QDialog::staticMetaObject,
     qt_meta_stringdata_SelectFlight.data,
     qt_meta_data_SelectFlight,
     qt_static_metacall,
@@ -95,12 +95,12 @@ void *SelectFlight::qt_metacast(const char *_clname)
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_SelectFlight.stringdata0))
         return static_cast<void*>(this);
-    return QWidget::qt_metacast(_clname);
+    return QDialog::qt_metacast(_clname);
 }
 
 int SelectFlight::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = QWidget::qt_metacall(_c, _id, _a);
+    _id = QDialog::qt_metacall(_c, _id, _a);
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {

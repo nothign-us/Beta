@@ -258,16 +258,16 @@ void printAvailableSeat(vector<Seat> availableSeats) {
 
 Seat SelectSeat(int isBoss, vector<Ticket*> list, Flight _flight)
 {
-    cout << "Do you want to select seat (free for skyboss, 300000vnd for eco ticket), "
-        << "press 1 to agree, 0 to disagree: ";
+   // cout << "Do you want to select seat (free for skyboss, 300000vnd for eco ticket), "
+       // << "press 1 to agree, 0 to disagree: ";
     bool n;
     int row;
     char col;
     Seat res;
-    cin >> n;
+   // cin >> n;
     vector<Seat> availableSeats = Manager::listEmptySeat(list, isBoss, _flight);
     if (n) {
-        printAvailableSeat(availableSeats);
+        //printAvailableSeat(availableSeats);
         Seat tmp;
         do {
             cout << "Row (1 -> " << (isBoss ? 4 : 12) << "): ";

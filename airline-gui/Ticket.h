@@ -12,10 +12,11 @@ private:
     Seat _seat;
     int _price;
     int _extraFee;
+    bool _isSelectSeat;
 public:
     Ticket();
     Ticket(Flight);
-    Ticket(Flight, Client, Seat);
+    Ticket(Flight, Client, Seat, bool);
     Ticket(Flight, Seat);
     ~Ticket() {;}
     virtual int getPrice() const = 0;
@@ -24,6 +25,7 @@ public:
     bool _isBooked;
     Flight getFlight() const;
     Seat getSeat();
+    void setSkyboss();
     bool operator== (const Ticket&);
     bool operator< (const Ticket&);
     friend istream &operator>>(istream &is, Ticket &src);
@@ -40,7 +42,7 @@ private:
     const int PRICE = 399000;
 public:
     EcoTicket(Flight f, Seat s): Ticket(f, s) {;}
-    EcoTicket(Flight f, Client c, Seat s): Ticket(f, c, s) {;}
+    EcoTicket(Flight f, Client c, Seat s,bool d): Ticket(f, c, s,d) {;}
     int getPrice() const;
 };
 
@@ -51,7 +53,7 @@ public:
     SkybossTicket(Flight f, Seat s): Ticket(f, s) {
         getSeat().SetBoss();
     }
-    SkybossTicket(Flight f, Client c, Seat s): Ticket(f, c, s) {
+    SkybossTicket(Flight f, Client c, Seat s,bool d): Ticket(f, c, s, d) {
         getSeat().SetBoss();
     }
     int getPrice() const;

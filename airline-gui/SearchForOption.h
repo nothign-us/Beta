@@ -16,8 +16,8 @@ class SearchForOption : public QDialog
     Q_OBJECT
 
 public:
-    explicit SearchForOption(QWidget *parent = nullptr);
-    Ticket* getBookedTicket();
+    explicit SearchForOption(Account* currentAcc, QWidget *parent = nullptr);
+    vector<Ticket*> getBookedTicket();
     ~SearchForOption();
 
 private slots:
@@ -25,7 +25,8 @@ private slots:
 
 private:
     Ui::SearchForOption *ui;
-    Ticket* bookedTicket;
+    vector<Ticket*> bookedTicket;
+    Account* currentAccount;
 };
 
 #endif // SEARCHFOROPTION_H

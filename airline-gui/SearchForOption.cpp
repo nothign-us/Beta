@@ -1,14 +1,16 @@
 #include "SearchForOption.h"
 #include "ui_SearchForOption.h"
 
-SearchForOption::SearchForOption(QWidget *parent) :
+SearchForOption::SearchForOption(Account* currentAcc,QWidget *parent) :
     QDialog(parent),
     ui(new Ui::SearchForOption)
 {
+    currentAccount = currentAcc;
     ui->setupUi(this);
+    currentAccount = currentAcc;
     this->setWindowTitle("Chọn kiểu tìm kiếm vé");
 }
-Ticket* SearchForOption::getBookedTicket()
+vector<Ticket*> SearchForOption::getBookedTicket()
 {
     return bookedTicket;
 }
@@ -22,17 +24,16 @@ void SearchForOption::on_confirm_clicked()
     Manager::loadTicket();
     if(ui->btn1->isChecked())
     {
-        SearchForOption::close();
-        SearchForStrAndDesAirport option;
+        SearchForStrAndDesAirport option(currentAccount);
         option.exec();
-        SearchForOption::exec();
-        //bookedTicket = option.getBookedTicket();
+        bookedTicket.push_back(option.getBookedTicket());
+
     }
     else if(ui->btn2->isChecked())
     {
-        SearchForStrAndDepartureDate option;
+        SearchForStrAndDepartureDate option(currentAccount);
         option.exec();
-        //bookedTicket = option.getBookedTicket();
+        bookedTicket.push_back(option.getBookedTicket());
     }
     else
     {

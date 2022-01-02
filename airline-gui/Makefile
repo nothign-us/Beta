@@ -14807,7 +14807,9 @@ main.o: main.cpp mainwindow.h \
 		Tokenizer.h \
 		Seat.h \
 		Client.h \
-		Manager.h
+		Manager.h \
+		makeMenu.h \
+		SelectFlight.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o main.cpp
 
 mainwindow.o: mainwindow.cpp mainwindow.h \

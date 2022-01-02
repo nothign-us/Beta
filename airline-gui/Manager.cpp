@@ -23,6 +23,17 @@ vector<string> getAirport() {
     return name;
 }
 
+ Account* Manager::getAccount(string username)
+ {
+    for(auto i:_allAccount)
+    {
+        if(i->cmpUsername(username))
+        {
+            return i;
+        }
+    }
+ }
+
 // tach ten san bay va ten tinh
 // Airport.push_back("San bay Tan Son Nhat");
 // Province.push_back("TP Ho Chi Minh");
@@ -83,6 +94,7 @@ vector<string> getRandDestinationFor(string depart, vector<string> listAirport) 
     to.erase(find(to.begin(), to.end(), depart)); // loại bỏ trường hợp lặp lại sân bay đi (depart)
     return to;
 }
+
 
 void generateSeatForFlight(Flight curFlight, vector<Ticket*> &_availableTickets) {
     vector<Seat> SkyBossListSeat = Seat::InitListSeat(4, 'D', 1);   // Sinh danh sách ghế hạng Thương Gia

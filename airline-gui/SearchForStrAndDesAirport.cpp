@@ -1,10 +1,11 @@
 #include "SearchForStrAndDesAirport.h"
 #include "ui_SearchForStrAndDesAirport.h"
 
-SearchForStrAndDesAirport::SearchForStrAndDesAirport(QWidget *parent) :
+SearchForStrAndDesAirport::SearchForStrAndDesAirport(Account* currentAcc, QWidget *parent) :
     QDialog(parent),
     ui(new Ui::SearchForStrAndDesAirport)
 {
+    CurrentAccount = currentAcc;
     ui->setupUi(this);
     this->setWindowTitle("Tìm kiếm chuyến bay với sân bay đi và sân bay đến");
     vector<string> listAirport = Manager::listAirport;
@@ -17,7 +18,10 @@ SearchForStrAndDesAirport::~SearchForStrAndDesAirport()
 {
     delete ui;
 }
-
+Ticket* SearchForStrAndDesAirport::getBookedTicket()
+{
+    return bookedTicket;
+}
 void SearchForStrAndDesAirport::on_StrAirport_currentIndexChanged(int index)
 {
     string currentStr = ui->StrAirport->currentText().toStdString();
@@ -40,9 +44,19 @@ void SearchForStrAndDesAirport::on_Confirm_clicked()
     vector<Flight> listFlight = GetFlight(listTicket);
     SearchForStrAndDesAirport::close();
     if(listFlight.size()==0 )
-        QMessageBox::critical(this,  "Lỗi","Khong co chuyen bay phu hopc");
-
-    SelectFlight *option = new SelectFlight(listFlight);
-     option->show();
+        QMessageBox::critical(this,  "Lỗi","Khong co chuyen bay phu hop");
+    else{
+       SelectFlight *option = new SelectFlight(listFlight,isEco, listTicket);
+       option->exec();
+        Ticket* tk = nullptr;
+       if(isEco)
+          tk = new EcoTicket(option->getSelectedFlight(), CurrentAccount->getClient(),option->selectSeat(),option->isSelectSeat);
+        else{
+          tk = new SkybossTicket(option->getSelectedFlight(), CurrentAccount->getClient(),option->selectSeat(),option->isSelectSeat);
+          tk->setSkyboss();
+       }
+       bookedTicket = tk;
+    }
+    close();
 }
 

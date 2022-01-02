@@ -5,6 +5,7 @@
 #include <string>
 #include<iostream>
 #include <QDebug>
+#include <Manager.h>
 using namespace std;
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }

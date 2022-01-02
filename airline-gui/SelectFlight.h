@@ -1,37 +1,45 @@
 #ifndef SELECTFLIGHT_H
 #define SELECTFLIGHT_H
 
-#include <QWidget>
+#include <QDialog>
 #include <QRadioButton>
-#include <QGroupBox>
+#include <QMessageBox>
+#include "makeMenu.h"
 #include <QPushButton>
 #include "Flight.h"
 #include <vector>
 #include <QString>
-#include <QVBoxLayout>
-using namespace std;
-
-QT_BEGIN_NAMESPACE
+#include "Manager.h"
+#include <QLabel>
+#include <sstream>
+#include <Seat.h>
+#include <QGroupBox>
 namespace Ui {
 class SelectFlight;
 }
-QT_END_NAMESPACE
-class SelectFlight : public QWidget
+
+class SelectFlight : public QDialog
 {
     Q_OBJECT
 
 public:
-    SelectFlight(vector<Flight> ListFlight, QWidget *parent = nullptr);
-    ~SelectFlight();
+    explicit SelectFlight(vector<Flight> ListFlight, bool Eco, vector<Ticket*> listTicket, QWidget *parent = nullptr);
     Flight getSelectedFlight();
+    Seat selectSeat();
+    bool isSelectSeat;
+    ~SelectFlight();
 private slots:
-        void pushButtonHandler();
+    void on_pushButton_clicked();
 
 private:
-    Flight SelectedFlight;
     Ui::SelectFlight *ui;
+    bool isEco;
+    Flight SelectedFl;
+    Seat SelectedSeat;
+    vector<Flight> _listFlight;
+    vector<Ticket*> _listTicket;
+
     vector<QRadioButton*> listRadioBtn;
-    QGroupBox* grBox;
 };
 
 #endif // SELECTFLIGHT_H

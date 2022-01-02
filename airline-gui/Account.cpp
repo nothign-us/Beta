@@ -26,6 +26,10 @@ Account::Account(string user, string pass, bool isAdmin) {
 // __trả về false nếu tên đăng nhập đã được sử dụng
 // __trả về true nếu đăng kí tài khoản mới thành công, đồng thời
 // thêm tài khoản vào Account::_checkAccount
+bool Account::cmpUsername(string name)
+{
+    return name == _username;
+}
 bool Account::SignUpAccount(string username, string password) {
     if (_checkAccount.empty()) {
         _checkAccount.insert({username, password});

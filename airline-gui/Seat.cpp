@@ -30,7 +30,12 @@ Seat::Seat(const Seat &s) {
     _isBoss = s._isBoss;
     _isBooked = s._isBooked;    
 }
-
+void Seat::set(int row, char col, bool isBoss)
+{
+    _row = row;
+    _column = col;
+    _isBoss = isBoss;
+}
 int Seat::GetRow()
 {
     return _row;

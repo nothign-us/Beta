@@ -11,6 +11,7 @@ private:
     map<std::string, std::string> AtoP, PtoA; // airport -> province & province -> airport
     double currentDiscount;
 public:
+    static Account* getAccount(string username);
     static vector<Ticket*> _tempBookedTicket; // Kho lưu vé chưa thanh toán
     static vector<string> listAirport, listProvince;
     static void printTicketToFile(vector<Ticket*>);

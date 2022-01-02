@@ -6,12 +6,13 @@ Ticket::Ticket() {
     _extraFee = 0;
 }
 
-Ticket::Ticket(Flight srcFl, Client srcCl, Seat seat)
+Ticket::Ticket(Flight srcFl, Client srcCl, Seat seat, bool isSltSeat)
 {
     _flight = srcFl;
     _client = srcCl;
     _seat = seat;
     _extraFee = 0;
+    _isSelectSeat = isSltSeat;
 }
 
 Ticket::Ticket(Flight srcFl, Seat seat) {
@@ -68,9 +69,14 @@ int Ticket::calculatePrice() const{
     int price = getPrice();
     if (typeid(_client) == typeid(VipClient))
         discount += _client.getDiscount();
+    if(!_isSkyBoss && _isSelectSeat)
+        price +=300000;
     return price - discount;
 }
-
+void Ticket::setSkyboss()
+{
+    _isSkyBoss = 1;
+}
 istream &operator>>(istream &is, Ticket &src)
 {
     is >> src._client;
