@@ -23,11 +23,8 @@ public:
 
 private slots:
     void on_bookTicketButton_clicked();
-
     void on_signoutButton_clicked();
-
     void on_printTicketButton_clicked();
-
     void on_purchaseButton_clicked();
 
 private:

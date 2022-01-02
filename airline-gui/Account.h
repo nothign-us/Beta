@@ -21,20 +21,9 @@ public:
     bool _isAdmin;          // Là admin hay client
 
 public:
-<<<<<<< HEAD
-    /*
-<<<<<<< HEAD
-    Client _owner;
-
-=======
->>>>>>> 6a20df2fd8f937d6c5e59aba224555ecc74ac56c
-*/
     bool cmpUsername(string name);
     Account(std::string user, std::string pass);
-=======
     Account(std::string user, std::string pass, bool isAdmin);
->>>>>>> 308efccdd06a0e412559ba3ebfc1f26761801c77
-    // HAVE TO DELETE --- BUG
     Client getClient() {
         return _owner;
     }

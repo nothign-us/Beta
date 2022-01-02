@@ -37,7 +37,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = airline-gui1.0.0
-DISTDIR = /home/minhtri/Downloads/Beta/airline-gui/.tmp/airline-gui1.0.0
+DISTDIR = /home/minhtri/Documents/Beta/airline-gui/.tmp/airline-gui1.0.0
 LINK          = g++
 LFLAGS        = -no-pie
 LIBS          = $(SUBLIBS) /usr/lib/x86_64-linux-gnu/libQt5Widgets.so /usr/lib/x86_64-linux-gnu/libQt5Gui.so /usr/lib/x86_64-linux-gnu/libQt5Core.so /usr/lib/x86_64-linux-gnu/libGL.so -lpthread   
@@ -67,6 +67,7 @@ SOURCES       = Account.cpp \
 		SelectFlight.cpp \
 		Ticket.cpp \
 		Tokenizer.cpp \
+		adminmenu.cpp \
 		clientmenu.cpp \
 		main.cpp \
 		mainwindow.cpp \
@@ -75,6 +76,7 @@ SOURCES       = Account.cpp \
 		moc_SearchForStrAndDepartureDate.cpp \
 		moc_SearchForStrAndDesAirport.cpp \
 		moc_SelectFlight.cpp \
+		moc_adminmenu.cpp \
 		moc_clientmenu.cpp \
 		moc_mainwindow.cpp \
 		moc_signupwindow.cpp
@@ -93,6 +95,7 @@ OBJECTS       = Account.o \
 		SelectFlight.o \
 		Ticket.o \
 		Tokenizer.o \
+		adminmenu.o \
 		clientmenu.o \
 		main.o \
 		mainwindow.o \
@@ -102,6 +105,7 @@ OBJECTS       = Account.o \
 		moc_SearchForStrAndDepartureDate.o \
 		moc_SearchForStrAndDesAirport.o \
 		moc_SelectFlight.o \
+		moc_adminmenu.o \
 		moc_clientmenu.o \
 		moc_mainwindow.o \
 		moc_signupwindow.o
@@ -14246,6 +14250,7 @@ DIST          = FlightSchedule/San \
 		SelectFlight.h \
 		Ticket.h \
 		Tokenizer.h \
+		adminmenu.h \
 		clientmenu.h \
 		mainwindow.h \
 		makeMenu.h \
@@ -14264,6 +14269,7 @@ DIST          = FlightSchedule/San \
 		SelectFlight.cpp \
 		Ticket.cpp \
 		Tokenizer.cpp \
+		adminmenu.cpp \
 		clientmenu.cpp \
 		main.cpp \
 		mainwindow.cpp \
@@ -14277,7 +14283,7 @@ TARGET        = airline-gui
 first: all
 ####### Build rules
 
-airline-gui: ui_SearchForOption.h ui_SearchForStrAndDepartureDate.h ui_SearchForStrAndDesAirport.h ui_SelectFlight.h ui_clientmenu.h ui_mainwindow.h ui_signupwindow.h $(OBJECTS)  
+airline-gui: ui_SearchForOption.h ui_SearchForStrAndDepartureDate.h ui_SearchForStrAndDesAirport.h ui_SelectFlight.h ui_adminmenu.h ui_clientmenu.h ui_mainwindow.h ui_signupwindow.h $(OBJECTS)  
 	$(LINK) $(LFLAGS) -o $(TARGET) $(OBJECTS) $(OBJCOMP) $(LIBS)
 
 Makefile: airline-gui.pro /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.conf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
@@ -14448,9 +14454,9 @@ distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents Account.h Address.h Airport.h Client.h Date.h Flight.h Manager.h MyTime.h SearchForOption.h SearchForStrAndDepartureDate.h SearchForStrAndDesAirport.h Seat.h SelectFlight.h Ticket.h Tokenizer.h clientmenu.h mainwindow.h makeMenu.h signupwindow.h $(DISTDIR)/
-	$(COPY_FILE) --parents Account.cpp Address.cpp Airport.cpp Client.cpp Date.cpp Flight.cpp Manager.cpp MyTime.cpp SearchForOption.cpp SearchForStrAndDepartureDate.cpp SearchForStrAndDesAirport.cpp Seat.cpp SelectFlight.cpp Ticket.cpp Tokenizer.cpp clientmenu.cpp main.cpp mainwindow.cpp makeMenu.cpp signupwindow.cpp $(DISTDIR)/
-	$(COPY_FILE) --parents SearchForOption.ui SearchForStrAndDepartureDate.ui SearchForStrAndDesAirport.ui SelectFlight.ui clientmenu.ui mainwindow.ui signupwindow.ui $(DISTDIR)/
+	$(COPY_FILE) --parents Account.h Address.h Airport.h Client.h Date.h Flight.h Manager.h MyTime.h SearchForOption.h SearchForStrAndDepartureDate.h SearchForStrAndDesAirport.h Seat.h SelectFlight.h Ticket.h Tokenizer.h adminmenu.h clientmenu.h mainwindow.h makeMenu.h signupwindow.h $(DISTDIR)/
+	$(COPY_FILE) --parents Account.cpp Address.cpp Airport.cpp Client.cpp Date.cpp Flight.cpp Manager.cpp MyTime.cpp SearchForOption.cpp SearchForStrAndDepartureDate.cpp SearchForStrAndDesAirport.cpp Seat.cpp SelectFlight.cpp Ticket.cpp Tokenizer.cpp adminmenu.cpp clientmenu.cpp main.cpp mainwindow.cpp makeMenu.cpp signupwindow.cpp $(DISTDIR)/
+	$(COPY_FILE) --parents SearchForOption.ui SearchForStrAndDepartureDate.ui SearchForStrAndDesAirport.ui SelectFlight.ui adminmenu.ui clientmenu.ui mainwindow.ui signupwindow.ui $(DISTDIR)/
 
 
 clean: compiler_clean 
@@ -14482,9 +14488,9 @@ compiler_moc_predefs_clean:
 moc_predefs.h: /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp
 	g++ -pipe -g -std=gnu++11 -Wall -W -dM -E -o moc_predefs.h /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp
 
-compiler_moc_header_make_all: moc_SearchForOption.cpp moc_SearchForStrAndDepartureDate.cpp moc_SearchForStrAndDesAirport.cpp moc_SelectFlight.cpp moc_clientmenu.cpp moc_mainwindow.cpp moc_signupwindow.cpp
+compiler_moc_header_make_all: moc_SearchForOption.cpp moc_SearchForStrAndDepartureDate.cpp moc_SearchForStrAndDesAirport.cpp moc_SelectFlight.cpp moc_adminmenu.cpp moc_clientmenu.cpp moc_mainwindow.cpp moc_signupwindow.cpp
 compiler_moc_header_clean:
-	-$(DEL_FILE) moc_SearchForOption.cpp moc_SearchForStrAndDepartureDate.cpp moc_SearchForStrAndDesAirport.cpp moc_SelectFlight.cpp moc_clientmenu.cpp moc_mainwindow.cpp moc_signupwindow.cpp
+	-$(DEL_FILE) moc_SearchForOption.cpp moc_SearchForStrAndDepartureDate.cpp moc_SearchForStrAndDesAirport.cpp moc_SelectFlight.cpp moc_adminmenu.cpp moc_clientmenu.cpp moc_mainwindow.cpp moc_signupwindow.cpp
 moc_SearchForOption.cpp: SearchForOption.h \
 		Ticket.h \
 		Flight.h \
@@ -14498,12 +14504,12 @@ moc_SearchForOption.cpp: SearchForOption.h \
 		SearchForStrAndDepartureDate.h \
 		Manager.h \
 		Account.h \
-		SearchForStrAndDesAirport.h \
 		makeMenu.h \
 		SelectFlight.h \
+		SearchForStrAndDesAirport.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Downloads/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Downloads/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include SearchForOption.h -o moc_SearchForOption.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Documents/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Documents/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include SearchForOption.h -o moc_SearchForOption.cpp
 
 moc_SearchForStrAndDepartureDate.cpp: SearchForStrAndDepartureDate.h \
 		Ticket.h \
@@ -14517,9 +14523,11 @@ moc_SearchForStrAndDepartureDate.cpp: SearchForStrAndDepartureDate.h \
 		Client.h \
 		Manager.h \
 		Account.h \
+		makeMenu.h \
+		SelectFlight.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Downloads/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Downloads/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include SearchForStrAndDepartureDate.h -o moc_SearchForStrAndDepartureDate.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Documents/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Documents/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include SearchForStrAndDepartureDate.h -o moc_SearchForStrAndDepartureDate.cpp
 
 moc_SearchForStrAndDesAirport.cpp: SearchForStrAndDesAirport.h \
 		Ticket.h \
@@ -14537,9 +14545,12 @@ moc_SearchForStrAndDesAirport.cpp: SearchForStrAndDesAirport.h \
 		SelectFlight.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Downloads/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Downloads/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include SearchForStrAndDesAirport.h -o moc_SearchForStrAndDesAirport.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Documents/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Documents/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include SearchForStrAndDesAirport.h -o moc_SearchForStrAndDesAirport.cpp
 
 moc_SelectFlight.cpp: SelectFlight.h \
+		makeMenu.h \
+		Account.h \
+		Ticket.h \
 		Flight.h \
 		Airport.h \
 		Address.h \
@@ -14547,9 +14558,16 @@ moc_SelectFlight.cpp: SelectFlight.h \
 		Date.h \
 		Tokenizer.h \
 		Seat.h \
+		Client.h \
+		Manager.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Downloads/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Downloads/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include SelectFlight.h -o moc_SelectFlight.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Documents/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Documents/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include SelectFlight.h -o moc_SelectFlight.cpp
+
+moc_adminmenu.cpp: adminmenu.h \
+		moc_predefs.h \
+		/usr/lib/qt5/bin/moc
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Documents/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Documents/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include adminmenu.h -o moc_adminmenu.cpp
 
 moc_clientmenu.cpp: clientmenu.h \
 		SearchForOption.h \
@@ -14565,17 +14583,28 @@ moc_clientmenu.cpp: clientmenu.h \
 		SearchForStrAndDepartureDate.h \
 		Manager.h \
 		Account.h \
-		SearchForStrAndDesAirport.h \
 		makeMenu.h \
 		SelectFlight.h \
+		SearchForStrAndDesAirport.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Downloads/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Downloads/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include clientmenu.h -o moc_clientmenu.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Documents/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Documents/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include clientmenu.h -o moc_clientmenu.cpp
 
 moc_mainwindow.cpp: mainwindow.h \
+		Manager.h \
+		Ticket.h \
+		Flight.h \
+		Airport.h \
+		Address.h \
+		MyTime.h \
+		Date.h \
+		Tokenizer.h \
+		Seat.h \
+		Client.h \
+		Account.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Downloads/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Downloads/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include mainwindow.h -o moc_mainwindow.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Documents/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Documents/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include mainwindow.h -o moc_mainwindow.cpp
 
 moc_signupwindow.cpp: signupwindow.h \
 		Date.h \
@@ -14591,15 +14620,15 @@ moc_signupwindow.cpp: signupwindow.h \
 		Manager.h \
 		moc_predefs.h \
 		/usr/lib/qt5/bin/moc
-	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Downloads/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Downloads/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include signupwindow.h -o moc_signupwindow.cpp
+	/usr/lib/qt5/bin/moc $(DEFINES) --include /home/minhtri/Documents/Beta/airline-gui/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/minhtri/Documents/Beta/airline-gui -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include signupwindow.h -o moc_signupwindow.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
 compiler_moc_source_make_all:
 compiler_moc_source_clean:
-compiler_uic_make_all: ui_SearchForOption.h ui_SearchForStrAndDepartureDate.h ui_SearchForStrAndDesAirport.h ui_SelectFlight.h ui_clientmenu.h ui_mainwindow.h ui_signupwindow.h
+compiler_uic_make_all: ui_SearchForOption.h ui_SearchForStrAndDepartureDate.h ui_SearchForStrAndDesAirport.h ui_SelectFlight.h ui_adminmenu.h ui_clientmenu.h ui_mainwindow.h ui_signupwindow.h
 compiler_uic_clean:
-	-$(DEL_FILE) ui_SearchForOption.h ui_SearchForStrAndDepartureDate.h ui_SearchForStrAndDesAirport.h ui_SelectFlight.h ui_clientmenu.h ui_mainwindow.h ui_signupwindow.h
+	-$(DEL_FILE) ui_SearchForOption.h ui_SearchForStrAndDepartureDate.h ui_SearchForStrAndDesAirport.h ui_SelectFlight.h ui_adminmenu.h ui_clientmenu.h ui_mainwindow.h ui_signupwindow.h
 ui_SearchForOption.h: SearchForOption.ui \
 		/usr/lib/qt5/bin/uic
 	/usr/lib/qt5/bin/uic SearchForOption.ui -o ui_SearchForOption.h
@@ -14615,6 +14644,10 @@ ui_SearchForStrAndDesAirport.h: SearchForStrAndDesAirport.ui \
 ui_SelectFlight.h: SelectFlight.ui \
 		/usr/lib/qt5/bin/uic
 	/usr/lib/qt5/bin/uic SelectFlight.ui -o ui_SelectFlight.h
+
+ui_adminmenu.h: adminmenu.ui \
+		/usr/lib/qt5/bin/uic
+	/usr/lib/qt5/bin/uic adminmenu.ui -o ui_adminmenu.h
 
 ui_clientmenu.h: clientmenu.ui \
 		/usr/lib/qt5/bin/uic
@@ -14710,9 +14743,9 @@ SearchForOption.o: SearchForOption.cpp SearchForOption.h \
 		SearchForStrAndDepartureDate.h \
 		Manager.h \
 		Account.h \
-		SearchForStrAndDesAirport.h \
 		makeMenu.h \
 		SelectFlight.h \
+		SearchForStrAndDesAirport.h \
 		ui_SearchForOption.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o SearchForOption.o SearchForOption.cpp
 
@@ -14728,6 +14761,8 @@ SearchForStrAndDepartureDate.o: SearchForStrAndDepartureDate.cpp SearchForStrAnd
 		Client.h \
 		Manager.h \
 		Account.h \
+		makeMenu.h \
+		SelectFlight.h \
 		ui_SearchForStrAndDepartureDate.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o SearchForStrAndDepartureDate.o SearchForStrAndDepartureDate.cpp
 
@@ -14752,6 +14787,9 @@ Seat.o: Seat.cpp Seat.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Seat.o Seat.cpp
 
 SelectFlight.o: SelectFlight.cpp SelectFlight.h \
+		makeMenu.h \
+		Account.h \
+		Ticket.h \
 		Flight.h \
 		Airport.h \
 		Address.h \
@@ -14759,6 +14797,8 @@ SelectFlight.o: SelectFlight.cpp SelectFlight.h \
 		Date.h \
 		Tokenizer.h \
 		Seat.h \
+		Client.h \
+		Manager.h \
 		ui_SelectFlight.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o SelectFlight.o SelectFlight.cpp
 
@@ -14776,6 +14816,20 @@ Ticket.o: Ticket.cpp Ticket.h \
 Tokenizer.o: Tokenizer.cpp Tokenizer.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o Tokenizer.o Tokenizer.cpp
 
+adminmenu.o: adminmenu.cpp adminmenu.h \
+		ui_adminmenu.h \
+		Account.h \
+		Ticket.h \
+		Flight.h \
+		Airport.h \
+		Address.h \
+		MyTime.h \
+		Date.h \
+		Tokenizer.h \
+		Seat.h \
+		Client.h
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o adminmenu.o adminmenu.cpp
+
 clientmenu.o: clientmenu.cpp clientmenu.h \
 		SearchForOption.h \
 		Ticket.h \
@@ -14790,14 +14844,14 @@ clientmenu.o: clientmenu.cpp clientmenu.h \
 		SearchForStrAndDepartureDate.h \
 		Manager.h \
 		Account.h \
-		SearchForStrAndDesAirport.h \
 		makeMenu.h \
 		SelectFlight.h \
+		SearchForStrAndDesAirport.h \
 		ui_clientmenu.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o clientmenu.o clientmenu.cpp
 
 main.o: main.cpp mainwindow.h \
-		Account.h \
+		Manager.h \
 		Ticket.h \
 		Flight.h \
 		Airport.h \
@@ -14807,14 +14861,13 @@ main.o: main.cpp mainwindow.h \
 		Tokenizer.h \
 		Seat.h \
 		Client.h \
-		Manager.h \
+		Account.h \
 		makeMenu.h \
 		SelectFlight.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o main.cpp
 
 mainwindow.o: mainwindow.cpp mainwindow.h \
-		clientmenu.h \
-		SearchForOption.h \
+		Manager.h \
 		Ticket.h \
 		Flight.h \
 		Airport.h \
@@ -14824,13 +14877,15 @@ mainwindow.o: mainwindow.cpp mainwindow.h \
 		Tokenizer.h \
 		Seat.h \
 		Client.h \
-		SearchForStrAndDepartureDate.h \
-		Manager.h \
 		Account.h \
-		SearchForStrAndDesAirport.h \
+		clientmenu.h \
+		SearchForOption.h \
+		SearchForStrAndDepartureDate.h \
 		makeMenu.h \
 		SelectFlight.h \
+		SearchForStrAndDesAirport.h \
 		signupwindow.h \
+		adminmenu.h \
 		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o mainwindow.cpp
 
@@ -14874,6 +14929,9 @@ moc_SearchForStrAndDesAirport.o: moc_SearchForStrAndDesAirport.cpp
 
 moc_SelectFlight.o: moc_SelectFlight.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_SelectFlight.o moc_SelectFlight.cpp
+
+moc_adminmenu.o: moc_adminmenu.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_adminmenu.o moc_adminmenu.cpp
 
 moc_clientmenu.o: moc_clientmenu.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_clientmenu.o moc_clientmenu.cpp

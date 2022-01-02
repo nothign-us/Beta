@@ -3,10 +3,10 @@
 
 #include <QDialog>
 #include <QMessageBox>
-#include <Ticket.h>
+#include "Ticket.h"
 #include "SearchForStrAndDepartureDate.h"
 #include "SearchForStrAndDesAirport.h"
-#include <Manager.h>
+#include "Manager.h"
 namespace Ui {
 class SearchForOption;
 }

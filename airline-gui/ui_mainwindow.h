@@ -18,6 +18,7 @@
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QToolButton>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -30,6 +31,7 @@ public:
     QWidget *horizontalWidget;
     QHBoxLayout *horizontalLayout;
     QSpacerItem *horizontalSpacer_2;
+    QToolButton *toolButton;
     QVBoxLayout *verticalLayout;
     QSpacerItem *verticalSpacer_2;
     QHBoxLayout *horizontalLayout_2;
@@ -72,6 +74,11 @@ public:
         horizontalSpacer_2 = new QSpacerItem(200, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
 
         horizontalLayout->addItem(horizontalSpacer_2);
+
+        toolButton = new QToolButton(horizontalWidget);
+        toolButton->setObjectName(QString::fromUtf8("toolButton"));
+
+        horizontalLayout->addWidget(toolButton);
 
         verticalLayout = new QVBoxLayout();
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
@@ -150,6 +157,7 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
+        toolButton->setText(QApplication::translate("MainWindow", "...", nullptr));
         labelUsername->setText(QApplication::translate("MainWindow", "T\303\252n \304\221\304\203ng nh\341\272\255p", nullptr));
         label_2->setText(QApplication::translate("MainWindow", "M\341\272\255t kh\341\272\251u", nullptr));
         signinButton->setText(QApplication::translate("MainWindow", "\304\220\304\203ng nh\341\272\255p", nullptr));

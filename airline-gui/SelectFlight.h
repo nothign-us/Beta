@@ -12,7 +12,7 @@
 #include "Manager.h"
 #include <QLabel>
 #include <sstream>
-#include <Seat.h>
+#include "Seat.h"
 #include <QGroupBox>
 namespace Ui {
 class SelectFlight;

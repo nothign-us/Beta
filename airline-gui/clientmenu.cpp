@@ -49,9 +49,6 @@ void ClientMenu::on_printTicketButton_clicked()
             listLabel.push_back(newLabel);
         }
         OutScreen->exec();
-        for(auto i:listLabel)
-            delete i;
-        delete OutScreen;
     }
 }
 

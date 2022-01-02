@@ -3,8 +3,8 @@
 
 #include <QDialog>
 #include <QWidget>
-#include <Ticket.h>
-#include <Manager.h>
+#include "Ticket.h"
+#include "Manager.h"
 #include <QString>
 #include <QMessageBox>
 #include "makeMenu.h"
