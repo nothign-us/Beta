@@ -12,15 +12,15 @@ Client::Client(string name, Date birthDay, string id, Address address, int sex, 
     _email = email;
 }
 
-string Client::getName() {
+string Client::getName() const {
     return _name;
 }
 
-string Client::getPhoneNumber() {
+string Client::getPhoneNumber() const {
     return _phoneNumber;
 }
 
-string Client::getEmail() {
+string Client::getEmail() const {
     return _email;
 }
 

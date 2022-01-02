@@ -21,9 +21,9 @@ public:
         _name = "_";
     }
     Client(string name, Date birthDay, string id, Address address, int sex, string phone, string email);
-    string getName();
-    string getPhoneNumber();
-    string getEmail();
+    string getName() const;
+    string getPhoneNumber() const;
+    string getEmail() const;
 /*  void setName(string srcName);
     void setBirth(Date srcBirth);
     void setID(string srcID);
