@@ -38,17 +38,18 @@ void ClientMenu::on_printTicketButton_clicked()
     {
         QDialog *OutScreen = new QDialog;
         OutScreen->setWindowTitle("Danh sach ve");
-        OutScreen->setFixedSize(1200,450);
+        OutScreen->setFixedSize(450,1200);
         vector<QLabel*> listLabel;
         int index=0;
         for(int i = 0; i < ListTicket.size(); i++)
         {
             string tmp = ListTicket[i]->toString();
             QLabel* newLabel = new QLabel(QString::fromStdString(tmp),OutScreen);
-            newLabel->move(20+200*(++index),20);
+            newLabel->move(20,20+200*(++index));
             listLabel.push_back(newLabel);
         }
         OutScreen->exec();
+        delete OutScreen;
     }
 }
 

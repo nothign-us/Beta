@@ -55,7 +55,7 @@ bool Account::SignUpAccount(string username, string password) {
 // __trả về false nếu tên đăng nhập chưa tồn tại hoặc tên đăng nhập và mật khẩu không khớp
 // __trả về true nếu tên đăng nhập đẫ tồn tại và khớp với mật khẩu
 bool Account::SignIn(string username, string password) {
-    if (_checkAccount.empty())
+    if(_checkAccount.find(username) == _checkAccount.end())
         return false;
     return (_checkAccount[username] == password);
 }
