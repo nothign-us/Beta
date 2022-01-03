@@ -14,6 +14,10 @@ Account::Account(string user, string pass, bool isAdmin) {
     _isAdmin = isAdmin;
 }
 
+bool Account::cmpUsername(string name) {
+    return name == _username;
+}
+
 //------------------------------------------------------------------------------
 
 // Kiểm tra và thêm tài khoản vào map tài khoản đã đăng kí Account::_checkAccount
@@ -26,10 +30,6 @@ Account::Account(string user, string pass, bool isAdmin) {
 // __trả về false nếu tên đăng nhập đã được sử dụng
 // __trả về true nếu đăng kí tài khoản mới thành công, đồng thời
 // thêm tài khoản vào Account::_checkAccount
-bool Account::cmpUsername(string name)
-{
-    return name == _username;
-}
 bool Account::SignUpAccount(string username, string password) {
     if (_checkAccount.empty()) {
         _checkAccount.insert({username, password});
@@ -55,7 +55,7 @@ bool Account::SignUpAccount(string username, string password) {
 // __trả về false nếu tên đăng nhập chưa tồn tại hoặc tên đăng nhập và mật khẩu không khớp
 // __trả về true nếu tên đăng nhập đẫ tồn tại và khớp với mật khẩu
 bool Account::SignIn(string username, string password) {
-    if (_checkAccount.empty())
+    if (_checkAccount.empty() || _checkAccount.find(username) == _checkAccount.end())
         return false;
     return (_checkAccount[username] == password);
 }
@@ -117,25 +117,12 @@ void ClientAccount::addTicket(Ticket* t) {
     _listBookedTickets.push_back(t);
 }
 
-void ClientAccount::printBookedTicket() {
-    cout << "User " << getClient().getName() << endl;
-    cout << "List ticket was booked: ";
-    for (Ticket* cur: _listBookedTickets)
-        cout << *cur << endl;
-}
-
 AdminAccount::AdminAccount(std::string user, std::string pass): Account(user, pass, true) {
     //Account::SetClient();
 }
 
 void AdminAccount::addTicket(Ticket* scr) {
     bookedTickets.push_back(scr);
-}
-
-void AdminAccount::printAllBookedTickets() {
-    cout << "List " << bookedTickets.size() << " tickets was booked:\n";
-    for (Ticket* t: bookedTickets)
-        cout << t << endl;
 }
 
 //-------------------------------------------------------------------------------------------------------------

@@ -1,5 +1,8 @@
 #include "clientmenu.h"
+#include "mainwindow.h"
 #include "ui_clientmenu.h"
+
+#include <QScrollArea>
 
 ClientMenu::ClientMenu(std::string username, Account* currentAcc , QWidget *parent ) :
     QDialog(parent),
@@ -25,8 +28,7 @@ void ClientMenu::on_bookTicketButton_clicked()
         ListTicket.push_back(i);
 }
 
-void ClientMenu::on_signoutButton_clicked()
-{
+void ClientMenu::on_signoutButton_clicked() {
     close();
 }
 
@@ -38,14 +40,16 @@ void ClientMenu::on_printTicketButton_clicked()
     {
         QDialog *OutScreen = new QDialog;
         OutScreen->setWindowTitle("Danh sach ve");
-        OutScreen->setFixedSize(1200,450);
+        //OutScreen->setFixedSize(1200,450);
+        OutScreen->setGeometry(200, 200, 450, 1200);
+
         vector<QLabel*> listLabel;
         int index=0;
         for(int i = 0; i < ListTicket.size(); i++)
         {
             string tmp = ListTicket[i]->toString();
-            QLabel* newLabel = new QLabel(QString::fromStdString(tmp),OutScreen);
-            newLabel->move(20+200*(++index),20);
+            QLabel* newLabel = new QLabel(QString::fromStdString(tmp), OutScreen);
+            newLabel->move(20, 20+300*(index++));
             listLabel.push_back(newLabel);
         }
         OutScreen->exec();

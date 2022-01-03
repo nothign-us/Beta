@@ -8,9 +8,11 @@ AdminMenu::AdminMenu(std::string username, QWidget *parent) :
     QDialog(parent),
     ui(new Ui::AdminMenu)
 {
+    parent->setVisible(false);
     ui->setupUi(this);
     ui->usernameDisplay->setText(QString::fromStdString(username));
     this->setWindowTitle("Quản lý vé đã đặt");
+    ui->bookedTicketDisplay->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 
     ui->bookedTicketDisplay->setColumnCount(6);
     ui->bookedTicketDisplay->setRowCount(AdminAccount::GetNumberOfBookedTicket());

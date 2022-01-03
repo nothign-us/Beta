@@ -2,11 +2,14 @@
 #include <fstream>
 #include <algorithm>
 
+#include <QDebug>
+
 using namespace std;
 
 #define PAUSE system("read -p 'Press Enter to continue...' var");
 
-const string fileNameAirport = "VietNamAirport.txt";
+//const string fileNameAirport = "VietNamAirport.txt";
+const string fileNameAirport = "/home/tranbaoanh/Coding/Cpp-Projects/airline-new/Beta/airline-terminal/VietNamAirport.txt";
 
 // Mau file VietNamAirport.txt
 // [Ten san bay]|[Ten tinh]
@@ -14,7 +17,14 @@ const string fileNameAirport = "VietNamAirport.txt";
 vector<string> getAirport() {
     ifstream inp;
     inp.open(fileNameAirport, ios::in);
+
     vector<string> name;
+
+    if (inp.is_open() == false) {
+        qDebug() << "Can't load Airport file!\n";
+        return name;
+    }
+
     string cur;
     while (getline(inp, cur)) {
         name.push_back(cur);

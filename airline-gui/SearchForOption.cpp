@@ -5,7 +5,6 @@ SearchForOption::SearchForOption(Account* currentAcc,QWidget *parent) :
     QDialog(parent),
     ui(new Ui::SearchForOption)
 {
-    currentAccount = currentAcc;
     ui->setupUi(this);
     currentAccount = currentAcc;
     this->setWindowTitle("Chọn kiểu tìm kiếm vé");

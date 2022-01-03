@@ -1,4 +1,5 @@
 #include "SelectFlight.h"
+#include "Client.h"
 #include "ui_SelectFlight.h"
 
 SelectFlight::SelectFlight(vector<Flight> ListFlight,bool Eco, vector<Ticket*> listTicket,QWidget *parent) :

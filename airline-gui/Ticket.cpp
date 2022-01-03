@@ -1,4 +1,5 @@
 #include "Ticket.h"
+#include "Client.h"
 
 using namespace std;
 
@@ -101,7 +102,11 @@ string Ticket::toString()
    stringstream os;
    os << "----------------------------------------" << endl;
    os << _client << endl;
-   cout  << (_flight).GetStartAiport().getNameAirport() << " ====> " << _flight.GetDestinateAiport().getNameAirport() << "\t" << _flight.GetArrivalDate() << "\t" << _flight.GetDepartTime() << endl;
+   os << "Departure Airport: " << _flight.GetStartAiport().getNameAirport() << endl;
+   os << "Departure Time: " << _flight.GetDepartureDate() << "\t" << _flight.GetDepartTime() << endl;
+   os << "Arrival Airport: " << _flight.GetDestinateAiport().getNameAirport() << endl;
+   os << "Arrival Time: " << _flight.GetArrivalDate() << "\t" << _flight.GetArrivalTime() << endl;
+   //os  << (_flight).GetStartAiport().getNameAirport() << " ====> " << _flight.GetDestinateAiport().getNameAirport() << "\t" << _flight.GetArrivalDate() << "\t" << _flight.GetDepartTime() << endl;
    os << _seat <<endl;
    os << "Cost: " << calculatePrice() << endl;
    os << "----------------------------------------" << endl;

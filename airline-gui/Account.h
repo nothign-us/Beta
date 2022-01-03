@@ -47,7 +47,6 @@ public:
 public:
     bool Purchase(Ticket*&);
     void addTicket(Ticket* t);
-    void printBookedTicket();
 };
 
 //===========================================================================
@@ -60,7 +59,6 @@ public:
     static int GetNumberOfBookedTicket();
     static vector<string> GetBookedTicketInfo();
     AdminAccount(std::string user, std::string pass);
-    void printAllBookedTickets();
 };
 
 #endif

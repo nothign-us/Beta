@@ -22,33 +22,31 @@ void MainWindow::on_signinButton_clicked()
     string username = ui->lineEdit_username->text().toStdString();
     string password = ui->lineEdit_password->text().toStdString();
     if (Account::SignIn(username, password) == false) {
-
         QMessageBox::critical(this, "Đăng nhập thất bại", "Vui lòng kiểm tra lại tên đăng nhập và mật khẩu");
     }
     else {
-        /*Account *currentAcc = Manager::getAccount(username);
-        // Process if sign in successfully
-        ClientMenu clientMenu(username, currentAcc);
-        close();
-        clientMenu.exec();*/
+        ui->lineEdit_username->setText("");
+        ui->lineEdit_password->setText("");
         Account* signedInAccount = Manager::findAccount(username, password);
         if (signedInAccount->_isAdmin) {
-            AdminMenu adminMenu(username);
-            this->close();
+            AdminMenu adminMenu(username, this);
+            this->hide();
             adminMenu.exec();
+            this->show();
         }
         else {
             Account* currentAccount = Manager::getAccount(username);
             ClientMenu clientMenu(username,currentAccount);
-            close();
+            this->hide();
             clientMenu.exec();
+            this->show();
         }
     }
 }
 void MainWindow::on_signupButton_clicked()
 {
     string password = ui->lineEdit_password->text().toStdString();
-    SignUpWindow signupWindow;
+    SignUpWindow signupWindow(this);
     signupWindow.exec();
 }
 

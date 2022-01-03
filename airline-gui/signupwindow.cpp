@@ -30,7 +30,7 @@ void SignUpWindow::on_confirmButton_clicked() {
     string id = ui->IDInput->text().toStdString();
     string nation = ui->nationInput->text().toStdString();
     string city = ui->provinceInput->text().toStdString();
-    string district = ui->provinceInput->text().toStdString();
+    string district = ui->districtInput->text().toStdString();
     string town = ui->townInput->text().toStdString();
     string street = ui->streetInput->text().toStdString();
     bool sex = ui->sexChoice->currentText().toStdString() == "Nam";
