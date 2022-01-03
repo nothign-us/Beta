@@ -26,11 +26,11 @@ void MainWindow::on_signinButton_clicked()
         QMessageBox::critical(this, "Đăng nhập thất bại", "Vui lòng kiểm tra lại tên đăng nhập và mật khẩu");
     }
     else {
-        Account *currentAcc = Manager::getAccount(username);
+        /*Account *currentAcc = Manager::getAccount(username);
         // Process if sign in successfully
         ClientMenu clientMenu(username, currentAcc);
         close();
-        clientMenu.exec();
+        clientMenu.exec();*/
         Account* signedInAccount = Manager::findAccount(username, password);
         if (signedInAccount->_isAdmin) {
             AdminMenu adminMenu(username);
