@@ -11,7 +11,7 @@ AdminMenu::AdminMenu(std::string username, QWidget *parent) :
     parent->setVisible(false);
     ui->setupUi(this);
     ui->usernameDisplay->setText(QString::fromStdString(username));
-    this->setWindowTitle("Quản lý vé đã đặt");
+    this->setWindowTitle("Quản lý vé đã đặt và thanh toán thành công");
     ui->bookedTicketDisplay->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
 
     ui->bookedTicketDisplay->setColumnCount(6);

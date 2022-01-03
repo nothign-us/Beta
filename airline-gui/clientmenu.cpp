@@ -39,17 +39,30 @@ void ClientMenu::on_printTicketButton_clicked()
     else
     {
         QDialog *OutScreen = new QDialog;
-        OutScreen->setWindowTitle("Danh sach ve");
-        //OutScreen->setFixedSize(1200,450);
-        OutScreen->setGeometry(200, 200, 450, 1200);
+        OutScreen->setWindowTitle("Danh sách vé");
+        OutScreen->setMinimumSize(500,450);
+
+        QScrollArea* scroll = new QScrollArea(OutScreen);
+        scroll->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
+        scroll->setWidgetResizable(true);
+
+        QWidget* widget = new QWidget(scroll);
+        scroll->setWidget(widget);
+
+        QVBoxLayout* OutScrLayout = new QVBoxLayout();
+        OutScreen->setLayout(OutScrLayout);
+        OutScrLayout->addWidget(scroll);
+        QVBoxLayout* layout = new QVBoxLayout(widget);
+        widget->setLayout(layout);
 
         vector<QLabel*> listLabel;
-        int index=0;
-        for(int i = 0; i < ListTicket.size(); i++)
+        //int index = 0;
+        for(int i = 0; i < int(ListTicket.size()); i++)
         {
             string tmp = ListTicket[i]->toString();
-            QLabel* newLabel = new QLabel(QString::fromStdString(tmp), OutScreen);
-            newLabel->move(20, 20+300*(index++));
+            QLabel* newLabel = new QLabel(QString::fromStdString(tmp));
+            layout->addWidget(newLabel);
+            //newLabel->move(20, 20+300*(index++));
             listLabel.push_back(newLabel);
         }
         OutScreen->exec();
