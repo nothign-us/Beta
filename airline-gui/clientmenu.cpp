@@ -53,6 +53,7 @@ void ClientMenu::on_printTicketButton_clicked()
             listLabel.push_back(newLabel);
         }
         OutScreen->exec();
+        delete OutScreen;
     }
 }
 
