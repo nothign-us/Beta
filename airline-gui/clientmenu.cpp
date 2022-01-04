@@ -76,11 +76,16 @@ void ClientMenu::on_purchaseButton_clicked()
     if(ListTicket.size() == 0)
         QMessageBox::critical(this, "Tài khoản chưa đặt vé", "Vui lòng đặt vé");
     else{
+        long long totalPrice = 0;
         for(auto i: ListTicket)
         {
             AdminAccount::addTicket(i);
+            totalPrice += i->getPrice();
         }
-        QMessageBox OK; OK.setText("Đặt vé thành công, cảm ơn bạn!");
+        string totalPrice_Str = to_string(totalPrice);
+        totalPrice_Str = "Tổng số tiền đã trả là: " + totalPrice_Str;
+        totalPrice_Str += "\n Đặt vé thành công, cảm ơn bạn!";
+        QMessageBox OK;OK.setWindowTitle("Xong"); OK.setText(QString::fromStdString(totalPrice_Str));
         OK.exec();
 
     }
