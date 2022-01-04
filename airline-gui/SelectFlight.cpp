@@ -90,7 +90,7 @@ void SelectFlight::on_pushButton_clicked()
             char col = ui->Col->currentText().toStdString()[0];
             bool isSelect = ui->select->isChecked();
             SelectedSeat = *SelectSeat(!isEco,isSelect,_listTicket,SelectedFl,row,col);
-            QMessageBox OK;OK.setText("Đã thêm vé vào giỏ hàng, vui lòng thanh toán");
+            QMessageBox OK;OK.setWindowTitle("Xong");OK.setText("Đã thêm vé vào giỏ hàng, vui lòng thanh toán");
             OK.exec();
             close();
         }

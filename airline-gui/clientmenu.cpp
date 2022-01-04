@@ -89,18 +89,22 @@ void ClientMenu::RemoveFromListTicket()
             vector<Ticket*> natureTicket = GetListTicket(Manager::listAirport,0,ListTicket[index]->getFlight().GetStartAiport().getNameAirport(),ListTicket[index]->getFlight().GetDestinateAiport().getNameAirport(),Date(1,1,1));
             for(auto j: natureTicket)
             {
-                if(*j->getSeat() == *ListTicket[index]->getSeat() && j->getSeat()->isBoss() == ListTicket[index]->getSeat()->isBoss())
-                {
-                    j->getSeat()->setUnbooked();
-                    break;
+                if(j->getFlight() == ListTicket[index]->getFlight() && j->getFlight().GetDepartureDate() == ListTicket[index]->getFlight().GetDepartureDate()){
+                    if(*j->getSeat() == *ListTicket[index]->getSeat() && j->getSeat()->isBoss() == ListTicket[index]->getSeat()->isBoss())
+                    {
+                        j->getSeat()->setUnbooked();
+                        break;
+                    }
                 }
             }
             ListTicket.erase(ListTicket.begin()+index);
-
         }
         else
             index++;
     }
+    for(auto i: checkbox)
+        delete i;
+    checkbox.clear();
     QMessageBox OK;OK.setWindowTitle("OK!");
     OK.setText("Xóa vé thành công!");
     OK.exec();
