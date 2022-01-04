@@ -41,7 +41,7 @@
    <widget class="QWidget" name="horizontalWidget" native="true">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>0</x>
       <y>10</y>
       <width>751</width>
       <height>431</height>
@@ -57,22 +57,6 @@
      <property name="sizeConstraint">
       <enum>QLayout::SetMaximumSize</enum>
      </property>
-     <item>
-      <spacer name="horizontalSpacer_2">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeType">
-        <enum>QSizePolicy::Fixed</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>200</width>
-         <height>20</height>
-        </size>
-       </property>
-      </spacer>
-     </item>
      <item>
       <layout class="QVBoxLayout" name="verticalLayout">
        <property name="leftMargin">
@@ -93,6 +77,16 @@
           </size>
          </property>
         </spacer>
+       </item>
+       <item alignment="Qt::AlignHCenter">
+        <widget class="QLabel" name="logo">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap>Images/logo.png</pixmap>
+         </property>
+        </widget>
        </item>
        <item>
         <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -172,22 +166,6 @@
         </spacer>
        </item>
       </layout>
-     </item>
-     <item>
-      <spacer name="horizontalSpacer">
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-       <property name="sizeType">
-        <enum>QSizePolicy::Fixed</enum>
-       </property>
-       <property name="sizeHint" stdset="0">
-        <size>
-         <width>200</width>
-         <height>20</height>
-        </size>
-       </property>
-      </spacer>
      </item>
     </layout>
    </widget>

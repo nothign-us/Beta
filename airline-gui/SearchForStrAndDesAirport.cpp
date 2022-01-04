@@ -52,7 +52,7 @@ void SearchForStrAndDesAirport::on_Confirm_clicked()
         else{
            SelectFlight *option = new SelectFlight(listFlight,isEco, listTicket);
            option->exec();
-            Ticket* tk = nullptr;
+           Ticket* tk = nullptr;
            if(isEco)
               tk = new EcoTicket(option->getSelectedFlight(), CurrentAccount->getClient(),option->selectSeat(),option->isSelectSeat);
             else{

@@ -88,7 +88,7 @@
   <widget class="QRadioButton" name="skyboss">
    <property name="geometry">
     <rect>
-     <x>240</x>
+     <x>200</x>
      <y>150</y>
      <width>141</width>
      <height>23</height>

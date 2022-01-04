@@ -133,7 +133,7 @@
       <item>
        <widget class="QPushButton" name="printTicketButton">
         <property name="text">
-         <string>In vé</string>
+         <string>In hoặc xóa vé</string>
         </property>
        </widget>
       </item>

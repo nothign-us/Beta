@@ -50,7 +50,10 @@ void Seat::SetBooked()
 {
     _isBooked = 1;
 }
-
+void Seat::setUnbooked()
+{
+    _isBooked = 0;
+}
 void Seat::SetFree() {
     _isBooked = 0;
 }

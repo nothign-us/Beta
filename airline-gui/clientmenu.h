@@ -4,6 +4,8 @@
 #include <QDialog>
 #include <QMessageBox>
 #include <QLabel>
+#include <QPushButton>
+#include <QCheckBox>
 #include"SearchForOption.h"
 #include"Manager.h"
 #include<vector>
@@ -19,6 +21,7 @@ class ClientMenu : public QDialog
 
 public:
     explicit ClientMenu(std::string username, Account* currentAcc , QWidget *parent = nullptr);
+    void RemoveFromListTicket();
     ~ClientMenu();
 
 private slots:
@@ -31,6 +34,8 @@ private:
     Ui::ClientMenu *ui;
     vector<Ticket*> ListTicket;
     Account* CurrentAccount;
+    vector<QCheckBox*> checkbox;
+    QDialog *OutScreen;
 };
 
 #endif // CLIENTMENU_H

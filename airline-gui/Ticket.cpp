@@ -64,7 +64,10 @@ int EcoTicket::getPrice() const{
 Seat* Ticket::getSeat() {
     return &_seat;
 }
-
+void Ticket::SetSeatUnbook()
+{
+    _seat.setUnbooked();
+}
 int Ticket::calculatePrice() const{
     int discount = 0;
     int price = getPrice();

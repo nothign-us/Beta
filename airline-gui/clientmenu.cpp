@@ -38,7 +38,8 @@ void ClientMenu::on_printTicketButton_clicked()
         QMessageBox::critical(this, "Tài khoản chưa đặt vé", "Vui lòng đặt vé");
     else
     {
-        QDialog *OutScreen = new QDialog;
+        //Xuat danh sach ve ra man hinh
+        OutScreen = new QDialog;
         OutScreen->setWindowTitle("Danh sách vé");
         OutScreen->setMinimumSize(500,450);
 
@@ -55,22 +56,56 @@ void ClientMenu::on_printTicketButton_clicked()
         QVBoxLayout* layout = new QVBoxLayout(widget);
         widget->setLayout(layout);
 
-        vector<QLabel*> listLabel;
         //int index = 0;
         for(int i = 0; i < int(ListTicket.size()); i++)
         {
             string tmp = ListTicket[i]->toString();
-            QLabel* newLabel = new QLabel(QString::fromStdString(tmp));
+            QCheckBox* newLabel = new QCheckBox(QString::fromStdString(tmp));
             layout->addWidget(newLabel);
             //newLabel->move(20, 20+300*(index++));
-            listLabel.push_back(newLabel);
+            checkbox.push_back(newLabel);
         }
+
+        //Xu ly xoa ve khoi danh sach
+        QPushButton *RemoveTicket = new QPushButton;
+        RemoveTicket->setText("Xóa vé khỏi danh sách");
+        layout->addWidget(RemoveTicket);
+        if(connect(RemoveTicket, &QPushButton::clicked, this, &ClientMenu::RemoveFromListTicket))
+           OutScreen->close();
         OutScreen->exec();
         delete OutScreen;
     }
 }
 
+void ClientMenu::RemoveFromListTicket()
+{
+    int index = 0;
+    for(auto i:checkbox)
+    {
+        if(i->isChecked())
+        {
+            //Chuyển trạng thái ghê ngồi thành chưa đặt, vì các vị trí ghế ngồi được tạo trong ListTicket của Manager
+            //do đó ta tiến hành lấy danh sách các vé ban đầu rồi đặt vị trí ghế là chưa đặt.
+            vector<Ticket*> natureTicket = GetListTicket(Manager::listAirport,0,ListTicket[index]->getFlight().GetStartAiport().getNameAirport(),ListTicket[index]->getFlight().GetDestinateAiport().getNameAirport(),Date(1,1,1));
+            for(auto j: natureTicket)
+            {
+                if(*j->getSeat() == *ListTicket[index]->getSeat() && j->getSeat()->isBoss() == ListTicket[index]->getSeat()->isBoss())
+                {
+                    j->getSeat()->setUnbooked();
+                    break;
+                }
+            }
+            ListTicket.erase(ListTicket.begin()+index);
 
+        }
+        else
+            index++;
+    }
+    QMessageBox OK;OK.setWindowTitle("OK!");
+    OK.setText("Xóa vé thành công!");
+    OK.exec();
+    OutScreen->close();
+}
 void ClientMenu::on_purchaseButton_clicked()
 {
     if(ListTicket.size() == 0)

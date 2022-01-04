@@ -28,6 +28,7 @@ public:
     void SetBoss() {
         _isBoss = 1;
     }
+    void setUnbooked();
     void set(int row, char col, bool isBoss);
     static vector<Seat> InitListSeat(int row, char col, bool boss);
     bool isBooked();

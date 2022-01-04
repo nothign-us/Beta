@@ -107,10 +107,10 @@
   <widget class="QRadioButton" name="skyboss">
    <property name="geometry">
     <rect>
-     <x>240</x>
+     <x>210</x>
      <y>180</y>
-     <width>151</width>
-     <height>23</height>
+     <width>181</width>
+     <height>21</height>
     </rect>
    </property>
    <property name="text">

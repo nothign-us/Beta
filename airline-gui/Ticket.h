@@ -25,6 +25,7 @@ public:
     bool _isBooked;
     Flight getFlight() const;
     Seat* getSeat();
+    void SetSeatUnbook();
     void setSkyboss();
     bool operator== (const Ticket&);
     bool operator< (const Ticket&);
