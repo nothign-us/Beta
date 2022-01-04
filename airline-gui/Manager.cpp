@@ -9,7 +9,7 @@ using namespace std;
 #define PAUSE system("read -p 'Press Enter to continue...' var");
 
 //const string fileNameAirport = "VietNamAirport.txt";
-const string fileNameAirport = "/home/tranbaoanh/Coding/Cpp-Projects/airline-new/Beta/airline-terminal/VietNamAirport.txt";
+const string fileNameAirport = "VietNamAirport.txt";
 
 // Mau file VietNamAirport.txt
 // [Ten san bay]|[Ten tinh]

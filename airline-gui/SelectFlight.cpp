@@ -11,7 +11,7 @@ SelectFlight::SelectFlight(vector<Flight> ListFlight,bool Eco, vector<Ticket*> l
     _listTicket = listTicket;
     _listFlight = ListFlight;
 
-    setWindowTitle("GG");
+    setWindowTitle("Chọn chuyến bay");
     setFixedWidth(950);
     setFixedHeight(700);
     stringstream os;
