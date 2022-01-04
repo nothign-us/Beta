@@ -7,6 +7,9 @@ SearchForStrAndDepartureDate::SearchForStrAndDepartureDate(Account* currentAccou
 {
     ui->setupUi(this);
     this->setWindowTitle("Tìm kiếm chuyến bay với sân bay đi và ngày khởi hành");
+    ui->eco->setText("Hạng thường");
+    ui->skyboss->setText("Hạng thương gia");
+
     vector<string> listAirport = Manager::listAirport;
     for(string i:listAirport){
         ui->SrtAirport->addItem(QString::fromStdString(i));
@@ -31,7 +34,7 @@ void SearchForStrAndDepartureDate::on_confirm_clicked()
         vector<Ticket*> listTicket = GetListTicket(Manager::listAirport,1,startAirport,"",Date::Parse(date));
         vector<Flight> listFlight = GetFlight(listTicket);
         if(listFlight.size()==0)
-            QMessageBox::critical(this,  "Lỗi","Khong co chuyen bay phu hop");
+            QMessageBox::critical(this,  "Lỗi","Không có chuyến bay phú hợp");
         else{
            SelectFlight *option = new SelectFlight(listFlight,isEco, listTicket);
            option->exec();

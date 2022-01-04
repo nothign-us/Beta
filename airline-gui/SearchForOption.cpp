@@ -36,7 +36,7 @@ void SearchForOption::on_confirm_clicked()
     }
     else
     {
-        QMessageBox::critical(this,  "Lỗi","Vui lòng chọn trước khi tiếp tục");
+        QMessageBox::critical(this, "Lỗi", "Vui lòng chọn trước khi tiếp tục");
     }
 }
 

@@ -13,6 +13,7 @@ AdminMenu::AdminMenu(std::string username, QWidget *parent) :
     ui->usernameDisplay->setText(QString::fromStdString(username));
     this->setWindowTitle("Quản lý vé đã đặt và thanh toán thành công");
     ui->bookedTicketDisplay->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+    ui->bookedTicketDisplay->setEditTriggers(QTableWidget::NoEditTriggers);
 
     ui->bookedTicketDisplay->setColumnCount(6);
     ui->bookedTicketDisplay->setRowCount(AdminAccount::GetNumberOfBookedTicket());

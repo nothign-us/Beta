@@ -7,7 +7,7 @@ Time Time::TryParse(string input)
     // chac chan raang input la hop le
     Time res;
     string tmp = "";
-    for (int i = 0; i < input.length(); i++)
+    for (int i = 0; i < int(input.length()); i++)
     {
         if(input[i] != ':')
             tmp += input[i];
@@ -116,7 +116,8 @@ bool Time::IsValidTime(int hour, int min, int sec)
 string Time::ToString() const
 {
     stringstream writer;
-    writer << to_string(_hour) << ":" << ((_minute!=0)?to_string(_minute):"00");
+    writer << ((_hour < 10) ? ("0" + to_string(_hour)) : to_string(_hour));
+    writer << ":" << ((_minute < 10) ? ("0" + to_string(_minute)) : (to_string(_minute)));
     return writer.str();
 }
 

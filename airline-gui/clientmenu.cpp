@@ -77,10 +77,10 @@ void ClientMenu::on_purchaseButton_clicked()
         QMessageBox::critical(this, "Tài khoản chưa đặt vé", "Vui lòng đặt vé");
     else{
         long long totalPrice = 0;
-        for(auto i: ListTicket)
+        for(Ticket* i: ListTicket)
         {
             AdminAccount::addTicket(i);
-            totalPrice += i->getPrice();
+            totalPrice += i->calculatePrice();
         }
         string totalPrice_Str = to_string(totalPrice);
         totalPrice_Str = "Tổng số tiền đã trả là: " + totalPrice_Str;

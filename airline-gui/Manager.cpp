@@ -8,7 +8,6 @@ using namespace std;
 
 #define PAUSE system("read -p 'Press Enter to continue...' var");
 
-//const string fileNameAirport = "VietNamAirport.txt";
 const string fileNameAirport = "VietNamAirport.txt";
 
 // Mau file VietNamAirport.txt
@@ -49,9 +48,9 @@ vector<string> getAirport() {
 // Province.push_back("TP Ho Chi Minh");
 void seperateInfor(vector<string> raw, vector<string> &listAirport, vector<string> &listProvince) {
     string tmp;
-    for (int i = 0; i < raw.size(); i++) {
+    for (int i = 0; i < int(raw.size()); i++) {
         tmp = "";
-        for (int j = 0; j < raw[i].size(); j++) {
+        for (int j = 0; j < int(raw[i].size()); j++) {
             if (raw[i][j] != '|')
                 tmp += raw[i][j];
             else {
@@ -245,7 +244,7 @@ void Manager::addNewAccount(Account* src_acc) {
 
 Account* Manager::findAccount(string user, string pass) {
     Account* temp = new Account(user, pass, false);
-    for (int i = 0; i < _allAccount.size(); i++)
+    for (int i = 0; i < int(_allAccount.size()); i++)
         if (*temp == *_allAccount[i]) {
             delete temp;
             return _allAccount[i];
@@ -258,7 +257,7 @@ bool Manager::emptyAccount() {
 }
 
 void Manager::removeTicket(Ticket* t) {
-    for (int i = 0; i < _availableTickets.size(); i++) {
+    for (int i = 0; i < int(_availableTickets.size()); i++) {
         Ticket* cur = _availableTickets[i];
 
         Flight _flight = cur->getFlight();

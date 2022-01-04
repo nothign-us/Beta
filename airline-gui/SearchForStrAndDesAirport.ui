@@ -82,7 +82,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Eco</string>
+    <string>Hạng thường</string>
    </property>
   </widget>
   <widget class="QRadioButton" name="skyboss">
@@ -90,12 +90,12 @@
     <rect>
      <x>240</x>
      <y>150</y>
-     <width>112</width>
+     <width>121</width>
      <height>23</height>
     </rect>
    </property>
    <property name="text">
-    <string>Skyboss</string>
+    <string>Hạng thương gia</string>
    </property>
   </widget>
  </widget>

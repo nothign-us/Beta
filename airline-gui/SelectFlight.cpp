@@ -15,13 +15,13 @@ SelectFlight::SelectFlight(vector<Flight> ListFlight,bool Eco, vector<Ticket*> l
     setFixedWidth(950);
     setFixedHeight(700);
     stringstream os;
-    os << setw(25) << right << "StartAirport"
-         << setw(25) << right << "DestinationAirport"
-         << setw(20) << right << "Depart Day"
-         << setw(20) << right << "Depart"
-         << setw(20) << right << "Arrival"
-         << setw(20) << right << "Eco"
-         << setw(20) << right << "Skyboss" << endl;
+    os << setw(25) << right << "Sân bay khởi hành"
+         << setw(25) << right << "Sân bay hạ cánh"
+         << setw(20) << right << "Ngày khởi hành"
+         << setw(20) << right << "Giờ khởi hành"
+         << setw(20) << right << "Giờ hạ cánh"
+         << setw(20) << right << "Giá vé thường"
+         << setw(20) << right << "Giá vé thương gia" << endl;
     QLabel *title = new QLabel (QString::fromStdString(os.str()), this);
     title->move(30,10);
     int index=1;
@@ -109,9 +109,8 @@ void SelectFlight::on_pushButton_clicked()
             isSelectSeat = true;
             SelectedSeat.set(stoi(ui->Row->currentText().toStdString()),ui->Col->currentText().toStdString()[0],!isEco);
          }
-         QMessageBox OK;OK.setText("Đã thêm vé vào giỏ hàng, vui lòng thanh toán");
-         OK.exec();
-         close();
+        QMessageBox::information(this, "Đặt vé thành công", "Đã thêm vé vào giỏ hàng, vui lòng thanh toán");
+        close();
     }
 
 }

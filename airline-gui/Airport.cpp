@@ -56,7 +56,7 @@ map<string, string> Airport::loadAirportList(string dataFileName)
         // trỏ p tới địa chỉ của airport name
         p = &airportName;
         getline(getData, line);
-        for (int i = 0; i < line.length(); i++)
+        for (int i = 0; i < int(line.length()); i++)
         {
             if (line[i] != '|')
             {

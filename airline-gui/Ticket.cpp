@@ -100,16 +100,15 @@ ostream &operator<<(ostream &os, const Ticket &src)
 string Ticket::toString()
 {
    stringstream os;
-   os << "----------------------------------------" << endl;
+   os << "**********************************************" << endl;
    os << _client << endl;
-   os << "Departure Airport: " << _flight.GetStartAiport().getNameAirport() << endl;
-   os << "Departure Time: " << _flight.GetDepartureDate() << "\t" << _flight.GetDepartTime() << endl;
-   os << "Arrival Airport: " << _flight.GetDestinateAiport().getNameAirport() << endl;
-   os << "Arrival Time: " << _flight.GetArrivalDate() << "\t" << _flight.GetArrivalTime() << endl;
-   //os  << (_flight).GetStartAiport().getNameAirport() << " ====> " << _flight.GetDestinateAiport().getNameAirport() << "\t" << _flight.GetArrivalDate() << "\t" << _flight.GetDepartTime() << endl;
-   os << _seat <<endl;
-   os << "Cost: " << calculatePrice() << endl;
-   os << "----------------------------------------" << endl;
+   os << "Sân bay khởi hành:\t" << _flight.GetStartAiport().getNameAirport() << endl;
+   os << "Thời gian khởi hành:\t" << _flight.GetDepartureDate() << "\t" << _flight.GetDepartTime() << endl;
+   os << "Sân bay hạ cánh:\t\t" << _flight.GetDestinateAiport().getNameAirport() << endl;
+   os << "Thời gian hạ cánh:\t\t" << _flight.GetArrivalDate() << "\t" << _flight.GetArrivalTime() << endl;
+   os << "Vị trí ghế:\t\t" << _seat <<endl;
+   os << "Giá tiền:\t\t\t" << calculatePrice() << endl;
+   os << "**********************************************" << endl;
    return os.str();
 }
 
