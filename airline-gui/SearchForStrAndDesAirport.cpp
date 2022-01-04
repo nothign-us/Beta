@@ -39,24 +39,26 @@ void SearchForStrAndDesAirport::on_Confirm_clicked()
     string startAirport = ui->StrAirport->currentText().toStdString(), desAirport = ui->DesAirport->currentText().toStdString();
     if((!ui->eco->isChecked() && !ui->skyboss->isChecked()) || startAirport == "" || desAirport == "")
         QMessageBox::critical(this,  "Lỗi","Vui lòng chọn đủ thông tin trước khi tiếp tục");
-    bool isEco = ui->eco->isChecked();
-    vector<Ticket*> listTicket = GetListTicket(Manager::listAirport,0,startAirport,desAirport,Date(1,1,1));
-    vector<Flight> listFlight = GetFlight(listTicket);
-    SearchForStrAndDesAirport::close();
-    if(listFlight.size()==0 )
-        QMessageBox::critical(this,  "Lỗi","Khong co chuyen bay phu hop");
     else{
-       SelectFlight *option = new SelectFlight(listFlight,isEco, listTicket);
-       option->exec();
-        Ticket* tk = nullptr;
-       if(isEco)
-          tk = new EcoTicket(option->getSelectedFlight(), CurrentAccount->getClient(),option->selectSeat(),option->isSelectSeat);
+        bool isEco = ui->eco->isChecked();
+        vector<Ticket*> listTicket = GetListTicket(Manager::listAirport,0,startAirport,desAirport,Date(1,1,1));
+        vector<Flight> listFlight = GetFlight(listTicket);
+        SearchForStrAndDesAirport::close();
+        if(listFlight.size()==0 )
+            QMessageBox::critical(this,  "Lỗi","Khong co chuyen bay phu hop");
         else{
-          tk = new SkybossTicket(option->getSelectedFlight(), CurrentAccount->getClient(),option->selectSeat(),option->isSelectSeat);
-          tk->setSkyboss();
-       }
-       bookedTicket = tk;
+           SelectFlight *option = new SelectFlight(listFlight,isEco, listTicket);
+           option->exec();
+            Ticket* tk = nullptr;
+           if(isEco)
+              tk = new EcoTicket(option->getSelectedFlight(), CurrentAccount->getClient(),option->selectSeat(),option->isSelectSeat);
+            else{
+              tk = new SkybossTicket(option->getSelectedFlight(), CurrentAccount->getClient(),option->selectSeat(),option->isSelectSeat);
+              tk->setSkyboss();
+           }
+           bookedTicket = tk;
+        }
+        //close();
     }
-    close();
 }
 

@@ -82,8 +82,6 @@ void SelectFlight::on_pushButton_clicked()
 
     if(!isAtLeast1Select || (!ui->select->isChecked() && !ui->Disselect->isChecked())){
         QMessageBox::critical(this,  "Lỗi","Vui lòng đưa ra một lựa chọn trước khi tiếp tục");
-        SelectFlight g(_listFlight,isEco, _listTicket);
-        g.exec();
     }
     else{
         static vector<Seat> availableSeats = Manager::listEmptySeat(_listTicket, !isEco, SelectedFl);
@@ -113,7 +111,8 @@ void SelectFlight::on_pushButton_clicked()
          }
          QMessageBox OK;OK.setText("Đã thêm vé vào giỏ hàng, vui lòng thanh toán");
          OK.exec();
+         close();
     }
-     close();
+
 }
 
