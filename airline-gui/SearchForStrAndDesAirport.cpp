@@ -8,6 +8,9 @@ SearchForStrAndDesAirport::SearchForStrAndDesAirport(Account* currentAcc, QWidge
     CurrentAccount = currentAcc;
     ui->setupUi(this);
     this->setWindowTitle("Tìm kiếm chuyến bay với sân bay đi và sân bay đến");
+    ui->eco->setText("Hạng thường");
+    ui->skyboss->setText("Hạng thương gia");
+
     vector<string> listAirport = Manager::listAirport;
     for(string i:listAirport){
         ui->StrAirport->addItem(QString::fromStdString(i));
@@ -45,7 +48,7 @@ void SearchForStrAndDesAirport::on_Confirm_clicked()
         vector<Flight> listFlight = GetFlight(listTicket);
         SearchForStrAndDesAirport::close();
         if(listFlight.size()==0 )
-            QMessageBox::critical(this,  "Lỗi","Khong co chuyen bay phu hop");
+            QMessageBox::critical(this,  "Lỗi","Không có chuyến bay phù hợp");
         else{
            SelectFlight *option = new SelectFlight(listFlight,isEco, listTicket);
            option->exec();
@@ -58,7 +61,6 @@ void SearchForStrAndDesAirport::on_Confirm_clicked()
            }
            bookedTicket = tk;
         }
-        //close();
     }
 }
 

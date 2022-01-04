@@ -55,7 +55,7 @@ public:
         eco->setGeometry(QRect(50, 150, 112, 23));
         skyboss = new QRadioButton(SearchForStrAndDesAirport);
         skyboss->setObjectName(QString::fromUtf8("skyboss"));
-        skyboss->setGeometry(QRect(240, 150, 112, 23));
+        skyboss->setGeometry(QRect(240, 150, 121, 23));
 
         retranslateUi(SearchForStrAndDesAirport);
 
@@ -68,8 +68,8 @@ public:
         label->setText(QApplication::translate("SearchForStrAndDesAirport", "S\303\242n bay \304\221i", nullptr));
         label_2->setText(QApplication::translate("SearchForStrAndDesAirport", "S\303\242n bay \304\221\303\255ch", nullptr));
         Confirm->setText(QApplication::translate("SearchForStrAndDesAirport", "Ti\341\272\277p t\341\273\245c", nullptr));
-        eco->setText(QApplication::translate("SearchForStrAndDesAirport", "Eco", nullptr));
-        skyboss->setText(QApplication::translate("SearchForStrAndDesAirport", "Skyboss", nullptr));
+        eco->setText(QApplication::translate("SearchForStrAndDesAirport", "H\341\272\241ng th\306\260\341\273\235ng", nullptr));
+        skyboss->setText(QApplication::translate("SearchForStrAndDesAirport", "H\341\272\241ng th\306\260\306\241ng gia", nullptr));
     } // retranslateUi
 
 };

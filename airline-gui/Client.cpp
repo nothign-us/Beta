@@ -46,12 +46,12 @@ istream &operator>>(istream &inp, Client &src)
 
 ostream& operator<<(ostream &out, const Client &src)
 {
-    out << "NAME: " << src._name << endl;
-    out << "BIRTH: " << src._birth << endl;
-    out << "ID: " << src._ID << endl;
-    out << "ADDRESS: " << src._address << endl;
-    out << "SEX (0: woman | 1: man)" << src._sex << endl;
-    out << "PHONE NUMBER: " << src._phoneNumber << endl;
-    out << "GMAIL: " << src._email << endl;
+    out << "Tên :\t\t\t" << src._name << endl;
+    out << "Ngày sinh:\t\t" << src._birth << endl;
+    out << "CMND:\t\t\t" << src._ID << endl;
+    out << "Địa chỉ:\t\t\t" << src._address << endl;
+    out << "Giới tính:\t\t\t" << ((src._sex) ? "Nam" : "Nữ") << endl;
+    out << "Số điện thoại:\t\t" << src._phoneNumber << endl;
+    out << "Email:\t\t\t" << src._email;
     return out;
 }

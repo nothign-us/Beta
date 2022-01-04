@@ -107,7 +107,9 @@ bool Date::IsValidDate(int day, int mon, int year)
 string Date::ToString() const
 {
     stringstream writer;
-    writer << to_string(_day) << "/" << to_string(_month) << "/" << to_string(_year);
+    writer << ((_day < 10) ? ("0" + to_string(_day)) : to_string(_day));
+    writer << "/" << ((_month < 10) ? ("0" + to_string(_month)) : to_string(_month));
+    writer << "/" << to_string(_year);
     return writer.str();
 }
 

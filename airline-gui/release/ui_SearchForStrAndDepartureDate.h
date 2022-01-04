@@ -60,7 +60,7 @@ public:
         eco->setGeometry(QRect(60, 180, 112, 23));
         skyboss = new QRadioButton(SearchForStrAndDepartureDate);
         skyboss->setObjectName(QString::fromUtf8("skyboss"));
-        skyboss->setGeometry(QRect(240, 180, 112, 23));
+        skyboss->setGeometry(QRect(240, 180, 121, 23));
         confirm = new QPushButton(SearchForStrAndDepartureDate);
         confirm->setObjectName(QString::fromUtf8("confirm"));
         confirm->setGeometry(QRect(110, 220, 201, 51));
@@ -79,8 +79,8 @@ public:
         label->setText(QApplication::translate("SearchForStrAndDepartureDate", "S\303\242n bay \304\221i", nullptr));
         label_2->setText(QApplication::translate("SearchForStrAndDepartureDate", "Ng\303\240y \304\221i", nullptr));
         Date->setDisplayFormat(QApplication::translate("SearchForStrAndDepartureDate", "d/M/yyyy", nullptr));
-        eco->setText(QApplication::translate("SearchForStrAndDepartureDate", "Eco", nullptr));
-        skyboss->setText(QApplication::translate("SearchForStrAndDepartureDate", "Skyboss", nullptr));
+        eco->setText(QApplication::translate("SearchForStrAndDepartureDate", "H\341\272\241ng th\306\260\341\273\235ng", nullptr));
+        skyboss->setText(QApplication::translate("SearchForStrAndDepartureDate", "H\341\272\241ng th\306\260\306\241ng gia", nullptr));
         confirm->setText(QApplication::translate("SearchForStrAndDepartureDate", "Ti\341\272\277p t\341\273\245c", nullptr));
         label_3->setText(QApplication::translate("SearchForStrAndDepartureDate", "(L\306\260u \303\275: ch\341\273\211 h\341\273\227 tr\341\273\243 t\341\273\253 15/1/2022-31/1/2022)", nullptr));
     } // retranslateUi

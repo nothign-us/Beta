@@ -62,7 +62,7 @@ istream &operator>>(istream &is, Flight &src)
 {
     vector<string> line = Manager::listAirport;
     int str, end;
-    cout << "Choose the star Airport: ";
+    cout << "Choose the start Airport: ";
     cin >> str;
     cout << "Choose the destination Airport: ";
     cin >> end;
