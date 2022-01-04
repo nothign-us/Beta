@@ -83,35 +83,23 @@ void SelectFlight::on_pushButton_clicked()
     if(!isAtLeast1Select || (!ui->select->isChecked() && !ui->Disselect->isChecked())){
         QMessageBox::critical(this,  "Lỗi","Vui lòng đưa ra một lựa chọn trước khi tiếp tục");
     }
-    else{
-        static vector<Seat> availableSeats = Manager::listEmptySeat(_listTicket, !isEco, SelectedFl);
-
-        if(ui->Disselect->isChecked())
-        {
-            isSelectSeat = false;
-            int randRow=1;char randCol='A';
-            bool isLoop = true;
-            while(isLoop){
-                for(auto i:availableSeats)
-                {
-                    if(i.GetCol()==randCol && i.GetRow() == randRow)
-                    {
-                        if(!i.isBooked()){
-                            isLoop = false;
-                            SelectedSeat.set(i.GetRow(),i.GetCol(),!isEco);
-                            break;
-                        }
-                    }
-                }
-            }
+    else{ 
+        //Seat SelectSeat(int isBoss, bool isSelect, vector<Ticket*> list, Flight _flight, int row, char col)
+        try{
+            int row = stoi(ui->Row->currentText().toStdString());
+            char col = ui->Col->currentText().toStdString()[0];
+            bool isSelect = ui->select->isChecked();
+            SelectedSeat = *SelectSeat(!isEco,isSelect,_listTicket,SelectedFl,row,col);
+            QMessageBox OK;OK.setText("Đã thêm vé vào giỏ hàng, vui lòng thanh toán");
+            OK.exec();
+            close();
         }
-        else{
-            isSelectSeat = true;
-            SelectedSeat.set(stoi(ui->Row->currentText().toStdString()),ui->Col->currentText().toStdString()[0],!isEco);
-         }
-         QMessageBox OK;OK.setText("Đã thêm vé vào giỏ hàng, vui lòng thanh toán");
-         OK.exec();
-         close();
+        catch (const char* mess)
+        {
+            QMessageBox::critical(this,  "Lỗi","Ghế đã được đặt");
+        }
+
+
     }
 
 }

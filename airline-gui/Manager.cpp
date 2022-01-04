@@ -120,7 +120,8 @@ void generateSeatForFlight(Flight curFlight, vector<Ticket*> &_availableTickets)
     }
 }
 
-void Manager::printTicketToFile(vector<Ticket*> _availableTickets) {
+void Manager::
+printTicketToFile(vector<Ticket*> _availableTickets) {
     ofstream out;
     out.open("ListTickets.txt", ios::out);
     int n = _availableTickets.size();
@@ -153,7 +154,7 @@ void Manager::loadTicket() {
         for (string depart: listAirport) {
             vector<string> to = getRandDestinationFor(depart, listAirport);
             for (string des: to) {
-                Date date(day, 1, 2021);
+                Date date(day, 1, 2022);
                 Time t1 = time[rand() % time.size()];
                 Time t2 = Time(t1.getHour() + 2, t1.getMinute(), t1.getSecond());
                 Flight flight(depart, des, date, date, t1, t2);
@@ -169,24 +170,24 @@ bool Manager::inTempBooked(Ticket* t, int isBoss) {
     if (_tempBookedTicket.empty())
         return false;
     for (Ticket* cur: _tempBookedTicket) {        
-        if (cur->getSeat().isBoss() != isBoss)  
+        if (cur->getSeat()->isBoss() != isBoss)
             continue;
         Flight f1 = cur->getFlight(), f2 = t->getFlight();
-        Seat s1 = cur->getSeat(), s2 = t->getSeat();        
+        Seat* s1 = cur->getSeat(), *s2 = t->getSeat();
         if (f1 == f2 && f1.GetDepartTime() == f1.GetDepartTime()
-        && f1.GetDepartureDate() == f2.GetDepartureDate() && s1 == s2)
+        && f1.GetDepartureDate() == f2.GetDepartureDate() && *s1 == *s2)
             return true;
     }
     return false;
 }
 
-vector<Seat> Manager::listEmptySeat(vector<Ticket*> list, bool isBoss, Flight _flight) {
-    vector<Seat> res;
+vector<Seat*> Manager::listEmptySeat(vector<Ticket*> list, bool isBoss, Flight _flight) {
+    vector<Seat*> res;
     for (Ticket* t: list) {
-        Seat thisSeat = t->getSeat();
+        Seat* thisSeat = t->getSeat();
         Flight thisFl = t->getFlight();
         
-        if (thisSeat.isBooked() == 0 && thisSeat.isBoss() == isBoss
+        if (thisSeat->isBooked() == 0 && thisSeat->isBoss() == isBoss
         && thisFl.GetArrivalDate() == _flight.GetArrivalDate()
         && thisFl.GetDepartTime() == _flight.GetDepartTime()
         && !inTempBooked(t, isBoss)) 
@@ -196,7 +197,10 @@ vector<Seat> Manager::listEmptySeat(vector<Ticket*> list, bool isBoss, Flight _f
     }
     return res;
 }
-
+bool Manager::isGenerateTicket()
+{
+    return _availableTickets.size()!=0;
+}
 bool Manager::isBooked(Ticket* src_ticket) {
     return src_ticket->_isBooked;
 }
@@ -264,12 +268,12 @@ void Manager::removeTicket(Ticket* t) {
         Flight _flight = cur->getFlight();
         Time time = _flight.GetDepartTime();
         Date date = _flight.GetDepartureDate();
-        Seat seat = cur->getSeat();
+        Seat* seat = cur->getSeat();
 
         Flight tFlight = t->getFlight();
         Time tTime = tFlight.GetDepartTime();
         Date tDate = tFlight.GetDepartureDate();
-        Seat tSeat = t->getSeat();
+        Seat* tSeat = t->getSeat();
 
         if (_flight == tFlight && time == tTime && date == tDate && seat == tSeat
             && typeid(cur) == typeid(t)) {

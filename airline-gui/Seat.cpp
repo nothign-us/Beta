@@ -78,7 +78,14 @@ bool Seat::isBooked()
 bool Seat::operator== (const Seat &s) {
     return _row == s._row && _column == s._column;
 }
-
+Seat& Seat::operator=(const Seat &src)
+{
+     this->_column = src._column;
+     this->_row = src._row;
+     this->_isBooked = src._isBooked;
+     this->_isBoss = src._isBoss;
+     return *this;
+}
 ostream& operator<<(ostream &os, const Seat src)
 {
     //os << "Seat: ";

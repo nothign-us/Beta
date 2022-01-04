@@ -32,6 +32,7 @@ public:
     static vector<Seat> InitListSeat(int row, char col, bool boss);
     bool isBooked();
     bool operator== (const Seat &s);
+    Seat& operator=(const Seat &src);
     //friend ostream &operator<<(ostream &os, Flight src);
     friend ostream& operator<<(ostream &os, const Seat src);
 };

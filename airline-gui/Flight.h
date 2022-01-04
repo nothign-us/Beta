@@ -17,7 +17,7 @@ public:
     Time _arrivingAt;
     Date _departure;
     Date _arrival;
-    // vector<Seat> _listOfSeat;
+    vector<Seat> _listOfSeat;
 
 public:
     // Mấy hàm nhập xuất này viết tạm để nhập chuyến bay thôi,

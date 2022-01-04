@@ -80,7 +80,7 @@ void ClientMenu::on_purchaseButton_clicked()
         for(auto i: ListTicket)
         {
             AdminAccount::addTicket(i);
-            totalPrice += i->getPrice();
+            totalPrice += i->calculatePrice();
         }
         string totalPrice_Str = to_string(totalPrice);
         totalPrice_Str = "Tổng số tiền đã trả là: " + totalPrice_Str;

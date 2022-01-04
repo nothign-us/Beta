@@ -92,9 +92,6 @@ void selectTypeSearch(int &type) {
 // Manager::searchFor = đa hình
 vector<Ticket*> GetListTicket(vector<string> list,int type,string startAirport, string desAirport, Date date) {
     vector<Ticket*> res;
-    //selectTypeSearch(type);
-    //cout << "Select the start airport: " << endl;
-
     if (type == 0) {
         res = Manager::searchFor(Airport(startAirport), Airport(desAirport));
     }
@@ -256,35 +253,32 @@ void printAvailableSeat(vector<Seat> availableSeats) {
     cout << endl;
 }
 
-Seat SelectSeat(int isBoss, vector<Ticket*> list, Flight _flight)
+Seat* SelectSeat(int isBoss, bool isSelect, vector<Ticket*> list, Flight _flight, int row, char col) throw (const char*)
 {
-   // cout << "Do you want to select seat (free for skyboss, 300000vnd for eco ticket), "
-       // << "press 1 to agree, 0 to disagree: ";
-    bool n;
-    int row;
-    char col;
-    Seat res;
-   // cin >> n;
-    vector<Seat> availableSeats = Manager::listEmptySeat(list, isBoss, _flight);
-    if (n) {
-        //printAvailableSeat(availableSeats);
-        Seat tmp;
-        do {
-            cout << "Row (1 -> " << (isBoss ? 4 : 12) << "): ";
-            cin >> row;
-            cout << "Col (A -> D): ";
-            cin >> col;
-            tmp = Seat(row, col);
-        } while (find(availableSeats.begin(), availableSeats.end(), tmp) == availableSeats.end());
-        res = *find(availableSeats.begin(), availableSeats.end(), tmp);
+    Seat* res;
+    vector<Seat*> availableSeats = Manager::listEmptySeat(list, isBoss, _flight);
+    if (isSelect) {
+        Seat tmp(row,col,isBoss);
+        bool isFind = false;
+        for(auto i:availableSeats)
+        {
+            if(*i==tmp)
+            {
+                isFind = true;
+                res = i;
+            }
+        }
+        if(!isFind)
+            throw "Ghe da duoc dat";
     }
     else {
-        row = availableSeats[0].GetRow();
-        col = availableSeats[0].GetCol();
+        row = availableSeats[0]->GetRow();
+        col = availableSeats[0]->GetCol();
         res = availableSeats[0];
         cout << "Your seat was booked at: \n";
         cout << "Row: " << row << endl << "Col: " << col << endl;
     }
-    res.SetBooked();
+
+    res->SetBooked();
     return res;
 }

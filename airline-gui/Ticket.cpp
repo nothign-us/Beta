@@ -61,8 +61,8 @@ int EcoTicket::getPrice() const{
     return PRICE;
 }
 
-Seat Ticket::getSeat() {
-    return _seat;
+Seat* Ticket::getSeat() {
+    return &_seat;
 }
 
 int Ticket::calculatePrice() const{

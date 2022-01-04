@@ -20,7 +20,8 @@ SearchForOption::~SearchForOption()
 
 void SearchForOption::on_confirm_clicked()
 {
-    Manager::loadTicket();
+    if(!Manager::isGenerateTicket())
+        Manager::loadTicket();
     if(ui->btn1->isChecked())
     {
         SearchForStrAndDesAirport option(currentAccount);

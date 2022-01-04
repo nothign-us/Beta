@@ -24,7 +24,7 @@ public:
     void SetExtraFee(int fee);
     bool _isBooked;
     Flight getFlight() const;
-    Seat getSeat();
+    Seat* getSeat();
     void setSkyboss();
     bool operator== (const Ticket&);
     bool operator< (const Ticket&);
@@ -51,10 +51,10 @@ private:
     const int PRICE = 1299000;
 public:
     SkybossTicket(Flight f, Seat s): Ticket(f, s) {
-        getSeat().SetBoss();
+        getSeat()->SetBoss();
     }
     SkybossTicket(Flight f, Client c, Seat s,bool d): Ticket(f, c, s, d) {
-        getSeat().SetBoss();
+        getSeat()->SetBoss();
     }
     int getPrice() const;
 };
