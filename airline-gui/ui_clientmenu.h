@@ -135,7 +135,7 @@ public:
         label->setText(QApplication::translate("ClientMenu", "T\303\240i kho\341\272\243n:", nullptr));
         usernameDisplay->setText(QString());
         bookTicketButton->setText(QApplication::translate("ClientMenu", "\304\220\341\272\267t v\303\251", nullptr));
-        printTicketButton->setText(QApplication::translate("ClientMenu", "In v\303\251", nullptr));
+        printTicketButton->setText(QApplication::translate("ClientMenu", "In ho\341\272\267c x\303\263a v\303\251", nullptr));
         purchaseButton->setText(QApplication::translate("ClientMenu", "Thanh to\303\241n", nullptr));
         signoutButton->setText(QApplication::translate("ClientMenu", "\304\220\304\203ng xu\341\272\245t", nullptr));
     } // retranslateUi

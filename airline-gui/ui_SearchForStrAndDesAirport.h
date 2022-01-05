@@ -55,7 +55,7 @@ public:
         eco->setGeometry(QRect(50, 150, 112, 23));
         skyboss = new QRadioButton(SearchForStrAndDesAirport);
         skyboss->setObjectName(QString::fromUtf8("skyboss"));
-        skyboss->setGeometry(QRect(240, 150, 121, 23));
+        skyboss->setGeometry(QRect(200, 150, 141, 23));
 
         retranslateUi(SearchForStrAndDesAirport);
 

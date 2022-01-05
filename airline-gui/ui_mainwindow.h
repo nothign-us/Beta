@@ -29,9 +29,11 @@ public:
     QWidget *centralwidget;
     QWidget *horizontalWidget;
     QHBoxLayout *horizontalLayout;
-    QSpacerItem *horizontalSpacer_2;
+    QSpacerItem *horizontalSpacer_3;
     QVBoxLayout *verticalLayout;
     QSpacerItem *verticalSpacer_2;
+    QSpacerItem *horizontalSpacer;
+    QLabel *logo;
     QHBoxLayout *horizontalLayout_2;
     QLabel *labelUsername;
     QLineEdit *lineEdit_username;
@@ -42,7 +44,7 @@ public:
     QPushButton *signinButton;
     QPushButton *signupButton;
     QSpacerItem *verticalSpacer_3;
-    QSpacerItem *horizontalSpacer;
+    QSpacerItem *horizontalSpacer_2;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -63,15 +65,15 @@ public:
         centralwidget->setSizePolicy(sizePolicy);
         horizontalWidget = new QWidget(centralwidget);
         horizontalWidget->setObjectName(QString::fromUtf8("horizontalWidget"));
-        horizontalWidget->setGeometry(QRect(10, 10, 751, 431));
+        horizontalWidget->setGeometry(QRect(0, 10, 751, 431));
         sizePolicy.setHeightForWidth(horizontalWidget->sizePolicy().hasHeightForWidth());
         horizontalWidget->setSizePolicy(sizePolicy);
         horizontalLayout = new QHBoxLayout(horizontalWidget);
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         horizontalLayout->setSizeConstraint(QLayout::SetMaximumSize);
-        horizontalSpacer_2 = new QSpacerItem(200, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+        horizontalSpacer_3 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
-        horizontalLayout->addItem(horizontalSpacer_2);
+        horizontalLayout->addItem(horizontalSpacer_3);
 
         verticalLayout = new QVBoxLayout();
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
@@ -79,6 +81,16 @@ public:
         verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
         verticalLayout->addItem(verticalSpacer_2);
+
+        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        verticalLayout->addItem(horizontalSpacer);
+
+        logo = new QLabel(horizontalWidget);
+        logo->setObjectName(QString::fromUtf8("logo"));
+        logo->setPixmap(QPixmap(QString::fromUtf8("Images/logo.png")));
+
+        verticalLayout->addWidget(logo, 0, Qt::AlignHCenter);
 
         horizontalLayout_2 = new QHBoxLayout();
         horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
@@ -133,9 +145,9 @@ public:
 
         horizontalLayout->addLayout(verticalLayout);
 
-        horizontalSpacer = new QSpacerItem(200, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+        horizontalSpacer_2 = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 
-        horizontalLayout->addItem(horizontalSpacer);
+        horizontalLayout->addItem(horizontalSpacer_2);
 
         MainWindow->setCentralWidget(centralwidget);
         statusbar = new QStatusBar(MainWindow);
@@ -150,6 +162,7 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
+        logo->setText(QString());
         labelUsername->setText(QApplication::translate("MainWindow", "T\303\252n \304\221\304\203ng nh\341\272\255p", nullptr));
         label_2->setText(QApplication::translate("MainWindow", "M\341\272\255t kh\341\272\251u", nullptr));
         signinButton->setText(QApplication::translate("MainWindow", "\304\220\304\203ng nh\341\272\255p", nullptr));

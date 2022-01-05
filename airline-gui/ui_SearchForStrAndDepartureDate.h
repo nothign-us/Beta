@@ -36,7 +36,7 @@ public:
     {
         if (SearchForStrAndDepartureDate->objectName().isEmpty())
             SearchForStrAndDepartureDate->setObjectName(QString::fromUtf8("SearchForStrAndDepartureDate"));
-        SearchForStrAndDepartureDate->resize(400, 300);
+        SearchForStrAndDepartureDate->resize(439, 300);
         label = new QLabel(SearchForStrAndDepartureDate);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(60, 50, 141, 17));
@@ -60,7 +60,7 @@ public:
         eco->setGeometry(QRect(60, 180, 112, 23));
         skyboss = new QRadioButton(SearchForStrAndDepartureDate);
         skyboss->setObjectName(QString::fromUtf8("skyboss"));
-        skyboss->setGeometry(QRect(240, 180, 121, 23));
+        skyboss->setGeometry(QRect(210, 180, 181, 21));
         confirm = new QPushButton(SearchForStrAndDepartureDate);
         confirm->setObjectName(QString::fromUtf8("confirm"));
         confirm->setGeometry(QRect(110, 220, 201, 51));
