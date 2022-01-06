@@ -31,7 +31,7 @@ void SearchForStrAndDepartureDate::on_confirm_clicked()
         QMessageBox::critical(this,  "Lỗi","Vui lòng chọn đủ thông tin trước khi tiếp tục");
     else{
         bool isEco = ui->eco->isChecked();
-        vector<Ticket*> listTicket = GetListTicket(Manager::listAirport,1,startAirport,"",Date::Parse(date));
+        vector<Ticket*> listTicket = Manager::searchFor(Airport(startAirport),Date::Parse(date));
         vector<Flight> listFlight = GetFlight(listTicket);
         if(listFlight.size()==0)
             QMessageBox::critical(this,  "Lỗi","Không có chuyến bay phú hợp");

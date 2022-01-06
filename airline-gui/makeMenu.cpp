@@ -107,9 +107,7 @@ vector<Flight> GetFlight(vector<Ticket*> listTicket) {
     vector<Flight> res;
     for (Ticket* t: listTicket) {
         Flight cur = t->getFlight();
-        if (res.empty() 
-        || (res.back().GetDepartTime() != cur.GetDepartTime() 
-            && res.back().GetDepartureDate() != cur.GetDepartureDate()))
+        if (res.empty() || (res.back().GetDepartTime() != cur.GetDepartTime() && res.back().GetDepartureDate() != cur.GetDepartureDate())|| (res.back().GetDestinateAiport().getNameAirport() != cur.GetDestinateAiport().getNameAirport()))
             res.push_back(cur);
     }
     return res;

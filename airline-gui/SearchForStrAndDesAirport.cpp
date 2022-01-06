@@ -44,7 +44,7 @@ void SearchForStrAndDesAirport::on_Confirm_clicked()
         QMessageBox::critical(this,  "Lỗi","Vui lòng chọn đủ thông tin trước khi tiếp tục");
     else{
         bool isEco = ui->eco->isChecked();
-        vector<Ticket*> listTicket = GetListTicket(Manager::listAirport,0,startAirport,desAirport,Date(1,1,1));
+        vector<Ticket*> listTicket = Manager::searchFor(Airport(startAirport),Airport(desAirport));
         vector<Flight> listFlight = GetFlight(listTicket);
         SearchForStrAndDesAirport::close();
         if(listFlight.size()==0 )

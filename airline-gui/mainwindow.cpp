@@ -4,6 +4,7 @@
 #include "adminmenu.h"
 #include "ui_mainwindow.h"
 #include "Account.h"
+#include "Manager.h"
 
 #include <QMessageBox>
 
@@ -11,6 +12,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     ui->setupUi(this);
     this->setWindowTitle("Phần mềm đặt vé máy bay");
     ui->lineEdit_password->setEchoMode(QLineEdit::Password);
+    Manager::loadTicket();
 }
 
 MainWindow::~MainWindow() {
