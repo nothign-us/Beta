@@ -1,7 +1,12 @@
 #include "Client.h"
 
 using namespace std;
+//-----------------------------------------------------------
+Client::Client() {
+    this->_name = "_";
+}
 
+//-----------------------------------------------------------
 Client::Client(string name, Date birthDay, string id, Address address, int sex, string phone, string email) {
     _name = name;
     _birth = birthDay;
@@ -12,18 +17,27 @@ Client::Client(string name, Date birthDay, string id, Address address, int sex, 
     _email = email;
 }
 
+//-----------------------------------------------------------
 string Client::getName() const {
     return _name;
 }
 
+//-----------------------------------------------------------
 string Client::getPhoneNumber() const {
     return _phoneNumber;
 }
 
+//-----------------------------------------------------------
 string Client::getEmail() const {
     return _email;
 }
 
+//-----------------------------------------------------------
+int Client::getDiscount() const {
+    return 0;
+}
+
+//-----------------------------------------------------------
 istream &operator>>(istream &inp, Client &src)
 {
     cin.ignore();
@@ -44,6 +58,7 @@ istream &operator>>(istream &inp, Client &src)
     return inp;
 }
 
+//-----------------------------------------------------------
 ostream& operator<<(ostream &out, const Client &src)
 {
     out << "Tên :\t\t\t" << src._name << endl;

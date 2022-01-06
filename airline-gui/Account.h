@@ -24,11 +24,8 @@ public:
     bool cmpUsername(string name);
     Account(std::string user, std::string pass);
     Account(std::string user, std::string pass, bool isAdmin);
-    Client getClient() {
-        return _owner;
-    }
+    Client getClient();
     void SetClient(const Client& client);
-    virtual void printBookedTicket() {}
     static bool SignUpAccount(std::string username, std::string password);
     static bool SignIn(std::string username, std::string password);
 public:

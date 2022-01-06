@@ -1,5 +1,6 @@
 #include "Address.h"
 
+//------------------------------------------------------------------------------
 Address::Address()
 {
     _nation = "";
@@ -8,7 +9,7 @@ Address::Address()
     _town = "";
     _street = "";
 }
-
+//------------------------------------------------------------------------------
 Address::Address(string nation, string city, string district, string town, string street) {
     _nation = nation;
     _province = city;
@@ -17,6 +18,7 @@ Address::Address(string nation, string city, string district, string town, strin
     _street = street;
 }
 
+//------------------------------------------------------------------------------
 Address::Address(const Address &srcAdd)
 {
     _nation = srcAdd._nation;
@@ -25,8 +27,8 @@ Address::Address(const Address &srcAdd)
     _town = srcAdd._town;
     _street = srcAdd._street;
 }
-Address::~Address() { ; }
 
+//------------------------------------------------------------------------------
 istream &operator>>(istream &is, Address &src)
 {
     cin.ignore();
@@ -42,6 +44,8 @@ istream &operator>>(istream &is, Address &src)
     getline(is, src._street);
     return is;
 }
+
+//------------------------------------------------------------------------------
 ostream &operator<<(ostream &os, const Address src)
 {
     os << src._nation << ", " << src._province << ", " 

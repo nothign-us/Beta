@@ -18,10 +18,7 @@ private:
 public:
     Date();
     Date(int, int, int);
-    ~Date();
-    bool operator==(const Date& d);
-    bool operator!=(const Date& d);
-    bool operator<(const Date& d);
+public:
     int getDay();
     int getMonth();
     int getYear();
@@ -38,4 +35,7 @@ public:
 public:
     friend istream& operator>>(istream& inp, Date &d);
     friend ostream& operator<<(ostream& out, const Date &d);
+    bool operator==(const Date& d);
+    bool operator!=(const Date& d);
+    bool operator<(const Date& d);
 };
