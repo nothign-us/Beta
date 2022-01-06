@@ -9,7 +9,6 @@
 #include <sstream>
 class Flight
 {
-    // private:
 public:
     Airport _start;
     Airport _destination;

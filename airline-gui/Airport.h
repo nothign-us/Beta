@@ -16,24 +16,20 @@ private:
     Address _address;
      string _nameAirport;
 public:
-    Airport(/* args */);
+    Airport();
     Airport(const Address srcAdd, string srcName);
     Airport(string srcName);
-    Airport(QString srcName)
-    {
-        QByteArray ba = srcName.toLatin1();
-         char* str = ba.data();
-        _nameAirport = ((str));
-    }
-    bool operator==(const Airport&);
-    bool operator<(const Airport&);
-    //~Airport();
+    Airport(QString srcName);
+public:
     void setNameAirport(const string src);
     string getNameAirport() const;
-
+public:
     // khởi tạo danh sách các sân bay theo 
     // định dạng map[<Tỉnh>] = <Tên sân bay>;
     static map<string, string> loadAirportList(string dataFileName);
+public:
+    bool operator==(const Airport&);
+    bool operator<(const Airport&);
 };
 
 

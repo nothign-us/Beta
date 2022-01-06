@@ -14,6 +14,13 @@ Account::Account(string user, string pass, bool isAdmin) {
     _isAdmin = isAdmin;
 }
 
+//------------------------------------------------------------------------------
+// Trả về thông tin chủ sở hữu tài khoản
+Client Account::getClient() {
+    return this->_owner;
+}
+
+//------------------------------------------------------------------------------
 bool Account::cmpUsername(string name) {
     return name == _username;
 }
@@ -113,14 +120,17 @@ bool ClientAccount::Purchase(Ticket* &scr) {
     return true;
 }
 
+//------------------------------------------------------------------------------
 void ClientAccount::addTicket(Ticket* t) {
     _listBookedTickets.push_back(t);
 }
 
+//------------------------------------------------------------------------------
 AdminAccount::AdminAccount(std::string user, std::string pass): Account(user, pass, true) {
     //Account::SetClient();
 }
 
+//------------------------------------------------------------------------------
 void AdminAccount::addTicket(Ticket* scr) {
     bookedTickets.push_back(scr);
 }

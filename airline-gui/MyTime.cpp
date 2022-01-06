@@ -2,6 +2,8 @@
 #include <iostream>
 
 using namespace std;
+
+//---------------------------------------------------------------
 Time Time::TryParse(string input)
 {
     // chac chan raang input la hop le
@@ -20,6 +22,8 @@ Time Time::TryParse(string input)
     res.setMinute(stoi(tmp));
     return res;
 }
+
+//-----------------------------------------------------------------
 // Source: https://stackoverflow.com/questions/43493794/how-to-get-local-time-c
 Time::Time()
 {
@@ -34,6 +38,7 @@ Time::Time()
     _second = localTime->tm_sec;
 }
 
+//-----------------------------------------------------------------
 Time::Time(int hour, int min, int sec)
 {
     _hour = hour;
@@ -41,24 +46,29 @@ Time::Time(int hour, int min, int sec)
     _second = sec;
 }
 
+//-----------------------------------------------------------------
 Time::~Time()
 {
 }
 
+//-----------------------------------------------------------------
 bool Time::operator==(const Time &t) {
     return _hour == t._hour && _minute == t._minute && _second == t._second;
 }
 
+//-----------------------------------------------------------------
 bool Time::operator!=(const Time &t) {
     return _hour != t._hour || _minute != t._minute || _second != t._second;
 }
 
+//-----------------------------------------------------------------
 bool Time::operator<(const Time &t) {
     return _hour < t._hour 
         || (_hour == t._hour && _minute < t._minute) 
         || (_minute == t._minute && _second < t._second);
 }
 
+//-----------------------------------------------------------------
 vector<Time> Time::getListArriveTime()
 {
     vector<Time> listTime;
@@ -73,54 +83,64 @@ vector<Time> Time::getListArriveTime()
     return listTime;
 }
 
+//-----------------------------------------------------------------
 int Time::getHour()
 {
     return _hour;
 }
 
+//-----------------------------------------------------------------
 int Time::getMinute()
 {
     return _minute;
 }
 
+//-----------------------------------------------------------------
 int Time::getSecond()
 {
     return _second;
 }
 
+//-----------------------------------------------------------------
 void Time::setHour(int hour)
 {
     _hour = hour;
 }
 
+//-----------------------------------------------------------------
 void Time::setMinute(int min)
 {
     _minute = min;
 }
 
+//-----------------------------------------------------------------
 void Time::setSecond(int sec)
 {
     _second = sec;
 }
 
+//-----------------------------------------------------------------
 bool isBetween(int val, int L, int R)
 { // check L <= val <= R
     return (val >= L && val <= R);
 }
 
+//-----------------------------------------------------------------
 bool Time::IsValidTime(int hour, int min, int sec)
 {
     return (isBetween(hour, 0, 23) && isBetween(min, 0, 59) && isBetween(sec, 0, 59));
 }
 
+//-----------------------------------------------------------------
 string Time::ToString() const
 {
     stringstream writer;
-    writer << ((_hour < 10) ? ("0" + to_string(_hour)) : to_string(_hour));
-    writer << ":" << ((_minute < 10) ? ("0" + to_string(_minute)) : (to_string(_minute)));
+    writer << (_hour < 10 ? "0" : "") << _hour;
+    writer << ":" << (_minute < 10 ? "0" : "") << _minute;
     return writer.str();
 }
 
+//-----------------------------------------------------------------
 istream &operator>>(istream &inp, Time *t)
 {
     cout << "Nhap gio: ";
@@ -132,6 +152,7 @@ istream &operator>>(istream &inp, Time *t)
     return inp;
 }
 
+//-----------------------------------------------------------------
 ostream &operator<<(ostream &out, const Time &t)
 {
     out << t.ToString();

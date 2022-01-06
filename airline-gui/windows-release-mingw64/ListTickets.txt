@@ -1,4019 +1,1403 @@
-128576
-San bay Tan Son Nhat ==> San bay Can Tho
-	15/01/2021: 20:05
-San bay Tan Son Nhat ==> San bay Tuy Hoa
-	15/01/2021: 18:35
-San bay Noi Bai ==> San bay Cam Ranh
-	15/01/2021: 17:50
-San bay Noi Bai ==> San bay Con Dao
-	15/01/2021: 20:00
-San bay Da Nang ==> San bay Van Don
-	15/01/2021: 20:15
-San bay Vinh ==> San bay Dien Bien Phu
-	15/01/2021: 20:05
-San bay Vinh ==> San bay Phu Cat
-	15/01/2021: 03:20
-San bay Con Dao ==> San bay Chu Lai
-	15/01/2021: 04:55
-San bay Phu Cat ==> San bay Con Dao
-	15/01/2021: 20:15
-San bay Phu Cat ==> San bay Da Nang
-	15/01/2021: 20:55
-San bay Phu Cat ==> San bay Dong Hoi
-	15/01/2021: 12:10
-San bay Ca Mau ==> San bay Can Tho
-	15/01/2021: 02:15
-San bay Ca Mau ==> San bay Cat Bi
-	15/01/2021: 11:25
-San bay Buon Ma Thuot ==> San bay Cat Bi
-	15/01/2021: 06:30
-San bay Buon Ma Thuot ==> San bay Da Nang
-	15/01/2021: 20:10
-San bay Buon Ma Thuot ==> San bay Phu Cat
-	15/01/2021: 17:00
-San bay Buon Ma Thuot ==> San bay Pleiku
-	15/01/2021: 19:40
-San bay Dien Bien Phu ==> San bay Buon Ma Thuot
-	15/01/2021: 02:50
-San bay Dien Bien Phu ==> San bay Con Dao
-	15/01/2021: 11:45
-San bay Dien Bien Phu ==> San bay Phu Cat
-	15/01/2021: 16:00
-San bay Pleiku ==> San bay Con Dao
-	15/01/2021: 05:15
-San bay Pleiku ==> San bay Lien Khuong
-	15/01/2021: 08:05
-San bay Cat Bi ==> San bay Buon Ma Thuot
-	15/01/2021: 12:05
-San bay Cat Bi ==> San bay Chu Lai
-	15/01/2021: 19:50
-San bay Cat Bi ==> San bay Dien Bien Phu
-	15/01/2021: 20:55
-San bay Cam Ranh ==> San bay Chu Lai
-	15/01/2021: 17:00
-San bay Cam Ranh ==> San bay Rach Gia
-	15/01/2021: 09:25
-San bay Rach Gia ==> San bay Buon Ma Thuot
-	15/01/2021: 03:55
-San bay Rach Gia ==> San bay Ca Mau
-	15/01/2021: 03:25
-San bay Rach Gia ==> San bay Da Nang
-	15/01/2021: 16:40
-San bay Rach Gia ==> San bay Dong Hoi
-	15/01/2021: 10:20
-San bay Phu Quoc ==> San bay Chu Lai
-	15/01/2021: 10:50
-San bay Phu Quoc ==> San bay Con Dao
-	15/01/2021: 12:10
-San bay Phu Quoc ==> San bay Phu Cat
-	15/01/2021: 00:50
-San bay Lien Khuong ==> San bay Ca Mau
-	15/01/2021: 17:45
-San bay Lien Khuong ==> San bay Chu Lai
-	15/01/2021: 05:45
-San bay Lien Khuong ==> San bay Dien Bien Phu
-	15/01/2021: 07:05
-San bay Lien Khuong ==> San bay Phu Cat
-	15/01/2021: 05:00
-San bay Tuy Hoa ==> San bay Ca Mau
-	15/01/2021: 14:40
-San bay Dong Hoi ==> San bay Can Tho
-	15/01/2021: 05:30
-San bay Dong Hoi ==> San bay Phu Bai
-	15/01/2021: 03:15
-San bay Chu Lai ==> San bay Noi Bai
-	15/01/2021: 05:00
-San bay Chu Lai ==> San bay Tan Son Nhat
-	15/01/2021: 06:55
-San bay Tho Xuan ==> San bay Cam Ranh
-	15/01/2021: 02:25
-San bay Van Don ==> San bay Cat Bi
-	15/01/2021: 09:05
-San bay Tan Son Nhat ==> San bay Rach Gia
-	16/01/2021: 05:15
-San bay Da Nang ==> San bay Cam Ranh
-	16/01/2021: 02:45
-San bay Da Nang ==> San bay Dong Hoi
-	16/01/2021: 05:35
-San bay Da Nang ==> San bay Vinh
-	16/01/2021: 15:40
-San bay Phu Cat ==> San bay Ca Mau
-	16/01/2021: 09:45
-San bay Phu Cat ==> San bay Rach Gia
-	16/01/2021: 19:20
-San bay Ca Mau ==> San bay Cat Bi
-	16/01/2021: 19:25
-San bay Ca Mau ==> San bay Phu Quoc
-	16/01/2021: 15:55
-San bay Ca Mau ==> San bay Tan Son Nhat
-	16/01/2021: 17:50
-San bay Can Tho ==> San bay Cam Ranh
-	16/01/2021: 13:55
-San bay Can Tho ==> San bay Noi Bai
-	16/01/2021: 07:35
-San bay Can Tho ==> San bay Tan Son Nhat
-	16/01/2021: 19:25
-San bay Can Tho ==> San bay Tho Xuan
-	16/01/2021: 03:15
-San bay Buon Ma Thuot ==> San bay Ca Mau
-	16/01/2021: 20:55
-San bay Buon Ma Thuot ==> San bay Cam Ranh
-	16/01/2021: 04:55
-San bay Buon Ma Thuot ==> San bay Chu Lai
-	16/01/2021: 05:45
-San bay Dien Bien Phu ==> San bay Cam Ranh
-	16/01/2021: 06:45
-San bay Pleiku ==> San bay Dong Hoi
-	16/01/2021: 13:45
-San bay Pleiku ==> San bay Noi Bai
-	16/01/2021: 15:50
-San bay Pleiku ==> San bay Phu Bai
-	16/01/2021: 20:00
-San bay Pleiku ==> San bay Phu Quoc
-	16/01/2021: 20:15
-San bay Cat Bi ==> San bay Con Dao
-	16/01/2021: 09:25
-San bay Cat Bi ==> San bay Phu Quoc
-	16/01/2021: 08:10
-San bay Cat Bi ==> San bay Tho Xuan
-	16/01/2021: 04:40
-San bay Cat Bi ==> San bay Vinh
-	16/01/2021: 04:15
-San bay Cam Ranh ==> San bay Ca Mau
-	16/01/2021: 06:30
-San bay Cam Ranh ==> San bay Noi Bai
-	16/01/2021: 01:50
-San bay Cam Ranh ==> San bay Phu Bai
-	16/01/2021: 17:50
-San bay Cam Ranh ==> San bay Tan Son Nhat
-	16/01/2021: 16:30
-San bay Rach Gia ==> San bay Lien Khuong
-	16/01/2021: 05:25
-San bay Rach Gia ==> San bay Noi Bai
-	16/01/2021: 16:10
-San bay Phu Quoc ==> San bay Con Dao
-	16/01/2021: 08:10
-San bay Lien Khuong ==> San bay Da Nang
-	16/01/2021: 12:35
-San bay Tuy Hoa ==> San bay Noi Bai
-	16/01/2021: 05:50
-San bay Dong Hoi ==> San bay Con Dao
-	16/01/2021: 00:30
-San bay Dong Hoi ==> San bay Tho Xuan
-	16/01/2021: 01:00
-San bay Chu Lai ==> San bay Cam Ranh
-	16/01/2021: 12:10
-San bay Chu Lai ==> San bay Cat Bi
-	16/01/2021: 17:45
-San bay Chu Lai ==> San bay Vinh
-	16/01/2021: 02:45
-San bay Phu Bai ==> San bay Con Dao
-	16/01/2021: 03:15
-San bay Phu Bai ==> San bay Lien Khuong
-	16/01/2021: 00:00
-San bay Van Don ==> San bay Buon Ma Thuot
-	16/01/2021: 01:00
-San bay Van Don ==> San bay Cam Ranh
-	16/01/2021: 14:35
-San bay Noi Bai ==> San bay Rach Gia
-	17/01/2021: 05:35
-San bay Da Nang ==> San bay Lien Khuong
-	17/01/2021: 04:40
-San bay Vinh ==> San bay Buon Ma Thuot
-	17/01/2021: 02:25
-San bay Vinh ==> San bay Noi Bai
-	17/01/2021: 15:55
-San bay Con Dao ==> San bay Ca Mau
-	17/01/2021: 06:55
-San bay Con Dao ==> San bay Cat Bi
-	17/01/2021: 05:30
-San bay Con Dao ==> San bay Da Nang
-	17/01/2021: 06:45
-San bay Con Dao ==> San bay Dong Hoi
-	17/01/2021: 01:15
-San bay Phu Cat ==> San bay Chu Lai
-	17/01/2021: 19:20
-San bay Ca Mau ==> San bay Dien Bien Phu
-	17/01/2021: 20:10
-San bay Can Tho ==> San bay Cat Bi
-	17/01/2021: 14:35
-San bay Can Tho ==> San bay Da Nang
-	17/01/2021: 06:55
-San bay Can Tho ==> San bay Tan Son Nhat
-	17/01/2021: 20:15
-San bay Can Tho ==> San bay Tho Xuan
-	17/01/2021: 19:25
-San bay Buon Ma Thuot ==> San bay Tuy Hoa
-	17/01/2021: 08:45
-San bay Dien Bien Phu ==> San bay Noi Bai
-	17/01/2021: 11:35
-San bay Dien Bien Phu ==> San bay Phu Cat
-	17/01/2021: 15:40
-San bay Cat Bi ==> San bay Pleiku
-	17/01/2021: 03:25
-San bay Cam Ranh ==> San bay Dien Bien Phu
-	17/01/2021: 07:45
-San bay Rach Gia ==> San bay Cam Ranh
-	17/01/2021: 07:50
-San bay Rach Gia ==> San bay Dien Bien Phu
-	17/01/2021: 05:35
-San bay Phu Quoc ==> San bay Dong Hoi
-	17/01/2021: 15:40
-San bay Phu Quoc ==> San bay Noi Bai
-	17/01/2021: 01:40
-San bay Phu Quoc ==> San bay Rach Gia
-	17/01/2021: 14:55
-San bay Phu Quoc ==> San bay Van Don
-	17/01/2021: 02:55
-San bay Lien Khuong ==> San bay Con Dao
-	17/01/2021: 06:20
-San bay Lien Khuong ==> San bay Noi Bai
-	17/01/2021: 16:10
-San bay Tuy Hoa ==> San bay Lien Khuong
-	17/01/2021: 03:20
-San bay Tuy Hoa ==> San bay Pleiku
-	17/01/2021: 05:40
-San bay Dong Hoi ==> San bay Ca Mau
-	17/01/2021: 05:15
-San bay Dong Hoi ==> San bay Cat Bi
-	17/01/2021: 04:15
-San bay Dong Hoi ==> San bay Phu Bai
-	17/01/2021: 05:15
-San bay Dong Hoi ==> San bay Pleiku
-	17/01/2021: 07:50
-San bay Chu Lai ==> San bay Con Dao
-	17/01/2021: 10:50
-San bay Chu Lai ==> San bay Phu Bai
-	17/01/2021: 14:55
-San bay Chu Lai ==> San bay Tuy Hoa
-	17/01/2021: 05:35
-San bay Phu Bai ==> San bay Pleiku
-	17/01/2021: 12:35
-San bay Phu Bai ==> San bay Rach Gia
-	17/01/2021: 01:40
-San bay Phu Bai ==> San bay Tuy Hoa
-	17/01/2021: 13:10
-San bay Phu Bai ==> San bay Van Don
-	17/01/2021: 14:40
-San bay Tho Xuan ==> San bay Ca Mau
-	17/01/2021: 17:45
-San bay Van Don ==> San bay Ca Mau
-	17/01/2021: 11:50
-San bay Van Don ==> San bay Chu Lai
-	17/01/2021: 03:25
-San bay Tan Son Nhat ==> San bay Phu Bai
-	18/01/2021: 04:40
-San bay Tan Son Nhat ==> San bay Phu Cat
-	18/01/2021: 10:15
-San bay Tan Son Nhat ==> San bay Phu Quoc
-	18/01/2021: 12:35
-San bay Tan Son Nhat ==> San bay Vinh
-	18/01/2021: 08:10
-San bay Noi Bai ==> San bay Chu Lai
-	18/01/2021: 11:50
-San bay Noi Bai ==> San bay Dien Bien Phu
-	18/01/2021: 09:05
-San bay Noi Bai ==> San bay Lien Khuong
-	18/01/2021: 14:40
-San bay Da Nang ==> San bay Cam Ranh
-	18/01/2021: 13:55
-San bay Con Dao ==> San bay Buon Ma Thuot
-	18/01/2021: 05:25
-San bay Con Dao ==> San bay Da Nang
-	18/01/2021: 05:00
-San bay Con Dao ==> San bay Phu Bai
-	18/01/2021: 14:40
-San bay Con Dao ==> San bay Tan Son Nhat
-	18/01/2021: 05:35
-San bay Phu Cat ==> San bay Dien Bien Phu
-	18/01/2021: 04:40
-San bay Ca Mau ==> San bay Lien Khuong
-	18/01/2021: 11:35
-San bay Ca Mau ==> San bay Noi Bai
-	18/01/2021: 06:55
-San bay Ca Mau ==> San bay Tuy Hoa
-	18/01/2021: 11:50
-San bay Can Tho ==> San bay Buon Ma Thuot
-	18/01/2021: 14:30
-San bay Can Tho ==> San bay Ca Mau
-	18/01/2021: 15:20
-San bay Buon Ma Thuot ==> San bay Chu Lai
-	18/01/2021: 10:50
-San bay Buon Ma Thuot ==> San bay Con Dao
-	18/01/2021: 03:25
-San bay Buon Ma Thuot ==> San bay Da Nang
-	18/01/2021: 20:30
-San bay Buon Ma Thuot ==> San bay Vinh
-	18/01/2021: 11:45
-San bay Dien Bien Phu ==> San bay Ca Mau
-	18/01/2021: 00:00
-San bay Dien Bien Phu ==> San bay Da Nang
-	18/01/2021: 01:15
-San bay Dien Bien Phu ==> San bay Tuy Hoa
-	18/01/2021: 05:45
-San bay Pleiku ==> San bay Buon Ma Thuot
-	18/01/2021: 17:10
-San bay Cat Bi ==> San bay Ca Mau
-	18/01/2021: 18:35
-San bay Cat Bi ==> San bay Con Dao
-	18/01/2021: 00:00
-San bay Cat Bi ==> San bay Tuy Hoa
-	18/01/2021: 01:30
-San bay Rach Gia ==> San bay Chu Lai
-	18/01/2021: 05:50
-San bay Rach Gia ==> San bay Da Nang
-	18/01/2021: 01:30
-San bay Rach Gia ==> San bay Tho Xuan
-	18/01/2021: 16:55
-San bay Lien Khuong ==> San bay Ca Mau
-	18/01/2021: 00:45
-San bay Lien Khuong ==> San bay Cat Bi
-	18/01/2021: 09:25
-San bay Lien Khuong ==> San bay Dien Bien Phu
-	18/01/2021: 12:10
-San bay Tuy Hoa ==> San bay Da Nang
-	18/01/2021: 15:55
-San bay Phu Bai ==> San bay Phu Cat
-	18/01/2021: 18:25
-San bay Tho Xuan ==> San bay Can Tho
-	18/01/2021: 10:20
-San bay Tho Xuan ==> San bay Phu Cat
-	18/01/2021: 01:50
-San bay Tho Xuan ==> San bay Phu Quoc
-	18/01/2021: 20:55
-San bay Van Don ==> San bay Cam Ranh
-	18/01/2021: 20:30
-San bay Van Don ==> San bay Chu Lai
-	18/01/2021: 06:55
-San bay Tan Son Nhat ==> San bay Dong Hoi
-	19/01/2021: 18:25
-San bay Tan Son Nhat ==> San bay Phu Cat
-	19/01/2021: 18:25
-San bay Noi Bai ==> San bay Buon Ma Thuot
-	19/01/2021: 11:45
-San bay Noi Bai ==> San bay Can Tho
-	19/01/2021: 16:35
-San bay Da Nang ==> San bay Chu Lai
-	19/01/2021: 08:45
-San bay Da Nang ==> San bay Con Dao
-	19/01/2021: 01:40
-San bay Da Nang ==> San bay Tuy Hoa
-	19/01/2021: 19:25
-San bay Da Nang ==> San bay Van Don
-	19/01/2021: 01:50
-San bay Vinh ==> San bay Noi Bai
-	19/01/2021: 12:40
-San bay Con Dao ==> San bay Ca Mau
-	19/01/2021: 05:10
-San bay Con Dao ==> San bay Dien Bien Phu
-	19/01/2021: 13:15
-San bay Phu Cat ==> San bay Cat Bi
-	19/01/2021: 05:15
-San bay Phu Cat ==> San bay Phu Bai
-	19/01/2021: 07:50
-San bay Ca Mau ==> San bay Chu Lai
-	19/01/2021: 08:05
-San bay Ca Mau ==> San bay Dien Bien Phu
-	19/01/2021: 10:50
-San bay Ca Mau ==> San bay Rach Gia
-	19/01/2021: 18:25
-San bay Can Tho ==> San bay Buon Ma Thuot
-	19/01/2021: 11:25
-San bay Can Tho ==> San bay Con Dao
-	19/01/2021: 15:50
-San bay Can Tho ==> San bay Dong Hoi
-	19/01/2021: 12:10
-San bay Dien Bien Phu ==> San bay Dong Hoi
-	19/01/2021: 11:45
-San bay Dien Bien Phu ==> San bay Noi Bai
-	19/01/2021: 02:25
-San bay Dien Bien Phu ==> San bay Phu Quoc
-	19/01/2021: 16:35
-San bay Dien Bien Phu ==> San bay Pleiku
-	19/01/2021: 06:35
-San bay Cat Bi ==> San bay Can Tho
-	19/01/2021: 12:10
-San bay Cat Bi ==> San bay Rach Gia
-	19/01/2021: 16:55
-San bay Cat Bi ==> San bay Tan Son Nhat
-	19/01/2021: 13:30
-San bay Cam Ranh ==> San bay Con Dao
-	19/01/2021: 09:30
-San bay Rach Gia ==> San bay Cam Ranh
-	19/01/2021: 08:10
-San bay Rach Gia ==> San bay Dien Bien Phu
-	19/01/2021: 13:55
-San bay Rach Gia ==> San bay Phu Quoc
-	19/01/2021: 06:30
-San bay Rach Gia ==> San bay Tan Son Nhat
-	19/01/2021: 12:05
-San bay Phu Quoc ==> San bay Lien Khuong
-	19/01/2021: 09:30
-San bay Phu Quoc ==> San bay Phu Cat
-	19/01/2021: 02:40
-San bay Phu Quoc ==> San bay Pleiku
-	19/01/2021: 14:25
-San bay Phu Quoc ==> San bay Tho Xuan
-	19/01/2021: 01:50
-San bay Lien Khuong ==> San bay Da Nang
-	19/01/2021: 00:30
-San bay Lien Khuong ==> San bay Phu Bai
-	19/01/2021: 19:40
-San bay Tuy Hoa ==> San bay Buon Ma Thuot
-	19/01/2021: 14:35
-San bay Tuy Hoa ==> San bay Can Tho
-	19/01/2021: 07:50
-San bay Tuy Hoa ==> San bay Noi Bai
-	19/01/2021: 17:45
-San bay Tuy Hoa ==> San bay Phu Cat
-	19/01/2021: 09:30
-San bay Dong Hoi ==> San bay Buon Ma Thuot
-	19/01/2021: 13:55
-San bay Dong Hoi ==> San bay Dien Bien Phu
-	19/01/2021: 14:25
-San bay Dong Hoi ==> San bay Noi Bai
-	19/01/2021: 20:30
-San bay Chu Lai ==> San bay Phu Bai
-	19/01/2021: 05:40
-San bay Chu Lai ==> San bay Phu Quoc
-	19/01/2021: 02:15
-San bay Chu Lai ==> San bay Tho Xuan
-	19/01/2021: 04:20
-San bay Tho Xuan ==> San bay Buon Ma Thuot
-	19/01/2021: 02:45
-San bay Tho Xuan ==> San bay Cat Bi
-	19/01/2021: 07:05
-San bay Tho Xuan ==> San bay Noi Bai
-	19/01/2021: 12:40
-San bay Tho Xuan ==> San bay Phu Cat
-	19/01/2021: 01:15
-San bay Van Don ==> San bay Dien Bien Phu
-	19/01/2021: 05:45
-San bay Tan Son Nhat ==> San bay Chu Lai
-	20/01/2021: 05:40
-San bay Tan Son Nhat ==> San bay Phu Bai
-	20/01/2021: 20:55
-San bay Da Nang ==> San bay Noi Bai
-	20/01/2021: 07:50
-San bay Da Nang ==> San bay Pleiku
-	20/01/2021: 09:45
-San bay Da Nang ==> San bay Tuy Hoa
-	20/01/2021: 08:05
-San bay Vinh ==> San bay Can Tho
-	20/01/2021: 11:35
-San bay Vinh ==> San bay Con Dao
-	20/01/2021: 20:05
-San bay Vinh ==> San bay Lien Khuong
-	20/01/2021: 18:35
-San bay Vinh ==> San bay Phu Bai
-	20/01/2021: 06:30
-San bay Ca Mau ==> San bay Cat Bi
-	20/01/2021: 01:00
-San bay Ca Mau ==> San bay Phu Bai
-	20/01/2021: 17:50
-San bay Can Tho ==> San bay Phu Cat
-	20/01/2021: 10:50
-San bay Buon Ma Thuot ==> San bay Cat Bi
-	20/01/2021: 19:25
-San bay Buon Ma Thuot ==> San bay Noi Bai
-	20/01/2021: 15:30
-San bay Dien Bien Phu ==> San bay Buon Ma Thuot
-	20/01/2021: 16:35
-San bay Pleiku ==> San bay Cat Bi
-	20/01/2021: 20:10
-San bay Cat Bi ==> San bay Can Tho
-	20/01/2021: 04:20
-San bay Cat Bi ==> San bay Con Dao
-	20/01/2021: 17:45
-San bay Cat Bi ==> San bay Phu Bai
-	20/01/2021: 16:30
-San bay Cam Ranh ==> San bay Con Dao
-	20/01/2021: 02:15
-San bay Cam Ranh ==> San bay Dong Hoi
-	20/01/2021: 11:50
-San bay Rach Gia ==> San bay Buon Ma Thuot
-	20/01/2021: 12:05
-San bay Phu Quoc ==> San bay Chu Lai
-	20/01/2021: 01:40
-San bay Lien Khuong ==> San bay Can Tho
-	20/01/2021: 19:25
-San bay Lien Khuong ==> San bay Cat Bi
-	20/01/2021: 15:20
-San bay Lien Khuong ==> San bay Con Dao
-	20/01/2021: 15:20
-San bay Tuy Hoa ==> San bay Buon Ma Thuot
-	20/01/2021: 00:30
-San bay Dong Hoi ==> San bay Tho Xuan
-	20/01/2021: 11:50
-San bay Phu Bai ==> San bay Cat Bi
-	20/01/2021: 20:30
-San bay Phu Bai ==> San bay Da Nang
-	20/01/2021: 14:40
-San bay Phu Bai ==> San bay Dong Hoi
-	20/01/2021: 11:25
-San bay Phu Bai ==> San bay Noi Bai
-	20/01/2021: 14:55
-San bay Tho Xuan ==> San bay Lien Khuong
-	20/01/2021: 17:50
-San bay Tho Xuan ==> San bay Noi Bai
-	20/01/2021: 02:50
-San bay Van Don ==> San bay Con Dao
-	20/01/2021: 04:15
-San bay Van Don ==> San bay Da Nang
-	20/01/2021: 03:25
-San bay Tan Son Nhat ==> San bay Phu Quoc
-	21/01/2021: 18:25
-San bay Noi Bai ==> San bay Chu Lai
-	21/01/2021: 17:00
-San bay Da Nang ==> San bay Chu Lai
-	21/01/2021: 06:30
-San bay Da Nang ==> San bay Phu Quoc
-	21/01/2021: 02:25
-San bay Vinh ==> San bay Da Nang
-	21/01/2021: 05:40
-San bay Vinh ==> San bay Phu Quoc
-	21/01/2021: 08:05
-San bay Con Dao ==> San bay Cam Ranh
-	21/01/2021: 03:20
-San bay Con Dao ==> San bay Lien Khuong
-	21/01/2021: 20:00
-San bay Phu Cat ==> San bay Can Tho
-	21/01/2021: 04:15
-San bay Ca Mau ==> San bay Phu Cat
-	21/01/2021: 15:50
-San bay Ca Mau ==> San bay Phu Quoc
-	21/01/2021: 02:55
-San bay Can Tho ==> San bay Noi Bai
-	21/01/2021: 16:40
-San bay Can Tho ==> San bay Phu Bai
-	21/01/2021: 04:20
-San bay Buon Ma Thuot ==> San bay Cam Ranh
-	21/01/2021: 00:50
-San bay Dien Bien Phu ==> San bay Cat Bi
-	21/01/2021: 04:20
-San bay Pleiku ==> San bay Can Tho
-	21/01/2021: 14:55
-San bay Pleiku ==> San bay Chu Lai
-	21/01/2021: 09:45
-San bay Cat Bi ==> San bay Can Tho
-	21/01/2021: 00:30
-San bay Cat Bi ==> San bay Dong Hoi
-	21/01/2021: 10:35
-San bay Cam Ranh ==> San bay Can Tho
-	21/01/2021: 07:45
-San bay Cam Ranh ==> San bay Noi Bai
-	21/01/2021: 10:20
-San bay Cam Ranh ==> San bay Rach Gia
-	21/01/2021: 15:20
-San bay Rach Gia ==> San bay Con Dao
-	21/01/2021: 20:55
-San bay Rach Gia ==> San bay Da Nang
-	21/01/2021: 14:25
-San bay Rach Gia ==> San bay Noi Bai
-	21/01/2021: 16:55
-San bay Phu Quoc ==> San bay Ca Mau
-	21/01/2021: 16:00
-San bay Phu Quoc ==> San bay Cat Bi
-	21/01/2021: 02:25
-San bay Phu Quoc ==> San bay Phu Bai
-	21/01/2021: 02:10
-San bay Phu Quoc ==> San bay Tan Son Nhat
-	21/01/2021: 17:00
-San bay Lien Khuong ==> San bay Buon Ma Thuot
-	21/01/2021: 17:10
-San bay Tuy Hoa ==> San bay Con Dao
-	21/01/2021: 10:50
-San bay Dong Hoi ==> San bay Con Dao
-	21/01/2021: 06:15
-San bay Dong Hoi ==> San bay Phu Cat
-	21/01/2021: 08:05
-San bay Chu Lai ==> San bay Pleiku
-	21/01/2021: 20:55
-San bay Phu Bai ==> San bay Noi Bai
-	21/01/2021: 05:40
-San bay Phu Bai ==> San bay Tuy Hoa
-	21/01/2021: 01:40
-San bay Tho Xuan ==> San bay Cam Ranh
-	21/01/2021: 17:10
-San bay Tho Xuan ==> San bay Con Dao
-	21/01/2021: 06:55
-San bay Tho Xuan ==> San bay Lien Khuong
-	21/01/2021: 06:15
-San bay Van Don ==> San bay Cat Bi
-	21/01/2021: 14:25
-San bay Van Don ==> San bay Chu Lai
-	21/01/2021: 20:55
-San bay Van Don ==> San bay Dong Hoi
-	21/01/2021: 05:35
-San bay Noi Bai ==> San bay Dong Hoi
-	22/01/2021: 02:15
-San bay Noi Bai ==> San bay Lien Khuong
-	22/01/2021: 02:40
-San bay Noi Bai ==> San bay Phu Quoc
-	22/01/2021: 17:10
-San bay Vinh ==> San bay Con Dao
-	22/01/2021: 05:15
-San bay Vinh ==> San bay Rach Gia
-	22/01/2021: 13:55
-San bay Con Dao ==> San bay Dien Bien Phu
-	22/01/2021: 03:20
-San bay Con Dao ==> San bay Noi Bai
-	22/01/2021: 18:35
-San bay Con Dao ==> San bay Phu Cat
-	22/01/2021: 16:30
-San bay Con Dao ==> San bay Rach Gia
-	22/01/2021: 02:15
-San bay Phu Cat ==> San bay Cam Ranh
-	22/01/2021: 14:40
-San bay Phu Cat ==> San bay Con Dao
-	22/01/2021: 16:55
-San bay Phu Cat ==> San bay Rach Gia
-	22/01/2021: 09:20
-San bay Can Tho ==> San bay Chu Lai
-	22/01/2021: 17:45
-San bay Can Tho ==> San bay Tan Son Nhat
-	22/01/2021: 05:45
-San bay Can Tho ==> San bay Tho Xuan
-	22/01/2021: 20:55
-San bay Buon Ma Thuot ==> San bay Con Dao
-	22/01/2021: 05:10
-San bay Dien Bien Phu ==> San bay Ca Mau
-	22/01/2021: 09:05
-San bay Dien Bien Phu ==> San bay Con Dao
-	22/01/2021: 10:50
-San bay Pleiku ==> San bay Cam Ranh
-	22/01/2021: 14:55
-San bay Pleiku ==> San bay Cat Bi
-	22/01/2021: 09:45
-San bay Pleiku ==> San bay Con Dao
-	22/01/2021: 12:35
-San bay Cat Bi ==> San bay Con Dao
-	22/01/2021: 13:15
-San bay Cat Bi ==> San bay Dien Bien Phu
-	22/01/2021: 03:25
-San bay Cat Bi ==> San bay Pleiku
-	22/01/2021: 00:30
-San bay Cam Ranh ==> San bay Buon Ma Thuot
-	22/01/2021: 11:35
-San bay Cam Ranh ==> San bay Ca Mau
-	22/01/2021: 20:55
-San bay Cam Ranh ==> San bay Can Tho
-	22/01/2021: 06:30
-San bay Tuy Hoa ==> San bay Dong Hoi
-	22/01/2021: 06:30
-San bay Tuy Hoa ==> San bay Noi Bai
-	22/01/2021: 13:30
-San bay Chu Lai ==> San bay Pleiku
-	22/01/2021: 04:15
-San bay Chu Lai ==> San bay Tan Son Nhat
-	22/01/2021: 05:50
-San bay Phu Bai ==> San bay Dong Hoi
-	22/01/2021: 16:55
-San bay Phu Bai ==> San bay Rach Gia
-	22/01/2021: 20:55
-San bay Tho Xuan ==> San bay Phu Cat
-	22/01/2021: 07:50
-San bay Tho Xuan ==> San bay Pleiku
-	22/01/2021: 17:45
-San bay Van Don ==> San bay Cat Bi
-	22/01/2021: 15:20
-San bay Van Don ==> San bay Phu Cat
-	22/01/2021: 16:35
+44864
 San bay Tan Son Nhat ==> San bay Buon Ma Thuot
-	23/01/2021: 16:35
-San bay Vinh ==> San bay Cam Ranh
-	23/01/2021: 17:45
-San bay Vinh ==> San bay Con Dao
-	23/01/2021: 09:25
-San bay Vinh ==> San bay Dong Hoi
-	23/01/2021: 02:15
-San bay Con Dao ==> San bay Dong Hoi
-	23/01/2021: 05:30
-San bay Phu Cat ==> San bay Buon Ma Thuot
-	23/01/2021: 20:15
-San bay Phu Cat ==> San bay Can Tho
-	23/01/2021: 07:35
-San bay Phu Cat ==> San bay Con Dao
-	23/01/2021: 03:20
-San bay Phu Cat ==> San bay Dien Bien Phu
-	23/01/2021: 04:40
-San bay Can Tho ==> San bay Cam Ranh
-	23/01/2021: 04:40
-San bay Dien Bien Phu ==> San bay Con Dao
-	23/01/2021: 13:15
-San bay Dien Bien Phu ==> San bay Dong Hoi
-	23/01/2021: 06:20
-San bay Dien Bien Phu ==> San bay Lien Khuong
-	23/01/2021: 05:10
-San bay Cat Bi ==> San bay Can Tho
-	23/01/2021: 05:30
-San bay Cat Bi ==> San bay Dong Hoi
-	23/01/2021: 14:30
-San bay Cat Bi ==> San bay Phu Bai
-	23/01/2021: 07:45
-San bay Rach Gia ==> San bay Ca Mau
-	23/01/2021: 15:50
-San bay Phu Quoc ==> San bay Dong Hoi
-	23/01/2021: 06:30
-San bay Phu Quoc ==> San bay Tan Son Nhat
-	23/01/2021: 13:30
-San bay Lien Khuong ==> San bay Buon Ma Thuot
-	23/01/2021: 10:15
-San bay Lien Khuong ==> San bay Con Dao
-	23/01/2021: 11:35
-San bay Lien Khuong ==> San bay Phu Bai
-	23/01/2021: 07:35
-San bay Tuy Hoa ==> San bay Ca Mau
-	23/01/2021: 20:10
-San bay Tuy Hoa ==> San bay Dien Bien Phu
-	23/01/2021: 06:35
-San bay Tuy Hoa ==> San bay Pleiku
-	23/01/2021: 11:25
-San bay Phu Bai ==> San bay Can Tho
-	23/01/2021: 14:30
-San bay Phu Bai ==> San bay Con Dao
-	23/01/2021: 02:25
-San bay Phu Bai ==> San bay Dong Hoi
-	23/01/2021: 19:50
-San bay Phu Bai ==> San bay Phu Quoc
-	23/01/2021: 01:40
-San bay Tan Son Nhat ==> San bay Ca Mau
-	24/01/2021: 01:40
-San bay Tan Son Nhat ==> San bay Can Tho
-	24/01/2021: 19:40
-San bay Noi Bai ==> San bay Can Tho
-	24/01/2021: 00:00
-San bay Da Nang ==> San bay Ca Mau
-	24/01/2021: 10:15
-San bay Vinh ==> San bay Dien Bien Phu
-	24/01/2021: 19:20
-San bay Vinh ==> San bay Noi Bai
-	24/01/2021: 05:45
-San bay Vinh ==> San bay Phu Cat
-	24/01/2021: 10:20
-San bay Con Dao ==> San bay Cat Bi
-	24/01/2021: 15:20
-San bay Con Dao ==> San bay Lien Khuong
-	24/01/2021: 06:20
-San bay Con Dao ==> San bay Tho Xuan
-	24/01/2021: 07:50
-San bay Phu Cat ==> San bay Chu Lai
-	24/01/2021: 02:25
-San bay Ca Mau ==> San bay Chu Lai
-	24/01/2021: 12:35
-San bay Can Tho ==> San bay Cat Bi
-	24/01/2021: 12:35
-San bay Buon Ma Thuot ==> San bay Noi Bai
-	24/01/2021: 09:30
-San bay Dien Bien Phu ==> San bay Cat Bi
-	24/01/2021: 13:55
-San bay Dien Bien Phu ==> San bay Chu Lai
-	24/01/2021: 03:25
-San bay Dien Bien Phu ==> San bay Phu Quoc
-	24/01/2021: 14:25
-San bay Dien Bien Phu ==> San bay Rach Gia
-	24/01/2021: 15:20
-San bay Pleiku ==> San bay Buon Ma Thuot
-	24/01/2021: 15:50
-San bay Pleiku ==> San bay Cat Bi
-	24/01/2021: 05:35
-San bay Pleiku ==> San bay Da Nang
-	24/01/2021: 06:30
-San bay Cat Bi ==> San bay Ca Mau
-	24/01/2021: 14:40
-San bay Cat Bi ==> San bay Cam Ranh
-	24/01/2021: 04:55
-San bay Cat Bi ==> San bay Con Dao
-	24/01/2021: 20:15
-San bay Cam Ranh ==> San bay Pleiku
-	24/01/2021: 07:05
-San bay Rach Gia ==> San bay Cam Ranh
-	24/01/2021: 13:15
-San bay Rach Gia ==> San bay Da Nang
-	24/01/2021: 14:25
-San bay Rach Gia ==> San bay Lien Khuong
-	24/01/2021: 01:30
-San bay Rach Gia ==> San bay Tan Son Nhat
-	24/01/2021: 14:30
-San bay Phu Quoc ==> San bay Ca Mau
-	24/01/2021: 08:10
-San bay Phu Quoc ==> San bay Cam Ranh
-	24/01/2021: 05:35
-San bay Phu Quoc ==> San bay Rach Gia
-	24/01/2021: 16:30
-San bay Lien Khuong ==> San bay Buon Ma Thuot
-	24/01/2021: 06:35
-San bay Lien Khuong ==> San bay Chu Lai
-	24/01/2021: 05:45
-San bay Tuy Hoa ==> San bay Phu Bai
-	24/01/2021: 09:30
-San bay Tuy Hoa ==> San bay Tan Son Nhat
-	24/01/2021: 05:00
-San bay Tuy Hoa ==> San bay Vinh
-	24/01/2021: 05:00
-San bay Dong Hoi ==> San bay Chu Lai
-	24/01/2021: 05:15
-San bay Dong Hoi ==> San bay Phu Quoc
-	24/01/2021: 07:45
-San bay Dong Hoi ==> San bay Van Don
-	24/01/2021: 10:20
-San bay Phu Bai ==> San bay Buon Ma Thuot
-	24/01/2021: 12:35
-San bay Phu Bai ==> San bay Cat Bi
-	24/01/2021: 16:40
-San bay Phu Bai ==> San bay Chu Lai
-	24/01/2021: 05:25
-San bay Phu Bai ==> San bay Phu Cat
-	24/01/2021: 19:20
-San bay Tho Xuan ==> San bay Buon Ma Thuot
-	24/01/2021: 06:35
-San bay Tho Xuan ==> San bay Lien Khuong
-	24/01/2021: 07:35
-San bay Tho Xuan ==> San bay Phu Bai
-	24/01/2021: 18:35
-San bay Tho Xuan ==> San bay Phu Cat
-	24/01/2021: 16:10
-San bay Tan Son Nhat ==> San bay Buon Ma Thuot
-	25/01/2021: 02:40
-San bay Tan Son Nhat ==> San bay Phu Cat
-	25/01/2021: 15:20
-San bay Tan Son Nhat ==> San bay Phu Quoc
-	25/01/2021: 02:55
-San bay Noi Bai ==> San bay Con Dao
-	25/01/2021: 15:40
-San bay Noi Bai ==> San bay Dien Bien Phu
-	25/01/2021: 17:10
-San bay Da Nang ==> San bay Chu Lai
-	25/01/2021: 00:00
-San bay Da Nang ==> San bay Phu Quoc
-	25/01/2021: 20:55
-San bay Da Nang ==> San bay Pleiku
-	25/01/2021: 11:45
-San bay Vinh ==> San bay Lien Khuong
-	25/01/2021: 09:45
-San bay Con Dao ==> San bay Buon Ma Thuot
-	25/01/2021: 07:05
-San bay Con Dao ==> San bay Dien Bien Phu
-	25/01/2021: 05:35
-San bay Con Dao ==> San bay Phu Quoc
-	25/01/2021: 03:25
-San bay Con Dao ==> San bay Pleiku
-	25/01/2021: 06:35
-San bay Phu Cat ==> San bay Da Nang
-	25/01/2021: 16:55
-San bay Phu Cat ==> San bay Dien Bien Phu
-	25/01/2021: 01:00
-San bay Phu Cat ==> San bay Phu Bai
-	25/01/2021: 16:55
-San bay Phu Cat ==> San bay Pleiku
-	25/01/2021: 16:40
-San bay Can Tho ==> San bay Cam Ranh
-	25/01/2021: 09:30
-San bay Can Tho ==> San bay Cat Bi
-	25/01/2021: 00:30
-San bay Can Tho ==> San bay Dong Hoi
-	25/01/2021: 18:25
-San bay Can Tho ==> San bay Noi Bai
-	25/01/2021: 20:15
-San bay Buon Ma Thuot ==> San bay Ca Mau
-	25/01/2021: 10:35
-San bay Buon Ma Thuot ==> San bay Phu Cat
-	25/01/2021: 16:40
-San bay Buon Ma Thuot ==> San bay Phu Quoc
-	25/01/2021: 15:40
-San bay Dien Bien Phu ==> San bay Con Dao
-	25/01/2021: 10:15
-San bay Dien Bien Phu ==> San bay Rach Gia
-	25/01/2021: 16:10
-San bay Pleiku ==> San bay Cam Ranh
-	25/01/2021: 03:20
-San bay Pleiku ==> San bay Lien Khuong
-	25/01/2021: 09:25
-San bay Pleiku ==> San bay Rach Gia
-	25/01/2021: 18:35
-San bay Pleiku ==> San bay Tan Son Nhat
-	25/01/2021: 14:55
-San bay Cat Bi ==> San bay Chu Lai
-	25/01/2021: 14:35
-San bay Cat Bi ==> San bay Lien Khuong
-	25/01/2021: 06:45
-San bay Cat Bi ==> San bay Vinh
-	25/01/2021: 17:00
-San bay Rach Gia ==> San bay Cat Bi
-	25/01/2021: 13:10
-San bay Rach Gia ==> San bay Dong Hoi
-	25/01/2021: 16:40
-San bay Phu Quoc ==> San bay Buon Ma Thuot
-	25/01/2021: 06:15
-San bay Phu Quoc ==> San bay Con Dao
-	25/01/2021: 06:30
-San bay Phu Quoc ==> San bay Vinh
-	25/01/2021: 08:10
-San bay Lien Khuong ==> San bay Cat Bi
-	25/01/2021: 07:50
-San bay Lien Khuong ==> San bay Da Nang
-	25/01/2021: 17:45
-San bay Lien Khuong ==> San bay Phu Quoc
-	25/01/2021: 20:10
-San bay Lien Khuong ==> San bay Tho Xuan
-	25/01/2021: 13:45
-San bay Dong Hoi ==> San bay Con Dao
-	25/01/2021: 02:40
-San bay Chu Lai ==> San bay Phu Quoc
-	25/01/2021: 08:05
-San bay Phu Bai ==> San bay Cam Ranh
-	25/01/2021: 17:45
-San bay Phu Bai ==> San bay Can Tho
-	25/01/2021: 15:30
-San bay Tho Xuan ==> San bay Buon Ma Thuot
-	25/01/2021: 02:15
-San bay Tho Xuan ==> San bay Cam Ranh
-	25/01/2021: 14:35
-San bay Van Don ==> San bay Ca Mau
-	25/01/2021: 10:15
-San bay Tan Son Nhat ==> San bay Buon Ma Thuot
-	26/01/2021: 19:25
-San bay Tan Son Nhat ==> San bay Cat Bi
-	26/01/2021: 08:45
+	15/01/2022: 05:05
 San bay Tan Son Nhat ==> San bay Noi Bai
-	26/01/2021: 18:35
-San bay Noi Bai ==> San bay Da Nang
-	26/01/2021: 13:30
-San bay Da Nang ==> San bay Cam Ranh
-	26/01/2021: 02:50
-San bay Da Nang ==> San bay Can Tho
-	26/01/2021: 12:40
-San bay Da Nang ==> San bay Chu Lai
-	26/01/2021: 17:10
-San bay Con Dao ==> San bay Buon Ma Thuot
-	26/01/2021: 06:20
-San bay Con Dao ==> San bay Tan Son Nhat
-	26/01/2021: 19:50
-San bay Con Dao ==> San bay Tuy Hoa
-	26/01/2021: 01:00
-San bay Phu Cat ==> San bay Buon Ma Thuot
-	26/01/2021: 05:45
-San bay Ca Mau ==> San bay Cat Bi
-	26/01/2021: 04:55
-San bay Ca Mau ==> San bay Con Dao
-	26/01/2021: 11:25
-San bay Ca Mau ==> San bay Tho Xuan
-	26/01/2021: 04:15
-San bay Dien Bien Phu ==> San bay Buon Ma Thuot
-	26/01/2021: 05:15
-San bay Dien Bien Phu ==> San bay Chu Lai
-	26/01/2021: 15:40
-San bay Dien Bien Phu ==> San bay Noi Bai
-	26/01/2021: 20:15
-San bay Pleiku ==> San bay Chu Lai
-	26/01/2021: 03:25
-San bay Cat Bi ==> San bay Ca Mau
-	26/01/2021: 06:35
-San bay Cat Bi ==> San bay Phu Bai
-	26/01/2021: 05:00
-San bay Cat Bi ==> San bay Tuy Hoa
-	26/01/2021: 19:25
-San bay Cam Ranh ==> San bay Phu Quoc
-	26/01/2021: 08:05
-San bay Cam Ranh ==> San bay Pleiku
-	26/01/2021: 20:05
-San bay Cam Ranh ==> San bay Rach Gia
-	26/01/2021: 16:40
-San bay Rach Gia ==> San bay Lien Khuong
-	26/01/2021: 04:40
-San bay Lien Khuong ==> San bay Chu Lai
-	26/01/2021: 07:05
-San bay Lien Khuong ==> San bay Phu Cat
-	26/01/2021: 06:55
-San bay Tuy Hoa ==> San bay Ca Mau
-	26/01/2021: 19:50
-San bay Tuy Hoa ==> San bay Dong Hoi
-	26/01/2021: 12:40
-San bay Tuy Hoa ==> San bay Phu Cat
-	26/01/2021: 02:15
-San bay Chu Lai ==> San bay Ca Mau
-	26/01/2021: 09:20
-San bay Phu Bai ==> San bay Cam Ranh
-	26/01/2021: 03:20
-San bay Phu Bai ==> San bay Pleiku
-	26/01/2021: 11:35
-San bay Phu Bai ==> San bay Tan Son Nhat
-	26/01/2021: 05:15
-San bay Tho Xuan ==> San bay Tan Son Nhat
-	26/01/2021: 08:05
-San bay Van Don ==> San bay Con Dao
-	26/01/2021: 20:00
-San bay Tan Son Nhat ==> San bay Can Tho
-	27/01/2021: 12:10
-San bay Tan Son Nhat ==> San bay Dien Bien Phu
-	27/01/2021: 10:35
-San bay Tan Son Nhat ==> San bay Phu Bai
-	27/01/2021: 07:35
-San bay Tan Son Nhat ==> San bay Pleiku
-	27/01/2021: 09:20
-San bay Da Nang ==> San bay Lien Khuong
-	27/01/2021: 13:45
-San bay Da Nang ==> San bay Phu Cat
-	27/01/2021: 05:25
-San bay Phu Cat ==> San bay Lien Khuong
-	27/01/2021: 05:25
-San bay Phu Cat ==> San bay Rach Gia
-	27/01/2021: 15:55
-San bay Ca Mau ==> San bay Cam Ranh
-	27/01/2021: 16:10
-San bay Ca Mau ==> San bay Chu Lai
-	27/01/2021: 01:50
-San bay Ca Mau ==> San bay Tan Son Nhat
-	27/01/2021: 13:10
-San bay Ca Mau ==> San bay Vinh
-	27/01/2021: 13:10
-San bay Can Tho ==> San bay Buon Ma Thuot
-	27/01/2021: 16:40
-San bay Can Tho ==> San bay Cat Bi
-	27/01/2021: 20:00
-San bay Can Tho ==> San bay Phu Quoc
-	27/01/2021: 02:45
-San bay Buon Ma Thuot ==> San bay Ca Mau
-	27/01/2021: 02:45
-San bay Buon Ma Thuot ==> San bay Can Tho
-	27/01/2021: 09:45
-San bay Buon Ma Thuot ==> San bay Phu Quoc
-	27/01/2021: 02:10
-San bay Dien Bien Phu ==> San bay Ca Mau
-	27/01/2021: 20:05
-San bay Dien Bien Phu ==> San bay Can Tho
-	27/01/2021: 04:40
-San bay Dien Bien Phu ==> San bay Con Dao
-	27/01/2021: 16:55
-San bay Pleiku ==> San bay Ca Mau
-	27/01/2021: 03:15
-San bay Cat Bi ==> San bay Buon Ma Thuot
-	27/01/2021: 18:35
-San bay Cat Bi ==> San bay Ca Mau
-	27/01/2021: 12:05
-San bay Cat Bi ==> San bay Da Nang
-	27/01/2021: 12:40
-San bay Cam Ranh ==> San bay Phu Bai
-	27/01/2021: 19:40
-San bay Cam Ranh ==> San bay Phu Quoc
-	27/01/2021: 13:55
-San bay Cam Ranh ==> San bay Pleiku
-	27/01/2021: 10:50
-San bay Rach Gia ==> San bay Cat Bi
-	27/01/2021: 19:25
-San bay Rach Gia ==> San bay Con Dao
-	27/01/2021: 17:10
-San bay Rach Gia ==> San bay Da Nang
-	27/01/2021: 01:30
-San bay Lien Khuong ==> San bay Cam Ranh
-	27/01/2021: 17:10
-San bay Lien Khuong ==> San bay Tan Son Nhat
-	27/01/2021: 04:55
-San bay Lien Khuong ==> San bay Tho Xuan
-	27/01/2021: 06:30
-San bay Tuy Hoa ==> San bay Ca Mau
-	27/01/2021: 09:30
-San bay Tuy Hoa ==> San bay Dien Bien Phu
-	27/01/2021: 05:35
-San bay Tuy Hoa ==> San bay Phu Quoc
-	27/01/2021: 06:45
-San bay Dong Hoi ==> San bay Da Nang
-	27/01/2021: 15:50
-San bay Dong Hoi ==> San bay Lien Khuong
-	27/01/2021: 19:40
-San bay Dong Hoi ==> San bay Rach Gia
-	27/01/2021: 01:50
-San bay Chu Lai ==> San bay Cat Bi
-	27/01/2021: 05:45
-San bay Phu Bai ==> San bay Buon Ma Thuot
-	27/01/2021: 04:40
-San bay Phu Bai ==> San bay Cat Bi
-	27/01/2021: 10:20
-San bay Phu Bai ==> San bay Con Dao
-	27/01/2021: 10:35
-San bay Tan Son Nhat ==> San bay Can Tho
-	28/01/2021: 13:55
-San bay Tan Son Nhat ==> San bay Da Nang
-	28/01/2021: 13:10
-San bay Noi Bai ==> San bay Cam Ranh
-	28/01/2021: 02:40
-San bay Noi Bai ==> San bay Cat Bi
-	28/01/2021: 16:10
-San bay Noi Bai ==> San bay Da Nang
-	28/01/2021: 15:20
-San bay Noi Bai ==> San bay Phu Quoc
-	28/01/2021: 02:55
-San bay Da Nang ==> San bay Lien Khuong
-	28/01/2021: 06:15
-San bay Da Nang ==> San bay Noi Bai
-	28/01/2021: 12:10
-San bay Da Nang ==> San bay Phu Quoc
-	28/01/2021: 15:55
-San bay Vinh ==> San bay Cat Bi
-	28/01/2021: 20:55
-San bay Vinh ==> San bay Chu Lai
-	28/01/2021: 02:40
-San bay Phu Cat ==> San bay Dong Hoi
-	28/01/2021: 01:40
-San bay Phu Cat ==> San bay Rach Gia
-	28/01/2021: 13:15
-San bay Ca Mau ==> San bay Buon Ma Thuot
-	28/01/2021: 14:25
-San bay Can Tho ==> San bay Buon Ma Thuot
-	28/01/2021: 16:30
-San bay Can Tho ==> San bay Dien Bien Phu
-	28/01/2021: 17:50
-San bay Can Tho ==> San bay Noi Bai
-	28/01/2021: 08:05
-San bay Buon Ma Thuot ==> San bay Lien Khuong
-	28/01/2021: 10:50
-San bay Dien Bien Phu ==> San bay Con Dao
-	28/01/2021: 06:30
-San bay Dien Bien Phu ==> San bay Phu Bai
-	28/01/2021: 01:50
-San bay Pleiku ==> San bay Buon Ma Thuot
-	28/01/2021: 15:55
-San bay Pleiku ==> San bay Lien Khuong
-	28/01/2021: 04:55
-San bay Pleiku ==> San bay Noi Bai
-	28/01/2021: 05:40
-San bay Cat Bi ==> San bay Con Dao
-	28/01/2021: 13:55
-San bay Rach Gia ==> San bay Con Dao
-	28/01/2021: 06:35
-San bay Rach Gia ==> San bay Da Nang
-	28/01/2021: 11:45
-San bay Rach Gia ==> San bay Phu Bai
-	28/01/2021: 01:40
-San bay Phu Quoc ==> San bay Chu Lai
-	28/01/2021: 07:50
-San bay Phu Quoc ==> San bay Dong Hoi
-	28/01/2021: 05:30
-San bay Phu Quoc ==> San bay Noi Bai
-	28/01/2021: 19:40
-San bay Phu Quoc ==> San bay Phu Bai
-	28/01/2021: 16:30
-San bay Tuy Hoa ==> San bay Cam Ranh
-	28/01/2021: 11:45
-San bay Tuy Hoa ==> San bay Pleiku
-	28/01/2021: 08:05
-San bay Chu Lai ==> San bay Ca Mau
-	28/01/2021: 01:50
-San bay Phu Bai ==> San bay Chu Lai
-	28/01/2021: 15:20
-San bay Van Don ==> San bay Cat Bi
-	28/01/2021: 03:20
-San bay Tan Son Nhat ==> San bay Ca Mau
-	29/01/2021: 15:50
-San bay Tan Son Nhat ==> San bay Can Tho
-	29/01/2021: 14:30
-San bay Tan Son Nhat ==> San bay Da Nang
-	29/01/2021: 20:05
-San bay Tan Son Nhat ==> San bay Phu Cat
-	29/01/2021: 01:30
-San bay Noi Bai ==> San bay Cat Bi
-	29/01/2021: 09:25
-San bay Noi Bai ==> San bay Con Dao
-	29/01/2021: 04:15
+	15/01/2022: 15:35
+San bay Tan Son Nhat ==> San bay Phu Quoc
+	15/01/2022: 17:20
 San bay Noi Bai ==> San bay Dong Hoi
-	29/01/2021: 05:00
-San bay Noi Bai ==> San bay Phu Cat
-	29/01/2021: 01:50
+	15/01/2022: 05:50
+San bay Noi Bai ==> San bay Phu Bai
+	15/01/2022: 16:55
 San bay Da Nang ==> San bay Cat Bi
-	29/01/2021: 16:40
+	15/01/2022: 15:05
 San bay Da Nang ==> San bay Phu Bai
-	29/01/2021: 13:45
-San bay Vinh ==> San bay Rach Gia
-	29/01/2021: 05:30
-San bay Phu Cat ==> San bay Chu Lai
-	29/01/2021: 20:30
-San bay Ca Mau ==> San bay Dien Bien Phu
-	29/01/2021: 07:05
-San bay Ca Mau ==> San bay Dong Hoi
-	29/01/2021: 00:45
-San bay Can Tho ==> San bay Con Dao
-	29/01/2021: 10:35
-San bay Can Tho ==> San bay Da Nang
-	29/01/2021: 05:10
-San bay Can Tho ==> San bay Phu Cat
-	29/01/2021: 16:30
-San bay Buon Ma Thuot ==> San bay Tan Son Nhat
-	29/01/2021: 04:15
-San bay Dien Bien Phu ==> San bay Ca Mau
-	29/01/2021: 08:05
-San bay Pleiku ==> San bay Dong Hoi
-	29/01/2021: 16:30
-San bay Cat Bi ==> San bay Cam Ranh
-	29/01/2021: 17:50
-San bay Cat Bi ==> San bay Phu Bai
-	29/01/2021: 11:45
-San bay Cam Ranh ==> San bay Pleiku
-	29/01/2021: 20:10
-San bay Rach Gia ==> San bay Buon Ma Thuot
-	29/01/2021: 02:40
-San bay Rach Gia ==> San bay Da Nang
-	29/01/2021: 09:25
-San bay Rach Gia ==> San bay Phu Cat
-	29/01/2021: 20:15
-San bay Rach Gia ==> San bay Tuy Hoa
-	29/01/2021: 13:15
-San bay Lien Khuong ==> San bay Can Tho
-	29/01/2021: 15:40
-San bay Lien Khuong ==> San bay Noi Bai
-	29/01/2021: 15:30
-San bay Lien Khuong ==> San bay Phu Bai
-	29/01/2021: 13:55
-San bay Dong Hoi ==> San bay Can Tho
-	29/01/2021: 10:35
-San bay Dong Hoi ==> San bay Dien Bien Phu
-	29/01/2021: 19:40
-San bay Dong Hoi ==> San bay Rach Gia
-	29/01/2021: 09:20
-San bay Chu Lai ==> San bay Buon Ma Thuot
-	29/01/2021: 02:50
-San bay Chu Lai ==> San bay Noi Bai
-	29/01/2021: 16:35
-San bay Chu Lai ==> San bay Pleiku
-	29/01/2021: 17:10
-San bay Chu Lai ==> San bay Tho Xuan
-	29/01/2021: 13:45
-San bay Phu Bai ==> San bay Cam Ranh
-	29/01/2021: 02:55
-San bay Van Don ==> San bay Ca Mau
-	29/01/2021: 15:20
-San bay Van Don ==> San bay Phu Cat
-	29/01/2021: 03:55
-San bay Tan Son Nhat ==> San bay Phu Bai
-	30/01/2021: 03:20
-San bay Noi Bai ==> San bay Buon Ma Thuot
-	30/01/2021: 00:45
-San bay Noi Bai ==> San bay Cat Bi
-	30/01/2021: 10:15
-San bay Da Nang ==> San bay Cat Bi
-	30/01/2021: 20:05
-San bay Da Nang ==> San bay Chu Lai
-	30/01/2021: 16:40
-San bay Vinh ==> San bay Da Nang
-	30/01/2021: 05:30
-San bay Con Dao ==> San bay Phu Cat
-	30/01/2021: 07:05
-San bay Con Dao ==> San bay Rach Gia
-	30/01/2021: 19:40
-San bay Con Dao ==> San bay Tho Xuan
-	30/01/2021: 05:00
-San bay Phu Cat ==> San bay Tan Son Nhat
-	30/01/2021: 03:55
-San bay Phu Cat ==> San bay Tuy Hoa
-	30/01/2021: 05:45
-San bay Ca Mau ==> San bay Chu Lai
-	30/01/2021: 20:10
-San bay Ca Mau ==> San bay Con Dao
-	30/01/2021: 05:35
-San bay Ca Mau ==> San bay Rach Gia
-	30/01/2021: 07:50
-San bay Can Tho ==> San bay Pleiku
-	30/01/2021: 08:10
-San bay Can Tho ==> San bay Tho Xuan
-	30/01/2021: 11:35
-San bay Can Tho ==> San bay Tuy Hoa
-	30/01/2021: 17:10
-San bay Cam Ranh ==> San bay Can Tho
-	30/01/2021: 06:45
-San bay Cam Ranh ==> San bay Dong Hoi
-	30/01/2021: 10:20
-San bay Rach Gia ==> San bay Cat Bi
-	30/01/2021: 14:25
-San bay Dong Hoi ==> San bay Cam Ranh
-	30/01/2021: 09:45
-San bay Dong Hoi ==> San bay Dien Bien Phu
-	30/01/2021: 07:45
-San bay Dong Hoi ==> San bay Phu Bai
-	30/01/2021: 01:40
-San bay Dong Hoi ==> San bay Tho Xuan
-	30/01/2021: 14:35
-San bay Chu Lai ==> San bay Buon Ma Thuot
-	30/01/2021: 08:05
-San bay Chu Lai ==> San bay Can Tho
-	30/01/2021: 03:55
-San bay Chu Lai ==> San bay Cat Bi
-	30/01/2021: 13:30
-San bay Chu Lai ==> San bay Rach Gia
-	30/01/2021: 15:50
-San bay Van Don ==> San bay Da Nang
-	30/01/2021: 16:00
-San bay Van Don ==> San bay Dong Hoi
-	30/01/2021: 09:20
-San bay Noi Bai ==> San bay Con Dao
-	31/01/2021: 01:00
-San bay Noi Bai ==> San bay Dien Bien Phu
-	31/01/2021: 05:50
-San bay Noi Bai ==> San bay Phu Cat
-	31/01/2021: 11:45
-San bay Da Nang ==> San bay Cam Ranh
-	31/01/2021: 11:35
-San bay Vinh ==> San bay Chu Lai
-	31/01/2021: 12:35
-San bay Vinh ==> San bay Con Dao
-	31/01/2021: 17:45
-San bay Con Dao ==> San bay Chu Lai
-	31/01/2021: 19:25
-San bay Con Dao ==> San bay Dien Bien Phu
-	31/01/2021: 18:25
-San bay Phu Cat ==> San bay Phu Quoc
-	31/01/2021: 13:30
-San bay Phu Cat ==> San bay Tan Son Nhat
-	31/01/2021: 20:00
-San bay Phu Cat ==> San bay Tho Xuan
-	31/01/2021: 03:55
-San bay Ca Mau ==> San bay Cat Bi
-	31/01/2021: 11:45
-San bay Ca Mau ==> San bay Chu Lai
-	31/01/2021: 05:35
-San bay Ca Mau ==> San bay Dong Hoi
-	31/01/2021: 01:50
-San bay Can Tho ==> San bay Tuy Hoa
-	31/01/2021: 05:50
-San bay Buon Ma Thuot ==> San bay Da Nang
-	31/01/2021: 14:55
-San bay Buon Ma Thuot ==> San bay Phu Bai
-	31/01/2021: 01:00
-San bay Buon Ma Thuot ==> San bay Tho Xuan
-	31/01/2021: 13:45
-San bay Pleiku ==> San bay Cat Bi
-	31/01/2021: 07:35
-San bay Pleiku ==> San bay Phu Cat
-	31/01/2021: 05:25
-San bay Cat Bi ==> San bay Ca Mau
-	31/01/2021: 03:15
-San bay Cat Bi ==> San bay Cam Ranh
-	31/01/2021: 05:00
-San bay Cam Ranh ==> San bay Chu Lai
-	31/01/2021: 03:20
-San bay Lien Khuong ==> San bay Buon Ma Thuot
-	31/01/2021: 20:30
-San bay Lien Khuong ==> San bay Chu Lai
-	31/01/2021: 09:25
-San bay Lien Khuong ==> San bay Dien Bien Phu
-	31/01/2021: 02:25
-San bay Lien Khuong ==> San bay Tan Son Nhat
-	31/01/2021: 01:50
-San bay Tuy Hoa ==> San bay Da Nang
-	31/01/2021: 01:30
-San bay Tuy Hoa ==> San bay Vinh
-	31/01/2021: 04:15
-San bay Chu Lai ==> San bay Lien Khuong
-	31/01/2021: 03:20
-San bay Chu Lai ==> San bay Phu Cat
-	31/01/2021: 01:00
-San bay Chu Lai ==> San bay Pleiku
-	31/01/2021: 16:00
-San bay Chu Lai ==> San bay Rach Gia
-	31/01/2021: 14:40
-San bay Phu Bai ==> San bay Chu Lai
-	31/01/2021: 10:20
-San bay Phu Bai ==> San bay Pleiku
-	31/01/2021: 14:30
-San bay Van Don ==> San bay Dong Hoi
-	31/01/2021: 02:50
-San bay Tan Son Nhat ==> San bay Lien Khuong
-	15/01/2021: 00:35
-San bay Noi Bai ==> San bay Tho Xuan
-	15/01/2021: 04:30
-San bay Da Nang ==> San bay Cam Ranh
-	15/01/2021: 20:10
-San bay Da Nang ==> San bay Lien Khuong
-	15/01/2021: 07:10
-San bay Da Nang ==> San bay Noi Bai
-	15/01/2021: 04:00
-San bay Da Nang ==> San bay Pleiku
-	15/01/2021: 00:35
-San bay Con Dao ==> San bay Phu Bai
-	15/01/2021: 11:35
-San bay Phu Cat ==> San bay Can Tho
-	15/01/2021: 13:30
-San bay Phu Cat ==> San bay Noi Bai
-	15/01/2021: 06:15
-San bay Phu Cat ==> San bay Tuy Hoa
-	15/01/2021: 06:55
-San bay Phu Cat ==> San bay Van Don
-	15/01/2021: 15:15
-San bay Buon Ma Thuot ==> San bay Phu Quoc
-	15/01/2021: 11:40
-San bay Dien Bien Phu ==> San bay Can Tho
-	15/01/2021: 07:15
-San bay Pleiku ==> San bay Cat Bi
-	15/01/2021: 04:15
-San bay Cat Bi ==> San bay Dien Bien Phu
-	15/01/2021: 05:00
-San bay Cat Bi ==> San bay Dong Hoi
-	15/01/2021: 06:25
-San bay Cat Bi ==> San bay Rach Gia
-	15/01/2021: 08:05
-San bay Cam Ranh ==> San bay Buon Ma Thuot
-	15/01/2021: 12:05
-San bay Cam Ranh ==> San bay Lien Khuong
-	15/01/2021: 02:10
-San bay Rach Gia ==> San bay Cat Bi
-	15/01/2021: 18:50
-San bay Rach Gia ==> San bay Da Nang
-	15/01/2021: 18:35
-San bay Rach Gia ==> San bay Phu Bai
-	15/01/2021: 08:15
-San bay Phu Quoc ==> San bay Buon Ma Thuot
-	15/01/2021: 13:15
-San bay Phu Quoc ==> San bay Can Tho
-	15/01/2021: 15:15
-San bay Tuy Hoa ==> San bay Chu Lai
-	15/01/2021: 06:45
-San bay Tuy Hoa ==> San bay Da Nang
-	15/01/2021: 02:40
-San bay Chu Lai ==> San bay Cam Ranh
-	15/01/2021: 00:45
-San bay Chu Lai ==> San bay Phu Quoc
-	15/01/2021: 04:50
-San bay Chu Lai ==> San bay Tuy Hoa
-	15/01/2021: 19:20
-San bay Phu Bai ==> San bay Cat Bi
-	15/01/2021: 14:55
-San bay Phu Bai ==> San bay Con Dao
-	15/01/2021: 08:05
-San bay Phu Bai ==> San bay Da Nang
-	15/01/2021: 06:15
-San bay Tho Xuan ==> San bay Da Nang
-	15/01/2021: 06:55
-San bay Van Don ==> San bay Con Dao
-	15/01/2021: 05:55
-San bay Van Don ==> San bay Dong Hoi
-	15/01/2021: 04:20
-San bay Tan Son Nhat ==> San bay Can Tho
-	15/01/2021: 06:25
-San bay Tan Son Nhat ==> San bay Phu Bai
-	15/01/2021: 03:30
-San bay Noi Bai ==> San bay Da Nang
-	15/01/2021: 06:25
-San bay Noi Bai ==> San bay Lien Khuong
-	15/01/2021: 03:45
-San bay Da Nang ==> San bay Can Tho
-	15/01/2021: 13:45
-San bay Da Nang ==> San bay Dong Hoi
-	15/01/2021: 14:30
-San bay Da Nang ==> San bay Phu Bai
-	15/01/2021: 04:50
-San bay Vinh ==> San bay Con Dao
-	15/01/2021: 19:30
-San bay Vinh ==> San bay Phu Bai
-	15/01/2021: 01:05
+	15/01/2022: 19:40
+San bay Da Nang ==> San bay Tan Son Nhat
+	15/01/2022: 11:20
+San bay Da Nang ==> San bay Van Don
+	15/01/2022: 05:50
+San bay Vinh ==> San bay Dien Bien Phu
+	15/01/2022: 11:50
+San bay Vinh ==> San bay Phu Quoc
+	15/01/2022: 05:35
 San bay Vinh ==> San bay Tuy Hoa
-	15/01/2021: 14:10
-San bay Phu Cat ==> San bay Dong Hoi
-	15/01/2021: 10:45
-San bay Phu Cat ==> San bay Lien Khuong
-	15/01/2021: 07:10
-San bay Buon Ma Thuot ==> San bay Can Tho
-	15/01/2021: 01:25
-San bay Buon Ma Thuot ==> San bay Chu Lai
-	15/01/2021: 06:55
-San bay Buon Ma Thuot ==> San bay Con Dao
-	15/01/2021: 12:25
-San bay Pleiku ==> San bay Chu Lai
-	15/01/2021: 07:15
-San bay Pleiku ==> San bay Phu Bai
-	15/01/2021: 07:10
-San bay Cat Bi ==> San bay Ca Mau
-	15/01/2021: 04:30
-San bay Cat Bi ==> San bay Dien Bien Phu
-	15/01/2021: 04:10
-San bay Cat Bi ==> San bay Van Don
-	15/01/2021: 13:15
-San bay Cam Ranh ==> San bay Rach Gia
-	15/01/2021: 01:55
-San bay Rach Gia ==> San bay Chu Lai
-	15/01/2021: 13:15
-San bay Phu Quoc ==> San bay Buon Ma Thuot
-	15/01/2021: 05:00
-San bay Phu Quoc ==> San bay Dien Bien Phu
-	15/01/2021: 10:45
-San bay Lien Khuong ==> San bay Ca Mau
-	15/01/2021: 07:00
-San bay Lien Khuong ==> San bay Phu Bai
-	15/01/2021: 08:10
-San bay Tuy Hoa ==> San bay Chu Lai
-	15/01/2021: 14:55
-San bay Dong Hoi ==> San bay Vinh
-	15/01/2021: 01:40
-San bay Chu Lai ==> San bay Cat Bi
-	15/01/2021: 19:30
-San bay Chu Lai ==> San bay Noi Bai
-	15/01/2021: 03:30
-San bay Phu Bai ==> San bay Can Tho
-	15/01/2021: 17:00
-San bay Phu Bai ==> San bay Van Don
-	15/01/2021: 19:20
-San bay Tho Xuan ==> San bay Ca Mau
-	15/01/2021: 11:35
-San bay Tho Xuan ==> San bay Da Nang
-	15/01/2021: 01:05
-San bay Van Don ==> San bay Ca Mau
-	15/01/2021: 07:15
-San bay Van Don ==> San bay Da Nang
-	15/01/2021: 01:40
-San bay Van Don ==> San bay Tho Xuan
-	15/01/2021: 01:05
-San bay Tan Son Nhat ==> San bay Cat Bi
-	16/01/2021: 12:00
-San bay Tan Son Nhat ==> San bay Chu Lai
-	16/01/2021: 12:05
-San bay Tan Son Nhat ==> San bay Dien Bien Phu
-	16/01/2021: 17:05
-San bay Tan Son Nhat ==> San bay Lien Khuong
-	16/01/2021: 05:55
-San bay Noi Bai ==> San bay Cat Bi
-	16/01/2021: 13:45
+	15/01/2022: 01:00
 San bay Con Dao ==> San bay Buon Ma Thuot
-	16/01/2021: 08:15
-San bay Con Dao ==> San bay Dien Bien Phu
-	16/01/2021: 11:20
-San bay Phu Cat ==> San bay Cat Bi
-	16/01/2021: 09:25
-San bay Phu Cat ==> San bay Con Dao
-	16/01/2021: 06:45
-San bay Phu Cat ==> San bay Rach Gia
-	16/01/2021: 18:20
-San bay Phu Cat ==> San bay Tuy Hoa
-	16/01/2021: 08:00
-San bay Ca Mau ==> San bay Cat Bi
-	16/01/2021: 01:40
-San bay Ca Mau ==> San bay Dien Bien Phu
-	16/01/2021: 05:00
-San bay Ca Mau ==> San bay Dong Hoi
-	16/01/2021: 15:00
-San bay Ca Mau ==> San bay Phu Bai
-	16/01/2021: 02:40
-San bay Can Tho ==> San bay Cat Bi
-	16/01/2021: 12:10
-San bay Can Tho ==> San bay Chu Lai
-	16/01/2021: 06:10
-San bay Can Tho ==> San bay Phu Bai
-	16/01/2021: 06:10
-San bay Can Tho ==> San bay Phu Quoc
-	16/01/2021: 07:15
-San bay Buon Ma Thuot ==> San bay Ca Mau
-	16/01/2021: 16:50
-San bay Buon Ma Thuot ==> San bay Cam Ranh
-	16/01/2021: 13:20
-San bay Buon Ma Thuot ==> San bay Van Don
-	16/01/2021: 14:30
-San bay Cat Bi ==> San bay Cam Ranh
-	16/01/2021: 13:20
-San bay Cam Ranh ==> San bay Con Dao
-	16/01/2021: 06:10
-San bay Rach Gia ==> San bay Dien Bien Phu
-	16/01/2021: 16:50
-San bay Rach Gia ==> San bay Phu Bai
-	16/01/2021: 10:25
-San bay Rach Gia ==> San bay Tho Xuan
-	16/01/2021: 06:25
-San bay Rach Gia ==> San bay Tuy Hoa
-	16/01/2021: 08:50
-San bay Phu Quoc ==> San bay Ca Mau
-	16/01/2021: 07:20
-San bay Phu Quoc ==> San bay Cam Ranh
-	16/01/2021: 06:45
-San bay Phu Quoc ==> San bay Can Tho
-	16/01/2021: 18:45
-San bay Phu Quoc ==> San bay Dien Bien Phu
-	16/01/2021: 16:50
-San bay Lien Khuong ==> San bay Dien Bien Phu
-	16/01/2021: 12:05
-San bay Lien Khuong ==> San bay Phu Cat
-	16/01/2021: 06:45
-San bay Tuy Hoa ==> San bay Can Tho
-	16/01/2021: 18:40
-San bay Tuy Hoa ==> San bay Da Nang
-	16/01/2021: 08:50
-San bay Tuy Hoa ==> San bay Phu Bai
-	16/01/2021: 18:50
-San bay Dong Hoi ==> San bay Can Tho
-	16/01/2021: 09:25
-San bay Dong Hoi ==> San bay Phu Bai
-	16/01/2021: 16:50
-San bay Phu Bai ==> San bay Can Tho
-	16/01/2021: 05:00
-San bay Phu Bai ==> San bay Con Dao
-	16/01/2021: 05:00
-San bay Phu Bai ==> San bay Dong Hoi
-	16/01/2021: 20:30
-San bay Tho Xuan ==> San bay Can Tho
-	16/01/2021: 06:25
-San bay Tho Xuan ==> San bay Con Dao
-	16/01/2021: 17:35
-San bay Tho Xuan ==> San bay Van Don
-	16/01/2021: 06:25
-San bay Van Don ==> San bay Can Tho
-	16/01/2021: 02:00
-San bay Van Don ==> San bay Con Dao
-	16/01/2021: 19:35
-San bay Van Don ==> San bay Phu Bai
-	16/01/2021: 06:45
-San bay Van Don ==> San bay Phu Cat
-	16/01/2021: 13:35
-San bay Noi Bai ==> San bay Buon Ma Thuot
-	16/01/2021: 06:15
-San bay Noi Bai ==> San bay Can Tho
-	16/01/2021: 06:55
-San bay Noi Bai ==> San bay Tan Son Nhat
-	16/01/2021: 07:00
-San bay Vinh ==> San bay Buon Ma Thuot
-	16/01/2021: 19:20
-San bay Vinh ==> San bay Cam Ranh
-	16/01/2021: 00:55
-San bay Con Dao ==> San bay Da Nang
-	16/01/2021: 06:25
-San bay Con Dao ==> San bay Phu Bai
-	16/01/2021: 04:10
-San bay Con Dao ==> San bay Pleiku
-	16/01/2021: 11:20
-San bay Con Dao ==> San bay Tho Xuan
-	16/01/2021: 18:40
-San bay Phu Cat ==> San bay Dong Hoi
-	16/01/2021: 18:40
-San bay Ca Mau ==> San bay Buon Ma Thuot
-	16/01/2021: 04:00
-San bay Ca Mau ==> San bay Cam Ranh
-	16/01/2021: 12:00
-San bay Ca Mau ==> San bay Dong Hoi
-	16/01/2021: 14:10
-San bay Ca Mau ==> San bay Tho Xuan
-	16/01/2021: 00:05
-San bay Buon Ma Thuot ==> San bay Can Tho
-	16/01/2021: 09:45
-San bay Buon Ma Thuot ==> San bay Cat Bi
-	16/01/2021: 09:55
-San bay Buon Ma Thuot ==> San bay Phu Bai
-	16/01/2021: 08:15
-San bay Buon Ma Thuot ==> San bay Tho Xuan
-	16/01/2021: 07:00
-San bay Dien Bien Phu ==> San bay Phu Bai
-	16/01/2021: 07:45
-San bay Dien Bien Phu ==> San bay Tan Son Nhat
-	16/01/2021: 08:00
-San bay Dien Bien Phu ==> San bay Tho Xuan
-	16/01/2021: 04:50
-San bay Pleiku ==> San bay Con Dao
-	16/01/2021: 09:45
-San bay Cat Bi ==> San bay Buon Ma Thuot
-	16/01/2021: 13:35
-San bay Cat Bi ==> San bay Phu Quoc
-	16/01/2021: 07:00
-San bay Cam Ranh ==> San bay Chu Lai
-	16/01/2021: 11:20
-San bay Phu Quoc ==> San bay Con Dao
-	16/01/2021: 14:55
-San bay Phu Quoc ==> San bay Dong Hoi
-	16/01/2021: 02:45
-San bay Phu Quoc ==> San bay Rach Gia
-	16/01/2021: 11:35
-San bay Tuy Hoa ==> San bay Cat Bi
-	16/01/2021: 00:05
-San bay Tuy Hoa ==> San bay Chu Lai
-	16/01/2021: 07:15
-San bay Tuy Hoa ==> San bay Dong Hoi
-	16/01/2021: 07:20
-San bay Dong Hoi ==> San bay Buon Ma Thuot
-	16/01/2021: 19:35
-San bay Dong Hoi ==> San bay Can Tho
-	16/01/2021: 07:45
-San bay Dong Hoi ==> San bay Da Nang
-	16/01/2021: 00:35
-San bay Dong Hoi ==> San bay Phu Bai
-	16/01/2021: 04:10
-San bay Chu Lai ==> San bay Noi Bai
-	16/01/2021: 16:40
-San bay Phu Bai ==> San bay Ca Mau
-	16/01/2021: 01:25
-San bay Phu Bai ==> San bay Chu Lai
-	16/01/2021: 04:20
-San bay Tho Xuan ==> San bay Cam Ranh
-	16/01/2021: 13:20
-San bay Da Nang ==> San bay Ca Mau
-	17/01/2021: 10:25
-San bay Da Nang ==> San bay Cat Bi
-	17/01/2021: 13:10
-San bay Da Nang ==> San bay Chu Lai
-	17/01/2021: 04:20
-San bay Vinh ==> San bay Noi Bai
-	17/01/2021: 06:45
-San bay Vinh ==> San bay Phu Bai
-	17/01/2021: 20:50
-San bay Con Dao ==> San bay Cam Ranh
-	17/01/2021: 19:20
-San bay Con Dao ==> San bay Pleiku
-	17/01/2021: 02:00
-San bay Phu Cat ==> San bay Buon Ma Thuot
-	17/01/2021: 13:15
-San bay Phu Cat ==> San bay Chu Lai
-	17/01/2021: 19:55
-San bay Phu Cat ==> San bay Lien Khuong
-	17/01/2021: 01:05
-San bay Phu Cat ==> San bay Phu Quoc
-	17/01/2021: 01:05
-San bay Ca Mau ==> San bay Noi Bai
-	17/01/2021: 00:35
-San bay Can Tho ==> San bay Lien Khuong
-	17/01/2021: 14:55
-San bay Buon Ma Thuot ==> San bay Phu Cat
-	17/01/2021: 16:40
-San bay Buon Ma Thuot ==> San bay Phu Quoc
-	17/01/2021: 12:00
-San bay Cat Bi ==> San bay Phu Quoc
-	17/01/2021: 12:00
-San bay Cat Bi ==> San bay Rach Gia
-	17/01/2021: 07:10
-San bay Cat Bi ==> San bay Vinh
-	17/01/2021: 04:00
-San bay Rach Gia ==> San bay Buon Ma Thuot
-	17/01/2021: 07:20
-San bay Rach Gia ==> San bay Con Dao
-	17/01/2021: 09:55
-San bay Rach Gia ==> San bay Pleiku
-	17/01/2021: 04:20
-San bay Phu Quoc ==> San bay Cam Ranh
-	17/01/2021: 14:05
-San bay Phu Quoc ==> San bay Dien Bien Phu
-	17/01/2021: 04:50
-San bay Lien Khuong ==> San bay Can Tho
-	17/01/2021: 12:05
-San bay Lien Khuong ==> San bay Vinh
-	17/01/2021: 08:15
-San bay Tuy Hoa ==> San bay Dien Bien Phu
-	17/01/2021: 15:55
-San bay Dong Hoi ==> San bay Chu Lai
-	17/01/2021: 07:20
-San bay Chu Lai ==> San bay Phu Bai
-	17/01/2021: 08:00
-San bay Chu Lai ==> San bay Phu Quoc
-	17/01/2021: 02:00
-San bay Chu Lai ==> San bay Tan Son Nhat
-	17/01/2021: 19:50
-San bay Phu Bai ==> San bay Ca Mau
-	17/01/2021: 06:45
-San bay Phu Bai ==> San bay Noi Bai
-	17/01/2021: 20:30
-San bay Phu Bai ==> San bay Pleiku
-	17/01/2021: 13:00
-San bay Tho Xuan ==> San bay Con Dao
-	17/01/2021: 07:50
-San bay Tho Xuan ==> San bay Dong Hoi
-	17/01/2021: 07:55
-San bay Tho Xuan ==> San bay Pleiku
-	17/01/2021: 02:40
-San bay Van Don ==> San bay Cat Bi
-	17/01/2021: 19:30
-San bay Da Nang ==> San bay Ca Mau
-	17/01/2021: 20:00
-San bay Da Nang ==> San bay Cam Ranh
-	17/01/2021: 20:00
-San bay Da Nang ==> San bay Tan Son Nhat
-	17/01/2021: 05:35
-San bay Da Nang ==> San bay Tuy Hoa
-	17/01/2021: 10:45
-San bay Vinh ==> San bay Ca Mau
-	17/01/2021: 13:10
-San bay Vinh ==> San bay Da Nang
-	17/01/2021: 12:35
-San bay Vinh ==> San bay Phu Bai
-	17/01/2021: 03:45
-San bay Con Dao ==> San bay Buon Ma Thuot
-	17/01/2021: 13:45
+	15/01/2022: 18:20
 San bay Phu Cat ==> San bay Da Nang
-	17/01/2021: 06:45
-San bay Phu Cat ==> San bay Dien Bien Phu
-	17/01/2021: 18:20
-San bay Phu Cat ==> San bay Noi Bai
-	17/01/2021: 06:45
-San bay Ca Mau ==> San bay Da Nang
-	17/01/2021: 11:35
-San bay Can Tho ==> San bay Cat Bi
-	17/01/2021: 01:20
-San bay Buon Ma Thuot ==> San bay Ca Mau
-	17/01/2021: 04:10
-San bay Buon Ma Thuot ==> San bay Chu Lai
-	17/01/2021: 01:40
-San bay Buon Ma Thuot ==> San bay Con Dao
-	17/01/2021: 20:30
-San bay Buon Ma Thuot ==> San bay Da Nang
-	17/01/2021: 02:45
-San bay Dien Bien Phu ==> San bay Da Nang
-	17/01/2021: 08:15
-San bay Dien Bien Phu ==> San bay Phu Bai
-	17/01/2021: 06:25
-San bay Dien Bien Phu ==> San bay Phu Quoc
-	17/01/2021: 07:50
-San bay Pleiku ==> San bay Cat Bi
-	17/01/2021: 06:45
-San bay Pleiku ==> San bay Con Dao
-	17/01/2021: 05:35
-San bay Pleiku ==> San bay Phu Bai
-	17/01/2021: 00:45
-San bay Pleiku ==> San bay Van Don
-	17/01/2021: 07:55
-San bay Cat Bi ==> San bay Dien Bien Phu
-	17/01/2021: 05:55
-San bay Cat Bi ==> San bay Phu Cat
-	17/01/2021: 19:55
-San bay Cat Bi ==> San bay Tho Xuan
-	17/01/2021: 15:15
-San bay Cat Bi ==> San bay Tuy Hoa
-	17/01/2021: 06:10
-San bay Cam Ranh ==> San bay Chu Lai
-	17/01/2021: 07:10
-San bay Cam Ranh ==> San bay Noi Bai
-	17/01/2021: 17:05
-San bay Rach Gia ==> San bay Chu Lai
-	17/01/2021: 12:00
-San bay Rach Gia ==> San bay Da Nang
-	17/01/2021: 03:45
-San bay Rach Gia ==> San bay Dong Hoi
-	17/01/2021: 19:20
-San bay Rach Gia ==> San bay Vinh
-	17/01/2021: 18:45
-San bay Lien Khuong ==> San bay Cam Ranh
-	17/01/2021: 01:55
-San bay Lien Khuong ==> San bay Tan Son Nhat
-	17/01/2021: 11:40
-San bay Dong Hoi ==> San bay Cat Bi
-	17/01/2021: 06:15
-San bay Dong Hoi ==> San bay Con Dao
-	17/01/2021: 18:50
-San bay Dong Hoi ==> San bay Phu Quoc
-	17/01/2021: 08:15
-San bay Dong Hoi ==> San bay Tan Son Nhat
-	17/01/2021: 18:45
-San bay Chu Lai ==> San bay Dong Hoi
-	17/01/2021: 01:20
-San bay Chu Lai ==> San bay Phu Cat
-	17/01/2021: 01:05
-San bay Tho Xuan ==> San bay Da Nang
-	17/01/2021: 00:35
-San bay Tho Xuan ==> San bay Phu Bai
-	17/01/2021: 11:05
-San bay Tho Xuan ==> San bay Rach Gia
-	17/01/2021: 17:20
-San bay Van Don ==> San bay Buon Ma Thuot
-	17/01/2021: 20:40
-San bay Van Don ==> San bay Con Dao
-	17/01/2021: 16:50
-San bay Van Don ==> San bay Phu Cat
-	17/01/2021: 12:35
-San bay Tan Son Nhat ==> San bay Buon Ma Thuot
-	18/01/2021: 05:55
-San bay Tan Son Nhat ==> San bay Chu Lai
-	18/01/2021: 12:25
-San bay Tan Son Nhat ==> San bay Con Dao
-	18/01/2021: 16:40
-San bay Tan Son Nhat ==> San bay Phu Cat
-	18/01/2021: 16:55
-San bay Da Nang ==> San bay Ca Mau
-	18/01/2021: 01:25
-San bay Da Nang ==> San bay Pleiku
-	18/01/2021: 13:00
-San bay Vinh ==> San bay Cam Ranh
-	18/01/2021: 20:30
-San bay Con Dao ==> San bay Buon Ma Thuot
-	18/01/2021: 15:00
-San bay Con Dao ==> San bay Ca Mau
-	18/01/2021: 15:55
-San bay Con Dao ==> San bay Dong Hoi
-	18/01/2021: 12:10
-San bay Con Dao ==> San bay Pleiku
-	18/01/2021: 03:50
-San bay Phu Cat ==> San bay Dien Bien Phu
-	18/01/2021: 08:50
-San bay Phu Cat ==> San bay Rach Gia
-	18/01/2021: 00:35
-San bay Ca Mau ==> San bay Can Tho
-	18/01/2021: 04:00
-San bay Buon Ma Thuot ==> San bay Can Tho
-	18/01/2021: 09:45
-San bay Buon Ma Thuot ==> San bay Phu Bai
-	18/01/2021: 07:50
-San bay Dien Bien Phu ==> San bay Noi Bai
-	18/01/2021: 07:55
-San bay Dien Bien Phu ==> San bay Phu Cat
-	18/01/2021: 06:25
-San bay Pleiku ==> San bay Can Tho
-	18/01/2021: 01:40
-San bay Pleiku ==> San bay Con Dao
-	18/01/2021: 06:55
-San bay Cam Ranh ==> San bay Vinh
-	18/01/2021: 18:35
-San bay Rach Gia ==> San bay Buon Ma Thuot
-	18/01/2021: 19:20
-San bay Rach Gia ==> San bay Can Tho
-	18/01/2021: 09:25
-San bay Lien Khuong ==> San bay Cam Ranh
-	18/01/2021: 02:40
-San bay Tuy Hoa ==> San bay Ca Mau
-	18/01/2021: 14:10
-San bay Tuy Hoa ==> San bay Da Nang
-	18/01/2021: 02:10
-San bay Tuy Hoa ==> San bay Van Don
-	18/01/2021: 18:20
-San bay Dong Hoi ==> San bay Buon Ma Thuot
-	18/01/2021: 12:25
-San bay Dong Hoi ==> San bay Cat Bi
-	18/01/2021: 06:15
-San bay Dong Hoi ==> San bay Chu Lai
-	18/01/2021: 02:45
-San bay Chu Lai ==> San bay Rach Gia
-	18/01/2021: 13:20
-San bay Phu Bai ==> San bay Dong Hoi
-	18/01/2021: 17:20
-San bay Phu Bai ==> San bay Lien Khuong
-	18/01/2021: 06:10
-San bay Phu Bai ==> San bay Noi Bai
-	18/01/2021: 20:40
-San bay Phu Bai ==> San bay Pleiku
-	18/01/2021: 04:10
-San bay Van Don ==> San bay Ca Mau
-	18/01/2021: 12:10
-San bay Van Don ==> San bay Dong Hoi
-	18/01/2021: 05:35
-San bay Van Don ==> San bay Phu Quoc
-	18/01/2021: 12:00
-San bay Tan Son Nhat ==> San bay Ca Mau
-	18/01/2021: 15:20
-San bay Da Nang ==> San bay Cam Ranh
-	18/01/2021: 03:30
-San bay Da Nang ==> San bay Dong Hoi
-	18/01/2021: 13:40
-San bay Con Dao ==> San bay Cat Bi
-	18/01/2021: 05:55
-San bay Con Dao ==> San bay Chu Lai
-	18/01/2021: 18:45
-San bay Con Dao ==> San bay Phu Quoc
-	18/01/2021: 20:50
-San bay Con Dao ==> San bay Pleiku
-	18/01/2021: 02:15
-San bay Ca Mau ==> San bay Da Nang
-	18/01/2021: 12:00
-San bay Ca Mau ==> San bay Lien Khuong
-	18/01/2021: 05:35
-San bay Can Tho ==> San bay Dong Hoi
-	18/01/2021: 11:05
-San bay Buon Ma Thuot ==> San bay Ca Mau
-	18/01/2021: 16:40
-San bay Buon Ma Thuot ==> San bay Con Dao
-	18/01/2021: 13:10
-San bay Dien Bien Phu ==> San bay Phu Quoc
-	18/01/2021: 02:10
-San bay Dien Bien Phu ==> San bay Pleiku
-	18/01/2021: 15:15
-San bay Dien Bien Phu ==> San bay Tan Son Nhat
-	18/01/2021: 20:40
-San bay Pleiku ==> San bay Cam Ranh
-	18/01/2021: 12:25
-San bay Pleiku ==> San bay Lien Khuong
-	18/01/2021: 20:00
-San bay Pleiku ==> San bay Phu Quoc
-	18/01/2021: 10:45
-San bay Cat Bi ==> San bay Dong Hoi
-	18/01/2021: 07:55
-San bay Cam Ranh ==> San bay Phu Quoc
-	18/01/2021: 04:50
-San bay Cam Ranh ==> San bay Tan Son Nhat
-	18/01/2021: 05:35
-San bay Rach Gia ==> San bay Buon Ma Thuot
-	18/01/2021: 12:10
-San bay Rach Gia ==> San bay Con Dao
-	18/01/2021: 17:20
-San bay Rach Gia ==> San bay Dong Hoi
-	18/01/2021: 04:50
-San bay Rach Gia ==> San bay Phu Bai
-	18/01/2021: 04:10
-San bay Phu Quoc ==> San bay Lien Khuong
-	18/01/2021: 11:35
-San bay Lien Khuong ==> San bay Dien Bien Phu
-	18/01/2021: 11:35
-San bay Lien Khuong ==> San bay Phu Cat
-	18/01/2021: 13:00
-San bay Lien Khuong ==> San bay Tan Son Nhat
-	18/01/2021: 07:50
-San bay Tuy Hoa ==> San bay Dien Bien Phu
-	18/01/2021: 02:45
-San bay Chu Lai ==> San bay Con Dao
-	18/01/2021: 04:20
-San bay Phu Bai ==> San bay Lien Khuong
-	18/01/2021: 13:20
-San bay Tho Xuan ==> San bay Dien Bien Phu
-	18/01/2021: 06:10
-San bay Tho Xuan ==> San bay Phu Cat
-	18/01/2021: 14:30
-San bay Tan Son Nhat ==> San bay Cam Ranh
-	19/01/2021: 15:55
-San bay Tan Son Nhat ==> San bay Da Nang
-	19/01/2021: 02:00
-San bay Tan Son Nhat ==> San bay Phu Bai
-	19/01/2021: 08:05
-San bay Tan Son Nhat ==> San bay Phu Quoc
-	19/01/2021: 16:50
-San bay Noi Bai ==> San bay Buon Ma Thuot
-	19/01/2021: 05:00
-San bay Noi Bai ==> San bay Ca Mau
-	19/01/2021: 08:35
-San bay Da Nang ==> San bay Can Tho
-	19/01/2021: 04:15
-San bay Da Nang ==> San bay Tho Xuan
-	19/01/2021: 15:00
-San bay Da Nang ==> San bay Vinh
-	19/01/2021: 15:20
-San bay Vinh ==> San bay Cat Bi
-	19/01/2021: 06:10
-San bay Vinh ==> San bay Chu Lai
-	19/01/2021: 15:00
-San bay Phu Cat ==> San bay Buon Ma Thuot
-	19/01/2021: 11:05
+	15/01/2022: 03:50
 San bay Phu Cat ==> San bay Phu Quoc
-	19/01/2021: 11:05
-San bay Ca Mau ==> San bay Can Tho
-	19/01/2021: 16:40
-San bay Ca Mau ==> San bay Con Dao
-	19/01/2021: 20:40
-San bay Can Tho ==> San bay Cat Bi
-	19/01/2021: 06:45
-San bay Can Tho ==> San bay Tuy Hoa
-	19/01/2021: 16:15
-San bay Buon Ma Thuot ==> San bay Phu Cat
-	19/01/2021: 12:00
-San bay Dien Bien Phu ==> San bay Tuy Hoa
-	19/01/2021: 08:00
-San bay Pleiku ==> San bay Cam Ranh
-	19/01/2021: 03:30
-San bay Pleiku ==> San bay Chu Lai
-	19/01/2021: 08:10
-San bay Pleiku ==> San bay Phu Bai
-	19/01/2021: 04:20
-San bay Cat Bi ==> San bay Cam Ranh
-	19/01/2021: 08:15
-San bay Cat Bi ==> San bay Phu Quoc
-	19/01/2021: 04:20
-San bay Cat Bi ==> San bay Tan Son Nhat
-	19/01/2021: 06:45
-San bay Cam Ranh ==> San bay Ca Mau
-	19/01/2021: 15:00
-San bay Cam Ranh ==> San bay Can Tho
-	19/01/2021: 02:00
-San bay Cam Ranh ==> San bay Con Dao
-	19/01/2021: 15:55
-San bay Rach Gia ==> San bay Ca Mau
-	19/01/2021: 08:15
-San bay Rach Gia ==> San bay Con Dao
-	19/01/2021: 00:35
-San bay Lien Khuong ==> San bay Ca Mau
-	19/01/2021: 15:55
-San bay Lien Khuong ==> San bay Cam Ranh
-	19/01/2021: 16:15
-San bay Chu Lai ==> San bay Buon Ma Thuot
-	19/01/2021: 01:25
-San bay Chu Lai ==> San bay Pleiku
-	19/01/2021: 07:15
-San bay Chu Lai ==> San bay Tho Xuan
-	19/01/2021: 08:50
-San bay Chu Lai ==> San bay Vinh
-	19/01/2021: 19:55
-San bay Tho Xuan ==> San bay Buon Ma Thuot
-	19/01/2021: 17:20
-San bay Tho Xuan ==> San bay Cat Bi
-	19/01/2021: 05:35
-San bay Tho Xuan ==> San bay Dong Hoi
-	19/01/2021: 11:15
-San bay Van Don ==> San bay Buon Ma Thuot
-	19/01/2021: 16:50
-San bay Van Don ==> San bay Cam Ranh
-	19/01/2021: 03:30
-San bay Van Don ==> San bay Noi Bai
-	19/01/2021: 10:45
-San bay Tan Son Nhat ==> San bay Buon Ma Thuot
-	19/01/2021: 12:05
-San bay Tan Son Nhat ==> San bay Van Don
-	19/01/2021: 02:15
-San bay Da Nang ==> San bay Con Dao
-	19/01/2021: 19:35
-San bay Da Nang ==> San bay Lien Khuong
-	19/01/2021: 16:55
-San bay Da Nang ==> San bay Phu Bai
-	19/01/2021: 00:55
-San bay Da Nang ==> San bay Pleiku
-	19/01/2021: 00:55
-San bay Con Dao ==> San bay Chu Lai
-	19/01/2021: 08:15
-San bay Con Dao ==> San bay Dien Bien Phu
-	19/01/2021: 15:55
-San bay Phu Cat ==> San bay Can Tho
-	19/01/2021: 15:55
-San bay Phu Cat ==> San bay Phu Quoc
-	19/01/2021: 09:55
-San bay Can Tho ==> San bay Dong Hoi
-	19/01/2021: 11:05
-San bay Can Tho ==> San bay Noi Bai
-	19/01/2021: 10:25
-San bay Buon Ma Thuot ==> San bay Cam Ranh
-	19/01/2021: 09:55
-San bay Buon Ma Thuot ==> San bay Phu Bai
-	19/01/2021: 13:35
-San bay Buon Ma Thuot ==> San bay Phu Cat
-	19/01/2021: 08:15
-San bay Pleiku ==> San bay Can Tho
-	19/01/2021: 11:20
-San bay Pleiku ==> San bay Cat Bi
-	19/01/2021: 13:45
-San bay Pleiku ==> San bay Con Dao
-	19/01/2021: 07:50
-San bay Cat Bi ==> San bay Rach Gia
-	19/01/2021: 13:10
-San bay Cat Bi ==> San bay Tho Xuan
-	19/01/2021: 20:30
-San bay Cam Ranh ==> San bay Phu Cat
-	19/01/2021: 08:35
-San bay Cam Ranh ==> San bay Phu Quoc
-	19/01/2021: 18:40
-San bay Rach Gia ==> San bay Dong Hoi
-	19/01/2021: 16:55
-San bay Rach Gia ==> San bay Phu Quoc
-	19/01/2021: 13:00
-San bay Rach Gia ==> San bay Pleiku
-	19/01/2021: 09:25
-San bay Rach Gia ==> San bay Vinh
-	19/01/2021: 05:00
-San bay Phu Quoc ==> San bay Pleiku
-	19/01/2021: 15:15
-San bay Tuy Hoa ==> San bay Ca Mau
-	19/01/2021: 08:35
-San bay Chu Lai ==> San bay Phu Cat
-	19/01/2021: 03:45
-San bay Chu Lai ==> San bay Tho Xuan
-	19/01/2021: 07:15
-San bay Phu Bai ==> San bay Pleiku
-	19/01/2021: 00:05
-San bay Tho Xuan ==> San bay Ca Mau
-	19/01/2021: 11:20
-San bay Tho Xuan ==> San bay Con Dao
-	19/01/2021: 08:15
-San bay Tho Xuan ==> San bay Dong Hoi
-	19/01/2021: 16:50
-San bay Van Don ==> San bay Dong Hoi
-	19/01/2021: 16:15
-San bay Tan Son Nhat ==> San bay Ca Mau
-	20/01/2021: 13:45
-San bay Tan Son Nhat ==> San bay Can Tho
-	20/01/2021: 07:45
-San bay Tan Son Nhat ==> San bay Pleiku
-	20/01/2021: 11:40
-San bay Da Nang ==> San bay Ca Mau
-	20/01/2021: 02:15
-San bay Da Nang ==> San bay Can Tho
-	20/01/2021: 16:55
-San bay Da Nang ==> San bay Con Dao
-	20/01/2021: 17:05
-San bay Da Nang ==> San bay Rach Gia
-	20/01/2021: 12:05
-San bay Vinh ==> San bay Ca Mau
-	20/01/2021: 04:00
-San bay Con Dao ==> San bay Buon Ma Thuot
-	20/01/2021: 13:35
-San bay Con Dao ==> San bay Tuy Hoa
-	20/01/2021: 04:20
-San bay Phu Cat ==> San bay Cat Bi
-	20/01/2021: 01:25
-San bay Phu Cat ==> San bay Da Nang
-	20/01/2021: 11:35
-San bay Phu Cat ==> San bay Phu Quoc
-	20/01/2021: 20:45
-San bay Phu Cat ==> San bay Tho Xuan
-	20/01/2021: 04:30
+	15/01/2022: 09:50
+San bay Can Tho ==> San bay Cam Ranh
+	15/01/2022: 04:30
 San bay Can Tho ==> San bay Phu Bai
-	20/01/2021: 04:20
-San bay Can Tho ==> San bay Phu Cat
-	20/01/2021: 19:30
-San bay Can Tho ==> San bay Tuy Hoa
-	20/01/2021: 12:25
-San bay Buon Ma Thuot ==> San bay Lien Khuong
-	20/01/2021: 07:15
-San bay Buon Ma Thuot ==> San bay Phu Cat
-	20/01/2021: 20:30
-San bay Dien Bien Phu ==> San bay Chu Lai
-	20/01/2021: 13:15
-San bay Cat Bi ==> San bay Buon Ma Thuot
-	20/01/2021: 00:55
-San bay Cat Bi ==> San bay Tan Son Nhat
-	20/01/2021: 13:30
-San bay Rach Gia ==> San bay Cat Bi
-	20/01/2021: 07:10
-San bay Lien Khuong ==> San bay Buon Ma Thuot
-	20/01/2021: 03:45
-San bay Lien Khuong ==> San bay Cam Ranh
-	20/01/2021: 16:15
-San bay Dong Hoi ==> San bay Buon Ma Thuot
-	20/01/2021: 10:25
-San bay Dong Hoi ==> San bay Can Tho
-	20/01/2021: 20:50
-San bay Phu Bai ==> San bay Da Nang
-	20/01/2021: 01:55
-San bay Phu Bai ==> San bay Lien Khuong
-	20/01/2021: 19:30
-San bay Tan Son Nhat ==> San bay Buon Ma Thuot
-	20/01/2021: 01:25
-San bay Tan Son Nhat ==> San bay Pleiku
-	20/01/2021: 06:55
-San bay Noi Bai ==> San bay Cat Bi
-	20/01/2021: 01:40
-San bay Con Dao ==> San bay Cam Ranh
-	20/01/2021: 02:45
-San bay Phu Cat ==> San bay Con Dao
-	20/01/2021: 01:05
-San bay Phu Cat ==> San bay Lien Khuong
-	20/01/2021: 02:45
-San bay Phu Cat ==> San bay Tan Son Nhat
-	20/01/2021: 12:35
-San bay Can Tho ==> San bay Con Dao
-	20/01/2021: 02:15
-San bay Can Tho ==> San bay Dong Hoi
-	20/01/2021: 15:15
-San bay Buon Ma Thuot ==> San bay Van Don
-	20/01/2021: 18:35
-San bay Dien Bien Phu ==> San bay Con Dao
-	20/01/2021: 04:30
-San bay Dien Bien Phu ==> San bay Lien Khuong
-	20/01/2021: 19:20
-San bay Dien Bien Phu ==> San bay Pleiku
-	20/01/2021: 11:20
-San bay Pleiku ==> San bay Ca Mau
-	20/01/2021: 12:00
-San bay Pleiku ==> San bay Noi Bai
-	20/01/2021: 14:05
-San bay Pleiku ==> San bay Rach Gia
-	20/01/2021: 12:05
-San bay Pleiku ==> San bay Tan Son Nhat
-	20/01/2021: 19:55
+	15/01/2022: 04:55
+San bay Can Tho ==> San bay Van Don
+	15/01/2022: 02:25
+San bay Dien Bien Phu ==> San bay Cam Ranh
+	15/01/2022: 10:35
+San bay Dien Bien Phu ==> San bay Phu Cat
+	15/01/2022: 09:30
+San bay Dien Bien Phu ==> San bay Tan Son Nhat
+	15/01/2022: 01:10
+San bay Pleiku ==> San bay Phu Cat
+	15/01/2022: 00:10
 San bay Cat Bi ==> San bay Cam Ranh
-	20/01/2021: 06:45
-San bay Cat Bi ==> San bay Can Tho
-	20/01/2021: 13:15
+	15/01/2022: 05:45
 San bay Cam Ranh ==> San bay Can Tho
-	20/01/2021: 04:10
+	15/01/2022: 18:50
 San bay Cam Ranh ==> San bay Chu Lai
-	20/01/2021: 18:45
-San bay Cam Ranh ==> San bay Lien Khuong
-	20/01/2021: 17:00
-San bay Rach Gia ==> San bay Cat Bi
-	20/01/2021: 20:45
-San bay Phu Quoc ==> San bay Dong Hoi
-	20/01/2021: 13:10
-San bay Dong Hoi ==> San bay Cat Bi
-	20/01/2021: 19:55
-San bay Dong Hoi ==> San bay Dien Bien Phu
-	20/01/2021: 13:00
-San bay Van Don ==> San bay Noi Bai
-	20/01/2021: 17:20
-San bay Noi Bai ==> San bay Phu Bai
-	21/01/2021: 18:40
-San bay Noi Bai ==> San bay Phu Quoc
-	21/01/2021: 08:00
-San bay Da Nang ==> San bay Cat Bi
-	21/01/2021: 06:55
-San bay Da Nang ==> San bay Chu Lai
-	21/01/2021: 05:35
-San bay Da Nang ==> San bay Phu Cat
-	21/01/2021: 02:00
-San bay Vinh ==> San bay Con Dao
-	21/01/2021: 20:45
-San bay Vinh ==> San bay Dien Bien Phu
-	21/01/2021: 12:05
-San bay Vinh ==> San bay Tan Son Nhat
-	21/01/2021: 07:50
-San bay Con Dao ==> San bay Dien Bien Phu
-	21/01/2021: 16:15
-San bay Phu Cat ==> San bay Can Tho
-	21/01/2021: 05:00
-San bay Phu Cat ==> San bay Rach Gia
-	21/01/2021: 09:25
-San bay Phu Cat ==> San bay Tan Son Nhat
-	21/01/2021: 20:50
-San bay Phu Cat ==> San bay Tho Xuan
-	21/01/2021: 13:00
-San bay Ca Mau ==> San bay Can Tho
-	21/01/2021: 09:25
-San bay Can Tho ==> San bay Chu Lai
-	21/01/2021: 12:25
-San bay Can Tho ==> San bay Dien Bien Phu
-	21/01/2021: 09:55
-San bay Can Tho ==> San bay Dong Hoi
-	21/01/2021: 08:10
-San bay Dien Bien Phu ==> San bay Ca Mau
-	21/01/2021: 02:00
-San bay Dien Bien Phu ==> San bay Cat Bi
-	21/01/2021: 05:35
-San bay Dien Bien Phu ==> San bay Phu Quoc
-	21/01/2021: 15:00
-San bay Dien Bien Phu ==> San bay Tho Xuan
-	21/01/2021: 11:15
-San bay Pleiku ==> San bay Ca Mau
-	21/01/2021: 00:05
-San bay Pleiku ==> San bay Dien Bien Phu
-	21/01/2021: 12:05
-San bay Cat Bi ==> San bay Ca Mau
-	21/01/2021: 07:55
-San bay Cat Bi ==> San bay Can Tho
-	21/01/2021: 02:40
-San bay Cat Bi ==> San bay Phu Quoc
-	21/01/2021: 13:15
-San bay Cam Ranh ==> San bay Ca Mau
-	21/01/2021: 20:10
-San bay Cam Ranh ==> San bay Cat Bi
-	21/01/2021: 11:20
-San bay Cam Ranh ==> San bay Lien Khuong
-	21/01/2021: 13:35
-San bay Rach Gia ==> San bay Dien Bien Phu
-	21/01/2021: 03:45
-San bay Rach Gia ==> San bay Dong Hoi
-	21/01/2021: 05:35
-San bay Phu Quoc ==> San bay Buon Ma Thuot
-	21/01/2021: 07:10
-San bay Phu Quoc ==> San bay Cam Ranh
-	21/01/2021: 01:25
-San bay Phu Quoc ==> San bay Cat Bi
-	21/01/2021: 08:50
-San bay Phu Quoc ==> San bay Phu Bai
-	21/01/2021: 14:10
-San bay Lien Khuong ==> San bay Ca Mau
-	21/01/2021: 02:15
-San bay Lien Khuong ==> San bay Da Nang
-	21/01/2021: 15:20
-San bay Dong Hoi ==> San bay Cat Bi
-	21/01/2021: 20:00
-San bay Dong Hoi ==> San bay Noi Bai
-	21/01/2021: 11:05
-San bay Phu Bai ==> San bay Ca Mau
-	21/01/2021: 01:20
-San bay Phu Bai ==> San bay Cam Ranh
-	21/01/2021: 19:20
-San bay Phu Bai ==> San bay Tuy Hoa
-	21/01/2021: 19:30
-San bay Phu Bai ==> San bay Van Don
-	21/01/2021: 06:55
-San bay Tho Xuan ==> San bay Buon Ma Thuot
-	21/01/2021: 04:20
-San bay Tho Xuan ==> San bay Chu Lai
-	21/01/2021: 11:20
-San bay Tho Xuan ==> San bay Rach Gia
-	21/01/2021: 17:20
-San bay Noi Bai ==> San bay Con Dao
-	21/01/2021: 20:10
-San bay Noi Bai ==> San bay Pleiku
-	21/01/2021: 08:05
-San bay Da Nang ==> San bay Chu Lai
-	21/01/2021: 06:45
-San bay Da Nang ==> San bay Phu Cat
-	21/01/2021: 20:00
-San bay Con Dao ==> San bay Dien Bien Phu
-	21/01/2021: 20:45
-San bay Con Dao ==> San bay Van Don
-	21/01/2021: 06:45
-San bay Phu Cat ==> San bay Ca Mau
-	21/01/2021: 05:35
-San bay Phu Cat ==> San bay Dong Hoi
-	21/01/2021: 02:10
-San bay Phu Cat ==> San bay Phu Quoc
-	21/01/2021: 20:50
-San bay Phu Cat ==> San bay Rach Gia
-	21/01/2021: 05:55
-San bay Ca Mau ==> San bay Cat Bi
-	21/01/2021: 01:40
-San bay Ca Mau ==> San bay Phu Cat
-	21/01/2021: 10:45
-San bay Can Tho ==> San bay Chu Lai
-	21/01/2021: 02:15
-San bay Can Tho ==> San bay Dien Bien Phu
-	21/01/2021: 06:10
-San bay Buon Ma Thuot ==> San bay Con Dao
-	21/01/2021: 07:20
-San bay Dien Bien Phu ==> San bay Ca Mau
-	21/01/2021: 13:20
-San bay Dien Bien Phu ==> San bay Chu Lai
-	21/01/2021: 07:50
-San bay Dien Bien Phu ==> San bay Van Don
-	21/01/2021: 07:50
-San bay Pleiku ==> San bay Cam Ranh
-	21/01/2021: 02:10
-San bay Pleiku ==> San bay Chu Lai
-	21/01/2021: 12:05
-San bay Pleiku ==> San bay Con Dao
-	21/01/2021: 01:20
-San bay Cat Bi ==> San bay Con Dao
-	21/01/2021: 01:55
-San bay Cat Bi ==> San bay Tan Son Nhat
-	21/01/2021: 09:55
-San bay Cat Bi ==> San bay Tho Xuan
-	21/01/2021: 18:40
-San bay Cam Ranh ==> San bay Da Nang
-	21/01/2021: 11:05
-San bay Rach Gia ==> San bay Lien Khuong
-	21/01/2021: 04:30
-San bay Phu Quoc ==> San bay Con Dao
-	21/01/2021: 20:30
-San bay Phu Quoc ==> San bay Da Nang
-	21/01/2021: 08:50
-San bay Phu Quoc ==> San bay Dien Bien Phu
-	21/01/2021: 15:15
-San bay Phu Quoc ==> San bay Lien Khuong
-	21/01/2021: 03:45
-San bay Lien Khuong ==> San bay Cat Bi
-	21/01/2021: 13:00
-San bay Lien Khuong ==> San bay Vinh
-	21/01/2021: 00:55
-San bay Dong Hoi ==> San bay Can Tho
-	21/01/2021: 14:10
-San bay Dong Hoi ==> San bay Cat Bi
-	21/01/2021: 13:45
-San bay Dong Hoi ==> San bay Pleiku
-	21/01/2021: 01:20
-San bay Chu Lai ==> San bay Can Tho
-	21/01/2021: 06:55
-San bay Chu Lai ==> San bay Da Nang
-	21/01/2021: 02:45
-San bay Chu Lai ==> San bay Lien Khuong
-	21/01/2021: 16:55
-San bay Phu Bai ==> San bay Cam Ranh
-	21/01/2021: 20:50
-San bay Phu Bai ==> San bay Noi Bai
-	21/01/2021: 07:10
-San bay Tan Son Nhat ==> San bay Da Nang
-	22/01/2021: 06:25
-San bay Tan Son Nhat ==> San bay Noi Bai
-	22/01/2021: 01:20
-San bay Noi Bai ==> San bay Phu Cat
-	22/01/2021: 09:25
-San bay Noi Bai ==> San bay Tan Son Nhat
-	22/01/2021: 00:55
-San bay Con Dao ==> San bay Can Tho
-	22/01/2021: 02:45
-San bay Con Dao ==> San bay Tuy Hoa
-	22/01/2021: 04:15
-San bay Phu Cat ==> San bay Dien Bien Phu
-	22/01/2021: 20:00
-San bay Phu Cat ==> San bay Tho Xuan
-	22/01/2021: 15:00
-San bay Phu Cat ==> San bay Van Don
-	22/01/2021: 11:40
-San bay Dien Bien Phu ==> San bay Cat Bi
-	22/01/2021: 05:00
-San bay Dien Bien Phu ==> San bay Da Nang
-	22/01/2021: 07:50
-San bay Dien Bien Phu ==> San bay Dong Hoi
-	22/01/2021: 11:40
-San bay Pleiku ==> San bay Cat Bi
-	22/01/2021: 08:35
-San bay Cat Bi ==> San bay Buon Ma Thuot
-	22/01/2021: 19:30
-San bay Cat Bi ==> San bay Tho Xuan
-	22/01/2021: 03:45
-San bay Cam Ranh ==> San bay Da Nang
-	22/01/2021: 15:20
-San bay Cam Ranh ==> San bay Lien Khuong
-	22/01/2021: 15:00
-San bay Cam Ranh ==> San bay Noi Bai
-	22/01/2021: 04:15
-San bay Cam Ranh ==> San bay Rach Gia
-	22/01/2021: 14:05
-San bay Rach Gia ==> San bay Can Tho
-	22/01/2021: 13:30
-San bay Rach Gia ==> San bay Con Dao
-	22/01/2021: 17:20
-San bay Rach Gia ==> San bay Tho Xuan
-	22/01/2021: 12:00
-San bay Lien Khuong ==> San bay Pleiku
-	22/01/2021: 04:00
-San bay Tuy Hoa ==> San bay Cam Ranh
-	22/01/2021: 16:40
-San bay Tuy Hoa ==> San bay Dien Bien Phu
-	22/01/2021: 12:10
-San bay Tuy Hoa ==> San bay Lien Khuong
-	22/01/2021: 10:45
-San bay Tuy Hoa ==> San bay Pleiku
-	22/01/2021: 02:40
-San bay Dong Hoi ==> San bay Con Dao
-	22/01/2021: 18:45
-San bay Chu Lai ==> San bay Con Dao
-	22/01/2021: 11:40
-San bay Chu Lai ==> San bay Phu Bai
-	22/01/2021: 11:15
-San bay Chu Lai ==> San bay Pleiku
-	22/01/2021: 16:55
-San bay Chu Lai ==> San bay Tuy Hoa
-	22/01/2021: 20:10
-San bay Tho Xuan ==> San bay Ca Mau
-	22/01/2021: 12:25
-San bay Tho Xuan ==> San bay Da Nang
-	22/01/2021: 05:00
-San bay Van Don ==> San bay Con Dao
-	22/01/2021: 10:25
-San bay Van Don ==> San bay Phu Cat
-	22/01/2021: 20:10
-San bay Van Don ==> San bay Tan Son Nhat
-	22/01/2021: 17:05
-San bay Noi Bai ==> San bay Cam Ranh
-	22/01/2021: 13:10
-San bay Da Nang ==> San bay Ca Mau
-	22/01/2021: 13:10
-San bay Vinh ==> San bay Lien Khuong
-	22/01/2021: 04:00
-San bay Vinh ==> San bay Rach Gia
-	22/01/2021: 12:10
-San bay Con Dao ==> San bay Cat Bi
-	22/01/2021: 12:05
-San bay Con Dao ==> San bay Dong Hoi
-	22/01/2021: 07:00
-San bay Phu Cat ==> San bay Ca Mau
-	22/01/2021: 06:45
-San bay Ca Mau ==> San bay Can Tho
-	22/01/2021: 16:50
-San bay Can Tho ==> San bay Buon Ma Thuot
-	22/01/2021: 06:45
-San bay Buon Ma Thuot ==> San bay Da Nang
-	22/01/2021: 03:50
-San bay Dien Bien Phu ==> San bay Phu Cat
-	22/01/2021: 09:45
-San bay Cam Ranh ==> San bay Buon Ma Thuot
-	22/01/2021: 13:20
-San bay Cam Ranh ==> San bay Rach Gia
-	22/01/2021: 06:10
-San bay Rach Gia ==> San bay Dien Bien Phu
-	22/01/2021: 04:00
-San bay Rach Gia ==> San bay Vinh
-	22/01/2021: 01:25
-San bay Phu Quoc ==> San bay Ca Mau
-	22/01/2021: 02:00
-San bay Phu Quoc ==> San bay Cam Ranh
-	22/01/2021: 11:20
-San bay Phu Quoc ==> San bay Cat Bi
-	22/01/2021: 04:30
-San bay Phu Quoc ==> San bay Noi Bai
-	22/01/2021: 19:20
-San bay Lien Khuong ==> San bay Chu Lai
-	22/01/2021: 20:00
-San bay Tuy Hoa ==> San bay Da Nang
-	22/01/2021: 03:45
-San bay Tuy Hoa ==> San bay Dien Bien Phu
-	22/01/2021: 00:05
-San bay Tuy Hoa ==> San bay Noi Bai
-	22/01/2021: 19:20
-San bay Tuy Hoa ==> San bay Tho Xuan
-	22/01/2021: 15:55
-San bay Phu Bai ==> San bay Buon Ma Thuot
-	22/01/2021: 03:30
-San bay Phu Bai ==> San bay Ca Mau
-	22/01/2021: 00:45
-San bay Phu Bai ==> San bay Can Tho
-	22/01/2021: 00:05
-San bay Phu Bai ==> San bay Tan Son Nhat
-	22/01/2021: 03:30
-San bay Tho Xuan ==> San bay Cam Ranh
-	22/01/2021: 00:05
-San bay Tho Xuan ==> San bay Phu Cat
-	22/01/2021: 13:45
-San bay Tho Xuan ==> San bay Phu Quoc
-	22/01/2021: 13:00
-San bay Van Don ==> San bay Da Nang
-	22/01/2021: 08:10
-San bay Van Don ==> San bay Dong Hoi
-	22/01/2021: 15:00
-San bay Van Don ==> San bay Noi Bai
-	22/01/2021: 12:10
-San bay Van Don ==> San bay Rach Gia
-	22/01/2021: 14:10
-San bay Tan Son Nhat ==> San bay Buon Ma Thuot
-	23/01/2021: 20:45
-San bay Tan Son Nhat ==> San bay Dong Hoi
-	23/01/2021: 03:50
-San bay Vinh ==> San bay Can Tho
-	23/01/2021: 05:35
-San bay Phu Cat ==> San bay Con Dao
-	23/01/2021: 17:35
-San bay Phu Cat ==> San bay Noi Bai
-	23/01/2021: 13:15
-San bay Phu Cat ==> San bay Tan Son Nhat
-	23/01/2021: 16:55
-San bay Buon Ma Thuot ==> San bay Can Tho
-	23/01/2021: 07:55
-San bay Buon Ma Thuot ==> San bay Chu Lai
-	23/01/2021: 09:25
-San bay Dien Bien Phu ==> San bay Lien Khuong
-	23/01/2021: 07:45
-San bay Dien Bien Phu ==> San bay Phu Quoc
-	23/01/2021: 05:35
-San bay Dien Bien Phu ==> San bay Pleiku
-	23/01/2021: 15:55
-San bay Pleiku ==> San bay Ca Mau
-	23/01/2021: 14:55
-San bay Pleiku ==> San bay Dong Hoi
-	23/01/2021: 18:50
-San bay Pleiku ==> San bay Rach Gia
-	23/01/2021: 13:40
-San bay Cat Bi ==> San bay Van Don
-	23/01/2021: 00:45
-San bay Cam Ranh ==> San bay Ca Mau
-	23/01/2021: 20:45
+	15/01/2022: 13:35
 San bay Cam Ranh ==> San bay Con Dao
-	23/01/2021: 04:00
-San bay Cam Ranh ==> San bay Dong Hoi
-	23/01/2021: 12:25
-San bay Cam Ranh ==> San bay Pleiku
-	23/01/2021: 09:25
-San bay Rach Gia ==> San bay Buon Ma Thuot
-	23/01/2021: 02:45
-San bay Rach Gia ==> San bay Dong Hoi
-	23/01/2021: 04:15
-San bay Rach Gia ==> San bay Lien Khuong
-	23/01/2021: 16:15
-San bay Rach Gia ==> San bay Van Don
-	23/01/2021: 08:35
-San bay Dong Hoi ==> San bay Lien Khuong
-	23/01/2021: 01:20
-San bay Chu Lai ==> San bay Phu Bai
-	23/01/2021: 20:00
-San bay Phu Bai ==> San bay Con Dao
-	23/01/2021: 15:55
-San bay Phu Bai ==> San bay Dong Hoi
-	23/01/2021: 20:30
-San bay Phu Bai ==> San bay Phu Cat
-	23/01/2021: 16:40
-San bay Van Don ==> San bay Can Tho
-	23/01/2021: 00:00
-San bay Van Don ==> San bay Pleiku
-	23/01/2021: 11:35
-San bay Tan Son Nhat ==> San bay Con Dao
-	23/01/2021: 09:55
-San bay Tan Son Nhat ==> San bay Da Nang
-	23/01/2021: 03:30
-San bay Tan Son Nhat ==> San bay Dong Hoi
-	23/01/2021: 08:15
-San bay Tan Son Nhat ==> San bay Lien Khuong
-	23/01/2021: 13:45
-San bay Noi Bai ==> San bay Cat Bi
-	23/01/2021: 18:50
-San bay Noi Bai ==> San bay Phu Bai
-	23/01/2021: 13:40
-San bay Noi Bai ==> San bay Phu Cat
-	23/01/2021: 13:00
-San bay Da Nang ==> San bay Phu Bai
-	23/01/2021: 12:25
-San bay Con Dao ==> San bay Phu Quoc
-	23/01/2021: 20:40
-San bay Phu Cat ==> San bay Chu Lai
-	23/01/2021: 09:45
-San bay Phu Cat ==> San bay Pleiku
-	23/01/2021: 13:15
-San bay Phu Cat ==> San bay Tho Xuan
-	23/01/2021: 02:15
-San bay Phu Cat ==> San bay Tuy Hoa
-	23/01/2021: 07:45
-San bay Ca Mau ==> San bay Phu Cat
-	23/01/2021: 16:15
-San bay Ca Mau ==> San bay Pleiku
-	23/01/2021: 13:35
-San bay Can Tho ==> San bay Phu Cat
-	23/01/2021: 00:35
-San bay Buon Ma Thuot ==> San bay Dien Bien Phu
-	23/01/2021: 08:00
-San bay Dien Bien Phu ==> San bay Buon Ma Thuot
-	23/01/2021: 16:55
-San bay Dien Bien Phu ==> San bay Ca Mau
-	23/01/2021: 09:55
-San bay Dien Bien Phu ==> San bay Rach Gia
-	23/01/2021: 00:55
-San bay Pleiku ==> San bay Ca Mau
-	23/01/2021: 18:35
-San bay Pleiku ==> San bay Da Nang
-	23/01/2021: 11:05
-San bay Pleiku ==> San bay Lien Khuong
-	23/01/2021: 07:50
-San bay Pleiku ==> San bay Tan Son Nhat
-	23/01/2021: 16:15
-San bay Cat Bi ==> San bay Chu Lai
-	23/01/2021: 12:35
+	15/01/2022: 00:20
 San bay Cam Ranh ==> San bay Noi Bai
-	23/01/2021: 12:25
-San bay Cam Ranh ==> San bay Phu Cat
-	23/01/2021: 04:10
-San bay Rach Gia ==> San bay Cat Bi
-	23/01/2021: 05:00
-San bay Phu Quoc ==> San bay Buon Ma Thuot
-	23/01/2021: 11:40
-San bay Phu Quoc ==> San bay Tan Son Nhat
-	23/01/2021: 08:05
-San bay Phu Quoc ==> San bay Tuy Hoa
-	23/01/2021: 16:50
-San bay Lien Khuong ==> San bay Rach Gia
-	23/01/2021: 08:15
-San bay Lien Khuong ==> San bay Tho Xuan
-	23/01/2021: 15:00
-San bay Tuy Hoa ==> San bay Buon Ma Thuot
-	23/01/2021: 03:45
-San bay Tuy Hoa ==> San bay Ca Mau
-	23/01/2021: 18:40
-San bay Tuy Hoa ==> San bay Chu Lai
-	23/01/2021: 02:40
-San bay Tuy Hoa ==> San bay Con Dao
-	23/01/2021: 02:45
-San bay Dong Hoi ==> San bay Da Nang
-	23/01/2021: 04:15
-San bay Dong Hoi ==> San bay Dien Bien Phu
-	23/01/2021: 01:40
-San bay Dong Hoi ==> San bay Phu Bai
-	23/01/2021: 18:20
-San bay Chu Lai ==> San bay Lien Khuong
-	23/01/2021: 17:20
-San bay Phu Bai ==> San bay Da Nang
-	23/01/2021: 04:30
-San bay Tho Xuan ==> San bay Da Nang
-	23/01/2021: 07:15
-San bay Van Don ==> San bay Buon Ma Thuot
-	23/01/2021: 09:55
-San bay Van Don ==> San bay Cam Ranh
-	23/01/2021: 12:35
-San bay Van Don ==> San bay Noi Bai
-	23/01/2021: 20:40
-San bay Van Don ==> San bay Phu Quoc
-	23/01/2021: 11:35
-San bay Tan Son Nhat ==> San bay Ca Mau
-	24/01/2021: 11:35
-San bay Tan Son Nhat ==> San bay Da Nang
-	24/01/2021: 06:55
-San bay Tan Son Nhat ==> San bay Phu Bai
-	24/01/2021: 00:55
-San bay Tan Son Nhat ==> San bay Tuy Hoa
-	24/01/2021: 07:15
-San bay Noi Bai ==> San bay Con Dao
-	24/01/2021: 08:15
-San bay Noi Bai ==> San bay Phu Bai
-	24/01/2021: 05:55
-San bay Noi Bai ==> San bay Van Don
-	24/01/2021: 11:20
-San bay Da Nang ==> San bay Con Dao
-	24/01/2021: 19:35
-San bay Da Nang ==> San bay Dien Bien Phu
-	24/01/2021: 14:10
-San bay Da Nang ==> San bay Tan Son Nhat
-	24/01/2021: 18:35
-San bay Vinh ==> San bay Ca Mau
-	24/01/2021: 20:45
-San bay Vinh ==> San bay Chu Lai
-	24/01/2021: 15:55
-San bay Vinh ==> San bay Da Nang
-	24/01/2021: 09:45
-San bay Vinh ==> San bay Noi Bai
-	24/01/2021: 02:40
-San bay Con Dao ==> San bay Cat Bi
-	24/01/2021: 02:40
-San bay Con Dao ==> San bay Chu Lai
-	24/01/2021: 07:10
-San bay Phu Cat ==> San bay Dien Bien Phu
-	24/01/2021: 14:30
-San bay Phu Cat ==> San bay Lien Khuong
-	24/01/2021: 19:20
-San bay Phu Cat ==> San bay Van Don
-	24/01/2021: 18:40
-San bay Ca Mau ==> San bay Da Nang
-	24/01/2021: 07:45
-San bay Ca Mau ==> San bay Dong Hoi
-	24/01/2021: 17:35
-San bay Ca Mau ==> San bay Noi Bai
-	24/01/2021: 12:10
-San bay Can Tho ==> San bay Noi Bai
-	24/01/2021: 16:15
-San bay Can Tho ==> San bay Phu Cat
-	24/01/2021: 10:25
-San bay Buon Ma Thuot ==> San bay Lien Khuong
-	24/01/2021: 20:50
-San bay Buon Ma Thuot ==> San bay Phu Cat
-	24/01/2021: 00:05
-San bay Pleiku ==> San bay Phu Quoc
-	24/01/2021: 11:20
-San bay Cat Bi ==> San bay Dien Bien Phu
-	24/01/2021: 01:40
-San bay Cam Ranh ==> San bay Chu Lai
-	24/01/2021: 17:35
-San bay Rach Gia ==> San bay Cam Ranh
-	24/01/2021: 17:20
-San bay Rach Gia ==> San bay Con Dao
-	24/01/2021: 17:35
-San bay Rach Gia ==> San bay Phu Bai
-	24/01/2021: 00:00
-San bay Rach Gia ==> San bay Phu Cat
-	24/01/2021: 17:00
-San bay Phu Quoc ==> San bay Phu Cat
-	24/01/2021: 14:05
-San bay Tuy Hoa ==> San bay Dien Bien Phu
-	24/01/2021: 14:05
-San bay Tuy Hoa ==> San bay Dong Hoi
-	24/01/2021: 05:00
-San bay Dong Hoi ==> San bay Can Tho
-	24/01/2021: 05:35
-San bay Dong Hoi ==> San bay Pleiku
-	24/01/2021: 01:40
-San bay Dong Hoi ==> San bay Rach Gia
-	24/01/2021: 04:50
-San bay Dong Hoi ==> San bay Tuy Hoa
-	24/01/2021: 04:30
-San bay Phu Bai ==> San bay Chu Lai
-	24/01/2021: 00:35
-San bay Phu Bai ==> San bay Tho Xuan
-	24/01/2021: 13:30
-San bay Tho Xuan ==> San bay Buon Ma Thuot
-	24/01/2021: 19:55
-San bay Tho Xuan ==> San bay Da Nang
-	24/01/2021: 05:55
-San bay Tho Xuan ==> San bay Phu Quoc
-	24/01/2021: 07:45
-San bay Van Don ==> San bay Dien Bien Phu
-	24/01/2021: 19:55
-San bay Tan Son Nhat ==> San bay Ca Mau
-	24/01/2021: 19:35
-San bay Noi Bai ==> San bay Chu Lai
-	24/01/2021: 19:35
-San bay Noi Bai ==> San bay Con Dao
-	24/01/2021: 11:05
-San bay Noi Bai ==> San bay Da Nang
-	24/01/2021: 04:00
-San bay Noi Bai ==> San bay Phu Quoc
-	24/01/2021: 15:20
-San bay Da Nang ==> San bay Can Tho
-	24/01/2021: 08:50
-San bay Da Nang ==> San bay Dien Bien Phu
-	24/01/2021: 01:20
-San bay Da Nang ==> San bay Phu Cat
-	24/01/2021: 07:15
-San bay Da Nang ==> San bay Vinh
-	24/01/2021: 05:35
-San bay Vinh ==> San bay Ca Mau
-	24/01/2021: 11:15
-San bay Con Dao ==> San bay Ca Mau
-	24/01/2021: 20:45
-San bay Con Dao ==> San bay Chu Lai
-	24/01/2021: 07:10
-San bay Phu Cat ==> San bay Cam Ranh
-	24/01/2021: 06:25
-San bay Phu Cat ==> San bay Lien Khuong
-	24/01/2021: 04:15
-San bay Phu Cat ==> San bay Rach Gia
-	24/01/2021: 04:15
-San bay Ca Mau ==> San bay Tho Xuan
-	24/01/2021: 12:10
-San bay Dien Bien Phu ==> San bay Con Dao
-	24/01/2021: 20:50
-San bay Dien Bien Phu ==> San bay Da Nang
-	24/01/2021: 07:45
-San bay Dien Bien Phu ==> San bay Phu Cat
-	24/01/2021: 12:00
-San bay Cam Ranh ==> San bay Con Dao
-	24/01/2021: 17:35
-San bay Cam Ranh ==> San bay Dien Bien Phu
-	24/01/2021: 07:45
-San bay Cam Ranh ==> San bay Dong Hoi
-	24/01/2021: 20:40
-San bay Rach Gia ==> San bay Buon Ma Thuot
-	24/01/2021: 15:55
-San bay Rach Gia ==> San bay Ca Mau
-	24/01/2021: 02:10
-San bay Rach Gia ==> San bay Noi Bai
-	24/01/2021: 17:00
-San bay Phu Quoc ==> San bay Can Tho
-	24/01/2021: 07:10
-San bay Lien Khuong ==> San bay Phu Bai
-	24/01/2021: 20:40
-San bay Tuy Hoa ==> San bay Dong Hoi
-	24/01/2021: 14:55
-San bay Dong Hoi ==> San bay Chu Lai
-	24/01/2021: 07:55
-San bay Dong Hoi ==> San bay Noi Bai
-	24/01/2021: 10:45
-San bay Phu Bai ==> San bay Dong Hoi
-	24/01/2021: 08:15
-San bay Tho Xuan ==> San bay Cam Ranh
-	24/01/2021: 04:00
-San bay Van Don ==> San bay Can Tho
-	24/01/2021: 05:00
-San bay Van Don ==> San bay Cat Bi
-	24/01/2021: 04:50
-San bay Tan Son Nhat ==> San bay Buon Ma Thuot
-	25/01/2021: 04:00
-San bay Tan Son Nhat ==> San bay Ca Mau
-	25/01/2021: 01:25
-San bay Tan Son Nhat ==> San bay Cam Ranh
-	25/01/2021: 19:30
-San bay Tan Son Nhat ==> San bay Van Don
-	25/01/2021: 18:50
-San bay Noi Bai ==> San bay Da Nang
-	25/01/2021: 00:00
-San bay Noi Bai ==> San bay Tan Son Nhat
-	25/01/2021: 03:50
-San bay Da Nang ==> San bay Ca Mau
-	25/01/2021: 00:00
-San bay Con Dao ==> San bay Dong Hoi
-	25/01/2021: 12:10
-San bay Con Dao ==> San bay Pleiku
-	25/01/2021: 17:20
-San bay Con Dao ==> San bay Tho Xuan
-	25/01/2021: 05:55
-San bay Con Dao ==> San bay Tuy Hoa
-	25/01/2021: 20:45
-San bay Phu Cat ==> San bay Con Dao
-	25/01/2021: 12:35
-San bay Phu Cat ==> San bay Dien Bien Phu
-	25/01/2021: 04:20
-San bay Phu Cat ==> San bay Dong Hoi
-	25/01/2021: 16:40
-San bay Phu Cat ==> San bay Phu Bai
-	25/01/2021: 12:00
-San bay Ca Mau ==> San bay Buon Ma Thuot
-	25/01/2021: 09:55
-San bay Ca Mau ==> San bay Noi Bai
-	25/01/2021: 13:15
-San bay Buon Ma Thuot ==> San bay Cam Ranh
-	25/01/2021: 18:40
-San bay Buon Ma Thuot ==> San bay Phu Quoc
-	25/01/2021: 19:55
-San bay Dien Bien Phu ==> San bay Buon Ma Thuot
-	25/01/2021: 20:10
-San bay Dien Bien Phu ==> San bay Ca Mau
-	25/01/2021: 13:40
-San bay Dien Bien Phu ==> San bay Noi Bai
-	25/01/2021: 01:20
-San bay Pleiku ==> San bay Buon Ma Thuot
-	25/01/2021: 06:55
-San bay Pleiku ==> San bay Ca Mau
-	25/01/2021: 14:55
-San bay Pleiku ==> San bay Cat Bi
-	25/01/2021: 19:30
-San bay Cat Bi ==> San bay Con Dao
-	25/01/2021: 13:20
-San bay Cat Bi ==> San bay Noi Bai
-	25/01/2021: 17:20
-San bay Cat Bi ==> San bay Tan Son Nhat
-	25/01/2021: 15:55
-San bay Rach Gia ==> San bay Ca Mau
-	25/01/2021: 20:10
-San bay Phu Quoc ==> San bay Lien Khuong
-	25/01/2021: 14:30
-San bay Phu Quoc ==> San bay Pleiku
-	25/01/2021: 08:15
-San bay Phu Quoc ==> San bay Rach Gia
-	25/01/2021: 09:45
-San bay Phu Quoc ==> San bay Tan Son Nhat
-	25/01/2021: 11:15
-San bay Lien Khuong ==> San bay Cat Bi
-	25/01/2021: 00:00
-San bay Tuy Hoa ==> San bay Buon Ma Thuot
-	25/01/2021: 19:30
-San bay Tuy Hoa ==> San bay Ca Mau
-	25/01/2021: 20:00
-San bay Chu Lai ==> San bay Da Nang
-	25/01/2021: 13:20
-San bay Phu Bai ==> San bay Chu Lai
-	25/01/2021: 20:30
-San bay Phu Bai ==> San bay Phu Quoc
-	25/01/2021: 12:25
-San bay Phu Bai ==> San bay Pleiku
-	25/01/2021: 01:20
-San bay Tho Xuan ==> San bay Cam Ranh
-	25/01/2021: 01:40
-San bay Tho Xuan ==> San bay Con Dao
-	25/01/2021: 01:55
-San bay Tho Xuan ==> San bay Da Nang
-	25/01/2021: 16:15
-San bay Van Don ==> San bay Da Nang
-	25/01/2021: 11:40
-San bay Van Don ==> San bay Noi Bai
-	25/01/2021: 10:45
-San bay Van Don ==> San bay Phu Cat
-	25/01/2021: 01:25
-San bay Van Don ==> San bay Tuy Hoa
-	25/01/2021: 04:50
-San bay Tan Son Nhat ==> San bay Buon Ma Thuot
-	25/01/2021: 12:00
-San bay Tan Son Nhat ==> San bay Ca Mau
-	25/01/2021: 03:30
-San bay Tan Son Nhat ==> San bay Rach Gia
-	25/01/2021: 12:10
-San bay Tan Son Nhat ==> San bay Tho Xuan
-	25/01/2021: 03:45
-San bay Noi Bai ==> San bay Phu Bai
-	25/01/2021: 19:35
-San bay Da Nang ==> San bay Buon Ma Thuot
-	25/01/2021: 17:35
-San bay Da Nang ==> San bay Phu Cat
-	25/01/2021: 01:55
-San bay Con Dao ==> San bay Phu Bai
-	25/01/2021: 19:50
-San bay Con Dao ==> San bay Phu Cat
-	25/01/2021: 13:00
-San bay Con Dao ==> San bay Phu Quoc
-	25/01/2021: 11:05
-San bay Con Dao ==> San bay Tan Son Nhat
-	25/01/2021: 02:40
-San bay Phu Cat ==> San bay Noi Bai
-	25/01/2021: 14:05
-San bay Phu Cat ==> San bay Phu Quoc
-	25/01/2021: 07:45
-San bay Ca Mau ==> San bay Cam Ranh
-	25/01/2021: 17:05
-San bay Ca Mau ==> San bay Dong Hoi
-	25/01/2021: 04:20
-San bay Ca Mau ==> San bay Lien Khuong
-	25/01/2021: 16:50
-San bay Can Tho ==> San bay Cat Bi
-	25/01/2021: 00:05
-San bay Buon Ma Thuot ==> San bay Ca Mau
-	25/01/2021: 01:40
-San bay Pleiku ==> San bay Cat Bi
-	25/01/2021: 06:45
-San bay Cat Bi ==> San bay Dien Bien Phu
-	25/01/2021: 01:55
-San bay Cam Ranh ==> San bay Buon Ma Thuot
-	25/01/2021: 00:35
-San bay Cam Ranh ==> San bay Phu Cat
-	25/01/2021: 16:15
-San bay Cam Ranh ==> San bay Rach Gia
-	25/01/2021: 16:55
-San bay Rach Gia ==> San bay Buon Ma Thuot
-	25/01/2021: 04:50
+	15/01/2022: 10:35
 San bay Rach Gia ==> San bay Lien Khuong
-	25/01/2021: 00:00
+	15/01/2022: 15:05
 San bay Rach Gia ==> San bay Pleiku
-	25/01/2021: 14:55
-San bay Phu Quoc ==> San bay Dong Hoi
-	25/01/2021: 00:35
-San bay Lien Khuong ==> San bay Cam Ranh
-	25/01/2021: 00:45
-San bay Lien Khuong ==> San bay Da Nang
-	25/01/2021: 07:20
+	15/01/2022: 09:30
+San bay Phu Quoc ==> San bay Buon Ma Thuot
+	15/01/2022: 11:10
+San bay Lien Khuong ==> San bay Cat Bi
+	15/01/2022: 06:20
+San bay Lien Khuong ==> San bay Dien Bien Phu
+	15/01/2022: 02:25
 San bay Lien Khuong ==> San bay Noi Bai
-	25/01/2021: 07:20
-San bay Lien Khuong ==> San bay Van Don
-	25/01/2021: 20:50
-San bay Dong Hoi ==> San bay Buon Ma Thuot
-	25/01/2021: 12:05
-San bay Dong Hoi ==> San bay Ca Mau
-	25/01/2021: 05:55
-San bay Dong Hoi ==> San bay Chu Lai
-	25/01/2021: 08:00
-San bay Dong Hoi ==> San bay Pleiku
-	25/01/2021: 20:10
-San bay Phu Bai ==> San bay Buon Ma Thuot
-	25/01/2021: 13:15
-San bay Phu Bai ==> San bay Cam Ranh
-	25/01/2021: 11:20
-San bay Phu Bai ==> San bay Con Dao
-	25/01/2021: 15:15
-San bay Phu Bai ==> San bay Dong Hoi
-	25/01/2021: 16:40
-San bay Tho Xuan ==> San bay Cam Ranh
-	25/01/2021: 14:55
-San bay Van Don ==> San bay Ca Mau
-	25/01/2021: 08:50
-San bay Van Don ==> San bay Can Tho
-	25/01/2021: 19:20
-San bay Van Don ==> San bay Noi Bai
-	25/01/2021: 05:55
-San bay Van Don ==> San bay Phu Cat
-	25/01/2021: 13:30
-San bay Tan Son Nhat ==> San bay Ca Mau
-	26/01/2021: 09:45
-San bay Noi Bai ==> San bay Rach Gia
-	26/01/2021: 13:40
-San bay Da Nang ==> San bay Noi Bai
-	26/01/2021: 18:40
-San bay Da Nang ==> San bay Phu Bai
-	26/01/2021: 02:15
-San bay Vinh ==> San bay Cat Bi
-	26/01/2021: 05:55
-San bay Vinh ==> San bay Phu Quoc
-	26/01/2021: 01:20
-San bay Con Dao ==> San bay Dong Hoi
-	26/01/2021: 04:30
-San bay Phu Cat ==> San bay Ca Mau
-	26/01/2021: 19:30
-San bay Phu Cat ==> San bay Da Nang
-	26/01/2021: 10:25
-San bay Phu Cat ==> San bay Dien Bien Phu
-	26/01/2021: 20:10
-San bay Ca Mau ==> San bay Phu Bai
-	26/01/2021: 12:00
-San bay Can Tho ==> San bay Cam Ranh
-	26/01/2021: 09:45
-San bay Dien Bien Phu ==> San bay Can Tho
-	26/01/2021: 07:15
-San bay Pleiku ==> San bay Ca Mau
-	26/01/2021: 02:40
-San bay Pleiku ==> San bay Phu Bai
-	26/01/2021: 07:15
-San bay Cat Bi ==> San bay Chu Lai
-	26/01/2021: 20:10
-San bay Cat Bi ==> San bay Lien Khuong
-	26/01/2021: 12:25
-San bay Rach Gia ==> San bay Can Tho
-	26/01/2021: 02:00
-San bay Phu Quoc ==> San bay Buon Ma Thuot
-	26/01/2021: 11:40
-San bay Phu Quoc ==> San bay Dong Hoi
-	26/01/2021: 07:20
-San bay Lien Khuong ==> San bay Cat Bi
-	26/01/2021: 20:30
-San bay Tuy Hoa ==> San bay Buon Ma Thuot
-	26/01/2021: 12:25
-San bay Tuy Hoa ==> San bay Cat Bi
-	26/01/2021: 06:45
-San bay Tuy Hoa ==> San bay Dien Bien Phu
-	26/01/2021: 00:05
-San bay Tuy Hoa ==> San bay Pleiku
-	26/01/2021: 08:35
-San bay Dong Hoi ==> San bay Cam Ranh
-	26/01/2021: 14:05
-San bay Dong Hoi ==> San bay Cat Bi
-	26/01/2021: 20:00
-San bay Dong Hoi ==> San bay Tuy Hoa
-	26/01/2021: 09:55
-San bay Tho Xuan ==> San bay Cam Ranh
-	26/01/2021: 09:25
-San bay Tho Xuan ==> San bay Can Tho
-	26/01/2021: 02:45
-San bay Tho Xuan ==> San bay Dien Bien Phu
-	26/01/2021: 08:15
-San bay Tan Son Nhat ==> San bay Chu Lai
-	26/01/2021: 08:10
-San bay Tan Son Nhat ==> San bay Da Nang
-	26/01/2021: 04:50
-San bay Tan Son Nhat ==> San bay Lien Khuong
-	26/01/2021: 14:30
-San bay Tan Son Nhat ==> San bay Phu Quoc
-	26/01/2021: 01:40
-San bay Noi Bai ==> San bay Ca Mau
-	26/01/2021: 05:00
-San bay Noi Bai ==> San bay Can Tho
-	26/01/2021: 11:35
-San bay Noi Bai ==> San bay Dien Bien Phu
-	26/01/2021: 15:20
-San bay Da Nang ==> San bay Dien Bien Phu
-	26/01/2021: 08:05
-San bay Da Nang ==> San bay Phu Cat
-	26/01/2021: 14:05
-San bay Vinh ==> San bay Phu Bai
-	26/01/2021: 19:35
-San bay Vinh ==> San bay Phu Cat
-	26/01/2021: 19:30
-San bay Vinh ==> San bay Phu Quoc
-	26/01/2021: 16:40
-San bay Con Dao ==> San bay Can Tho
-	26/01/2021: 03:50
-San bay Phu Cat ==> San bay Cat Bi
-	26/01/2021: 02:15
-San bay Phu Cat ==> San bay Chu Lai
-	26/01/2021: 01:05
-San bay Phu Cat ==> San bay Noi Bai
-	26/01/2021: 13:45
-San bay Ca Mau ==> San bay Con Dao
-	26/01/2021: 16:50
-San bay Ca Mau ==> San bay Dien Bien Phu
-	26/01/2021: 15:55
-San bay Can Tho ==> San bay Phu Cat
-	26/01/2021: 15:20
-San bay Dien Bien Phu ==> San bay Chu Lai
-	26/01/2021: 17:00
-San bay Dien Bien Phu ==> San bay Noi Bai
-	26/01/2021: 11:15
-San bay Dien Bien Phu ==> San bay Phu Cat
-	26/01/2021: 14:30
-San bay Dien Bien Phu ==> San bay Pleiku
-	26/01/2021: 14:05
-San bay Cat Bi ==> San bay Dien Bien Phu
-	26/01/2021: 13:10
-San bay Cat Bi ==> San bay Lien Khuong
-	26/01/2021: 20:30
-San bay Cat Bi ==> San bay Phu Cat
-	26/01/2021: 07:20
-San bay Cam Ranh ==> San bay Can Tho
-	26/01/2021: 05:00
-San bay Cam Ranh ==> San bay Noi Bai
-	26/01/2021: 13:00
-San bay Phu Quoc ==> San bay Ca Mau
-	26/01/2021: 01:20
-San bay Phu Quoc ==> San bay Tan Son Nhat
-	26/01/2021: 03:45
-San bay Lien Khuong ==> San bay Ca Mau
-	26/01/2021: 01:55
-San bay Lien Khuong ==> San bay Dien Bien Phu
-	26/01/2021: 19:50
-San bay Lien Khuong ==> San bay Phu Bai
-	26/01/2021: 09:55
-San bay Tuy Hoa ==> San bay Cam Ranh
-	26/01/2021: 11:20
-San bay Dong Hoi ==> San bay Phu Quoc
-	26/01/2021: 07:20
-San bay Dong Hoi ==> San bay Tho Xuan
-	26/01/2021: 00:55
-San bay Phu Bai ==> San bay Ca Mau
-	26/01/2021: 08:10
-San bay Phu Bai ==> San bay Da Nang
-	26/01/2021: 00:45
-San bay Phu Bai ==> San bay Dien Bien Phu
-	26/01/2021: 12:05
-San bay Phu Bai ==> San bay Dong Hoi
-	26/01/2021: 20:00
-San bay Tho Xuan ==> San bay Can Tho
-	26/01/2021: 14:05
-San bay Tho Xuan ==> San bay Chu Lai
-	26/01/2021: 08:00
-San bay Tho Xuan ==> San bay Rach Gia
-	26/01/2021: 02:40
-San bay Tan Son Nhat ==> San bay Dong Hoi
-	27/01/2021: 05:55
-San bay Noi Bai ==> San bay Phu Cat
-	27/01/2021: 06:55
-San bay Noi Bai ==> San bay Tho Xuan
-	27/01/2021: 16:40
-San bay Con Dao ==> San bay Can Tho
-	27/01/2021: 19:50
-San bay Con Dao ==> San bay Phu Quoc
-	27/01/2021: 03:45
-San bay Con Dao ==> San bay Tuy Hoa
-	27/01/2021: 06:15
-San bay Phu Cat ==> San bay Van Don
-	27/01/2021: 04:15
-San bay Ca Mau ==> San bay Con Dao
-	27/01/2021: 08:50
-San bay Ca Mau ==> San bay Dong Hoi
-	27/01/2021: 12:10
-San bay Ca Mau ==> San bay Noi Bai
-	27/01/2021: 01:40
-San bay Ca Mau ==> San bay Rach Gia
-	27/01/2021: 02:40
-San bay Can Tho ==> San bay Dien Bien Phu
-	27/01/2021: 14:55
-San bay Buon Ma Thuot ==> San bay Dien Bien Phu
-	27/01/2021: 16:15
-San bay Buon Ma Thuot ==> San bay Dong Hoi
-	27/01/2021: 15:00
-San bay Buon Ma Thuot ==> San bay Lien Khuong
-	27/01/2021: 07:55
-San bay Dien Bien Phu ==> San bay Con Dao
-	27/01/2021: 20:30
-San bay Dien Bien Phu ==> San bay Phu Quoc
-	27/01/2021: 07:00
-San bay Pleiku ==> San bay Cam Ranh
-	27/01/2021: 04:15
-San bay Cat Bi ==> San bay Vinh
-	27/01/2021: 01:55
-San bay Cam Ranh ==> San bay Chu Lai
-	27/01/2021: 16:15
-San bay Cam Ranh ==> San bay Phu Cat
-	27/01/2021: 11:20
-San bay Cam Ranh ==> San bay Pleiku
-	27/01/2021: 02:45
-San bay Rach Gia ==> San bay Ca Mau
-	27/01/2021: 16:55
-San bay Lien Khuong ==> San bay Phu Bai
-	27/01/2021: 18:50
-San bay Lien Khuong ==> San bay Phu Quoc
-	27/01/2021: 12:10
-San bay Lien Khuong ==> San bay Pleiku
-	27/01/2021: 05:00
-San bay Lien Khuong ==> San bay Van Don
-	27/01/2021: 05:55
-San bay Tuy Hoa ==> San bay Phu Bai
-	27/01/2021: 19:20
-San bay Dong Hoi ==> San bay Cat Bi
-	27/01/2021: 18:50
-San bay Dong Hoi ==> San bay Noi Bai
-	27/01/2021: 19:35
-San bay Dong Hoi ==> San bay Phu Quoc
-	27/01/2021: 12:35
-San bay Dong Hoi ==> San bay Tan Son Nhat
-	27/01/2021: 18:40
-San bay Chu Lai ==> San bay Cam Ranh
-	27/01/2021: 12:10
-San bay Chu Lai ==> San bay Can Tho
-	27/01/2021: 12:05
-San bay Chu Lai ==> San bay Cat Bi
-	27/01/2021: 18:40
-San bay Phu Bai ==> San bay Cat Bi
-	27/01/2021: 07:50
-San bay Phu Bai ==> San bay Chu Lai
-	27/01/2021: 13:15
-San bay Phu Bai ==> San bay Da Nang
-	27/01/2021: 01:40
-San bay Phu Bai ==> San bay Phu Cat
-	27/01/2021: 10:45
-San bay Tho Xuan ==> San bay Con Dao
-	27/01/2021: 13:40
-San bay Tho Xuan ==> San bay Rach Gia
-	27/01/2021: 04:20
-San bay Da Nang ==> San bay Dong Hoi
-	27/01/2021: 16:40
-San bay Da Nang ==> San bay Tuy Hoa
-	27/01/2021: 06:15
-San bay Vinh ==> San bay Ca Mau
-	27/01/2021: 08:10
-San bay Vinh ==> San bay Dong Hoi
-	27/01/2021: 13:35
-San bay Vinh ==> San bay Phu Cat
-	27/01/2021: 00:05
-San bay Phu Cat ==> San bay Cam Ranh
-	27/01/2021: 17:35
-San bay Phu Cat ==> San bay Cat Bi
-	27/01/2021: 10:45
-San bay Ca Mau ==> San bay Rach Gia
-	27/01/2021: 02:00
-San bay Can Tho ==> San bay Ca Mau
-	27/01/2021: 00:35
-San bay Can Tho ==> San bay Phu Bai
-	27/01/2021: 01:20
-San bay Pleiku ==> San bay Con Dao
-	27/01/2021: 07:00
-San bay Cat Bi ==> San bay Buon Ma Thuot
-	27/01/2021: 07:20
-San bay Cat Bi ==> San bay Cam Ranh
-	27/01/2021: 04:50
-San bay Cam Ranh ==> San bay Con Dao
-	27/01/2021: 04:00
-San bay Rach Gia ==> San bay Cat Bi
-	27/01/2021: 06:10
-San bay Rach Gia ==> San bay Chu Lai
-	27/01/2021: 15:20
-San bay Rach Gia ==> San bay Pleiku
-	27/01/2021: 15:15
-San bay Lien Khuong ==> San bay Ca Mau
-	27/01/2021: 13:30
-San bay Lien Khuong ==> San bay Phu Quoc
-	27/01/2021: 15:55
-San bay Tuy Hoa ==> San bay Chu Lai
-	27/01/2021: 07:55
-San bay Chu Lai ==> San bay Cat Bi
-	27/01/2021: 19:30
-San bay Phu Bai ==> San bay Noi Bai
-	27/01/2021: 16:55
-San bay Phu Bai ==> San bay Phu Cat
-	27/01/2021: 08:00
-San bay Tho Xuan ==> San bay Chu Lai
-	27/01/2021: 04:50
-San bay Van Don ==> San bay Buon Ma Thuot
-	27/01/2021: 08:15
-San bay Van Don ==> San bay Ca Mau
-	27/01/2021: 19:55
-San bay Van Don ==> San bay Con Dao
-	27/01/2021: 17:05
-San bay Tan Son Nhat ==> San bay Buon Ma Thuot
-	28/01/2021: 08:05
-San bay Tan Son Nhat ==> San bay Con Dao
-	28/01/2021: 05:35
-San bay Tan Son Nhat ==> San bay Vinh
-	28/01/2021: 00:45
-San bay Noi Bai ==> San bay Buon Ma Thuot
-	28/01/2021: 13:00
-San bay Noi Bai ==> San bay Da Nang
-	28/01/2021: 20:40
-San bay Da Nang ==> San bay Buon Ma Thuot
-	28/01/2021: 20:50
-San bay Con Dao ==> San bay Buon Ma Thuot
-	28/01/2021: 07:15
-San bay Con Dao ==> San bay Phu Bai
-	28/01/2021: 19:20
-San bay Phu Cat ==> San bay Can Tho
-	28/01/2021: 15:00
-San bay Phu Cat ==> San bay Lien Khuong
-	28/01/2021: 08:15
-San bay Phu Cat ==> San bay Rach Gia
-	28/01/2021: 06:55
-San bay Phu Cat ==> San bay Tho Xuan
-	28/01/2021: 03:45
-San bay Ca Mau ==> San bay Can Tho
-	28/01/2021: 01:20
-San bay Ca Mau ==> San bay Dien Bien Phu
-	28/01/2021: 13:35
-San bay Ca Mau ==> San bay Pleiku
-	28/01/2021: 16:55
-San bay Can Tho ==> San bay Chu Lai
-	28/01/2021: 20:50
-San bay Buon Ma Thuot ==> San bay Ca Mau
-	28/01/2021: 06:55
-San bay Buon Ma Thuot ==> San bay Noi Bai
-	28/01/2021: 16:15
-San bay Buon Ma Thuot ==> San bay Phu Bai
-	28/01/2021: 08:15
-San bay Cat Bi ==> San bay Da Nang
-	28/01/2021: 11:20
-San bay Cam Ranh ==> San bay Ca Mau
-	28/01/2021: 01:20
-San bay Cam Ranh ==> San bay Phu Bai
-	28/01/2021: 19:35
-San bay Rach Gia ==> San bay Da Nang
-	28/01/2021: 12:35
-San bay Rach Gia ==> San bay Phu Bai
-	28/01/2021: 16:55
-San bay Rach Gia ==> San bay Phu Cat
-	28/01/2021: 15:00
-San bay Phu Quoc ==> San bay Buon Ma Thuot
-	28/01/2021: 04:30
-San bay Phu Quoc ==> San bay Ca Mau
-	28/01/2021: 00:35
-San bay Phu Quoc ==> San bay Cam Ranh
-	28/01/2021: 18:45
-San bay Phu Quoc ==> San bay Chu Lai
-	28/01/2021: 09:25
-San bay Lien Khuong ==> San bay Da Nang
-	28/01/2021: 18:45
-San bay Lien Khuong ==> San bay Dong Hoi
-	28/01/2021: 06:15
-San bay Chu Lai ==> San bay Phu Bai
-	28/01/2021: 15:55
-San bay Phu Bai ==> San bay Cat Bi
-	28/01/2021: 06:15
-San bay Phu Bai ==> San bay Con Dao
-	28/01/2021: 19:20
-San bay Tho Xuan ==> San bay Con Dao
-	28/01/2021: 06:15
-San bay Tho Xuan ==> San bay Dien Bien Phu
-	28/01/2021: 06:15
-San bay Tho Xuan ==> San bay Phu Cat
-	28/01/2021: 03:50
-San bay Van Don ==> San bay Con Dao
-	28/01/2021: 14:30
-San bay Van Don ==> San bay Da Nang
-	28/01/2021: 18:45
-San bay Van Don ==> San bay Phu Cat
-	28/01/2021: 17:00
-San bay Tan Son Nhat ==> San bay Buon Ma Thuot
-	28/01/2021: 09:55
-San bay Tan Son Nhat ==> San bay Cat Bi
-	28/01/2021: 07:45
-San bay Tan Son Nhat ==> San bay Da Nang
-	28/01/2021: 12:00
-San bay Tan Son Nhat ==> San bay Dien Bien Phu
-	28/01/2021: 06:10
-San bay Da Nang ==> San bay Buon Ma Thuot
-	28/01/2021: 14:05
-San bay Da Nang ==> San bay Lien Khuong
-	28/01/2021: 08:05
-San bay Da Nang ==> San bay Pleiku
-	28/01/2021: 05:35
-San bay Da Nang ==> San bay Tuy Hoa
-	28/01/2021: 04:20
-San bay Vinh ==> San bay Cam Ranh
-	28/01/2021: 11:20
-San bay Vinh ==> San bay Phu Quoc
-	28/01/2021: 15:20
-San bay Con Dao ==> San bay Phu Bai
-	28/01/2021: 10:45
-San bay Con Dao ==> San bay Tan Son Nhat
-	28/01/2021: 03:30
-San bay Con Dao ==> San bay Tho Xuan
-	28/01/2021: 00:55
-San bay Phu Cat ==> San bay Can Tho
-	28/01/2021: 08:15
-San bay Phu Cat ==> San bay Da Nang
-	28/01/2021: 11:05
-San bay Phu Cat ==> San bay Noi Bai
-	28/01/2021: 08:50
-San bay Ca Mau ==> San bay Cat Bi
-	28/01/2021: 19:35
-San bay Ca Mau ==> San bay Phu Bai
-	28/01/2021: 01:25
-San bay Ca Mau ==> San bay Phu Cat
-	28/01/2021: 00:05
-San bay Can Tho ==> San bay Cat Bi
-	28/01/2021: 06:45
-San bay Buon Ma Thuot ==> San bay Cam Ranh
-	28/01/2021: 04:20
-San bay Buon Ma Thuot ==> San bay Chu Lai
-	28/01/2021: 06:45
-San bay Buon Ma Thuot ==> San bay Lien Khuong
-	28/01/2021: 11:20
-San bay Buon Ma Thuot ==> San bay Noi Bai
-	28/01/2021: 07:10
-San bay Dien Bien Phu ==> San bay Dong Hoi
-	28/01/2021: 00:05
-San bay Dien Bien Phu ==> San bay Phu Cat
-	28/01/2021: 04:15
-San bay Pleiku ==> San bay Cam Ranh
-	28/01/2021: 19:35
-San bay Pleiku ==> San bay Con Dao
-	28/01/2021: 02:40
-San bay Cat Bi ==> San bay Lien Khuong
-	28/01/2021: 11:40
-San bay Cat Bi ==> San bay Noi Bai
-	28/01/2021: 12:25
-San bay Cat Bi ==> San bay Rach Gia
-	28/01/2021: 16:40
-San bay Cam Ranh ==> San bay Dien Bien Phu
-	28/01/2021: 14:55
-San bay Cam Ranh ==> San bay Dong Hoi
-	28/01/2021: 05:35
-San bay Rach Gia ==> San bay Lien Khuong
-	28/01/2021: 01:25
-San bay Phu Quoc ==> San bay Con Dao
-	28/01/2021: 15:00
-San bay Phu Quoc ==> San bay Tho Xuan
-	28/01/2021: 12:10
-San bay Lien Khuong ==> San bay Phu Quoc
-	28/01/2021: 02:40
-San bay Tuy Hoa ==> San bay Can Tho
-	28/01/2021: 14:55
-San bay Tuy Hoa ==> San bay Cat Bi
-	28/01/2021: 01:40
-San bay Tuy Hoa ==> San bay Lien Khuong
-	28/01/2021: 13:20
-San bay Dong Hoi ==> San bay Tho Xuan
-	28/01/2021: 08:10
-San bay Dong Hoi ==> San bay Tuy Hoa
-	28/01/2021: 07:55
-San bay Phu Bai ==> San bay Buon Ma Thuot
-	28/01/2021: 15:20
-San bay Phu Bai ==> San bay Noi Bai
-	28/01/2021: 04:20
-San bay Tho Xuan ==> San bay Can Tho
-	28/01/2021: 06:55
-San bay Tho Xuan ==> San bay Cat Bi
-	28/01/2021: 00:35
-San bay Tho Xuan ==> San bay Chu Lai
-	28/01/2021: 18:40
-San bay Tho Xuan ==> San bay Phu Cat
-	28/01/2021: 00:05
-San bay Tan Son Nhat ==> San bay Buon Ma Thuot
-	29/01/2021: 02:10
-San bay Noi Bai ==> San bay Buon Ma Thuot
-	29/01/2021: 01:05
-San bay Noi Bai ==> San bay Chu Lai
-	29/01/2021: 14:30
-San bay Noi Bai ==> San bay Dong Hoi
-	29/01/2021: 14:05
-San bay Da Nang ==> San bay Pleiku
-	29/01/2021: 20:30
-San bay Da Nang ==> San bay Tho Xuan
-	29/01/2021: 18:20
-San bay Vinh ==> San bay Con Dao
-	29/01/2021: 20:45
-San bay Con Dao ==> San bay Dong Hoi
-	29/01/2021: 12:35
-San bay Con Dao ==> San bay Lien Khuong
-	29/01/2021: 02:00
-San bay Phu Cat ==> San bay Cat Bi
-	29/01/2021: 05:00
-San bay Phu Cat ==> San bay Dien Bien Phu
-	29/01/2021: 07:55
-San bay Phu Cat ==> San bay Dong Hoi
-	29/01/2021: 06:55
-San bay Phu Cat ==> San bay Tan Son Nhat
-	29/01/2021: 11:40
-San bay Ca Mau ==> San bay Cam Ranh
-	29/01/2021: 08:05
-San bay Ca Mau ==> San bay Da Nang
-	29/01/2021: 13:20
-San bay Ca Mau ==> San bay Phu Cat
-	29/01/2021: 15:00
-San bay Ca Mau ==> San bay Vinh
-	29/01/2021: 01:55
-San bay Dien Bien Phu ==> San bay Dong Hoi
-	29/01/2021: 07:50
-San bay Dien Bien Phu ==> San bay Phu Bai
-	29/01/2021: 07:45
-San bay Rach Gia ==> San bay Buon Ma Thuot
-	29/01/2021: 16:50
-San bay Phu Quoc ==> San bay Ca Mau
-	29/01/2021: 01:55
-San bay Lien Khuong ==> San bay Buon Ma Thuot
-	29/01/2021: 13:40
-San bay Lien Khuong ==> San bay Cam Ranh
-	29/01/2021: 03:50
-San bay Lien Khuong ==> San bay Cat Bi
-	29/01/2021: 04:20
-San bay Lien Khuong ==> San bay Phu Quoc
-	29/01/2021: 20:40
-San bay Tuy Hoa ==> San bay Buon Ma Thuot
-	29/01/2021: 00:05
-San bay Dong Hoi ==> San bay Con Dao
-	29/01/2021: 00:35
-San bay Dong Hoi ==> San bay Phu Quoc
-	29/01/2021: 20:45
-San bay Dong Hoi ==> San bay Tho Xuan
-	29/01/2021: 00:00
-San bay Phu Bai ==> San bay Dien Bien Phu
-	29/01/2021: 17:00
-San bay Tho Xuan ==> San bay Noi Bai
-	29/01/2021: 00:00
-San bay Van Don ==> San bay Ca Mau
-	29/01/2021: 20:40
-San bay Van Don ==> San bay Chu Lai
-	29/01/2021: 07:45
-San bay Van Don ==> San bay Lien Khuong
-	29/01/2021: 13:30
-San bay Van Don ==> San bay Phu Bai
-	29/01/2021: 20:30
-San bay Tan Son Nhat ==> San bay Ca Mau
-	29/01/2021: 00:45
-San bay Tan Son Nhat ==> San bay Dien Bien Phu
-	29/01/2021: 06:25
-San bay Tan Son Nhat ==> San bay Phu Bai
-	29/01/2021: 03:50
-San bay Noi Bai ==> San bay Phu Bai
-	29/01/2021: 13:40
-San bay Da Nang ==> San bay Con Dao
-	29/01/2021: 13:45
-San bay Da Nang ==> San bay Dong Hoi
-	29/01/2021: 16:55
-San bay Da Nang ==> San bay Phu Cat
-	29/01/2021: 17:00
-San bay Vinh ==> San bay Dien Bien Phu
-	29/01/2021: 14:55
-San bay Vinh ==> San bay Phu Bai
-	29/01/2021: 16:50
-San bay Vinh ==> San bay Tan Son Nhat
-	29/01/2021: 15:20
-San bay Con Dao ==> San bay Chu Lai
-	29/01/2021: 01:05
-San bay Con Dao ==> San bay Phu Cat
-	29/01/2021: 00:55
-San bay Con Dao ==> San bay Tuy Hoa
-	29/01/2021: 00:45
-San bay Phu Cat ==> San bay Buon Ma Thuot
-	29/01/2021: 08:15
-San bay Phu Cat ==> San bay Cam Ranh
-	29/01/2021: 04:20
-San bay Phu Cat ==> San bay Lien Khuong
-	29/01/2021: 09:45
-San bay Phu Cat ==> San bay Pleiku
-	29/01/2021: 13:20
-San bay Ca Mau ==> San bay Dong Hoi
-	29/01/2021: 18:40
-San bay Ca Mau ==> San bay Van Don
-	29/01/2021: 07:45
-San bay Buon Ma Thuot ==> San bay Cam Ranh
-	29/01/2021: 13:35
-San bay Buon Ma Thuot ==> San bay Phu Bai
-	29/01/2021: 18:35
-San bay Buon Ma Thuot ==> San bay Phu Cat
-	29/01/2021: 16:50
-San bay Buon Ma Thuot ==> San bay Tuy Hoa
-	29/01/2021: 08:15
-San bay Pleiku ==> San bay Cam Ranh
-	29/01/2021: 12:25
-San bay Pleiku ==> San bay Tho Xuan
-	29/01/2021: 06:10
-San bay Pleiku ==> San bay Tuy Hoa
-	29/01/2021: 06:45
-San bay Cat Bi ==> San bay Con Dao
-	29/01/2021: 10:45
-San bay Cam Ranh ==> San bay Phu Cat
-	29/01/2021: 09:55
-San bay Cam Ranh ==> San bay Phu Quoc
-	29/01/2021: 12:35
-San bay Rach Gia ==> San bay Ca Mau
-	29/01/2021: 18:50
-San bay Rach Gia ==> San bay Dien Bien Phu
-	29/01/2021: 08:35
-San bay Phu Quoc ==> San bay Phu Cat
-	29/01/2021: 07:10
-San bay Lien Khuong ==> San bay Can Tho
-	29/01/2021: 00:35
-San bay Lien Khuong ==> San bay Chu Lai
-	29/01/2021: 07:15
-San bay Lien Khuong ==> San bay Dong Hoi
-	29/01/2021: 07:10
-San bay Tuy Hoa ==> San bay Buon Ma Thuot
-	29/01/2021: 07:50
-San bay Tuy Hoa ==> San bay Noi Bai
-	29/01/2021: 07:45
+	15/01/2022: 10:35
 San bay Tuy Hoa ==> San bay Rach Gia
-	29/01/2021: 09:25
-San bay Chu Lai ==> San bay Da Nang
-	29/01/2021: 07:15
-San bay Chu Lai ==> San bay Tan Son Nhat
-	29/01/2021: 15:55
-San bay Tho Xuan ==> San bay Cat Bi
-	29/01/2021: 03:30
-San bay Van Don ==> San bay Dong Hoi
-	29/01/2021: 20:50
-San bay Van Don ==> San bay Lien Khuong
-	29/01/2021: 04:30
-San bay Noi Bai ==> San bay Phu Bai
-	30/01/2021: 20:50
-San bay Noi Bai ==> San bay Phu Cat
-	30/01/2021: 03:45
-San bay Noi Bai ==> San bay Rach Gia
-	30/01/2021: 08:50
-San bay Da Nang ==> San bay Van Don
-	30/01/2021: 07:20
-San bay Vinh ==> San bay Can Tho
-	30/01/2021: 15:55
-San bay Vinh ==> San bay Phu Bai
-	30/01/2021: 15:00
-San bay Vinh ==> San bay Phu Quoc
-	30/01/2021: 13:45
-San bay Con Dao ==> San bay Cam Ranh
-	30/01/2021: 19:55
-San bay Con Dao ==> San bay Dong Hoi
-	30/01/2021: 08:10
-San bay Phu Cat ==> San bay Phu Bai
-	30/01/2021: 18:50
-San bay Phu Cat ==> San bay Tho Xuan
-	30/01/2021: 05:55
-San bay Ca Mau ==> San bay Buon Ma Thuot
-	30/01/2021: 07:00
-San bay Ca Mau ==> San bay Da Nang
-	30/01/2021: 08:05
-San bay Can Tho ==> San bay Cam Ranh
-	30/01/2021: 08:05
-San bay Buon Ma Thuot ==> San bay Dien Bien Phu
-	30/01/2021: 16:40
-San bay Buon Ma Thuot ==> San bay Noi Bai
-	30/01/2021: 15:55
-San bay Dien Bien Phu ==> San bay Buon Ma Thuot
-	30/01/2021: 17:00
-San bay Dien Bien Phu ==> San bay Cat Bi
-	30/01/2021: 08:15
-San bay Pleiku ==> San bay Chu Lai
-	30/01/2021: 18:50
-San bay Cat Bi ==> San bay Buon Ma Thuot
-	30/01/2021: 17:05
-San bay Cat Bi ==> San bay Con Dao
-	30/01/2021: 14:05
-San bay Cat Bi ==> San bay Tuy Hoa
-	30/01/2021: 13:40
-San bay Cam Ranh ==> San bay Can Tho
-	30/01/2021: 00:35
-San bay Rach Gia ==> San bay Can Tho
-	30/01/2021: 18:40
-San bay Rach Gia ==> San bay Cat Bi
-	30/01/2021: 04:20
-San bay Lien Khuong ==> San bay Con Dao
-	30/01/2021: 20:00
-San bay Lien Khuong ==> San bay Da Nang
-	30/01/2021: 03:50
-San bay Lien Khuong ==> San bay Van Don
-	30/01/2021: 16:15
-San bay Tuy Hoa ==> San bay Can Tho
-	30/01/2021: 00:55
-San bay Tuy Hoa ==> San bay Chu Lai
-	30/01/2021: 08:15
-San bay Tuy Hoa ==> San bay Con Dao
-	30/01/2021: 07:55
-San bay Chu Lai ==> San bay Can Tho
-	30/01/2021: 00:05
-San bay Phu Bai ==> San bay Ca Mau
-	30/01/2021: 14:10
-San bay Phu Bai ==> San bay Cat Bi
-	30/01/2021: 10:45
-San bay Phu Bai ==> San bay Chu Lai
-	30/01/2021: 07:00
-San bay Phu Bai ==> San bay Pleiku
-	30/01/2021: 03:45
-San bay Tho Xuan ==> San bay Ca Mau
-	30/01/2021: 04:20
-San bay Tho Xuan ==> San bay Noi Bai
-	30/01/2021: 07:20
-San bay Van Don ==> San bay Rach Gia
-	30/01/2021: 08:00
-San bay Da Nang ==> San bay Cat Bi
-	30/01/2021: 19:30
-San bay Da Nang ==> San bay Dien Bien Phu
-	30/01/2021: 04:10
-San bay Da Nang ==> San bay Dong Hoi
-	30/01/2021: 19:50
-San bay Da Nang ==> San bay Rach Gia
-	30/01/2021: 17:05
-San bay Vinh ==> San bay Con Dao
-	30/01/2021: 12:05
-San bay Vinh ==> San bay Dien Bien Phu
-	30/01/2021: 02:45
-San bay Con Dao ==> San bay Da Nang
-	30/01/2021: 11:20
-San bay Phu Cat ==> San bay Buon Ma Thuot
-	30/01/2021: 01:20
-San bay Phu Cat ==> San bay Cat Bi
-	30/01/2021: 12:05
-San bay Phu Cat ==> San bay Lien Khuong
-	30/01/2021: 06:55
-San bay Can Tho ==> San bay Ca Mau
-	30/01/2021: 05:35
-San bay Can Tho ==> San bay Da Nang
-	30/01/2021: 03:30
-San bay Buon Ma Thuot ==> San bay Cam Ranh
-	30/01/2021: 07:10
-San bay Buon Ma Thuot ==> San bay Cat Bi
-	30/01/2021: 07:00
-San bay Buon Ma Thuot ==> San bay Rach Gia
-	30/01/2021: 09:45
-San bay Buon Ma Thuot ==> San bay Vinh
-	30/01/2021: 19:30
-San bay Pleiku ==> San bay Tuy Hoa
-	30/01/2021: 20:40
-San bay Cat Bi ==> San bay Ca Mau
-	30/01/2021: 14:10
-San bay Cat Bi ==> San bay Dien Bien Phu
-	30/01/2021: 16:55
-San bay Cat Bi ==> San bay Phu Bai
-	30/01/2021: 13:20
-San bay Cam Ranh ==> San bay Dien Bien Phu
-	30/01/2021: 06:10
-San bay Rach Gia ==> San bay Chu Lai
-	30/01/2021: 06:10
-San bay Rach Gia ==> San bay Con Dao
-	30/01/2021: 20:50
-San bay Rach Gia ==> San bay Phu Bai
-	30/01/2021: 15:20
-San bay Phu Quoc ==> San bay Chu Lai
-	30/01/2021: 19:20
-San bay Lien Khuong ==> San bay Da Nang
-	30/01/2021: 11:15
+	15/01/2022: 04:40
+San bay Dong Hoi ==> San bay Cam Ranh
+	15/01/2022: 16:00
 San bay Dong Hoi ==> San bay Can Tho
-	30/01/2021: 01:25
-San bay Chu Lai ==> San bay Buon Ma Thuot
-	30/01/2021: 07:20
-San bay Chu Lai ==> San bay Cat Bi
-	30/01/2021: 08:00
-San bay Chu Lai ==> San bay Pleiku
-	30/01/2021: 07:55
-San bay Phu Bai ==> San bay Lien Khuong
-	30/01/2021: 04:50
-San bay Phu Bai ==> San bay Rach Gia
-	30/01/2021: 18:50
-San bay Tho Xuan ==> San bay Cam Ranh
-	30/01/2021: 15:55
-San bay Van Don ==> San bay Ca Mau
-	30/01/2021: 00:00
-San bay Van Don ==> San bay Con Dao
-	30/01/2021: 18:35
-San bay Van Don ==> San bay Da Nang
-	30/01/2021: 11:05
-San bay Tan Son Nhat ==> San bay Dien Bien Phu
-	31/01/2021: 07:20
-San bay Tan Son Nhat ==> San bay Noi Bai
-	31/01/2021: 00:55
-San bay Noi Bai ==> San bay Cat Bi
-	31/01/2021: 11:40
-San bay Noi Bai ==> San bay Dien Bien Phu
-	31/01/2021: 08:10
-San bay Noi Bai ==> San bay Dong Hoi
-	31/01/2021: 08:50
-San bay Noi Bai ==> San bay Pleiku
-	31/01/2021: 08:10
-San bay Da Nang ==> San bay Ca Mau
-	31/01/2021: 20:00
-San bay Da Nang ==> San bay Dong Hoi
-	31/01/2021: 05:55
-San bay Phu Cat ==> San bay Ca Mau
-	31/01/2021: 06:55
-San bay Phu Cat ==> San bay Pleiku
-	31/01/2021: 01:25
-San bay Ca Mau ==> San bay Buon Ma Thuot
-	31/01/2021: 20:10
-San bay Ca Mau ==> San bay Rach Gia
-	31/01/2021: 13:10
-San bay Ca Mau ==> San bay Tan Son Nhat
-	31/01/2021: 07:55
-San bay Can Tho ==> San bay Dong Hoi
-	31/01/2021: 04:10
-San bay Can Tho ==> San bay Lien Khuong
-	31/01/2021: 09:25
-San bay Buon Ma Thuot ==> San bay Can Tho
-	31/01/2021: 08:05
-San bay Buon Ma Thuot ==> San bay Chu Lai
-	31/01/2021: 16:50
-San bay Buon Ma Thuot ==> San bay Phu Bai
-	31/01/2021: 04:30
-San bay Buon Ma Thuot ==> San bay Van Don
-	31/01/2021: 05:55
-San bay Dien Bien Phu ==> San bay Ca Mau
-	31/01/2021: 15:00
-San bay Dien Bien Phu ==> San bay Con Dao
-	31/01/2021: 18:35
-San bay Pleiku ==> San bay Cat Bi
-	31/01/2021: 20:45
-San bay Pleiku ==> San bay Chu Lai
-	31/01/2021: 04:50
-San bay Cat Bi ==> San bay Buon Ma Thuot
-	31/01/2021: 17:00
-San bay Cat Bi ==> San bay Pleiku
-	31/01/2021: 05:00
-San bay Cam Ranh ==> San bay Buon Ma Thuot
-	31/01/2021: 18:40
-San bay Cam Ranh ==> San bay Chu Lai
-	31/01/2021: 19:50
-San bay Cam Ranh ==> San bay Phu Bai
-	31/01/2021: 15:00
-San bay Rach Gia ==> San bay Chu Lai
-	31/01/2021: 12:00
-San bay Phu Quoc ==> San bay Buon Ma Thuot
-	31/01/2021: 13:00
-San bay Phu Quoc ==> San bay Ca Mau
-	31/01/2021: 04:20
-San bay Phu Quoc ==> San bay Lien Khuong
-	31/01/2021: 20:50
-San bay Phu Quoc ==> San bay Tan Son Nhat
-	31/01/2021: 20:50
-San bay Lien Khuong ==> San bay Ca Mau
-	31/01/2021: 18:45
-San bay Lien Khuong ==> San bay Phu Cat
-	31/01/2021: 04:00
-San bay Lien Khuong ==> San bay Phu Quoc
-	31/01/2021: 04:50
-San bay Lien Khuong ==> San bay Tan Son Nhat
-	31/01/2021: 02:00
-San bay Tuy Hoa ==> San bay Buon Ma Thuot
-	31/01/2021: 16:40
-San bay Tuy Hoa ==> San bay Dong Hoi
-	31/01/2021: 13:35
-San bay Tuy Hoa ==> San bay Vinh
-	31/01/2021: 12:25
-San bay Dong Hoi ==> San bay Dien Bien Phu
-	31/01/2021: 17:35
-San bay Phu Bai ==> San bay Buon Ma Thuot
-	31/01/2021: 13:45
+	15/01/2022: 14:35
+San bay Dong Hoi ==> San bay Chu Lai
+	15/01/2022: 05:15
+San bay Chu Lai ==> San bay Dien Bien Phu
+	15/01/2022: 08:45
+San bay Chu Lai ==> San bay Tho Xuan
+	15/01/2022: 01:45
 San bay Phu Bai ==> San bay Chu Lai
-	31/01/2021: 01:20
-San bay Phu Bai ==> San bay Tho Xuan
-	31/01/2021: 06:10
+	15/01/2022: 17:20
+San bay Phu Bai ==> San bay Da Nang
+	15/01/2022: 11:20
+San bay Phu Bai ==> San bay Noi Bai
+	15/01/2022: 20:20
 San bay Tho Xuan ==> San bay Can Tho
-	31/01/2021: 13:10
-San bay Tho Xuan ==> San bay Cat Bi
-	31/01/2021: 04:15
-San bay Tho Xuan ==> San bay Noi Bai
-	31/01/2021: 06:25
-San bay Van Don ==> San bay Buon Ma Thuot
-	31/01/2021: 00:00
-San bay Van Don ==> San bay Ca Mau
-	31/01/2021: 14:10
-San bay Van Don ==> San bay Can Tho
-	31/01/2021: 13:35
-San bay Tan Son Nhat ==> San bay Con Dao
-	31/01/2021: 06:45
+	15/01/2022: 20:40
+San bay Tho Xuan ==> San bay Dong Hoi
+	15/01/2022: 18:30
 San bay Tan Son Nhat ==> San bay Dien Bien Phu
-	31/01/2021: 07:15
-San bay Tan Son Nhat ==> San bay Pleiku
-	31/01/2021: 20:30
-San bay Da Nang ==> San bay Phu Cat
-	31/01/2021: 02:45
-San bay Vinh ==> San bay Cam Ranh
-	31/01/2021: 16:55
-San bay Phu Cat ==> San bay Pleiku
-	31/01/2021: 03:45
-San bay Ca Mau ==> San bay Chu Lai
-	31/01/2021: 16:50
-San bay Ca Mau ==> San bay Pleiku
-	31/01/2021: 07:50
-San bay Buon Ma Thuot ==> San bay Dien Bien Phu
-	31/01/2021: 11:05
-San bay Buon Ma Thuot ==> San bay Pleiku
-	31/01/2021: 11:35
-San bay Dien Bien Phu ==> San bay Cat Bi
-	31/01/2021: 19:35
+	16/01/2022: 11:10
+San bay Tan Son Nhat ==> San bay Phu Cat
+	16/01/2022: 14:55
+San bay Noi Bai ==> San bay Can Tho
+	16/01/2022: 01:30
+San bay Da Nang ==> San bay Dong Hoi
+	16/01/2022: 00:20
+San bay Da Nang ==> San bay Noi Bai
+	16/01/2022: 16:20
+San bay Da Nang ==> San bay Rach Gia
+	16/01/2022: 03:00
+San bay Vinh ==> San bay Can Tho
+	16/01/2022: 06:20
+San bay Vinh ==> San bay Cat Bi
+	16/01/2022: 03:25
+San bay Vinh ==> San bay Dong Hoi
+	16/01/2022: 00:20
+San bay Con Dao ==> San bay Chu Lai
+	16/01/2022: 03:50
+San bay Con Dao ==> San bay Lien Khuong
+	16/01/2022: 09:55
+San bay Con Dao ==> San bay Pleiku
+	16/01/2022: 06:45
+San bay Buon Ma Thuot ==> San bay Cam Ranh
+	16/01/2022: 17:50
 San bay Pleiku ==> San bay Buon Ma Thuot
-	31/01/2021: 06:25
-San bay Cat Bi ==> San bay Cam Ranh
-	31/01/2021: 19:30
-San bay Cat Bi ==> San bay Can Tho
-	31/01/2021: 10:25
-San bay Cat Bi ==> San bay Dien Bien Phu
-	31/01/2021: 20:00
-San bay Cam Ranh ==> San bay Dien Bien Phu
-	31/01/2021: 00:55
-San bay Cam Ranh ==> San bay Pleiku
-	31/01/2021: 01:20
-San bay Rach Gia ==> San bay Can Tho
-	31/01/2021: 03:30
-San bay Phu Quoc ==> San bay Cat Bi
-	31/01/2021: 07:55
+	16/01/2022: 06:20
+San bay Pleiku ==> San bay Con Dao
+	16/01/2022: 07:00
+San bay Cat Bi ==> San bay Lien Khuong
+	16/01/2022: 04:15
+San bay Rach Gia ==> San bay Ca Mau
+	16/01/2022: 14:35
+San bay Phu Quoc ==> San bay Da Nang
+	16/01/2022: 20:00
+San bay Phu Quoc ==> San bay Van Don
+	16/01/2022: 04:40
+San bay Tuy Hoa ==> San bay Da Nang
+	16/01/2022: 04:15
+San bay Tuy Hoa ==> San bay Phu Cat
+	16/01/2022: 10:45
+San bay Tuy Hoa ==> San bay Phu Quoc
+	16/01/2022: 08:45
+San bay Tuy Hoa ==> San bay Rach Gia
+	16/01/2022: 19:05
+San bay Dong Hoi ==> San bay Buon Ma Thuot
+	16/01/2022: 17:20
+San bay Dong Hoi ==> San bay Cam Ranh
+	16/01/2022: 18:05
+San bay Dong Hoi ==> San bay Chu Lai
+	16/01/2022: 15:05
+San bay Chu Lai ==> San bay Con Dao
+	16/01/2022: 04:15
+San bay Chu Lai ==> San bay Da Nang
+	16/01/2022: 03:50
+San bay Chu Lai ==> San bay Phu Bai
+	16/01/2022: 05:50
+San bay Phu Bai ==> San bay Da Nang
+	16/01/2022: 11:10
+San bay Phu Bai ==> San bay Phu Cat
+	16/01/2022: 18:05
+San bay Phu Bai ==> San bay Rach Gia
+	16/01/2022: 14:50
+San bay Tho Xuan ==> San bay Can Tho
+	16/01/2022: 12:45
+San bay Tho Xuan ==> San bay Chu Lai
+	16/01/2022: 17:15
+San bay Van Don ==> San bay Noi Bai
+	16/01/2022: 18:30
+San bay Van Don ==> San bay Tho Xuan
+	16/01/2022: 07:20
+San bay Noi Bai ==> San bay Ca Mau
+	17/01/2022: 15:10
+San bay Noi Bai ==> San bay Cat Bi
+	17/01/2022: 03:50
+San bay Noi Bai ==> San bay Chu Lai
+	17/01/2022: 14:35
+San bay Noi Bai ==> San bay Dien Bien Phu
+	17/01/2022: 02:40
+San bay Vinh ==> San bay Tan Son Nhat
+	17/01/2022: 09:05
+San bay Con Dao ==> San bay Dien Bien Phu
+	17/01/2022: 01:10
+San bay Con Dao ==> San bay Tho Xuan
+	17/01/2022: 02:15
+San bay Con Dao ==> San bay Van Don
+	17/01/2022: 20:50
+San bay Can Tho ==> San bay Con Dao
+	17/01/2022: 14:55
+San bay Can Tho ==> San bay Dong Hoi
+	17/01/2022: 06:00
+San bay Can Tho ==> San bay Noi Bai
+	17/01/2022: 20:50
+San bay Buon Ma Thuot ==> San bay Chu Lai
+	17/01/2022: 20:20
+San bay Pleiku ==> San bay Con Dao
+	17/01/2022: 05:50
+San bay Cat Bi ==> San bay Ca Mau
+	17/01/2022: 01:45
+San bay Cat Bi ==> San bay Con Dao
+	17/01/2022: 07:20
+San bay Cat Bi ==> San bay Da Nang
+	17/01/2022: 09:05
+San bay Cam Ranh ==> San bay Buon Ma Thuot
+	17/01/2022: 06:05
+San bay Cam Ranh ==> San bay Can Tho
+	17/01/2022: 07:35
+San bay Cam Ranh ==> San bay Con Dao
+	17/01/2022: 09:00
+San bay Cam Ranh ==> San bay Tan Son Nhat
+	17/01/2022: 07:00
+San bay Rach Gia ==> San bay Cat Bi
+	17/01/2022: 18:20
+San bay Rach Gia ==> San bay Chu Lai
+	17/01/2022: 01:10
+San bay Phu Quoc ==> San bay Da Nang
+	17/01/2022: 11:20
+San bay Phu Quoc ==> San bay Noi Bai
+	17/01/2022: 18:45
 San bay Phu Quoc ==> San bay Pleiku
-	31/01/2021: 02:10
-San bay Lien Khuong ==> San bay Cam Ranh
-	31/01/2021: 01:05
+	17/01/2022: 18:30
+San bay Lien Khuong ==> San bay Da Nang
+	17/01/2022: 01:10
 San bay Lien Khuong ==> San bay Dong Hoi
-	31/01/2021: 14:55
-San bay Tuy Hoa ==> San bay Ca Mau
-	31/01/2021: 14:05
-San bay Tuy Hoa ==> San bay Cat Bi
-	31/01/2021: 07:15
-San bay Tuy Hoa ==> San bay Dien Bien Phu
-	31/01/2021: 18:50
+	17/01/2022: 00:45
+San bay Lien Khuong ==> San bay Phu Quoc
+	17/01/2022: 20:35
+San bay Lien Khuong ==> San bay Rach Gia
+	17/01/2022: 04:50
+San bay Tuy Hoa ==> San bay Buon Ma Thuot
+	17/01/2022: 13:15
+San bay Tuy Hoa ==> San bay Da Nang
+	17/01/2022: 08:45
+San bay Tuy Hoa ==> San bay Noi Bai
+	17/01/2022: 04:40
+San bay Tuy Hoa ==> San bay Phu Bai
+	17/01/2022: 10:55
 San bay Chu Lai ==> San bay Cam Ranh
-	31/01/2021: 00:35
-San bay Chu Lai ==> San bay Can Tho
-	31/01/2021: 04:00
-San bay Phu Bai ==> San bay Dong Hoi
-	31/01/2021: 04:15
+	17/01/2022: 03:20
+San bay Chu Lai ==> San bay Cat Bi
+	17/01/2022: 11:35
+San bay Chu Lai ==> San bay Da Nang
+	17/01/2022: 16:00
+San bay Tho Xuan ==> San bay Phu Bai
+	17/01/2022: 04:00
+San bay Van Don ==> San bay Chu Lai
+	17/01/2022: 02:25
+San bay Tan Son Nhat ==> San bay Cam Ranh
+	18/01/2022: 16:00
+San bay Tan Son Nhat ==> San bay Chu Lai
+	18/01/2022: 08:25
+San bay Tan Son Nhat ==> San bay Dong Hoi
+	18/01/2022: 13:50
+San bay Tan Son Nhat ==> San bay Tuy Hoa
+	18/01/2022: 03:35
+San bay Noi Bai ==> San bay Cam Ranh
+	18/01/2022: 12:10
+San bay Noi Bai ==> San bay Phu Quoc
+	18/01/2022: 00:20
+San bay Noi Bai ==> San bay Rach Gia
+	18/01/2022: 03:35
+San bay Da Nang ==> San bay Phu Bai
+	18/01/2022: 13:15
+San bay Vinh ==> San bay Can Tho
+	18/01/2022: 05:45
+San bay Vinh ==> San bay Chu Lai
+	18/01/2022: 03:20
+San bay Vinh ==> San bay Con Dao
+	18/01/2022: 07:50
+San bay Vinh ==> San bay Da Nang
+	18/01/2022: 15:35
+San bay Con Dao ==> San bay Can Tho
+	18/01/2022: 16:20
+San bay Con Dao ==> San bay Chu Lai
+	18/01/2022: 19:20
+San bay Con Dao ==> San bay Da Nang
+	18/01/2022: 03:45
+San bay Phu Cat ==> San bay Con Dao
+	18/01/2022: 05:50
+San bay Phu Cat ==> San bay Noi Bai
+	18/01/2022: 11:20
+San bay Can Tho ==> San bay Buon Ma Thuot
+	18/01/2022: 15:30
+San bay Can Tho ==> San bay Dien Bien Phu
+	18/01/2022: 03:35
+San bay Can Tho ==> San bay Lien Khuong
+	18/01/2022: 19:05
+San bay Can Tho ==> San bay Tan Son Nhat
+	18/01/2022: 01:20
+San bay Buon Ma Thuot ==> San bay Can Tho
+	18/01/2022: 16:00
+San bay Buon Ma Thuot ==> San bay Dien Bien Phu
+	18/01/2022: 00:10
+San bay Buon Ma Thuot ==> San bay Noi Bai
+	18/01/2022: 10:45
+San bay Dien Bien Phu ==> San bay Ca Mau
+	18/01/2022: 06:55
+San bay Dien Bien Phu ==> San bay Dong Hoi
+	18/01/2022: 04:30
+San bay Dien Bien Phu ==> San bay Tho Xuan
+	18/01/2022: 20:15
+San bay Cat Bi ==> San bay Da Nang
+	18/01/2022: 20:20
+San bay Cat Bi ==> San bay Dien Bien Phu
+	18/01/2022: 08:25
+San bay Cat Bi ==> San bay Tho Xuan
+	18/01/2022: 01:30
+San bay Cam Ranh ==> San bay Ca Mau
+	18/01/2022: 20:20
+San bay Cam Ranh ==> San bay Can Tho
+	18/01/2022: 07:50
+San bay Rach Gia ==> San bay Dien Bien Phu
+	18/01/2022: 07:35
+San bay Rach Gia ==> San bay Dong Hoi
+	18/01/2022: 19:20
+San bay Rach Gia ==> San bay Phu Quoc
+	18/01/2022: 00:25
+San bay Phu Quoc ==> San bay Ca Mau
+	18/01/2022: 10:45
+San bay Phu Quoc ==> San bay Cat Bi
+	18/01/2022: 06:55
+San bay Phu Quoc ==> San bay Tan Son Nhat
+	18/01/2022: 20:15
+San bay Lien Khuong ==> San bay Da Nang
+	18/01/2022: 03:40
+San bay Lien Khuong ==> San bay Noi Bai
+	18/01/2022: 06:20
+San bay Dong Hoi ==> San bay Ca Mau
+	18/01/2022: 18:35
+San bay Dong Hoi ==> San bay Cam Ranh
+	18/01/2022: 00:25
+San bay Dong Hoi ==> San bay Cat Bi
+	18/01/2022: 11:10
+San bay Dong Hoi ==> San bay Tan Son Nhat
+	18/01/2022: 17:15
+San bay Phu Bai ==> San bay Buon Ma Thuot
+	18/01/2022: 10:55
+San bay Phu Bai ==> San bay Ca Mau
+	18/01/2022: 03:40
 San bay Phu Bai ==> San bay Pleiku
-	31/01/2021: 18:40
-San bay Tho Xuan ==> San bay Buon Ma Thuot
-	31/01/2021: 07:45
-San bay Tho Xuan ==> San bay Cam Ranh
-	31/01/2021: 15:15
+	18/01/2022: 08:45
+San bay Tho Xuan ==> San bay Con Dao
+	18/01/2022: 00:25
+San bay Tho Xuan ==> San bay Dong Hoi
+	18/01/2022: 20:15
+San bay Tho Xuan ==> San bay Pleiku
+	18/01/2022: 16:55
+San bay Tan Son Nhat ==> San bay Ca Mau
+	19/01/2022: 12:30
+San bay Noi Bai ==> San bay Phu Bai
+	19/01/2022: 00:20
+San bay Vinh ==> San bay Buon Ma Thuot
+	19/01/2022: 15:35
+San bay Vinh ==> San bay Ca Mau
+	19/01/2022: 12:10
+San bay Vinh ==> San bay Dien Bien Phu
+	19/01/2022: 02:40
+San bay Vinh ==> San bay Pleiku
+	19/01/2022: 14:55
+San bay Con Dao ==> San bay Ca Mau
+	19/01/2022: 17:50
+San bay Con Dao ==> San bay Lien Khuong
+	19/01/2022: 18:45
+San bay Phu Cat ==> San bay Cam Ranh
+	19/01/2022: 05:45
+San bay Phu Cat ==> San bay Phu Quoc
+	19/01/2022: 08:45
+San bay Phu Cat ==> San bay Pleiku
+	19/01/2022: 13:35
+San bay Ca Mau ==> San bay Dien Bien Phu
+	19/01/2022: 17:50
+San bay Ca Mau ==> San bay Noi Bai
+	19/01/2022: 20:15
+San bay Ca Mau ==> San bay Phu Quoc
+	19/01/2022: 14:50
+San bay Can Tho ==> San bay Con Dao
+	19/01/2022: 03:35
+San bay Can Tho ==> San bay Lien Khuong
+	19/01/2022: 10:55
+San bay Buon Ma Thuot ==> San bay Cat Bi
+	19/01/2022: 01:30
+San bay Buon Ma Thuot ==> San bay Da Nang
+	19/01/2022: 14:35
+San bay Buon Ma Thuot ==> San bay Dong Hoi
+	19/01/2022: 08:35
+San bay Dien Bien Phu ==> San bay Phu Bai
+	19/01/2022: 20:00
+San bay Dien Bien Phu ==> San bay Tuy Hoa
+	19/01/2022: 04:15
+San bay Pleiku ==> San bay Da Nang
+	19/01/2022: 01:10
+San bay Pleiku ==> San bay Tan Son Nhat
+	19/01/2022: 09:55
+San bay Pleiku ==> San bay Tuy Hoa
+	19/01/2022: 05:35
+San bay Pleiku ==> San bay Van Don
+	19/01/2022: 10:15
+San bay Cat Bi ==> San bay Cam Ranh
+	19/01/2022: 19:05
+San bay Cam Ranh ==> San bay Con Dao
+	19/01/2022: 20:20
+San bay Cam Ranh ==> San bay Dong Hoi
+	19/01/2022: 07:30
+San bay Rach Gia ==> San bay Ca Mau
+	19/01/2022: 02:40
+San bay Phu Quoc ==> San bay Buon Ma Thuot
+	19/01/2022: 14:15
+San bay Phu Quoc ==> San bay Can Tho
+	19/01/2022: 04:50
+San bay Phu Quoc ==> San bay Cat Bi
+	19/01/2022: 20:00
+San bay Tuy Hoa ==> San bay Lien Khuong
+	19/01/2022: 12:10
+San bay Tuy Hoa ==> San bay Noi Bai
+	19/01/2022: 03:00
+San bay Dong Hoi ==> San bay Cat Bi
+	19/01/2022: 18:35
+San bay Phu Bai ==> San bay Chu Lai
+	19/01/2022: 17:50
+San bay Da Nang ==> San bay Ca Mau
+	20/01/2022: 11:10
+San bay Da Nang ==> San bay Can Tho
+	20/01/2022: 20:35
+San bay Da Nang ==> San bay Con Dao
+	20/01/2022: 12:45
+San bay Da Nang ==> San bay Dong Hoi
+	20/01/2022: 06:15
+San bay Vinh ==> San bay Cat Bi
+	20/01/2022: 19:05
+San bay Vinh ==> San bay Phu Cat
+	20/01/2022: 09:30
+San bay Vinh ==> San bay Pleiku
+	20/01/2022: 09:55
+San bay Vinh ==> San bay Tho Xuan
+	20/01/2022: 12:10
+San bay Con Dao ==> San bay Cat Bi
+	20/01/2022: 20:40
+San bay Phu Cat ==> San bay Noi Bai
+	20/01/2022: 02:40
+San bay Ca Mau ==> San bay Chu Lai
+	20/01/2022: 20:20
+San bay Ca Mau ==> San bay Dien Bien Phu
+	20/01/2022: 03:50
+San bay Ca Mau ==> San bay Tho Xuan
+	20/01/2022: 02:40
+San bay Ca Mau ==> San bay Van Don
+	20/01/2022: 03:50
+San bay Can Tho ==> San bay Buon Ma Thuot
+	20/01/2022: 03:50
+San bay Can Tho ==> San bay Lien Khuong
+	20/01/2022: 19:05
+San bay Can Tho ==> San bay Noi Bai
+	20/01/2022: 11:35
+San bay Buon Ma Thuot ==> San bay Phu Cat
+	20/01/2022: 05:50
+San bay Buon Ma Thuot ==> San bay Rach Gia
+	20/01/2022: 20:50
+San bay Dien Bien Phu ==> San bay Ca Mau
+	20/01/2022: 03:20
+San bay Dien Bien Phu ==> San bay Cam Ranh
+	20/01/2022: 10:55
+San bay Dien Bien Phu ==> San bay Noi Bai
+	20/01/2022: 05:50
+San bay Pleiku ==> San bay Da Nang
+	20/01/2022: 05:05
+San bay Pleiku ==> San bay Noi Bai
+	20/01/2022: 16:55
+San bay Pleiku ==> San bay Tuy Hoa
+	20/01/2022: 12:30
+San bay Cat Bi ==> San bay Ca Mau
+	20/01/2022: 04:15
+San bay Cat Bi ==> San bay Rach Gia
+	20/01/2022: 04:55
+San bay Cam Ranh ==> San bay Con Dao
+	20/01/2022: 07:30
+San bay Rach Gia ==> San bay Lien Khuong
+	20/01/2022: 03:35
+San bay Rach Gia ==> San bay Phu Cat
+	20/01/2022: 11:50
+San bay Rach Gia ==> San bay Van Don
+	20/01/2022: 08:45
+San bay Lien Khuong ==> San bay Cat Bi
+	20/01/2022: 18:35
+San bay Lien Khuong ==> San bay Noi Bai
+	20/01/2022: 08:25
+San bay Lien Khuong ==> San bay Phu Bai
+	20/01/2022: 03:20
+San bay Dong Hoi ==> San bay Phu Bai
+	20/01/2022: 05:35
+San bay Chu Lai ==> San bay Van Don
+	20/01/2022: 18:50
+San bay Phu Bai ==> San bay Chu Lai
+	20/01/2022: 16:00
+San bay Van Don ==> San bay Cam Ranh
+	20/01/2022: 05:50
+San bay Van Don ==> San bay Dien Bien Phu
+	20/01/2022: 05:20
+San bay Van Don ==> San bay Phu Quoc
+	20/01/2022: 18:35
+San bay Noi Bai ==> San bay Phu Quoc
+	21/01/2022: 05:50
+San bay Noi Bai ==> San bay Rach Gia
+	21/01/2022: 09:00
+San bay Da Nang ==> San bay Lien Khuong
+	21/01/2022: 05:20
+San bay Da Nang ==> San bay Pleiku
+	21/01/2022: 14:15
+San bay Vinh ==> San bay Buon Ma Thuot
+	21/01/2022: 19:20
+San bay Vinh ==> San bay Cam Ranh
+	21/01/2022: 07:35
+San bay Vinh ==> San bay Lien Khuong
+	21/01/2022: 20:00
+San bay Phu Cat ==> San bay Ca Mau
+	21/01/2022: 07:20
+San bay Phu Cat ==> San bay Cat Bi
+	21/01/2022: 16:30
+San bay Phu Cat ==> San bay Lien Khuong
+	21/01/2022: 12:10
+San bay Can Tho ==> San bay Dong Hoi
+	21/01/2022: 20:00
+San bay Pleiku ==> San bay Ca Mau
+	21/01/2022: 20:40
+San bay Pleiku ==> San bay Cam Ranh
+	21/01/2022: 16:55
+San bay Cat Bi ==> San bay Chu Lai
+	21/01/2022: 01:45
+San bay Cat Bi ==> San bay Noi Bai
+	21/01/2022: 15:05
+San bay Cam Ranh ==> San bay Ca Mau
+	21/01/2022: 03:45
+San bay Cam Ranh ==> San bay Can Tho
+	21/01/2022: 04:30
+San bay Cam Ranh ==> San bay Chu Lai
+	21/01/2022: 07:00
+San bay Rach Gia ==> San bay Dien Bien Phu
+	21/01/2022: 16:20
+San bay Rach Gia ==> San bay Tuy Hoa
+	21/01/2022: 11:20
+San bay Phu Quoc ==> San bay Buon Ma Thuot
+	21/01/2022: 00:45
+San bay Phu Quoc ==> San bay Cat Bi
+	21/01/2022: 14:55
+San bay Lien Khuong ==> San bay Buon Ma Thuot
+	21/01/2022: 05:35
+San bay Tuy Hoa ==> San bay Con Dao
+	21/01/2022: 17:30
+San bay Dong Hoi ==> San bay Ca Mau
+	21/01/2022: 11:45
+San bay Dong Hoi ==> San bay Can Tho
+	21/01/2022: 14:35
+San bay Chu Lai ==> San bay Cam Ranh
+	21/01/2022: 01:10
+San bay Chu Lai ==> San bay Da Nang
+	21/01/2022: 20:15
+San bay Chu Lai ==> San bay Tan Son Nhat
+	21/01/2022: 16:00
+San bay Phu Bai ==> San bay Da Nang
+	21/01/2022: 18:50
+San bay Tho Xuan ==> San bay Can Tho
+	21/01/2022: 06:20
+San bay Tho Xuan ==> San bay Chu Lai
+	21/01/2022: 09:30
+San bay Tho Xuan ==> San bay Phu Cat
+	21/01/2022: 03:10
+San bay Van Don ==> San bay Buon Ma Thuot
+	21/01/2022: 18:45
+San bay Van Don ==> San bay Cam Ranh
+	21/01/2022: 18:20
+San bay Van Don ==> San bay Da Nang
+	21/01/2022: 13:15
+San bay Van Don ==> San bay Lien Khuong
+	21/01/2022: 17:15
+San bay Tan Son Nhat ==> San bay Lien Khuong
+	22/01/2022: 08:35
+San bay Tan Son Nhat ==> San bay Noi Bai
+	22/01/2022: 09:30
+San bay Tan Son Nhat ==> San bay Rach Gia
+	22/01/2022: 09:55
+San bay Noi Bai ==> San bay Con Dao
+	22/01/2022: 01:30
+San bay Noi Bai ==> San bay Phu Cat
+	22/01/2022: 16:00
+San bay Noi Bai ==> San bay Tan Son Nhat
+	22/01/2022: 06:00
+San bay Da Nang ==> San bay Rach Gia
+	22/01/2022: 01:00
+San bay Vinh ==> San bay Buon Ma Thuot
+	22/01/2022: 05:35
+San bay Vinh ==> San bay Con Dao
+	22/01/2022: 14:35
+San bay Vinh ==> San bay Dien Bien Phu
+	22/01/2022: 08:35
+San bay Vinh ==> San bay Dong Hoi
+	22/01/2022: 14:35
+San bay Con Dao ==> San bay Cat Bi
+	22/01/2022: 03:40
+San bay Con Dao ==> San bay Da Nang
+	22/01/2022: 00:10
+San bay Con Dao ==> San bay Lien Khuong
+	22/01/2022: 01:20
+San bay Ca Mau ==> San bay Cam Ranh
+	22/01/2022: 15:10
+San bay Ca Mau ==> San bay Can Tho
+	22/01/2022: 05:15
+San bay Ca Mau ==> San bay Cat Bi
+	22/01/2022: 04:40
+San bay Can Tho ==> San bay Ca Mau
+	22/01/2022: 04:40
+San bay Can Tho ==> San bay Cam Ranh
+	22/01/2022: 20:00
+San bay Can Tho ==> San bay Da Nang
+	22/01/2022: 08:35
+San bay Can Tho ==> San bay Lien Khuong
+	22/01/2022: 08:45
+San bay Buon Ma Thuot ==> San bay Chu Lai
+	22/01/2022: 02:15
+San bay Dien Bien Phu ==> San bay Buon Ma Thuot
+	22/01/2022: 04:55
+San bay Dien Bien Phu ==> San bay Con Dao
+	22/01/2022: 11:35
+San bay Pleiku ==> San bay Ca Mau
+	22/01/2022: 18:30
+San bay Pleiku ==> San bay Rach Gia
+	22/01/2022: 18:35
+San bay Pleiku ==> San bay Tuy Hoa
+	22/01/2022: 06:55
+San bay Cat Bi ==> San bay Buon Ma Thuot
+	22/01/2022: 18:05
+San bay Cat Bi ==> San bay Lien Khuong
+	22/01/2022: 04:00
+San bay Cam Ranh ==> San bay Con Dao
+	22/01/2022: 20:40
+San bay Cam Ranh ==> San bay Noi Bai
+	22/01/2022: 11:55
+San bay Cam Ranh ==> San bay Van Don
+	22/01/2022: 07:20
+San bay Phu Quoc ==> San bay Buon Ma Thuot
+	22/01/2022: 18:05
+San bay Tuy Hoa ==> San bay Cam Ranh
+	22/01/2022: 16:55
+San bay Tuy Hoa ==> San bay Can Tho
+	22/01/2022: 04:30
+San bay Tuy Hoa ==> San bay Cat Bi
+	22/01/2022: 20:00
+San bay Dong Hoi ==> San bay Lien Khuong
+	22/01/2022: 05:15
+San bay Dong Hoi ==> San bay Noi Bai
+	22/01/2022: 00:45
+San bay Chu Lai ==> San bay Rach Gia
+	22/01/2022: 12:30
+San bay Chu Lai ==> San bay Tan Son Nhat
+	22/01/2022: 05:15
+San bay Phu Bai ==> San bay Da Nang
+	22/01/2022: 07:35
+San bay Phu Bai ==> San bay Dong Hoi
+	22/01/2022: 10:35
+San bay Van Don ==> San bay Can Tho
+	22/01/2022: 18:20
+San bay Tan Son Nhat ==> San bay Buon Ma Thuot
+	23/01/2022: 17:50
+San bay Tan Son Nhat ==> San bay Lien Khuong
+	23/01/2022: 14:35
+San bay Noi Bai ==> San bay Phu Quoc
+	23/01/2022: 09:05
+San bay Da Nang ==> San bay Cat Bi
+	23/01/2022: 05:35
+San bay Con Dao ==> San bay Dien Bien Phu
+	23/01/2022: 05:20
+San bay Phu Cat ==> San bay Buon Ma Thuot
+	23/01/2022: 17:15
+San bay Phu Cat ==> San bay Chu Lai
+	23/01/2022: 16:30
+San bay Phu Cat ==> San bay Noi Bai
+	23/01/2022: 04:40
+San bay Phu Cat ==> San bay Tho Xuan
+	23/01/2022: 20:50
+San bay Ca Mau ==> San bay Noi Bai
+	23/01/2022: 13:50
+San bay Ca Mau ==> San bay Pleiku
+	23/01/2022: 05:15
+San bay Can Tho ==> San bay Cam Ranh
+	23/01/2022: 00:10
+San bay Can Tho ==> San bay Dong Hoi
+	23/01/2022: 04:55
+San bay Buon Ma Thuot ==> San bay Pleiku
+	23/01/2022: 05:15
+San bay Pleiku ==> San bay Cat Bi
+	23/01/2022: 03:50
+San bay Pleiku ==> San bay Lien Khuong
+	23/01/2022: 18:50
+San bay Pleiku ==> San bay Tan Son Nhat
+	23/01/2022: 03:20
+San bay Cat Bi ==> San bay Da Nang
+	23/01/2022: 06:00
+San bay Cat Bi ==> San bay Phu Quoc
+	23/01/2022: 09:55
+San bay Cam Ranh ==> San bay Dien Bien Phu
+	23/01/2022: 00:10
+San bay Rach Gia ==> San bay Cam Ranh
+	23/01/2022: 05:45
+San bay Rach Gia ==> San bay Da Nang
+	23/01/2022: 12:30
+San bay Rach Gia ==> San bay Dien Bien Phu
+	23/01/2022: 13:50
+San bay Rach Gia ==> San bay Dong Hoi
+	23/01/2022: 02:15
+San bay Phu Quoc ==> San bay Cam Ranh
+	23/01/2022: 16:00
+San bay Phu Quoc ==> San bay Cat Bi
+	23/01/2022: 10:55
+San bay Phu Quoc ==> San bay Rach Gia
+	23/01/2022: 08:35
+San bay Phu Quoc ==> San bay Vinh
+	23/01/2022: 04:40
+San bay Lien Khuong ==> San bay Buon Ma Thuot
+	23/01/2022: 17:50
+San bay Lien Khuong ==> San bay Ca Mau
+	23/01/2022: 16:55
+San bay Lien Khuong ==> San bay Phu Bai
+	23/01/2022: 02:25
+San bay Lien Khuong ==> San bay Tan Son Nhat
+	23/01/2022: 16:30
+San bay Tuy Hoa ==> San bay Phu Bai
+	23/01/2022: 00:10
+San bay Dong Hoi ==> San bay Chu Lai
+	23/01/2022: 05:05
+San bay Dong Hoi ==> San bay Lien Khuong
+	23/01/2022: 02:40
+San bay Dong Hoi ==> San bay Pleiku
+	23/01/2022: 17:20
+San bay Chu Lai ==> San bay Phu Quoc
+	23/01/2022: 06:15
+San bay Chu Lai ==> San bay Tan Son Nhat
+	23/01/2022: 11:10
+San bay Phu Bai ==> San bay Buon Ma Thuot
+	23/01/2022: 09:30
+San bay Phu Bai ==> San bay Ca Mau
+	23/01/2022: 11:50
+San bay Phu Bai ==> San bay Con Dao
+	23/01/2022: 13:35
+San bay Tho Xuan ==> San bay Con Dao
+	23/01/2022: 01:10
+San bay Tho Xuan ==> San bay Da Nang
+	23/01/2022: 11:10
+San bay Tho Xuan ==> San bay Pleiku
+	23/01/2022: 10:35
+San bay Van Don ==> San bay Dong Hoi
+	23/01/2022: 15:30
+San bay Van Don ==> San bay Noi Bai
+	23/01/2022: 02:40
+San bay Van Don ==> San bay Phu Quoc
+	23/01/2022: 03:35
+San bay Tan Son Nhat ==> San bay Dong Hoi
+	24/01/2022: 03:50
+San bay Noi Bai ==> San bay Ca Mau
+	24/01/2022: 17:30
+San bay Noi Bai ==> San bay Con Dao
+	24/01/2022: 13:50
+San bay Noi Bai ==> San bay Phu Cat
+	24/01/2022: 08:05
+San bay Noi Bai ==> San bay Tuy Hoa
+	24/01/2022: 20:40
+San bay Da Nang ==> San bay Dong Hoi
+	24/01/2022: 00:25
+San bay Da Nang ==> San bay Tan Son Nhat
+	24/01/2022: 14:55
+San bay Con Dao ==> San bay Ca Mau
+	24/01/2022: 16:55
+San bay Phu Cat ==> San bay Ca Mau
+	24/01/2022: 17:30
+San bay Phu Cat ==> San bay Da Nang
+	24/01/2022: 15:35
+San bay Phu Cat ==> San bay Dong Hoi
+	24/01/2022: 02:15
+San bay Phu Cat ==> San bay Phu Quoc
+	24/01/2022: 01:20
+San bay Ca Mau ==> San bay Tho Xuan
+	24/01/2022: 10:15
+San bay Can Tho ==> San bay Buon Ma Thuot
+	24/01/2022: 18:45
+San bay Can Tho ==> San bay Da Nang
+	24/01/2022: 18:35
+San bay Can Tho ==> San bay Noi Bai
+	24/01/2022: 15:30
+San bay Buon Ma Thuot ==> San bay Cam Ranh
+	24/01/2022: 08:05
+San bay Buon Ma Thuot ==> San bay Chu Lai
+	24/01/2022: 03:25
+San bay Dien Bien Phu ==> San bay Cat Bi
+	24/01/2022: 11:35
+San bay Dien Bien Phu ==> San bay Noi Bai
+	24/01/2022: 04:00
+San bay Pleiku ==> San bay Buon Ma Thuot
+	24/01/2022: 03:25
+San bay Pleiku ==> San bay Ca Mau
+	24/01/2022: 06:20
+San bay Pleiku ==> San bay Phu Cat
+	24/01/2022: 00:45
+San bay Cat Bi ==> San bay Chu Lai
+	24/01/2022: 13:15
+San bay Cat Bi ==> San bay Dien Bien Phu
+	24/01/2022: 08:35
+San bay Cat Bi ==> San bay Lien Khuong
+	24/01/2022: 20:00
+San bay Cat Bi ==> San bay Noi Bai
+	24/01/2022: 15:05
+San bay Cam Ranh ==> San bay Chu Lai
+	24/01/2022: 06:00
+San bay Phu Quoc ==> San bay Dien Bien Phu
+	24/01/2022: 08:45
+San bay Lien Khuong ==> San bay Cam Ranh
+	24/01/2022: 06:45
+San bay Lien Khuong ==> San bay Cat Bi
+	24/01/2022: 20:20
+San bay Lien Khuong ==> San bay Noi Bai
+	24/01/2022: 20:35
+San bay Tuy Hoa ==> San bay Cam Ranh
+	24/01/2022: 20:50
+San bay Tuy Hoa ==> San bay Can Tho
+	24/01/2022: 09:00
+San bay Tuy Hoa ==> San bay Dien Bien Phu
+	24/01/2022: 07:50
+San bay Dong Hoi ==> San bay Buon Ma Thuot
+	24/01/2022: 18:35
+San bay Dong Hoi ==> San bay Tan Son Nhat
+	24/01/2022: 07:20
+San bay Chu Lai ==> San bay Ca Mau
+	24/01/2022: 03:40
+San bay Chu Lai ==> San bay Can Tho
+	24/01/2022: 01:00
+San bay Chu Lai ==> San bay Dien Bien Phu
+	24/01/2022: 18:05
+San bay Phu Bai ==> San bay Buon Ma Thuot
+	24/01/2022: 18:20
+San bay Phu Bai ==> San bay Cam Ranh
+	24/01/2022: 13:50
+San bay Phu Bai ==> San bay Noi Bai
+	24/01/2022: 05:50
+San bay Van Don ==> San bay Rach Gia
+	24/01/2022: 19:05
+San bay Tan Son Nhat ==> San bay Pleiku
+	25/01/2022: 12:30
+San bay Noi Bai ==> San bay Da Nang
+	25/01/2022: 15:05
+San bay Noi Bai ==> San bay Phu Bai
+	25/01/2022: 16:20
+San bay Noi Bai ==> San bay Phu Quoc
+	25/01/2022: 20:40
+San bay Noi Bai ==> San bay Pleiku
+	25/01/2022: 14:50
+San bay Da Nang ==> San bay Cam Ranh
+	25/01/2022: 05:05
+San bay Da Nang ==> San bay Dien Bien Phu
+	25/01/2022: 19:40
+San bay Da Nang ==> San bay Phu Cat
+	25/01/2022: 18:45
+San bay Vinh ==> San bay Rach Gia
+	25/01/2022: 07:35
+San bay Con Dao ==> San bay Cam Ranh
+	25/01/2022: 02:15
+San bay Con Dao ==> San bay Phu Quoc
+	25/01/2022: 09:00
+San bay Con Dao ==> San bay Tuy Hoa
+	25/01/2022: 14:55
+San bay Phu Cat ==> San bay Chu Lai
+	25/01/2022: 12:30
+San bay Phu Cat ==> San bay Da Nang
+	25/01/2022: 01:20
+San bay Phu Cat ==> San bay Lien Khuong
+	25/01/2022: 20:50
+San bay Ca Mau ==> San bay Can Tho
+	25/01/2022: 16:30
+San bay Ca Mau ==> San bay Rach Gia
+	25/01/2022: 08:35
+San bay Ca Mau ==> San bay Tan Son Nhat
+	25/01/2022: 12:30
+San bay Dien Bien Phu ==> San bay Cam Ranh
+	25/01/2022: 07:00
+San bay Dien Bien Phu ==> San bay Chu Lai
+	25/01/2022: 01:20
+San bay Cat Bi ==> San bay Can Tho
+	25/01/2022: 01:30
+San bay Cat Bi ==> San bay Con Dao
+	25/01/2022: 04:30
+San bay Cam Ranh ==> San bay Cat Bi
+	25/01/2022: 03:25
+San bay Rach Gia ==> San bay Dien Bien Phu
+	25/01/2022: 07:15
+San bay Rach Gia ==> San bay Lien Khuong
+	25/01/2022: 10:35
+San bay Rach Gia ==> San bay Phu Cat
+	25/01/2022: 10:55
+San bay Phu Quoc ==> San bay Cam Ranh
+	25/01/2022: 05:45
+San bay Lien Khuong ==> San bay Rach Gia
+	25/01/2022: 11:50
+San bay Tuy Hoa ==> San bay Dong Hoi
+	25/01/2022: 18:50
+San bay Chu Lai ==> San bay Ca Mau
+	25/01/2022: 12:10
 San bay Tho Xuan ==> San bay Cat Bi
-	31/01/2021: 13:15
+	25/01/2022: 11:35
+San bay Tho Xuan ==> San bay Con Dao
+	25/01/2022: 05:20
+San bay Tho Xuan ==> San bay Phu Cat
+	25/01/2022: 01:00
+San bay Tan Son Nhat ==> San bay Ca Mau
+	26/01/2022: 01:45
+San bay Tan Son Nhat ==> San bay Cat Bi
+	26/01/2022: 03:35
+San bay Tan Son Nhat ==> San bay Con Dao
+	26/01/2022: 06:05
+San bay Vinh ==> San bay Cam Ranh
+	26/01/2022: 06:45
+San bay Con Dao ==> San bay Can Tho
+	26/01/2022: 11:55
+San bay Con Dao ==> San bay Chu Lai
+	26/01/2022: 04:50
+San bay Phu Cat ==> San bay Da Nang
+	26/01/2022: 06:20
+San bay Ca Mau ==> San bay Buon Ma Thuot
+	26/01/2022: 06:15
+San bay Ca Mau ==> San bay Cam Ranh
+	26/01/2022: 04:15
+San bay Ca Mau ==> San bay Rach Gia
+	26/01/2022: 00:20
+San bay Ca Mau ==> San bay Tho Xuan
+	26/01/2022: 18:20
+San bay Can Tho ==> San bay Buon Ma Thuot
+	26/01/2022: 18:20
+San bay Buon Ma Thuot ==> San bay Ca Mau
+	26/01/2022: 17:50
+San bay Buon Ma Thuot ==> San bay Noi Bai
+	26/01/2022: 04:40
+San bay Buon Ma Thuot ==> San bay Pleiku
+	26/01/2022: 04:30
+San bay Pleiku ==> San bay Dien Bien Phu
+	26/01/2022: 06:15
+San bay Cat Bi ==> San bay Chu Lai
+	26/01/2022: 20:40
+San bay Cam Ranh ==> San bay Da Nang
+	26/01/2022: 01:10
+San bay Cam Ranh ==> San bay Noi Bai
+	26/01/2022: 01:10
+San bay Cam Ranh ==> San bay Phu Quoc
+	26/01/2022: 18:45
+San bay Rach Gia ==> San bay Con Dao
+	26/01/2022: 09:00
+San bay Rach Gia ==> San bay Lien Khuong
+	26/01/2022: 05:20
+San bay Rach Gia ==> San bay Phu Quoc
+	26/01/2022: 00:25
+San bay Rach Gia ==> San bay Tan Son Nhat
+	26/01/2022: 09:50
+San bay Lien Khuong ==> San bay Buon Ma Thuot
+	26/01/2022: 17:50
+San bay Lien Khuong ==> San bay Cam Ranh
+	26/01/2022: 04:50
+San bay Lien Khuong ==> San bay Can Tho
+	26/01/2022: 11:50
+San bay Lien Khuong ==> San bay Chu Lai
+	26/01/2022: 05:05
+San bay Tuy Hoa ==> San bay Can Tho
+	26/01/2022: 00:45
+San bay Tuy Hoa ==> San bay Con Dao
+	26/01/2022: 06:15
+San bay Dong Hoi ==> San bay Con Dao
+	26/01/2022: 16:00
+San bay Chu Lai ==> San bay Cam Ranh
+	26/01/2022: 11:10
+San bay Chu Lai ==> San bay Cat Bi
+	26/01/2022: 20:35
+San bay Phu Bai ==> San bay Ca Mau
+	26/01/2022: 00:25
+San bay Phu Bai ==> San bay Cam Ranh
+	26/01/2022: 14:50
+San bay Tho Xuan ==> San bay Phu Cat
+	26/01/2022: 12:10
+San bay Tan Son Nhat ==> San bay Cat Bi
+	27/01/2022: 06:00
+San bay Noi Bai ==> San bay Can Tho
+	27/01/2022: 07:15
+San bay Noi Bai ==> San bay Phu Cat
+	27/01/2022: 03:25
+San bay Da Nang ==> San bay Dien Bien Phu
+	27/01/2022: 01:00
+San bay Con Dao ==> San bay Buon Ma Thuot
+	27/01/2022: 01:10
+San bay Con Dao ==> San bay Dong Hoi
+	27/01/2022: 15:30
+San bay Ca Mau ==> San bay Chu Lai
+	27/01/2022: 12:10
+San bay Ca Mau ==> San bay Con Dao
+	27/01/2022: 07:20
+San bay Ca Mau ==> San bay Dien Bien Phu
+	27/01/2022: 14:15
+San bay Can Tho ==> San bay Cam Ranh
+	27/01/2022: 08:25
+San bay Dien Bien Phu ==> San bay Cat Bi
+	27/01/2022: 18:20
+San bay Dien Bien Phu ==> San bay Chu Lai
+	27/01/2022: 05:45
+San bay Dien Bien Phu ==> San bay Con Dao
+	27/01/2022: 00:25
+San bay Pleiku ==> San bay Cat Bi
+	27/01/2022: 12:30
+San bay Pleiku ==> San bay Con Dao
+	27/01/2022: 05:45
+San bay Pleiku ==> San bay Phu Cat
+	27/01/2022: 02:40
+San bay Cat Bi ==> San bay Con Dao
+	27/01/2022: 05:15
+San bay Cat Bi ==> San bay Da Nang
+	27/01/2022: 10:35
+San bay Cat Bi ==> San bay Phu Quoc
+	27/01/2022: 11:55
+San bay Cam Ranh ==> San bay Da Nang
+	27/01/2022: 12:10
+San bay Rach Gia ==> San bay Con Dao
+	27/01/2022: 17:50
+San bay Rach Gia ==> San bay Dien Bien Phu
+	27/01/2022: 15:05
+San bay Rach Gia ==> San bay Noi Bai
+	27/01/2022: 10:35
+San bay Lien Khuong ==> San bay Con Dao
+	27/01/2022: 18:45
+San bay Lien Khuong ==> San bay Da Nang
+	27/01/2022: 05:50
+San bay Lien Khuong ==> San bay Dien Bien Phu
+	27/01/2022: 02:25
+San bay Lien Khuong ==> San bay Phu Cat
+	27/01/2022: 03:25
+San bay Chu Lai ==> San bay Cat Bi
+	27/01/2022: 01:20
+San bay Chu Lai ==> San bay Dong Hoi
+	27/01/2022: 04:55
+San bay Phu Bai ==> San bay Buon Ma Thuot
+	27/01/2022: 01:20
+San bay Phu Bai ==> San bay Can Tho
+	27/01/2022: 03:40
+San bay Phu Bai ==> San bay Con Dao
+	27/01/2022: 00:45
+San bay Tho Xuan ==> San bay Buon Ma Thuot
+	27/01/2022: 00:45
+San bay Tho Xuan ==> San bay Ca Mau
+	27/01/2022: 18:20
+San bay Tho Xuan ==> San bay Phu Bai
+	27/01/2022: 06:20
+San bay Van Don ==> San bay Pleiku
+	27/01/2022: 20:35
+San bay Tan Son Nhat ==> San bay Phu Cat
+	28/01/2022: 12:10
+San bay Tan Son Nhat ==> San bay Phu Quoc
+	28/01/2022: 03:10
+San bay Noi Bai ==> San bay Da Nang
+	28/01/2022: 07:30
+San bay Noi Bai ==> San bay Rach Gia
+	28/01/2022: 07:30
+San bay Con Dao ==> San bay Cat Bi
+	28/01/2022: 02:15
+San bay Con Dao ==> San bay Dong Hoi
+	28/01/2022: 20:50
+San bay Phu Cat ==> San bay Can Tho
+	28/01/2022: 05:50
+San bay Phu Cat ==> San bay Dien Bien Phu
+	28/01/2022: 09:55
+San bay Phu Cat ==> San bay Phu Quoc
+	28/01/2022: 19:05
+San bay Ca Mau ==> San bay Buon Ma Thuot
+	28/01/2022: 14:50
+San bay Ca Mau ==> San bay Chu Lai
+	28/01/2022: 05:50
+San bay Can Tho ==> San bay Chu Lai
+	28/01/2022: 09:30
+San bay Buon Ma Thuot ==> San bay Chu Lai
+	28/01/2022: 17:20
+San bay Buon Ma Thuot ==> San bay Phu Cat
+	28/01/2022: 09:55
+San bay Dien Bien Phu ==> San bay Noi Bai
+	28/01/2022: 10:15
+San bay Pleiku ==> San bay Can Tho
+	28/01/2022: 20:50
+San bay Pleiku ==> San bay Da Nang
+	28/01/2022: 05:35
+San bay Cat Bi ==> San bay Phu Quoc
+	28/01/2022: 19:40
+San bay Cat Bi ==> San bay Rach Gia
+	28/01/2022: 15:30
+San bay Cam Ranh ==> San bay Ca Mau
+	28/01/2022: 10:15
+San bay Cam Ranh ==> San bay Phu Bai
+	28/01/2022: 05:15
+San bay Rach Gia ==> San bay Phu Bai
+	28/01/2022: 00:10
+San bay Rach Gia ==> San bay Phu Cat
+	28/01/2022: 00:20
+San bay Rach Gia ==> San bay Phu Quoc
+	28/01/2022: 08:25
+San bay Rach Gia ==> San bay Pleiku
+	28/01/2022: 15:05
+San bay Phu Quoc ==> San bay Ca Mau
+	28/01/2022: 18:30
+San bay Lien Khuong ==> San bay Can Tho
+	28/01/2022: 11:55
+San bay Lien Khuong ==> San bay Dien Bien Phu
+	28/01/2022: 05:05
+San bay Lien Khuong ==> San bay Phu Bai
+	28/01/2022: 12:10
+San bay Lien Khuong ==> San bay Tho Xuan
+	28/01/2022: 15:30
+San bay Tuy Hoa ==> San bay Chu Lai
+	28/01/2022: 09:05
+San bay Dong Hoi ==> San bay Con Dao
+	28/01/2022: 01:20
+San bay Dong Hoi ==> San bay Noi Bai
+	28/01/2022: 04:50
+San bay Dong Hoi ==> San bay Phu Cat
+	28/01/2022: 14:55
+San bay Chu Lai ==> San bay Da Nang
+	28/01/2022: 18:35
+San bay Chu Lai ==> San bay Rach Gia
+	28/01/2022: 16:00
+San bay Chu Lai ==> San bay Van Don
+	28/01/2022: 20:15
+San bay Phu Bai ==> San bay Lien Khuong
+	28/01/2022: 13:35
+San bay Tho Xuan ==> San bay Chu Lai
+	28/01/2022: 18:45
+San bay Tho Xuan ==> San bay Dong Hoi
+	28/01/2022: 06:15
+San bay Van Don ==> San bay Ca Mau
+	28/01/2022: 18:35
+San bay Van Don ==> San bay Da Nang
+	28/01/2022: 04:15
+San bay Van Don ==> San bay Noi Bai
+	28/01/2022: 05:15
+San bay Tan Son Nhat ==> San bay Ca Mau
+	29/01/2022: 11:45
+San bay Tan Son Nhat ==> San bay Con Dao
+	29/01/2022: 17:30
+San bay Tan Son Nhat ==> San bay Dien Bien Phu
+	29/01/2022: 00:45
+San bay Noi Bai ==> San bay Buon Ma Thuot
+	29/01/2022: 18:30
+San bay Noi Bai ==> San bay Tho Xuan
+	29/01/2022: 19:05
+San bay Da Nang ==> San bay Ca Mau
+	29/01/2022: 07:00
+San bay Da Nang ==> San bay Cam Ranh
+	29/01/2022: 02:25
+San bay Vinh ==> San bay Con Dao
+	29/01/2022: 11:35
+San bay Vinh ==> San bay Dong Hoi
+	29/01/2022: 02:15
+San bay Vinh ==> San bay Phu Bai
+	29/01/2022: 04:40
+San bay Vinh ==> San bay Phu Cat
+	29/01/2022: 03:20
+San bay Con Dao ==> San bay Ca Mau
+	29/01/2022: 11:20
+San bay Con Dao ==> San bay Cam Ranh
+	29/01/2022: 01:00
+San bay Con Dao ==> San bay Phu Cat
+	29/01/2022: 04:40
+San bay Con Dao ==> San bay Tuy Hoa
+	29/01/2022: 06:45
+San bay Phu Cat ==> San bay Cam Ranh
+	29/01/2022: 04:55
+San bay Phu Cat ==> San bay Can Tho
+	29/01/2022: 14:15
+San bay Phu Cat ==> San bay Chu Lai
+	29/01/2022: 11:35
+San bay Ca Mau ==> San bay Buon Ma Thuot
+	29/01/2022: 18:05
+San bay Ca Mau ==> San bay Can Tho
+	29/01/2022: 12:30
+San bay Ca Mau ==> San bay Tho Xuan
+	29/01/2022: 18:20
+San bay Can Tho ==> San bay Da Nang
+	29/01/2022: 06:00
+San bay Can Tho ==> San bay Phu Bai
+	29/01/2022: 06:05
+San bay Can Tho ==> San bay Phu Quoc
+	29/01/2022: 17:50
+San bay Can Tho ==> San bay Rach Gia
+	29/01/2022: 19:40
+San bay Dien Bien Phu ==> San bay Can Tho
+	29/01/2022: 20:00
+San bay Dien Bien Phu ==> San bay Rach Gia
+	29/01/2022: 16:30
+San bay Dien Bien Phu ==> San bay Van Don
+	29/01/2022: 15:35
+San bay Cat Bi ==> San bay Buon Ma Thuot
+	29/01/2022: 16:30
+San bay Cat Bi ==> San bay Dien Bien Phu
+	29/01/2022: 12:30
+San bay Cam Ranh ==> San bay Chu Lai
+	29/01/2022: 06:55
+San bay Cam Ranh ==> San bay Rach Gia
+	29/01/2022: 06:20
+San bay Cam Ranh ==> San bay Tan Son Nhat
+	29/01/2022: 11:55
+San bay Rach Gia ==> San bay Ca Mau
+	29/01/2022: 07:50
+San bay Phu Quoc ==> San bay Cam Ranh
+	29/01/2022: 01:10
+San bay Phu Quoc ==> San bay Noi Bai
+	29/01/2022: 17:20
+San bay Lien Khuong ==> San bay Cam Ranh
+	29/01/2022: 09:55
+San bay Lien Khuong ==> San bay Dien Bien Phu
+	29/01/2022: 05:05
+San bay Lien Khuong ==> San bay Dong Hoi
+	29/01/2022: 04:40
+San bay Lien Khuong ==> San bay Phu Bai
+	29/01/2022: 15:05
+San bay Dong Hoi ==> San bay Rach Gia
+	29/01/2022: 09:50
+San bay Chu Lai ==> San bay Can Tho
+	29/01/2022: 18:35
+San bay Chu Lai ==> San bay Con Dao
+	29/01/2022: 15:35
+San bay Chu Lai ==> San bay Da Nang
+	29/01/2022: 18:35
+San bay Chu Lai ==> San bay Lien Khuong
+	29/01/2022: 11:10
+San bay Phu Bai ==> San bay Phu Cat
+	29/01/2022: 18:20
+San bay Phu Bai ==> San bay Tho Xuan
+	29/01/2022: 05:35
+San bay Tho Xuan ==> San bay Ca Mau
+	29/01/2022: 11:20
+San bay Tho Xuan ==> San bay Con Dao
+	29/01/2022: 08:45
+San bay Tho Xuan ==> San bay Dong Hoi
+	29/01/2022: 13:15
+San bay Van Don ==> San bay Noi Bai
+	29/01/2022: 13:15
+San bay Van Don ==> San bay Tan Son Nhat
+	29/01/2022: 19:40
+San bay Tan Son Nhat ==> San bay Buon Ma Thuot
+	30/01/2022: 01:30
+San bay Tan Son Nhat ==> San bay Cam Ranh
+	30/01/2022: 09:55
+San bay Tan Son Nhat ==> San bay Con Dao
+	30/01/2022: 16:55
+San bay Tan Son Nhat ==> San bay Noi Bai
+	30/01/2022: 03:40
+San bay Noi Bai ==> San bay Cam Ranh
+	30/01/2022: 03:00
+San bay Da Nang ==> San bay Cat Bi
+	30/01/2022: 10:55
+San bay Da Nang ==> San bay Phu Bai
+	30/01/2022: 15:05
+San bay Da Nang ==> San bay Rach Gia
+	30/01/2022: 01:30
+San bay Da Nang ==> San bay Tho Xuan
+	30/01/2022: 20:50
+San bay Vinh ==> San bay Noi Bai
+	30/01/2022: 10:45
+San bay Con Dao ==> San bay Can Tho
+	30/01/2022: 17:15
+San bay Phu Cat ==> San bay Buon Ma Thuot
+	30/01/2022: 16:20
+San bay Phu Cat ==> San bay Dien Bien Phu
+	30/01/2022: 03:10
+San bay Phu Cat ==> San bay Noi Bai
+	30/01/2022: 11:45
+San bay Ca Mau ==> San bay Chu Lai
+	30/01/2022: 14:50
+San bay Ca Mau ==> San bay Rach Gia
+	30/01/2022: 15:05
+San bay Can Tho ==> San bay Cat Bi
+	30/01/2022: 03:35
+San bay Can Tho ==> San bay Dien Bien Phu
+	30/01/2022: 14:55
+San bay Can Tho ==> San bay Phu Quoc
+	30/01/2022: 15:10
+San bay Can Tho ==> San bay Rach Gia
+	30/01/2022: 13:50
+San bay Buon Ma Thuot ==> San bay Noi Bai
+	30/01/2022: 00:20
+San bay Dien Bien Phu ==> San bay Can Tho
+	30/01/2022: 05:15
+San bay Dien Bien Phu ==> San bay Chu Lai
+	30/01/2022: 09:00
+San bay Dien Bien Phu ==> San bay Phu Quoc
+	30/01/2022: 04:50
+San bay Dien Bien Phu ==> San bay Tuy Hoa
+	30/01/2022: 05:35
+San bay Cat Bi ==> San bay Buon Ma Thuot
+	30/01/2022: 03:40
+San bay Rach Gia ==> San bay Buon Ma Thuot
+	30/01/2022: 14:55
+San bay Rach Gia ==> San bay Cat Bi
+	30/01/2022: 14:15
+San bay Rach Gia ==> San bay Noi Bai
+	30/01/2022: 05:20
+San bay Phu Quoc ==> San bay Chu Lai
+	30/01/2022: 04:30
+San bay Phu Quoc ==> San bay Noi Bai
+	30/01/2022: 16:00
+San bay Phu Quoc ==> San bay Tan Son Nhat
+	30/01/2022: 09:50
+San bay Lien Khuong ==> San bay Ca Mau
+	30/01/2022: 17:30
+San bay Lien Khuong ==> San bay Phu Bai
+	30/01/2022: 16:30
+San bay Lien Khuong ==> San bay Phu Cat
+	30/01/2022: 09:30
+San bay Tuy Hoa ==> San bay Da Nang
+	30/01/2022: 17:50
+San bay Tuy Hoa ==> San bay Pleiku
+	30/01/2022: 17:30
+San bay Tuy Hoa ==> San bay Rach Gia
+	30/01/2022: 09:00
+San bay Dong Hoi ==> San bay Dien Bien Phu
+	30/01/2022: 08:25
+San bay Dong Hoi ==> San bay Phu Cat
+	30/01/2022: 10:15
+San bay Chu Lai ==> San bay Buon Ma Thuot
+	30/01/2022: 11:35
+San bay Phu Bai ==> San bay Dien Bien Phu
+	30/01/2022: 10:45
+San bay Phu Bai ==> San bay Phu Cat
+	30/01/2022: 17:15
+San bay Tho Xuan ==> San bay Van Don
+	30/01/2022: 18:35
+San bay Van Don ==> San bay Ca Mau
+	30/01/2022: 03:25
+San bay Van Don ==> San bay Can Tho
+	30/01/2022: 06:20
+San bay Van Don ==> San bay Chu Lai
+	30/01/2022: 04:40
+San bay Van Don ==> San bay Dong Hoi
+	30/01/2022: 16:30
+San bay Tan Son Nhat ==> San bay Cat Bi
+	31/01/2022: 18:35
+San bay Tan Son Nhat ==> San bay Lien Khuong
+	31/01/2022: 07:50
+San bay Tan Son Nhat ==> San bay Rach Gia
+	31/01/2022: 07:15
+San bay Da Nang ==> San bay Tho Xuan
+	31/01/2022: 03:40
+San bay Vinh ==> San bay Can Tho
+	31/01/2022: 18:35
+San bay Vinh ==> San bay Chu Lai
+	31/01/2022: 17:20
+San bay Con Dao ==> San bay Can Tho
+	31/01/2022: 03:50
+San bay Phu Cat ==> San bay Cam Ranh
+	31/01/2022: 08:05
+San bay Phu Cat ==> San bay Dong Hoi
+	31/01/2022: 09:55
+San bay Ca Mau ==> San bay Con Dao
+	31/01/2022: 08:45
+San bay Ca Mau ==> San bay Rach Gia
+	31/01/2022: 10:55
+San bay Can Tho ==> San bay Buon Ma Thuot
+	31/01/2022: 06:00
+San bay Can Tho ==> San bay Cat Bi
+	31/01/2022: 03:45
+San bay Can Tho ==> San bay Lien Khuong
+	31/01/2022: 06:00
+San bay Can Tho ==> San bay Phu Cat
+	31/01/2022: 18:35
+San bay Dien Bien Phu ==> San bay Can Tho
+	31/01/2022: 07:30
+San bay Dien Bien Phu ==> San bay Da Nang
+	31/01/2022: 07:00
+San bay Dien Bien Phu ==> San bay Noi Bai
+	31/01/2022: 14:50
+San bay Pleiku ==> San bay Ca Mau
+	31/01/2022: 18:20
+San bay Pleiku ==> San bay Cam Ranh
+	31/01/2022: 11:10
+San bay Pleiku ==> San bay Dong Hoi
+	31/01/2022: 14:50
+San bay Pleiku ==> San bay Phu Bai
+	31/01/2022: 18:35
+San bay Cat Bi ==> San bay Tan Son Nhat
+	31/01/2022: 01:00
+San bay Cat Bi ==> San bay Van Don
+	31/01/2022: 05:20
+San bay Cam Ranh ==> San bay Pleiku
+	31/01/2022: 03:20
+San bay Cam Ranh ==> San bay Tho Xuan
+	31/01/2022: 12:10
+San bay Rach Gia ==> San bay Can Tho
+	31/01/2022: 18:45
+San bay Rach Gia ==> San bay Chu Lai
+	31/01/2022: 12:10
+San bay Rach Gia ==> San bay Phu Bai
+	31/01/2022: 14:35
+San bay Rach Gia ==> San bay Tho Xuan
+	31/01/2022: 20:35
+San bay Phu Quoc ==> San bay Con Dao
+	31/01/2022: 11:20
+San bay Lien Khuong ==> San bay Cam Ranh
+	31/01/2022: 04:50
+San bay Dong Hoi ==> San bay Cam Ranh
+	31/01/2022: 06:20
+San bay Dong Hoi ==> San bay Cat Bi
+	31/01/2022: 09:30
+San bay Dong Hoi ==> San bay Phu Bai
+	31/01/2022: 16:55
+San bay Tho Xuan ==> San bay Cat Bi
+	31/01/2022: 20:20
+San bay Tho Xuan ==> San bay Phu Cat
+	31/01/2022: 03:10
+San bay Tho Xuan ==> San bay Vinh
+	31/01/2022: 03:00

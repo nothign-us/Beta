@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//-----------------------------------------------------------------
 Date::Date()
 {
     time_t currentTime;
@@ -15,6 +16,7 @@ Date::Date()
     _year = localTime->tm_year + 1900;
 }
 
+//-----------------------------------------------------------------
 Date::Date(int day, int mon, int year)
 {
     _day = day;
@@ -22,72 +24,66 @@ Date::Date(int day, int mon, int year)
     _year = year;
 }
 
-Date::~Date()
-{
-}
-
+//-----------------------------------------------------------------
 bool Date::operator==(const Date& d) {
     return _day == d._day && _month == d._month && _year == d._year;
 }
 
+//-----------------------------------------------------------------
 bool Date::operator!=(const Date& d) {
     return _day != d._day || _month != d._month || _year != d._year;
 }
 
+//-----------------------------------------------------------------
 bool Date::operator<(const Date& d) {
-    return _day < d._day 
-        || (_day == d._day && _month < d._month) 
-        || (_month == d._month && _year < d._year);
+    return  (this->_year < d._year) ||
+            (this->_year == d._year && this->_month < d._month) ||
+            (this->_year == d._year && this->_month == d._month && this->_day < d._day);
 }
 
+//-----------------------------------------------------------------
 int Date::getDay()
 {
     return _day;
 }
 
+//-----------------------------------------------------------------
 int Date::getMonth()
 {
     return _month;
 }
 
+//-----------------------------------------------------------------
 int Date::getYear()
 {
     return _year;
 }
 
+//-----------------------------------------------------------------
 void Date::setDay(int day)
 {
     _day = day;
 }
 
+//-----------------------------------------------------------------
 void Date::setMonth(int mon)
 {
     _month = mon;
 }
 
+//-----------------------------------------------------------------
 void Date::setYear(int year)
 {
     _year = year;
 }
 
+//-----------------------------------------------------------------
 bool Date::IsLeapYear(int year)
 {
-    if (year % 4 == 0)
-    {
-        if (year % 100 == 0)
-        {
-            if (year % 400 == 0)
-                return true;
-            else
-                return false;
-        }
-        else
-            return true;
-    }
-    else
-        return false;
+    return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
 }
 
+//-----------------------------------------------------------------
 bool Date::IsValidDate(int day, int mon, int year)
 {
     if (mon < 1 || mon > 12)
@@ -104,15 +100,17 @@ bool Date::IsValidDate(int day, int mon, int year)
     return true;
 }
 
+//-----------------------------------------------------------------
 string Date::ToString() const
 {
     stringstream writer;
-    writer << ((_day < 10) ? ("0" + to_string(_day)) : to_string(_day));
-    writer << "/" << ((_month < 10) ? ("0" + to_string(_month)) : to_string(_month));
-    writer << "/" << to_string(_year);
+    writer << (_day < 10 ? "0" : "") << _day;
+    writer << "/" << (_month < 10 ? "0" : "") << _month;
+    writer << "/" << _year;
     return writer.str();
 }
 
+//-----------------------------------------------------------------
 Date Date::Parse(const string dateStr) {
     vector<string> tokens = Tokenizer::Parse(dateStr, "/");
     int day = stoi(tokens[0]);
@@ -122,6 +120,7 @@ Date Date::Parse(const string dateStr) {
     return result;
 }
 
+//-----------------------------------------------------------------
 istream &operator>>(istream &inp, Date &d)
 {
     cout << "Day: ";
@@ -133,6 +132,7 @@ istream &operator>>(istream &inp, Date &d)
     return inp;
 }
 
+//-----------------------------------------------------------------
 ostream &operator<<(ostream &out, const Date &d)
 {
     out << d.ToString();

@@ -17,23 +17,13 @@ protected:
     string _email;
     
 public:
-    Client() {
-        _name = "_";
-    }
+    Client();
     Client(string name, Date birthDay, string id, Address address, int sex, string phone, string email);
     string getName() const;
     string getPhoneNumber() const;
     string getEmail() const;
-/*  void setName(string srcName);
-    void setBirth(Date srcBirth);
-    void setID(string srcID);
-    void setAddress(Address srcAdd);
-    void setSex(int srcSex);
-    void setPhoneNumber(string srcPhoneNumber);
-    void setEmail(string srcEmail); */
-    virtual int getDiscount() const {
-        return 0;
-    }
+    virtual int getDiscount() const;
+public:
     friend istream& operator>>(istream &is, Client &src);
     friend ostream& operator<<(ostream &os, const Client &src);
 };

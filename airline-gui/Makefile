@@ -72,7 +72,8 @@ SOURCES       = Account.cpp \
 		main.cpp \
 		mainwindow.cpp \
 		makeMenu.cpp \
-		signupwindow.cpp moc_SearchForOption.cpp \
+		signupwindow.cpp qrc_Resources.cpp \
+		moc_SearchForOption.cpp \
 		moc_SearchForStrAndDepartureDate.cpp \
 		moc_SearchForStrAndDesAirport.cpp \
 		moc_SelectFlight.cpp \
@@ -101,6 +102,7 @@ OBJECTS       = Account.o \
 		mainwindow.o \
 		makeMenu.o \
 		signupwindow.o \
+		qrc_Resources.o \
 		moc_SearchForOption.o \
 		moc_SearchForStrAndDepartureDate.o \
 		moc_SearchForStrAndDesAirport.o \
@@ -14361,7 +14363,8 @@ Makefile: airline-gui.pro /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exceptions.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/yacc.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/lex.prf \
-		airline-gui.pro
+		airline-gui.pro \
+		Resources.qrc
 	$(QMAKE) -o Makefile airline-gui.pro -spec linux-g++ CONFIG+=debug
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/unix.conf:
@@ -14439,6 +14442,7 @@ Makefile: airline-gui.pro /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/yacc.prf:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/lex.prf:
 airline-gui.pro:
+Resources.qrc:
 qmake: FORCE
 	@$(QMAKE) -o Makefile airline-gui.pro -spec linux-g++ CONFIG+=debug
 
@@ -14453,6 +14457,7 @@ dist: distdir FORCE
 distdir: FORCE
 	@test -d $(DISTDIR) || mkdir -p $(DISTDIR)
 	$(COPY_FILE) --parents $(DIST) $(DISTDIR)/
+	$(COPY_FILE) --parents Resources.qrc $(DISTDIR)/
 	$(COPY_FILE) --parents /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/data/dummy.cpp $(DISTDIR)/
 	$(COPY_FILE) --parents Account.h Address.h Airport.h Client.h Date.h Flight.h Manager.h MyTime.h SearchForOption.h SearchForStrAndDepartureDate.h SearchForStrAndDesAirport.h Seat.h SelectFlight.h Ticket.h Tokenizer.h adminmenu.h clientmenu.h mainwindow.h makeMenu.h signupwindow.h $(DISTDIR)/
 	$(COPY_FILE) --parents Account.cpp Address.cpp Airport.cpp Client.cpp Date.cpp Flight.cpp Manager.cpp MyTime.cpp SearchForOption.cpp SearchForStrAndDepartureDate.cpp SearchForStrAndDesAirport.cpp Seat.cpp SelectFlight.cpp Ticket.cpp Tokenizer.cpp adminmenu.cpp clientmenu.cpp main.cpp mainwindow.cpp makeMenu.cpp signupwindow.cpp $(DISTDIR)/
@@ -14480,8 +14485,15 @@ check: first
 
 benchmark: first
 
-compiler_rcc_make_all:
+compiler_rcc_make_all: qrc_Resources.cpp
 compiler_rcc_clean:
+	-$(DEL_FILE) qrc_Resources.cpp
+qrc_Resources.cpp: Resources.qrc \
+		/usr/lib/qt5/bin/rcc \
+		Images/icon-airline-app.png \
+		Images/logo.png
+	/usr/lib/qt5/bin/rcc -name Resources Resources.qrc -o qrc_Resources.cpp
+
 compiler_moc_predefs_make_all: moc_predefs.h
 compiler_moc_predefs_clean:
 	-$(DEL_FILE) moc_predefs.h
@@ -14667,7 +14679,7 @@ compiler_yacc_impl_make_all:
 compiler_yacc_impl_clean:
 compiler_lex_make_all:
 compiler_lex_clean:
-compiler_clean: compiler_moc_predefs_clean compiler_moc_header_clean compiler_uic_clean 
+compiler_clean: compiler_rcc_clean compiler_moc_predefs_clean compiler_moc_header_clean compiler_uic_clean 
 
 ####### Compile
 
@@ -14918,6 +14930,9 @@ signupwindow.o: signupwindow.cpp signupwindow.h \
 		Manager.h \
 		ui_signupwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o signupwindow.o signupwindow.cpp
+
+qrc_Resources.o: qrc_Resources.cpp 
+	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o qrc_Resources.o qrc_Resources.cpp
 
 moc_SearchForOption.o: moc_SearchForOption.cpp 
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o moc_SearchForOption.o moc_SearchForOption.cpp

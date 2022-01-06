@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>Images/logo.png</file>
+        <file>Images/icon-airline-app.png</file>
+    </qresource>
+</RCC>
