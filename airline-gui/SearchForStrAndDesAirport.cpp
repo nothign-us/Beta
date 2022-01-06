@@ -53,14 +53,12 @@ void SearchForStrAndDesAirport::on_Confirm_clicked()
         else{
            SelectFlight *option = new SelectFlight(listFlight,isEco, listTicket);
            option->exec();
-           Ticket* tk = nullptr;
            if(isEco)
-              tk = new EcoTicket(option->getSelectedFlight(), CurrentAccount->getClient(),option->selectSeat(),option->isSelectSeat);
+              bookedTicket = new EcoTicket(option->getSelectedFlight(), CurrentAccount->getClient(),option->selectSeat(),option->isSelectSeat);
             else{
-              tk = new SkybossTicket(option->getSelectedFlight(), CurrentAccount->getClient(),option->selectSeat(),option->isSelectSeat);
-              tk->setSkyboss();
+              bookedTicket = new SkybossTicket(option->getSelectedFlight(), CurrentAccount->getClient(),option->selectSeat(),option->isSelectSeat);
+              bookedTicket->setSkyboss();
            }
-           bookedTicket = tk;
         }
     }
 }

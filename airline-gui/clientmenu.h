@@ -36,6 +36,8 @@ private:
     Account* CurrentAccount;
     vector<QCheckBox*> checkbox;
     QDialog *OutScreen;
+
+    bool isPurchase;
 };
 
 #endif // CLIENTMENU_H

@@ -29,15 +29,23 @@ void ClientMenu::on_bookTicketButton_clicked()
 }
 
 void ClientMenu::on_signoutButton_clicked() {
+    isPurchase = false;
     close();
 }
 
 void ClientMenu::on_printTicketButton_clicked()
 {
-    if(ListTicket.empty())
+    if(ListTicket.empty()&&isPurchase)
+    {
+        QMessageBox OK;OK.setWindowTitle("Vui lòng đặt thêm vé");
+        OK.setText("Bạn đã thanh toán, vui lòng đặt thêm!");
+        OK.exec();
+    }
+    else if(ListTicket.empty())
         QMessageBox::critical(this, "Tài khoản chưa đặt vé", "Vui lòng đặt vé");
     else
     {
+        isPurchase = false;
         //Xuat danh sach ve ra man hinh
         OutScreen = new QDialog;
         OutScreen->setWindowTitle("Danh sách vé");
@@ -73,7 +81,6 @@ void ClientMenu::on_printTicketButton_clicked()
         if(connect(RemoveTicket, &QPushButton::clicked, this, &ClientMenu::RemoveFromListTicket))
            OutScreen->close();
         OutScreen->exec();
-        delete OutScreen;
     }
 }
 
@@ -102,9 +109,6 @@ void ClientMenu::RemoveFromListTicket()
         else
             index++;
     }
-    //for(auto i: checkbox)
-        //delete i;
-    checkbox.clear();
     QMessageBox OK;OK.setWindowTitle("OK!");
     OK.setText("Xóa vé thành công!");
     OK.exec();
@@ -126,6 +130,8 @@ void ClientMenu::on_purchaseButton_clicked()
         totalPrice_Str += "\n Đặt vé thành công, cảm ơn bạn!";
         QMessageBox OK;OK.setWindowTitle("Xong"); OK.setText(QString::fromStdString(totalPrice_Str));
         OK.exec();
+        isPurchase = true;
+        ListTicket.clear();
 
     }
 }
