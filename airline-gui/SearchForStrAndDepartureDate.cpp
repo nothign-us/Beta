@@ -14,6 +14,7 @@ SearchForStrAndDepartureDate::SearchForStrAndDepartureDate(Account* currentAccou
     for(string i:listAirport){
         ui->SrtAirport->addItem(QString::fromStdString(i));
     }
+    bookedTicket = nullptr;
 }
 
 SearchForStrAndDepartureDate::~SearchForStrAndDepartureDate()

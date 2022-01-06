@@ -24,14 +24,16 @@ void SearchForOption::on_confirm_clicked()
     {
         SearchForStrAndDesAirport option(currentAccount);
         option.exec();
-        bookedTicket.push_back(option.getBookedTicket());
+        if(option.getBookedTicket())
+            bookedTicket.push_back(option.getBookedTicket());
 
     }
     else if(ui->btn2->isChecked())
     {
         SearchForStrAndDepartureDate option(currentAccount);
         option.exec();
-        bookedTicket.push_back(option.getBookedTicket());
+        if(option.getBookedTicket())
+            bookedTicket.push_back(option.getBookedTicket());
     }
     else
     {

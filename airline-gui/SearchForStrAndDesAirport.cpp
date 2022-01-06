@@ -15,6 +15,7 @@ SearchForStrAndDesAirport::SearchForStrAndDesAirport(Account* currentAcc, QWidge
     for(string i:listAirport){
         ui->StrAirport->addItem(QString::fromStdString(i));
     }
+     bookedTicket = nullptr;
 }
 
 SearchForStrAndDesAirport::~SearchForStrAndDesAirport()
