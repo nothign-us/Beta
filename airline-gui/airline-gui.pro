@@ -1459,3 +1459,6 @@ DISTFILES += \
     FlightSchedule/San bay Vinh/San bay Vinh_San bay Van Don.txt \
     ListTickets.txt \
     VietNamAirport.txt
+
+RESOURCES += \
+    Resources.qrc

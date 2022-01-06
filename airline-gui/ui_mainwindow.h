@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.8
+** Created by: Qt User Interface Compiler version 5.12.12
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,6 +10,7 @@
 #define UI_MAINWINDOW_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
@@ -59,6 +60,9 @@ public:
         MainWindow->setSizePolicy(sizePolicy);
         MainWindow->setMinimumSize(QSize(766, 465));
         MainWindow->setMaximumSize(QSize(766, 465));
+        QIcon icon;
+        icon.addFile(QString::fromUtf8(":/Images/Images/icon-airline-app.png"), QSize(), QIcon::Normal, QIcon::Off);
+        MainWindow->setWindowIcon(icon);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         sizePolicy.setHeightForWidth(centralwidget->sizePolicy().hasHeightForWidth());
@@ -88,7 +92,7 @@ public:
 
         logo = new QLabel(horizontalWidget);
         logo->setObjectName(QString::fromUtf8("logo"));
-        logo->setPixmap(QPixmap(QString::fromUtf8("Images/logo.png")));
+        logo->setPixmap(QPixmap(QString::fromUtf8(":/Images/Images/logo.png")));
 
         verticalLayout->addWidget(logo, 0, Qt::AlignHCenter);
 

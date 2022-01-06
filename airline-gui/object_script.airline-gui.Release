@@ -19,6 +19,7 @@ release/main.o
 release/mainwindow.o
 release/makeMenu.o
 release/signupwindow.o
+release/qrc_Resources.o
 release/moc_SearchForOption.o
 release/moc_SearchForStrAndDepartureDate.o
 release/moc_SearchForStrAndDesAirport.o
