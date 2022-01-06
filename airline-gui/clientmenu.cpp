@@ -102,8 +102,8 @@ void ClientMenu::RemoveFromListTicket()
         else
             index++;
     }
-    for(auto i: checkbox)
-        delete i;
+    //for(auto i: checkbox)
+        //delete i;
     checkbox.clear();
     QMessageBox OK;OK.setWindowTitle("OK!");
     OK.setText("Xóa vé thành công!");
