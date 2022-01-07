@@ -15712,15 +15712,7 @@ debug/SearchForOption.o: SearchForOption.cpp SearchForOption.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QGroupBox \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgroupbox.h \
 		SearchForStrAndDesAirport.h \
-		ui_SearchForOption.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qcoreapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qeventloop.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qdesktopwidget.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qguiapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qinputmethod.h
+		ui_SearchForOption.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\SearchForOption.o SearchForOption.cpp
 
 debug/SearchForStrAndDepartureDate.o: SearchForStrAndDepartureDate.cpp SearchForStrAndDepartureDate.h \
@@ -15856,32 +15848,7 @@ debug/SearchForStrAndDepartureDate.o: SearchForStrAndDepartureDate.cpp SearchFor
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qframe.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QGroupBox \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgroupbox.h \
-		ui_SearchForStrAndDepartureDate.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qcoreapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qeventloop.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qdesktopwidget.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qguiapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qinputmethod.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QComboBox \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qcombobox.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractitemdelegate.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qstyleoption.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractspinbox.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qvalidator.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qregularexpression.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qslider.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractslider.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qstyle.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabbar.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabwidget.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qrubberband.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qabstractitemmodel.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QDateEdit \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qdatetimeedit.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qdatetime.h
+		ui_SearchForStrAndDepartureDate.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\SearchForStrAndDepartureDate.o SearchForStrAndDepartureDate.cpp
 
 debug/SearchForStrAndDesAirport.o: SearchForStrAndDesAirport.cpp SearchForStrAndDesAirport.h \
@@ -16017,29 +15984,7 @@ debug/SearchForStrAndDesAirport.o: SearchForStrAndDesAirport.cpp SearchForStrAnd
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qframe.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QGroupBox \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgroupbox.h \
-		ui_SearchForStrAndDesAirport.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qcoreapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qeventloop.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qdesktopwidget.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qguiapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qinputmethod.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QComboBox \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qcombobox.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractitemdelegate.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qstyleoption.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractspinbox.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qvalidator.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qregularexpression.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qslider.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractslider.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qstyle.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabbar.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabwidget.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qrubberband.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qabstractitemmodel.h
+		ui_SearchForStrAndDesAirport.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\SearchForStrAndDesAirport.o SearchForStrAndDesAirport.cpp
 
 debug/Seat.o: Seat.cpp Seat.h
@@ -16176,35 +16121,7 @@ debug/SelectFlight.o: SelectFlight.cpp SelectFlight.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qframe.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QGroupBox \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgroupbox.h \
-		ui_SelectFlight.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qcoreapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qeventloop.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qdesktopwidget.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qguiapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qinputmethod.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QComboBox \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qcombobox.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractitemdelegate.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qstyleoption.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractspinbox.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qvalidator.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qregularexpression.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qslider.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractslider.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qstyle.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabbar.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabwidget.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qrubberband.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qabstractitemmodel.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QVBoxLayout \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qboxlayout.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayout.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayoutitem.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgridlayout.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QWidget
+		ui_SelectFlight.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\SelectFlight.o SelectFlight.cpp
 
 debug/Ticket.o: Ticket.cpp Ticket.h \
@@ -16359,45 +16276,6 @@ debug/adminmenu.o: adminmenu.cpp adminmenu.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qvector2d.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtouchdevice.h \
 		ui_adminmenu.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qcoreapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qeventloop.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qdesktopwidget.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qguiapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qinputmethod.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QHBoxLayout \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qboxlayout.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayout.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayoutitem.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgridlayout.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QHeaderView \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qheaderview.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractitemview.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractscrollarea.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qframe.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qabstractitemmodel.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qitemselectionmodel.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractitemdelegate.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qstyleoption.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractspinbox.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qvalidator.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qregularexpression.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qicon.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qslider.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractslider.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qstyle.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabbar.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabwidget.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qrubberband.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QLabel \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlabel.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QTableWidget \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtablewidget.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtableview.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QVBoxLayout \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QWidget \
 		Account.h \
 		Ticket.h \
 		Flight.h \
@@ -16555,21 +16433,6 @@ debug/clientmenu.o: clientmenu.cpp clientmenu.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabwidget.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QDebug \
 		ui_clientmenu.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qcoreapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qeventloop.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qdesktopwidget.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qguiapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qinputmethod.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QHBoxLayout \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qboxlayout.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayout.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayoutitem.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgridlayout.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QSpacerItem \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QVBoxLayout \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QScrollArea \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qscrollarea.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractscrollarea.h
@@ -16865,30 +16728,7 @@ debug/mainwindow.o: mainwindow.cpp mainwindow.h \
 		SearchForStrAndDesAirport.h \
 		signupwindow.h \
 		adminmenu.h \
-		ui_mainwindow.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qcoreapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qeventloop.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qdesktopwidget.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qguiapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qinputmethod.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QHBoxLayout \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qboxlayout.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayout.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayoutitem.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgridlayout.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QLineEdit \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlineedit.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtextcursor.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtextformat.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qpen.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtextoption.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QSpacerItem \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QStatusBar \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qstatusbar.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QVBoxLayout
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mainwindow.o mainwindow.cpp
 
 debug/makeMenu.o: makeMenu.cpp makeMenu.h \
@@ -17057,53 +16897,7 @@ debug/signupwindow.o: signupwindow.cpp signupwindow.h \
 		Seat.h \
 		Client.h \
 		Manager.h \
-		ui_signupwindow.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qcoreapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qeventloop.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qdesktopwidget.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qguiapplication.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qinputmethod.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QComboBox \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qcombobox.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractitemdelegate.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qstyleoption.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractspinbox.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qvalidator.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qregularexpression.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qicon.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qslider.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractslider.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qstyle.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabbar.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabwidget.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qrubberband.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qframe.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qabstractitemmodel.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QDateEdit \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qdatetimeedit.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qdatetime.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QHBoxLayout \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qboxlayout.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayout.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlayoutitem.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgridlayout.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QLabel \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlabel.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QLineEdit \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qlineedit.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtextcursor.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtextformat.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qpen.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtextoption.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QPushButton \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qpushbutton.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qabstractbutton.h \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QSpacerItem \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QVBoxLayout \
-		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QWidget
+		ui_signupwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\signupwindow.o signupwindow.cpp
 
 debug/qrc_Resources.o: debug/qrc_Resources.cpp 

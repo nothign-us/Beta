@@ -12,7 +12,7 @@ SearchForStrAndDesAirport::SearchForStrAndDesAirport(Account* currentAcc, QWidge
     ui->skyboss->setText("Hạng thương gia");
 
     vector<string> listAirport = Manager::listAirport;
-    for(string i:listAirport){
+    for(string i : listAirport){
         ui->StrAirport->addItem(QString::fromStdString(i));
     }
      bookedTicket = nullptr;

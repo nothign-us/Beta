@@ -10,7 +10,6 @@
 #define UI_MAINWINDOW_H
 
 #include <QtCore/QVariant>
-#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
@@ -60,9 +59,6 @@ public:
         MainWindow->setSizePolicy(sizePolicy);
         MainWindow->setMinimumSize(QSize(766, 465));
         MainWindow->setMaximumSize(QSize(766, 465));
-        QIcon icon;
-        icon.addFile(QString::fromUtf8(":/Images/Images/icon-airline-app.png"), QSize(), QIcon::Normal, QIcon::Off);
-        MainWindow->setWindowIcon(icon);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QString::fromUtf8("centralwidget"));
         sizePolicy.setHeightForWidth(centralwidget->sizePolicy().hasHeightForWidth());

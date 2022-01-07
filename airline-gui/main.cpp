@@ -16,7 +16,11 @@ vector<string> Manager::listAirport, Manager::listProvince;
 
 int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
+    a.setWindowIcon(QIcon(":/Images/Images/icon-airline-app.png"));
+
     MainWindow mainProgram;
     mainProgram.show();
+
     a.exec();
+    return 0;
 }

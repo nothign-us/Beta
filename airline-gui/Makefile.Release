@@ -15712,7 +15712,7 @@ release/SearchForOption.o: SearchForOption.cpp SearchForOption.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QGroupBox \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgroupbox.h \
 		SearchForStrAndDesAirport.h \
-		ui_SearchForOption.h \
+		release/ui_SearchForOption.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
@@ -15856,7 +15856,7 @@ release/SearchForStrAndDepartureDate.o: SearchForStrAndDepartureDate.cpp SearchF
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qframe.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QGroupBox \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgroupbox.h \
-		ui_SearchForStrAndDepartureDate.h \
+		release/ui_SearchForStrAndDepartureDate.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
@@ -16017,7 +16017,7 @@ release/SearchForStrAndDesAirport.o: SearchForStrAndDesAirport.cpp SearchForStrA
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qframe.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QGroupBox \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgroupbox.h \
-		ui_SearchForStrAndDesAirport.h \
+		release/ui_SearchForStrAndDesAirport.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
@@ -16176,7 +16176,7 @@ release/SelectFlight.o: SelectFlight.cpp SelectFlight.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qframe.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QGroupBox \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qgroupbox.h \
-		ui_SelectFlight.h \
+		release/ui_SelectFlight.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
@@ -16358,7 +16358,7 @@ release/adminmenu.o: adminmenu.cpp adminmenu.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/qfiledevice.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qvector2d.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtGui/qtouchdevice.h \
-		ui_adminmenu.h \
+		release/ui_adminmenu.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
@@ -16554,7 +16554,7 @@ release/clientmenu.o: clientmenu.cpp clientmenu.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qmainwindow.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qtabwidget.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QDebug \
-		ui_clientmenu.h \
+		release/ui_clientmenu.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
@@ -16865,7 +16865,7 @@ release/mainwindow.o: mainwindow.cpp mainwindow.h \
 		SearchForStrAndDesAirport.h \
 		signupwindow.h \
 		adminmenu.h \
-		ui_mainwindow.h \
+		release/ui_mainwindow.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
@@ -17057,7 +17057,7 @@ release/signupwindow.o: signupwindow.cpp signupwindow.h \
 		Seat.h \
 		Client.h \
 		Manager.h \
-		ui_signupwindow.h \
+		release/ui_signupwindow.h \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtCore/QVariant \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/QApplication \
 		C:/Qt/Qt5.12.12/5.12.12/mingw73_64/include/QtWidgets/qapplication.h \
