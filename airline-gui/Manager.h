@@ -29,4 +29,5 @@ public:
     static void removeTicket(Ticket*);
     bool bookTicket(Ticket*);
     int getPrice(Ticket*, int extraFee);
+    static bool RegisterAdminAccount(std::string username, std::string password);
 };

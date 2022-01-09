@@ -33,11 +33,6 @@ string Client::getEmail() const {
 }
 
 //-----------------------------------------------------------
-int Client::getDiscount() const {
-    return 0;
-}
-
-//-----------------------------------------------------------
 istream &operator>>(istream &inp, Client &src)
 {
     cin.ignore();

@@ -17,6 +17,7 @@ AdminMenu::AdminMenu(std::string username, QWidget *parent) :
 
     ui->bookedTicketDisplay->setColumnCount(6);
     ui->bookedTicketDisplay->setRowCount(AdminAccount::GetNumberOfBookedTicket());
+    ui->bookedTicketDisplay->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
 
     QStringList headers;
     headers << "Sân bay đi" << "Sân bay đến" << "Ngày khởi hành" << "Giờ khởi hành" << "Tên chủ vé" << "Số điện thoại";

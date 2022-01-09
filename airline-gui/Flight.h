@@ -3,13 +3,15 @@
 #include "Airport.h"
 #include "MyTime.h"
 #include "Date.h"
-#include <vector>
 #include "Seat.h"
+
+#include <vector>
 #include <iomanip>
 #include <sstream>
+
 class Flight
 {
-public:
+private:
     Airport _start;
     Airport _destination;
     Time _departingAt;
@@ -25,15 +27,17 @@ public:
     Flight();
     Flight(string strA, string des);
     Flight(Airport strA, Airport des, Date departure, Date arrival, Time strT, Time endT);
-    bool operator==(const Flight&);
-    bool operator<(const Flight&);
+    
     Airport GetStartAiport() const;
     Airport GetDestinateAiport() const;
     Date GetArrivalDate() const;
     Date GetDepartureDate() const;
     Time GetDepartTime() const;
     Time GetArrivalTime() const;
-    friend istream &operator>>(istream &is, Flight &src);
-    friend ostream &operator<<(ostream &os, Flight src);
     string toString();
+
+    friend istream &operator>>(istream &is, Flight &src);
+    friend ostream &operator<<(ostream &os, const Flight& src);
+    bool operator==(const Flight&);
+    bool operator<(const Flight&);
 };

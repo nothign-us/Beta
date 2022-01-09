@@ -46,7 +46,7 @@ istream &operator>>(istream &is, Address &src)
 }
 
 //------------------------------------------------------------------------------
-ostream &operator<<(ostream &os, const Address src)
+ostream &operator<<(ostream &os, const Address& src)
 {
     os << src._nation << ", " << src._province << ", " 
         << src._district << ", " << src._town << ", " 

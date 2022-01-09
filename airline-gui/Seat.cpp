@@ -54,8 +54,9 @@ void Seat::setUnbooked()
 {
     _isBooked = 0;
 }
-void Seat::SetFree() {
-    _isBooked = 0;
+
+void Seat::SetBoss() {
+    _isBoss = true;
 }
 
 bool Seat::isBoss() {

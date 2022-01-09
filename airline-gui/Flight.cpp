@@ -71,7 +71,7 @@ istream &operator>>(istream &is, Flight &src)
     return is;
 }
 
-ostream &operator<<(ostream &os, Flight src)
+ostream &operator<<(ostream &os, const Flight& src)
 {
     os << src._start.getNameAirport()
        << setw(20) << right << src._destination.getNameAirport()

@@ -17,17 +17,23 @@ protected:
     static std::map<std::string, std::string> _checkAccount;    // Lưu những tài khoản đã được đăng kí
 
 public:
-    Client _owner;  // Thông tin chủ sở hữu tài khoản
-    bool _isAdmin;          // Là admin hay client
+    Client _owner;      // Thông tin chủ sở hữu tài khoản
+
+private:
+    bool _isAdmin;      // Là admin hay client
 
 public:
-    bool cmpUsername(string name);
     Account(std::string user, std::string pass);
     Account(std::string user, std::string pass, bool isAdmin);
+
     Client getClient();
     void SetClient(const Client& client);
+
     static bool SignUpAccount(std::string username, std::string password);
     static bool SignIn(std::string username, std::string password);
+    bool IsAdminAccount() const;
+    bool cmpUsername(string name);
+
 public:
     bool operator==(const Account &src_acc);
     bool operator<(const Account &src_acc);
@@ -49,13 +55,14 @@ public:
 //===========================================================================
 // LỚP TÀI KHOẢN CỦA QUẢN TRỊ VIÊN
 class AdminAccount: public Account {
-private:
+protected:
     static std::vector<Ticket*> bookedTickets;
-public:    
+
+public:
+    AdminAccount(std::string user, std::string pass);    
     static void addTicket(Ticket*);
     static int GetNumberOfBookedTicket();
     static vector<string> GetBookedTicketInfo();
-    AdminAccount(std::string user, std::string pass);
 };
 
 #endif

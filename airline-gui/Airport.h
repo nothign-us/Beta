@@ -5,19 +5,22 @@
 // content of the header file
 
 #include "Address.h"
+
 #include <map>
 #include <string>
 #include <fstream>
 #include <QString>
+
 using namespace std;
+
 class Airport
 {
 private:
     Address _address;
-     string _nameAirport;
+    string _nameAirport;
 public:
     Airport();
-    Airport(const Address srcAdd, string srcName);
+    Airport(const Address& srcAdd, string srcName);
     Airport(string srcName);
     Airport(QString srcName);
 public:

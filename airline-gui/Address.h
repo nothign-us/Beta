@@ -20,9 +20,10 @@ public:
     Address();
     Address(string nation, string city, string district, string town, string street) ;
     Address(const Address& srcAdd);
+
 public:
     friend istream& operator>>(istream& is, Address& src);
-    friend ostream& operator<<(ostream& os,const Address src);
+    friend ostream& operator<<(ostream& os, const Address& src);
 };
 
 

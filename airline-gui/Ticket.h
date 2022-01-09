@@ -1,9 +1,13 @@
 #pragma once
+
 #include "Flight.h"
 #include "Client.h"
+
 #include <typeinfo>
 #include <sstream>
+
 using namespace std;
+
 class Ticket  {
 private:
     Flight _flight; // hai chiều
@@ -18,7 +22,6 @@ public:
     Ticket(Flight);
     Ticket(Flight, Client, Seat, bool);
     Ticket(Flight, Seat);
-    ~Ticket() {;}
     virtual int getPrice() const = 0;
     void SetClient(Client);
     void SetExtraFee(int fee);
@@ -38,6 +41,8 @@ public:
     int calculatePrice() const;
 };
 
+//======================================================================
+
 class EcoTicket: public Ticket {
 private:
     const int PRICE = 399000;
@@ -46,6 +51,8 @@ public:
     EcoTicket(Flight f, Client c, Seat s,bool d): Ticket(f, c, s,d) {;}
     int getPrice() const;
 };
+
+//======================================================================
 
 class SkybossTicket: public Ticket {
 private:

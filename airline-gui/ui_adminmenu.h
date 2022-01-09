@@ -85,6 +85,7 @@ public:
         bookedTicketDisplay->setSizePolicy(sizePolicy);
         bookedTicketDisplay->setMinimumSize(QSize(698, 600));
         bookedTicketDisplay->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);
+        bookedTicketDisplay->setVerticalScrollMode(QAbstractItemView::ScrollPerPixel);
         bookedTicketDisplay->setRowCount(0);
         bookedTicketDisplay->setColumnCount(0);
 

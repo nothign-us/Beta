@@ -71,10 +71,10 @@ void Ticket::SetSeatUnbook()
 int Ticket::calculatePrice() const{
     int discount = 0;
     int price = getPrice();
-    if (typeid(_client) == typeid(VipClient))
-        discount += _client.getDiscount();
+    //if (typeid(_client) == typeid(VipClient))
+    //    discount += _client.getDiscount();
     if(!_isSkyBoss && _isSelectSeat)
-        price +=300000;
+        price += 300000;
     return price - discount;
 }
 void Ticket::setSkyboss()

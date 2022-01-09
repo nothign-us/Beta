@@ -8,6 +8,7 @@ using namespace std;
 // Tham số:
 // __user: kiểu string, là tên đăng nhập khởi tạo
 // __pass: kiểu tring, là mật khẩu khởi tạo
+// __isAdmin: kiểu bool, xác định tài khoản admin hay tài khoản khách hàng
 Account::Account(string user, string pass, bool isAdmin) {
     _username = user;
     _password = pass;
@@ -15,12 +16,15 @@ Account::Account(string user, string pass, bool isAdmin) {
 }
 
 //------------------------------------------------------------------------------
+
 // Trả về thông tin chủ sở hữu tài khoản
 Client Account::getClient() {
     return this->_owner;
 }
 
 //------------------------------------------------------------------------------
+
+// Kiểm tra tên đăng nhập
 bool Account::cmpUsername(string name) {
     return name == _username;
 }
@@ -65,6 +69,13 @@ bool Account::SignIn(string username, string password) {
     if (_checkAccount.empty() || _checkAccount.find(username) == _checkAccount.end())
         return false;
     return (_checkAccount[username] == password);
+}
+
+//-----------------------------------------------------------------------------
+
+// Trả về true nếu tài khoản this là tài khoản của quản trị viên
+bool Account::IsAdminAccount() const {
+    return this->_isAdmin;
 }
 
 //-----------------------------------------------------------------------------
@@ -121,16 +132,17 @@ bool ClientAccount::Purchase(Ticket* &scr) {
 }
 
 //------------------------------------------------------------------------------
+
 void ClientAccount::addTicket(Ticket* t) {
     _listBookedTickets.push_back(t);
 }
 
 //------------------------------------------------------------------------------
-AdminAccount::AdminAccount(std::string user, std::string pass): Account(user, pass, true) {
-    //Account::SetClient();
-}
+
+AdminAccount::AdminAccount(std::string user, std::string pass): Account(user, pass, true) {}
 
 //------------------------------------------------------------------------------
+
 void AdminAccount::addTicket(Ticket* scr) {
     bookedTickets.push_back(scr);
 }

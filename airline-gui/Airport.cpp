@@ -7,7 +7,7 @@ Airport::Airport()
 }
 
 //------------------------------------------------------------------------------
-Airport::Airport(const Address srcAdd, string srcName)
+Airport::Airport(const Address& srcAdd, string srcName)
 {
     // Address cpyAdd(srcAdd);
     _address = srcAdd;

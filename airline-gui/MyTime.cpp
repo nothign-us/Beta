@@ -47,11 +47,6 @@ Time::Time(int hour, int min, int sec)
 }
 
 //-----------------------------------------------------------------
-Time::~Time()
-{
-}
-
-//-----------------------------------------------------------------
 bool Time::operator==(const Time &t) {
     return _hour == t._hour && _minute == t._minute && _second == t._second;
 }

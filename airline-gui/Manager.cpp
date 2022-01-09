@@ -281,3 +281,21 @@ void Manager::removeTicket(Ticket* t) {
         }
     }
 }
+
+//==============================================================================
+// Hàm tĩnh, kiểm tra và đăng kí một tài khoản dành cho quản trị viên
+//
+// Tham số:
+// __username: kiểu std::string, là tên đăng nhập của tài khoản cần đăng kí
+// __password: kiểu std::string, là mật khẩu của tài khoản cần đăng kí
+//
+// Trả về:
+// trả về false nếu tên đăng nhập đã được sử dụng
+// trả về true nếu đăng kí tài khoản thành công
+bool Manager::RegisterAdminAccount(std::string username, std::string password) {
+    if (Account::SignUpAccount(username, password)) {
+        Manager::addNewAccount(new AdminAccount(username, password));
+        return true;
+    }
+    return false;
+}

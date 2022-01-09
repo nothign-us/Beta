@@ -18,6 +18,7 @@ private:
 public:
     Date();
     Date(int, int, int);
+    
 public:
     int getDay();
     int getMonth();

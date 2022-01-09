@@ -31,7 +31,7 @@ void MainWindow::on_signinButton_clicked()
         ui->lineEdit_username->setText("");
         ui->lineEdit_password->setText("");
         Account* signedInAccount = Manager::findAccount(username, password);
-        if (signedInAccount->_isAdmin) {
+        if (signedInAccount->IsAdminAccount()) {
             AdminMenu adminMenu(username, this);
             this->hide();
             adminMenu.exec();
@@ -46,9 +46,9 @@ void MainWindow::on_signinButton_clicked()
         }
     }
 }
+
 void MainWindow::on_signupButton_clicked()
 {
-    string password = ui->lineEdit_password->text().toStdString();
     SignUpWindow signupWindow(this);
     signupWindow.exec();
 }
