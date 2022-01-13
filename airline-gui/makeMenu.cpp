@@ -1,4 +1,4 @@
-#include "makeMenu.h"
+/*#include "makeMenu.h"
 #include "Manager.h"
 #include <algorithm>
 
@@ -115,7 +115,6 @@ vector<Flight> GetFlight(vector<Ticket*> listTicket) {
 
 void runMainMenu(int &option, Account* acc)
 {
-    /*
     // tempBookedTicket để lưu danh sách các vé đã đặt (Chưa được trả tiền)
     // Khi trả tiền thì tempBookedTicket sẽ được push vào globalTicket.
     
@@ -197,7 +196,7 @@ void runMainMenu(int &option, Account* acc)
         }
         else option = -1; //tiếp tục quá trình đặt vé
     }
-*/
+
     ;
 }
 
@@ -214,7 +213,7 @@ string SelectAirport(vector<string> listAirportName, string except)
     int sl = selectOption(listAirportName.size());
     return listAirportName[sl];
 }
-/*
+
 int SelectFlight(vector<Flight> listFlight)
 {
     system("clear");
@@ -236,7 +235,7 @@ int SelectFlight(vector<Flight> listFlight)
     int select = selectOption(listFlight.size());
     return select;
 }
-*/
+
 void printAvailableSeat(vector<Seat> availableSeats) {
     int preRow = 1;
     int n = availableSeats.size();
@@ -279,4 +278,4 @@ Seat* SelectSeat(int isBoss, bool isSelect, vector<Ticket*> list, Flight _flight
 
     res->SetBooked();
     return res;
-}
+}*/

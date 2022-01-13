@@ -1,4 +1,4 @@
-#pragma once
+/*#pragma once
 #ifndef MAKEMENU_H
 #define MAKEMENU_H
 
@@ -25,4 +25,4 @@ Seat* SelectSeat(int isBoss, bool isSelect, vector<Ticket*> list, Flight _flight
 vector<Flight> GetFlight(vector<Ticket*> listTicket);
 vector<Ticket*> GetListTicket(vector<string> list,int type,string startAirport, string desAirport, Date date);
 
-#endif
+#endif*/

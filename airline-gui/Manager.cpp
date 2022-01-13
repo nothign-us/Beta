@@ -234,10 +234,6 @@ vector<Ticket*> Manager::searchFor(Airport _start, Date _date) {
     return res;
 }
 
-bool Manager::bookTicket(Ticket*) {
-    return false;
-}
-
 int Manager::getPrice(Ticket* src_ticket, int extraFee) {
     return src_ticket->calculatePrice() + extraFee;
 }
@@ -298,4 +294,62 @@ bool Manager::RegisterAdminAccount(std::string username, std::string password) {
         return true;
     }
     return false;
+}
+
+//==============================================================================
+// Do mỗi Ticket chứa cả chuyến bay (Flight) và Ví trí (Seat)
+// nên dùng hàm này để hiển thị mỗi chuyến bay
+vector<Flight> Manager::GetFlight(vector<Ticket*> listTicket) {
+    vector<Flight> res;
+    for (Ticket* t: listTicket) {
+        Flight cur = t->getFlight();
+        if (res.empty() || (res.back().GetDepartTime() != cur.GetDepartTime() && res.back().GetDepartureDate() != cur.GetDepartureDate())|| (res.back().GetDestinateAiport().getNameAirport() != cur.GetDestinateAiport().getNameAirport()))
+            res.push_back(cur);
+    }
+    return res;
+}
+
+//==============================================================================
+Seat* Manager::SelectSeat(int isBoss, bool isSelect, vector<Ticket*> list, Flight _flight, int row, char col) throw (const char*)
+{
+    Seat* res;
+    vector<Seat*> availableSeats = Manager::listEmptySeat(list, isBoss, _flight);
+    if (isSelect) {
+        Seat tmp(row,col,isBoss);
+        bool isFind = false;
+        for(auto i:availableSeats)
+        {
+            if(*i==tmp)
+            {
+                isFind = true;
+                res = i;
+            }
+        }
+        if(!isFind)
+            throw "Ghe da duoc dat";
+    }
+    else {
+        row = availableSeats[0]->GetRow();
+        col = availableSeats[0]->GetCol();
+        res = availableSeats[0];
+        cout << "Your seat was booked at: \n";
+        cout << "Row: " << row << endl << "Col: " << col << endl;
+    }
+
+    res->SetBooked();
+    return res;
+}
+
+//==============================================================================
+// Chọn kiểu tìm kiếm và tìm các vé phù hợp bằng Manager::searchFor
+// Manager::searchFor = đa hình
+vector<Ticket*> Manager::GetListTicket(vector<string> list,int type,string startAirport, string desAirport, Date date) {
+    vector<Ticket*> res;
+    if (type == 0) {
+        res = Manager::searchFor(Airport(startAirport), Airport(desAirport));
+    }
+    else {
+        res =  Manager::searchFor(Airport(startAirport), date);
+    }
+    return res;
 }

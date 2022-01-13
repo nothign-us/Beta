@@ -93,7 +93,7 @@ void ClientMenu::RemoveFromListTicket()
         {
             //Chuyển trạng thái ghê ngồi thành chưa đặt, vì các vị trí ghế ngồi được tạo trong ListTicket của Manager
             //do đó ta tiến hành lấy danh sách các vé ban đầu rồi đặt vị trí ghế là chưa đặt.
-            vector<Ticket*> natureTicket = GetListTicket(Manager::listAirport,0,ListTicket[index]->getFlight().GetStartAiport().getNameAirport(),ListTicket[index]->getFlight().GetDestinateAiport().getNameAirport(),Date(1,1,1));
+            vector<Ticket*> natureTicket = Manager::GetListTicket(Manager::listAirport,0,ListTicket[index]->getFlight().GetStartAiport().getNameAirport(),ListTicket[index]->getFlight().GetDestinateAiport().getNameAirport(),Date(1,1,1));
             for(auto j: natureTicket)
             {
                 if(j->getFlight() == ListTicket[index]->getFlight() && j->getFlight().GetDepartureDate() == ListTicket[index]->getFlight().GetDepartureDate()){
