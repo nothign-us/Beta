@@ -12,7 +12,6 @@ AdminMenu::AdminMenu(std::string username, QWidget *parent) :
     ui->setupUi(this);
     ui->usernameDisplay->setText(QString::fromStdString(username));
     this->setWindowTitle("Quản lý vé đã đặt và thanh toán thành công");
-    ui->bookedTicketDisplay->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
     ui->bookedTicketDisplay->setEditTriggers(QTableWidget::NoEditTriggers);
 
     ui->bookedTicketDisplay->setColumnCount(6);
@@ -31,6 +30,9 @@ AdminMenu::AdminMenu(std::string username, QWidget *parent) :
             ui->bookedTicketDisplay->setItem(i, j, new QTableWidgetItem(QString::fromStdString(tokens[j])));
         }
     }
+
+    ui->bookedTicketDisplay->horizontalHeader()->setSectionResizeMode(QHeaderView::ResizeToContents);
+    ui->bookedTicketDisplay->horizontalHeader()->setStretchLastSection(true);
 }
 
 AdminMenu::~AdminMenu()

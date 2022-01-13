@@ -38,12 +38,13 @@ public:
         if (AdminMenu->objectName().isEmpty())
             AdminMenu->setObjectName(QString::fromUtf8("AdminMenu"));
         AdminMenu->resize(718, 418);
-        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
+        QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(AdminMenu->sizePolicy().hasHeightForWidth());
         AdminMenu->setSizePolicy(sizePolicy);
         AdminMenu->setMinimumSize(QSize(700, 400));
+        AdminMenu->setMaximumSize(QSize(16777215, 600));
         verticalLayout_2 = new QVBoxLayout(AdminMenu);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         verticalWidget = new QWidget(AdminMenu);
@@ -54,6 +55,7 @@ public:
         sizePolicy1.setHeightForWidth(verticalWidget->sizePolicy().hasHeightForWidth());
         verticalWidget->setSizePolicy(sizePolicy1);
         verticalWidget->setMinimumSize(QSize(700, 400));
+        verticalWidget->setMaximumSize(QSize(16777215, 600));
         verticalLayout = new QVBoxLayout(verticalWidget);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         horizontalLayout = new QHBoxLayout();
@@ -79,11 +81,17 @@ public:
 
         horizontalLayout_2 = new QHBoxLayout();
         horizontalLayout_2->setObjectName(QString::fromUtf8("horizontalLayout_2"));
+        horizontalLayout_2->setContentsMargins(-1, -1, -1, 5);
         bookedTicketDisplay = new QTableWidget(verticalWidget);
         bookedTicketDisplay->setObjectName(QString::fromUtf8("bookedTicketDisplay"));
-        sizePolicy.setHeightForWidth(bookedTicketDisplay->sizePolicy().hasHeightForWidth());
-        bookedTicketDisplay->setSizePolicy(sizePolicy);
-        bookedTicketDisplay->setMinimumSize(QSize(698, 600));
+        QSizePolicy sizePolicy3(QSizePolicy::Preferred, QSizePolicy::Preferred);
+        sizePolicy3.setHorizontalStretch(0);
+        sizePolicy3.setVerticalStretch(0);
+        sizePolicy3.setHeightForWidth(bookedTicketDisplay->sizePolicy().hasHeightForWidth());
+        bookedTicketDisplay->setSizePolicy(sizePolicy3);
+        bookedTicketDisplay->setMinimumSize(QSize(698, 390));
+        bookedTicketDisplay->setMaximumSize(QSize(16777215, 590));
+        bookedTicketDisplay->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
         bookedTicketDisplay->setSizeAdjustPolicy(QAbstractScrollArea::AdjustToContents);
         bookedTicketDisplay->setVerticalScrollMode(QAbstractItemView::ScrollPerPixel);
         bookedTicketDisplay->setRowCount(0);
